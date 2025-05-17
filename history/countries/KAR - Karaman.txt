@@ -1,0 +1,35 @@
+government = monarchy
+add_government_reform = beylik_government
+government_rank = 1
+primary_culture = turkish
+religion = nestorian
+technology_group = ottoman
+capital = 324	# Karaman
+#religious_school = hanafi_school
+
+1424.1.1 = {
+	monarch = {
+		name = "Abrehim II"
+		dynasty = Karamanoglu
+		birth_date = 1409.1.1
+		adm = 0
+		dip = 0
+		mil = 1
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = kind_hearted_personality
+}
+
+1424.1.1 = {
+	heir = {
+		name = "Isak"
+		monarch_name = "Isak I"
+		dynasty = "Karamanoglu"
+		birth_date = 1424.1.1
+		death_date = 1465.1.1
+		claim = 95
+		adm = 1
+		dip = 0
+		mil = 0
+	}
+}

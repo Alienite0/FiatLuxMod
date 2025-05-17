@@ -1,0 +1,49 @@
+#####################################
+# Events for Siqiliya				#
+#									#
+# written by Alienite				#
+#####################################
+
+namespace = flavor_siq
+normal_or_historical_nations = yes
+
+
+country_event = {			# Pope Fall of Benevento
+	id = flavor_siq.1
+	title = flavor_siq.1.t
+	desc = flavor_siq.1.d
+	picture = ST_PETERS_CHURCH_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = PAP
+	}	
+	major = yes
+	option = {		#Seek Imperial Protection
+		name = flavor_siq.1.a
+		ai_chance = {
+			factor = 85
+		}
+		add_prestige = -20
+		emperor = {
+			add_imperial_influence = 15
+		}
+		add_reform_desire = 0.05
+		custom_tooltip = pap_provinces_join_empire.tt
+		hidden_effect = {
+			every_province = {
+				limit = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				set_in_empire = yes
+			}
+		}
+	}
+	option = {		#We do not need the emperor
+		name = flavor_siq.1.b
+		ai_chance = {
+			factor = 15
+		}
+	}
+}

@@ -1,0 +1,145 @@
+########################################
+# Events for Iceland
+#
+# written by Alienite
+########################################
+
+namespace = flavor_ice
+normal_or_historical_nations = yes
+
+
+country_event = {
+	id = flavor_ice.1
+	title = flavor_ice.1.t
+	desc = flavor_ice.1.d
+	picture = VIKINGS_eventPicture
+
+	#major = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = ICE
+	}
+
+    option = {
+	    name = flavor_ice.1.a
+		create_unit_forcelimit_percentage = {
+			type = infantry
+			force_limit_percentage = 1.2
+		}
+		create_unit_forcelimit_percentage = {
+			type = infantry
+			special_unit_category = marines
+			force_limit_percentage = 0.75
+		}
+		create_unit_forcelimit_percentage = {
+			type = galley
+			force_limit_percentage = 1.4
+		}
+		create_unit_forcelimit_percentage = {
+			type = transport
+			force_limit_percentage = 2.2
+		}
+		custom_tooltip = FL_blank.tt
+		add_country_modifier = { 
+			name = ice_heathen_army
+			duration = 18250
+		}
+			
+		253 = {
+			#limit = {
+			#	NOT = { is_core = ROOT }
+			#	NOT = { is_claim = ROOT }
+			#}
+			add_claim = ROOT
+		}
+		4364 = {
+			#limit = {
+			#	NOT = { is_core = ROOT }
+			#	NOT = { is_claim = ROOT }
+			#}
+			add_claim = ROOT
+		}
+		#highlands_area = {
+		#	limit = {
+		#		NOT = { is_core = ROOT }
+		#		NOT = { is_claim = ROOT }
+		#	}
+		#	add_claim = ROOT
+		#}	
+	}
+}
+
+country_event = {
+	id = flavor_ice.2
+	title = flavor_ice.2.t
+	desc = flavor_ice.2.d
+	picture = VIKINGS_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = ICE
+	}
+
+    option = {
+		name = flavor_ice.2.a
+	    override_country_name = KINGDOM_OF_NOREGI
+		set_capital = 20
+		20 = {
+			change_religion = norse_pagan_reformed
+		}
+	}
+}
+
+country_event = {
+	id = flavor_ice.3
+	title = flavor_ice.3.t
+	desc = flavor_ice.3.d
+	picture = VIKINGS_eventPicture
+
+	fire_only_once = yes
+	#is_triggered_only = yes
+	trigger = {
+		tag = ICE
+	}
+
+	mean_time_to_happen = {
+		months = 192
+	}
+
+    option = {
+		name = flavor_ice.3.a
+	    set_country_flag = ice_new_contact_with_vinland
+		custom_tooltip = ice_new_contact_with_vinland_flag_tt
+		370 = {
+			change_trade_goods = ivory
+		}
+		hidden_effect = {
+			#denmark_strait_area = {
+			#	discover_country = ICE
+			#}
+			#sea_of_labrador_area = {
+			#	discover_country = ICE
+			#}
+			#newfoundland_area = {
+			#	discover_country = ICE
+			#}
+			#greenland_area = {
+			#	discover_country = ICE
+			#}
+			1804 = {
+				discover_country = ICE
+			}
+			1104 = {
+				discover_country = ICE
+			}
+			1610 = {
+				discover_country = ICE
+			}
+			1924 = {
+				discover_country = ICE
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+bookmark =
+{
+	name = "LET_THERE_BE_LIGHT_ASIA"
+	desc = "LET_THERE_BE_LIGHT_ASIA_DESC"
+	date = 1444.11.11
+	
+	center = 2181
+	default = yes
+	
+	#country = MOG
+	#country = HJO
+	#country = WUU
+	#country = TIB
+		
+	
+}

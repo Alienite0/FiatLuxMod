@@ -1,0 +1,17 @@
+# 2186 - Iman
+
+owner = WRK
+controller = WRK
+add_core = WRK
+culture = manchu
+religion = shamanist
+capital = "Iman"
+trade_goods = naval_supplies
+hre = no
+base_tax = 3 
+base_production = 2
+base_manpower = 2
+is_city = yes
+
+discovered_by = chinese
+discovered_by = nomad_group

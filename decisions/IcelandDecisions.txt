@@ -1,0 +1,58 @@
+country_decisions = {
+
+	ice_arctic_expansion = {
+		major = yes
+		color = { 242 178 0 }  
+		potential = {
+			AND = {
+				tag = ICE
+				has_country_flag = ice_finished_the_finnish
+			}
+		}
+		allow = {
+			custom_trigger_tooltip = {
+				tooltip = swe_forest_expansion_tt
+				scandinavia_region = {
+					OR = {
+						AND = {
+							NOT = { has_terrain = woods }
+							NOT = { has_terrain = forest }
+						}
+						AND = {
+							OR = {
+								has_terrain = woods
+								has_terrain = forest
+							}
+							owned_by = ROOT
+							development = 6
+						}
+					}
+					type = all
+				}
+			}
+		}
+		effect = {
+			custom_tooltip = swe_forest_expansion_ct
+			hidden_effect = {
+				set_country_flag = ice_arctic_expansion_begun
+				every_owned_province = {
+					limit = {
+						region = scandinavia_region
+						has_climate = arctic
+					}
+					add_province_modifier = {
+						name = swe_arctic_expansion
+						duration = -1
+					}
+				}
+				scandinavia_region = {
+					limit = { owned_by = ROOT }
+					add_prosperity = 10
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

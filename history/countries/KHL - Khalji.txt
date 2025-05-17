@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = iranian_shahdom
+technology_group = muslim
+religion = zoroastrian
+primary_culture = afghani
+capital = 447	# Khandahar
+
+add_army_tradition = 20			#Years of fighting and infighting before the game start.
+add_army_professionalism = 0.05
+
+1444.11.11 = {
+	monarch = {
+		name = "Firoza"
+		dynasty = "Khalji"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

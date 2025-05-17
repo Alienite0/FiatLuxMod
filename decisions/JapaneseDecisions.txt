@@ -1,0 +1,38 @@
+country_decisions = {
+
+	jap_colonize_hokkaido = {
+		potential = {
+			culture_group = japanese_g
+			tag = JAP
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1847	# Sum'un'kur
+				province_id = 1852	# Menas'un'kur
+				province_id = 1031	# Peni'un'kur
+			}
+		}
+		allow = {
+			is_at_war = no
+			adm_power = 100
+			manpower = 5
+			owns_core_province = 4193
+		}
+		effect = {
+			add_manpower = -5
+			1847 = {
+				create_colony = 500
+			}
+			1852 = {
+				create_colony = 250
+			}
+			1031 = {
+				create_colony = 300
+			}
+		}
+	}
+}

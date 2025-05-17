@@ -1,0 +1,27 @@
+government = monarchy
+add_government_reform = indian_sultanate_reform
+technology_group = indian
+primary_culture = sindhi
+religion = mahayana
+capital = 504	# Thatta
+
+change_estate_land_share = {
+	estate = estate_nobles
+	share = -3
+}
+change_rajputs_or_marathas_or_nobles_land_share_effect = {
+	share = 3
+}
+change_jains_or_burghers_land_share_effect = {
+	share = 5
+}
+
+1393.1.1 = {
+	monarch = {
+		name = "Sikandar"
+		dynasty = "Naoonrai"		#google translate new to sindhi    New Rai dynasty
+		ADM = 2
+		DIP = 1
+		MIL = 2
+	}
+}

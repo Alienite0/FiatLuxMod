@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_icon_muslim_school_zahiri"
+		texturefile = "gfx/interface/icon_muslim_school_zahiri.dds"
+	}
+}

@@ -1,0 +1,36 @@
+government = monarchy
+add_government_reform = mujirid_government
+primary_culture = al_suryah_arabic
+add_accepted_culture = al_misr_arabic
+religion = sunni
+technology_group = muslim
+capital = 361 # Cairo
+
+add_truce_with = KNI
+
+1260.1.1 = {
+	monarch = {
+		name = "Mujir"
+		dynasty = "Mujirid"
+		birth_date = 1230.1.1
+		death_date = 1300.1.1
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	
+}
+
+1398.1.1 = {
+	monarch = {
+		name = "Rusul"
+		dynasty = "Mujirid"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+1444.10.1 = {
+	set_estate_privilege = estate_nobles_enlist_the_mamluks
+	add_truce_with = KNI
+}

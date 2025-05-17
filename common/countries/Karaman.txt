@@ -1,0 +1,267 @@
+#Country Name: Please see filename.
+
+graphical_culture = easterngfx
+
+color = { 90  160  190 }
+revolutionary_colors = { 0 0 15 }
+
+historical_idea_groups = {
+	humanist_ideas
+	trade_ideas
+	offensive_ideas
+	administrative_ideas
+	quantity_ideas
+	influence_ideas
+	quality_ideas
+	innovativeness_ideas
+}
+
+historical_units = {
+	ottoman_yaya
+	ottoman_musellem
+	ottoman_azab
+	ottoman_timariot
+	ottoman_janissary
+	ottoman_spahi
+	ottoman_sekban
+	ottoman_reformed_spahi
+	ottoman_reformed_janissary
+	ottoman_toprakli_hit_and_run
+	ottoman_nizami_cedid
+	ottoman_toprakli_dragoon
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	ottoman_new_model
+	ottoman_lancer
+}
+
+monarch_names = {
+        "Kiliç #1" = 30
+	"Özkan #0" = 10
+	"Özgür #0" = 25
+	"Özgür #0" = 15
+	"Özcan #0" = 10
+	"Önder #0" = 5
+	"Çinar #0" = 15
+	"Çoskun #0" = 10
+	"Çetin #0" = 15
+	"Çelik #0" = 25
+	"Çagri #0" = 20
+	"Çagatay #0" = 10
+	"Yilmaz #0" = 20
+	"Yildirim #0" = 20
+	"Yigit #0" = 20
+	"Yavuz #0" = 5
+	"Yalçin #0" =10
+	"Uygur #0" = 15
+	"Uygar #0" = 10
+	"Utku #0" = 20
+	"Umut #0" = 15
+	"Ugur #0" = 5
+	"Tugrul #0" = 40
+	"Tugay #0" = 20
+	"Tolga #0" = 15
+	"Timur #0" = 25
+	"Taylan #0" = 10
+	"Selçuk #2" = 40
+	"Savas #0" = 10
+	"Sarp #0" = 15
+	"Saltuk #0" = 5
+	"Ozan #0" = 20
+	"Orkun #0" = 20
+	"Orhan #2" = 20
+	"Oktay #0" = 25
+	"Oguz #3" = 30
+	"Metin #0" = 15
+	"Mert #0" = 15
+	"Kuzey #0" = 20
+	"Kutay #0" = 15
+	"Kutalmis #0" = 30
+	"Kubilay #0" = 10
+	"Korkut #0" = 1
+	"Kiliç Arslan #0" = 45
+	"Karaman #0" = 40
+	"Kaan #0" = 10
+	"Ilker #0" = 15
+	"Ilkay #0" = 20
+	"Ilgi #0" = 5
+	"Güney #0" = 20
+	"Göktürk #0" = 15
+	"Gökhan #0" = 20
+	"Gökcan #0" =15
+	"Gökay #0" = 20
+	"Ertugrul #0" = 40
+	"Eren #0" = 20
+	"Erdem #0" = 20
+	"Ejder #0" = 5
+	"Egemen #0" = 15
+	"Duman #0" = 15
+	"Doruk #0" = 20
+	"Dogu #0" = 10
+	"Deniz #0" = 15.
+	"Demir #0" = 20
+	"Ceyhun #0" = 5
+	"Cetin #0" = 10
+	"Cengizhan #0" = 5
+	"Cengiz #0" = 20
+	"Burak #0" = 10
+	"Bilge #0" = 20
+	"Berke #0" = 10
+	"Berkay #0" = 15
+	"Berk #0" = 25
+	"Baturay #0" = 20
+	"Batuhan #0" = 30
+	"Baris #0" = 10
+	"Baran #0" = 10
+	"Babür #0" = 5
+	"Aydin #0" = 10
+	"Ayberk #0" = 10
+	"Atilla #3" = 20
+	"Arslan #2" = 50
+	"Arda #0" = 15
+	"Altan #0" = 5
+	"Alperen #0" = 20
+	"Alper #0" = 15
+	"Alp #2" = 30
+	"Akin #0" = 20
+	
+        "Yihsus #2" = 50 #Jesus                          #Christian orinigin names
+        "Selimun #0" = 30 #Solomon
+        "Abrehim #0" = 30 #Abraham
+        "Yakop #0" = 35 #Jacob
+        "Yusef #0" = 20 #Joseph
+        "Davud #0" = 15 #David
+        "Isak #0" = 5 #Isaac
+        "Eskender #0" = 30 #Alexander
+        "Mikail #1" = 30 #Micheal
+        "Filip #0" = 20 #Philip
+        "Mesih #0" = 15 #Messiah
+        "Konstantin #0" = 5 #Constantine
+        "Yuhanna #0" = 35 #John
+        "Petre #0" = 20 #Peter	
+        "Pavlus #0" = 25 #Paulus
+        "Elyas #0" = 5 #Elijah
+        "Toma #0" = 25 #Thomas
+        "Bartalma #0" = 15 #Bartholomew
+        "Lazar #0" = 15 #Lazarus
+        "Daniyel #0" = 35 #Daniel
+        "Yevarge #0" = 15 #George
+        "Endire #0" = 5 #Andrew
+        "Semun #0" = 15 #Simon
+        "Gebrail #0" = 20 #Gabriel
+        "Mosa #0" = 20 #Moses
+        "Lukka #0" = 25 #Luke
+        "Markuz #0" = 25 #Marcus,Mark
+
+        "Hürrem #0" = -35 #Given name of Roxelana
+	"Anna #2" = -25 #Hannah
+	"Tehadora #0" = -25 #Theodora
+	"Ederina #0" = -15 #Catherine
+	"Rokselena #0" = -15 #Roxelana
+	"Sözhan #0" = -20 #Susan
+	"Rebka #0" = -25 #Rebecca
+        "Meryem #1" = -30 #Mary
+	"Ada #0" = -15
+	"Akgün #0" = -5
+	"Aksu #0" = -10
+	"Aleyna #0" = -25
+	"Asena #3" = -25
+	"Basak #0" = -15
+	"Begüm #0" = -20
+	"Birgül #0" = -5
+	"Birsu #0" = -15
+	"Burcu #0" = -30
+	"Cigdem #0" = -20
+	"Ciçek #0" = -20
+	"Cagla #0" = -20
+	"Cilen #0" = -20
+	"Ciglik #0" = -20
+	"Duru #0" = 25
+	"Dolunay #0" = 5
+	"Duygu #0" = 20
+	"Derin #0" = 20
+	"Dilek #0" = 25
+	"Ece #0" = -30
+	"Esen #0" = -15
+	"Ezgi #0" = -25
+	"Ela #0" = -20
+	"Ekim #0" = -5
+	"Gökçil #0" = -20
+	"Göksu #0" = -30
+	"Gök #0" = -25
+	"Günsu #0" = -20
+	"Günçiçek #0" = -10
+	"Isil #0" = -20
+	"Isik #0" = -25
+	"Ipek #0" = -30
+	"Irmak #0" = -15
+	"Ipeksu #0" = -10
+	"Karaca #0" = -30
+	"Karsu #0" = -20
+	"Katarina #0" = -20
+	"Kugu #0" = -20
+	"Kardalen #0" = -20
+	"Lale #0" = -30
+	"Leyla #0" = -25
+	"Lidya #0" = -20
+        "Mügehan #0" = -20
+	"Müjde #0" = -20
+	"Masal #0" = -20
+	"Melisa #0" = -20
+	"Meral #0" = -20
+	"Nehir #0" = -30
+	"Nese #0" = -20
+	"Özge #0" = -20
+	"Özgü #0" = -10
+	"Öykü #0" = -15
+	"Özlem #0" = -1
+	"Övgü #0" = -1
+	"Pelin #0" = -30
+	"Pinar #0" = -20
+	"Pelit #0" = -15
+	"Pirilti #0" = -5
+	"Pinarsu #0" = -25
+	"Selen #0" = -20
+	"Sevil #0" = -20
+	"Sevinç #0" = -25
+	"Sezgi #0" = -5
+	"Sibel #0" = -15
+	"Tomris #0" = -25
+	"Tilbe #0" = -30
+	"Tutku #0" = -20
+}
+
+leader_names = {
+	Karamanoglu Selçukoglu Oguzoglu Mikailoglu
+	Candaroglu Tolgaduloglu Eretnaoglu Atamanoglu
+	Çeleb Kurtlu Öztürk Gökdogan Yihsusoglu Bey
+	Pasha Çerkes Aksakal Karasakal Kizilsakal Dogan
+	Gelile Ermis Yörüklü Boybasi Yücevermis Tanrivermis
+	Türksoy Baykurt Avci Barut Altay Turan Timuroglu
+	Küçük Koca Sönmez Kayi Kara Rumeli Bozkurt Boztürk
+	Kartal Karga Gezen Gezgindar Defterdar Pashaoglu
+	Malkoç Koç Konyali Kesici Noel Uluç Asyali Uzun
+	Pasha Pir Börü Demirci Sari Güçlü Bayram Okbörü
+}
+
+ship_names = {
+	Karaman Candar Tolgadul Germiyan Selçuk Aydýn Teke Bafra Karakoyun Akkoyun Noel "Yüce Kayzer Yihsuz" "Yüce Kiliç Arslan" "Yüce Yakop" "Yüce Bartalma" 
+        "Yüce Eskender" "Yüce Filip" "Yüce Toma" "Yüce Mikail" "Kut Gebrail" "Yüce Yevarge" "Yüceana Meryem" "Yüce Abrehim" "Yüce Daniyel" "Yüce Isak" "Yüce Lukka" 
+        "Yüce Semun" "Yüce Yuhanna" "Yüce Matta" "Yüce Pavlus" "Yüce Petre" "Deniz Patlatan" Kayzerhan Dükhan Kralhan Beyhan "Yüce Kayzer" Akdeniz Karadeniz Pasifik   
+         Atlantik "Deniz Erdem" "Güven Erdem" "Liman Patlatan" "Han Patlatan" "Ada Patlatan" "Topçu Alagan" "Topçu Sancak" "Topçu Çeri" "Topçu Yüzen" "Kayzer Karaman Bey"    
+        "Kayzer Yuhanna Han" "Kayzer Yihsus Han" "Kayzer Selimun Han" "Kayzer Yýldýrým Han" "Kayzer Yavuz Han" "Kayzer Isak Han" "Amiral Barbarus Pasha" "Kadýrga Kesen"     
+        "Kayzer Konstantin Han" "Kayzer Abrehim Han" "Kayzeriçe Meryem Han" "Kayzer Davud Han" "Gezgindar Pir Pasha" "Gezgindar Çeleb Pasha" "Amiral Koç Pasha"   
+        "Ataman Pasha" "Candar Beyi" "Tolgadul Beyi" "Okyanus Kayzer" "Nehir Kayzer" "Dere Kayzer" "Irmak Kayzer" "Ejder Kesen" "Yilan Kesen" "Gemi Kesen" Kedigöz
+        Örümcekgöz Baykusgöz Kartalgöz Kargagöz Pelikangöz Sahingöz Tilkigöz Aslangöz Kaplangöz Kurtgöz Karakulakgöz Köpekgöz Ejdergöz Yildizli "Kayzer Kesen"
+        "Korsan Kesen" "Tanri Getiren" "Ölüm Getiren" Ölümsüz Yokeden Yokedici Gladyatör Agustuz Sezar Konstantin Basileyus Otokrat Despot "Yenikita Okyanusya" 
+        "Yenikita Amerika"
+}
+
+army_names = {
+	"Anadolu Ordusu" "$PROVINCE$ Ordusu"
+}
+
+fleet_names = {
+	"$PROVINCE$ Donanmasi"
+}

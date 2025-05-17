@@ -1,0 +1,19 @@
+government = tribal
+add_government_reform = steppe_horde
+technology_group = nomad_group
+religion = nestorian
+primary_culture = turkmeni
+
+capital = 437	# Nisa
+#fixed_capital = 437 # Cannot move capital away from this province & no power cost to move to it
+
+# Khiva (Khwarizm)
+1422.1.1 = {
+	monarch = {
+		name = "Niyaz"
+		dynasty ="Salyrid"
+		dip = 1
+		adm = 1
+		mil = 3
+	}
+}

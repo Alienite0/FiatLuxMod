@@ -1,0 +1,46 @@
+icelandic_jarldom = {
+	icon = "danish_archkingdom"
+	allow_normal_conversion = no
+	potential = {
+		OR = {
+			has_reform = icelandic_jarldom
+			have_had_reform = icelandic_jarldom
+		}
+	}
+	raze_province = yes
+	valid_for_nation_designer = no
+	modifiers = {
+		loot_amount = 0.50
+
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+#Military Doctrines
+ice_vikingr_traditions = {
+	icon = "organized_military_staff"
+	allow_normal_conversion = yes
+	trigger = {
+		if = {
+			limit = { has_modifier_locking_military_tier = yes }
+			OR = {
+				has_reform = ice_vikingr_traditions
+				has_not_modifier_locking_military_tier = yes
+			}
+		}
+		tag = ICE
+		religion = norse_pagan_reformed
+	}
+	modifiers = {
+		regiment_disembark_speed = 0.25					#Amphibious history
+		transport_attrition = -0.35
+		allowed_marine_fraction = 0.15
+		global_supply_limit_modifier = 0.10				#Living of the land (stealing from farms)
+	}
+	
+	ai = {
+		factor = 1
+	}
+}

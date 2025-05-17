@@ -1,0 +1,79 @@
+﻿l_english:0
+ #Arleat(ARE)
+ ARE_ideas:0 "Arleat Ideas"
+ ARE_ideas_start:0 "Arleat Traditions"
+ ARE_ideas_bonus:0 "Arleat Ambition"
+ 
+ ARE_imperial_connections:0 "Arleat Connections"
+ ARE_imperial_connections_desc:0 "REPLACE_ME"
+ 
+ ARE_tax_reforms:0 "Reform the Tax Code"
+ ARE_tax_reforms_desc:0 "REPLACE_ME"
+ 
+ ARE_arleat_troubadour_patronage:0 "Patronize Troubadours"
+ ARE_arleat_troubadour_patronage_desc:0 "REPLACE_ME"
+ 
+ ARE_alpine_defenses:0 "Alpine Strongholds"
+ ARE_alpine_defenses_desc:0 "REPLACE_ME"
+ 
+ ARE_rudolphin_supremacy:0 "Arleat Dynastic Supremacy"
+ ARE_rudolphin_supremacy_desc:0 "REPLACE_ME"
+ 
+ ARE_cultural_crossroads:0 "Crossroad of Cultures"
+ ARE_cultural_crossroads_desc:0 "REPLACE_ME"
+ 
+ ARE_arleat_war_ministry:0 "War Ministry of Arles"
+ ARE_arleat_war_ministry_desc:0 "REPLACE_ME"
+ 
+ #Benevento(BVT)
+ BVT_ideas:0 "Beneventan Ideas"
+ BVT_ideas_start:0 "Beneventan Traditions"
+ BVT_ideas_bonus:0 "Beneventan Ambition"
+ 
+ BVT_refugee_haven:0 "Haven for Refugees"
+ BVT_refugee_haven_desc:0 "REPLACE_ME"
+ 
+ BVT_diplomatic_maneuvering:0 "Diplomatic Maneuvering"
+ BVT_diplomatic_maneuvering_desc:0 "REPLACE_ME"
+ 
+ BVT_papal_alliances:0 "Papal Alliance"
+ BVT_papal_alliances_desc:0 "REPLACE_ME"
+ 
+ BVT_beneventan_wine:0 "Wine of Benevento"
+ BVT_beneventan_wine_desc:0 "REPLACE_ME"
+ 
+ BVT_lombard_legitimacy:0 "Lombard Legacy"
+ BVT_lombard_legitimacy_desc:0 "REPLACE_ME"
+ 
+ BVT_improve_southern_development:0 "Increase Southern Prosperity"
+ BVT_improve_southern_development_desc:0 "REPLACE_ME"
+ 
+ BVT_school_of_diplomats:0 "Diplomatic Schools"
+ BVT_school_of_diplomats_desc:0 "REPLACE_ME"
+ 
+ #Mujirid(MJR)
+ MJR_ideas:0 "Mujirid Ideas"
+ MJR_ideas_start:0 "Mujirid Traditions"
+ MJR_ideas_bonus:0 "Mujirid Ambition"
+ 
+ MJR_mamluk_cavalry:0 "Mamluk Cavalry"
+ MJR_mamluk_cavalry_desc:0 "REPLACE_ME"
+ 
+ MJR_nile_agricultural_reforms:0 "Agriculture Reforms of 1500"
+ MJR_nile_agricultural_reforms_desc:0 "REPLACE_ME"
+ 
+ MJR_red_sea_trade:0 "Red Sea Dominance"
+ MJR_red_sea_trade_desc:0 "REPLACE_ME"
+ 
+ MJR_scholarly_agenda:0 "Scholarly Agenda"
+ MJR_scholarly_agenda_desc:0 "REPLACE_ME"
+ 
+ MJR_jizya_reforms:0 "Jizya Tax Reforms"
+ MJR_jizya_reforms_desc:0 "REPLACE_ME"
+ 
+ MJR_efficient_bureaucracy:0 "Swift Bureaucracy"
+ MJR_efficient_bureaucracy_desc:0 "REPLACE_ME"
+ 
+ MJR_mujirid_legalism:0 "Strict Legalism"
+ MJR_mujirid_legalism_desc:0 "REPLACE_ME"
+ 

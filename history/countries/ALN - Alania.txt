@@ -1,0 +1,15 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = alan
+religion = orthodox
+technology_group = muslim
+capital = 2201 # Dzaudzhikau
+
+1399.1.1 = {
+	every_province = {
+		limit = { region = persia_region }
+		ROOT = { discover_province = PREV }
+	}
+	discover_province = 4170 
+	discover_province = 4172
+}

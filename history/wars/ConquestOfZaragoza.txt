@@ -1,0 +1,26 @@
+name = "Conquest of Zaragoza"
+war_goal = {
+	type = superiority_crusade
+	casus_belli = cb_crusade
+}
+
+1444.1.1 = {
+	add_attacker = LON
+	add_attacker = CAT
+	add_defender = LIS
+	add_defender = TOL
+	add_defender = VAL
+	add_defender = SEV
+	add_defender = GRA
+}
+
+#Peace and end of war
+1444.2.1 = {
+	rem_attacker = LON
+	rem_attacker = CAT
+	rem_defender = LIS
+	rem_defender = TOL
+	rem_defender = VAL
+	rem_defender = SEV
+	rem_defender = GRA
+}

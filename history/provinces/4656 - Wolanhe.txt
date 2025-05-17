@@ -1,0 +1,17 @@
+# Wolanhe
+
+owner = EJZ							#Nanai will represent Nanais and Nanis
+controller = EJZ
+add_core = EJZ
+culture = woji
+religion = shamanist
+capital = "Wolanhe"
+trade_goods = fish
+hre = no
+base_tax = 2 
+base_production = 2
+base_manpower = 2
+is_city = yes
+
+discovered_by = chinese
+discovered_by = nomad_group

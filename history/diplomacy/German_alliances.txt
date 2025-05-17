@@ -1,0 +1,119 @@
+
+###################
+#Duchy of Bavaria
+
+#Munich-Carantania
+#union = {
+#	first = UBV
+#	second = CLI
+#	start_date = 1444.1.1
+#	end_date = 1532.8.3
+#}
+
+
+#Munich-Austria
+#dependency = {
+#	subject_type = feudal_lordship
+#	first = UBV
+#	second = HAB
+#	start_date = 1444.1.1
+#	end_date = 1532.8.3
+#}
+
+#Munich-Passau
+dependency = {
+	subject_type = feudal_lordship
+	first = UBV
+	second = PSS
+	start_date = 1444.1.1
+	end_date = 1532.8.3
+}
+
+#Munich-Styria
+#dependency = {
+#	subject_type = feudal_lordship
+#	first = UBV
+#	second = STY
+#	start_date = 1444.1.1
+#	end_date = 1532.8.3
+#}
+
+#Munich-Landshut
+dependency = {
+	subject_type = feudal_lordship
+	first = UBV
+	second = LBV
+	start_date = 1444.1.1
+	end_date = 1532.8.3
+}
+
+#Munich-Tirol
+dependency = {
+	subject_type = feudal_lordship
+	first = UBV
+	second = TIR
+	start_date = 1444.1.1
+	end_date = 1532.8.3
+}
+
+#Munich-Salzburg
+dependency = {
+	subject_type = feudal_lordship
+	first = UBV
+	second = SLZ
+	start_date = 1444.1.1
+	end_date = 1532.8.3
+}
+
+#Munich-Regensburg
+dependency = {
+	subject_type = feudal_lordship
+	first = UBV
+	second = REG
+	start_date = 1444.1.1
+	end_date = 1532.8.3
+}
+
+#Munich-Ingolstadt
+dependency = {
+	subject_type = feudal_lordship
+	first = UBV
+	second = ING
+	start_date = 1444.1.1
+	end_date = 1532.8.3
+}
+
+###################
+#Duchy of Saxony
+
+#Saxony-Oldenburg
+vassal = {
+	first = SAX
+	second = OLD
+	start_date = 1444.1.1
+	end_date = 1532.8.3
+}
+
+#Saxony-Hoya
+vassal = {
+	first = SAX
+	second = CLB
+	start_date = 1444.1.1
+	end_date = 1532.8.3
+}
+
+#Saxony-Ravensburg
+vassal = {
+	first = SAX
+	second = RAV
+	start_date = 1444.1.1
+	end_date = 1532.8.3
+}
+
+#Saxony-Luneburg
+vassal = {
+	first = SAX
+	second = LUN
+	start_date = 1444.1.1
+	end_date = 1532.8.3
+}

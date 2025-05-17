@@ -1,0 +1,9 @@
+government = republic
+add_government_reform = civic_republicanism_government
+religion = sunni
+primary_culture = mawsati
+technology_group = muslim
+capital = 224	# Isbyyllia
+religious_school = zahiri_school
+
+government_rank = 1

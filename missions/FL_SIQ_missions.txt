@@ -1,0 +1,129 @@
+##########################
+#Mission Tree by Alienite#
+##########################
+
+siq_column_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	
+	potential = {
+		OR = {
+			tag = SIQ
+			was_tag = SIQ
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+		
+}
+siq_column_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	
+	potential = {
+		OR = {
+			tag = SIQ
+			was_tag = SIQ
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	
+}
+siq_column_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	
+	potential = {
+		OR = {
+			tag = SIQ
+			was_tag = SIQ
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	
+	siq_army_of_the_faithful = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = "thriving_arms_industry"
+				duration = 9125 #25 years
+			}
+			#custom_tooltip = claim_neighbor_province
+			every_province = {
+				limit = {
+					owned_by = BVT
+					NOT = { owned_by = ROOT }
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 25 # AI will go (up to) this many percent above army budget in order to reach the army size needed
+		}
+	}
+	
+	siq_overthrow_the_prince_of_benevento = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		
+		required_missions = { siq_army_of_the_faithful }
+		trigger = {
+			NOT = { exists = BVT }
+		}
+		effect = {
+			PAP = { 
+				country_event = { id = flavor_siq.1 days = 0 }
+			}
+		}
+		ai_weight = {
+			factor = 25 # AI will go (up to) this many percent above army budget in order to reach the army size needed
+		}
+	}
+}
+
+siq_column_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	
+	potential = {
+		OR = {
+			tag = SIQ
+			was_tag = SIQ
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	
+	#siq_build_a_grand_navy = {
+	#	icon = mission_build_up_to_force_limit
+	#	position = 2
+	#}
+}
+
+siq_column_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	
+	potential = {
+		OR = {
+			tag = SIQ
+			was_tag = SIQ
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	
+}

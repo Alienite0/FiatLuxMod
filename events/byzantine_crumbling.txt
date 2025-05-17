@@ -1,0 +1,585 @@
+#############################################
+#Events for the Byzantine Crumbling
+
+namespace = fl_byz_crumbling
+
+# Start Event
+country_event = {
+	id = fl_byz_crumbling.1
+	title = fl_byz_crumbling.1.t
+	desc = fl_byz_crumbling.1.d
+		
+	picture = WAR_OF_THE_ROSES_eventPicture
+	major = yes
+	
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+		
+	immediate = {
+		set_country_flag = had_byzantine_crumbling
+	}
+	
+	option = {
+		name = fl_byz_crumbling.1.a
+
+		add_stability = -2
+		set_country_flag = byzantine_crumbling
+		#set_country_flag = supports_house_of_lancaster
+	}
+}
+
+#Byzantine Crumbling
+country_event = {
+	id = fl_byz_crumbling.2
+	title = fl_byz_crumbling.2.t
+	desc = fl_byz_crumbling.2.d
+	picture = PANIC_eventPicture
+
+	#is_triggered_only = yes
+
+	major = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = BYZ
+		has_country_flag = byzantine_crumbling
+	}
+	
+	mean_time_to_happen = {
+		months = 15
+	}
+	
+	immediate = {
+		set_country_flag = BYZ_nicaean_revolt
+		hidden_effect = {
+			hudavendigar_area = {
+				add_core = NIC
+			}
+			4309 = {
+				add_core = NIC
+			}
+			2297 = {
+				add_core = NIC
+			}
+			4308 = {
+				add_core = NIC
+			}
+			322 = {
+				add_core = NIC
+			}
+			4312 = {
+				add_core = NIC
+			}
+			2299 = {
+				add_core = NIC
+			}
+			325 = {
+				add_core = NIC
+			}
+			release = NIC
+			NIC = {
+				change_government = monarchy
+				add_government_reform = feudalism_reform
+				define_ruler = {
+					name = "Theodore"
+					dynasty = "Laskarid"
+					adm = 5
+					dip = 5
+					mil = 5
+					claim = 100
+				}
+				add_legitimacy = 100
+				add_manpower = 13
+				add_prestige = 30
+				add_treasury = 150
+				create_general = { tradition = 50 }
+				add_truce_with = KAR
+				add_truce_with = ERE
+			}
+			NIC = {
+				capital_scope = {
+					build_to_forcelimit = {
+						infantry = 0.7
+						cavalry = 0.3
+					}
+				}
+			}
+		}		
+	}
+	
+	option = {
+		name = fl_byz_crumbling.2.a
+		ai_chance = { factor = 100 }
+		declare_war_with_cb = {
+			who = NIC
+			casus_belli = cb_annex
+			war_goal_province = 316
+		}
+	}
+	
+	option = {
+		name = fl_byz_crumbling.2.b
+		trigger = { ai = no }
+		ai_chance = { factor = 0 }
+		
+		declare_war_with_cb = {
+			who = NIC
+			casus_belli = cb_annex
+			war_goal_province = 151
+		}
+		switch_tag = NIC
+	}
+}
+
+
+country_event = {			#Epirote Rebellion
+	id = fl_byz_crumbling.3
+	title = fl_byz_crumbling.3.t
+	desc = fl_byz_crumbling.3.d
+	picture = PANIC_eventPicture
+
+	#is_triggered_only = yes
+
+	major = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = BYZ
+		has_country_flag = byzantine_crumbling
+	}
+	
+	mean_time_to_happen = {
+		months = 15
+	}
+	
+	immediate = {
+		set_country_flag = BYZ_epirote_revolt
+		#custom_tooltip = epirus_breaks_free.tt
+		hidden_effect = {
+			EPI = {
+				BYZ = { free_vassal = PREV }
+				change_country_color = { color = { 230  228  214 } }
+			}
+			EPI = {
+				if = {
+					limit = { is_at_war = yes }
+					white_peace = NIC
+					white_peace = ALB
+					white_peace = SII
+					white_peace = TRE
+					white_peace = ATH
+				}
+			}
+		}		
+	}
+	
+	option = {
+		name = fl_byz_crumbling.3.a
+		ai_chance = { factor = 100 }
+		declare_war_with_cb = {
+			who = EPI
+			casus_belli = cb_core
+			war_goal_province = 144
+		}
+	}
+	
+	#option = {
+	#	name = fl_byz_crumbling.3.b
+	#	trigger = { ai = no }
+	#	ai_chance = { factor = 0 }
+	#	
+	#	declare_war_with_cb = {
+	#		who = EPI
+	#		casus_belli = cb_core
+	#		war_goal_province = 144
+	#	}
+	#	switch_tag = EPI
+	#}
+}
+
+country_event = {			#	Skanderbeg's Rebellion
+	id = fl_byz_crumbling.4
+	title = fl_byz_crumbling.4.t
+	desc = fl_byz_crumbling.4.d
+	picture = PANIC_eventPicture
+
+	#is_triggered_only = yes
+
+	major = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = BYZ
+		has_country_flag = byzantine_crumbling
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_country_flag = BYZ_albanian_revolt
+		#custom_tooltip = epirus_breaks_free.tt
+		hidden_effect = {
+			ALB = {
+				BYZ = { free_vassal = ALB }
+				change_country_color = { color = { 181  0  20 } }
+				override_country_name = LEAGUE_OF_LEZHE
+			}
+			BYZ = {
+				add_opinion = {
+					who = ALB
+					modifier = byz_revolted_against_us
+				}
+			}
+		}		
+	}
+	
+	option = {
+		name = fl_byz_crumbling.4.a
+		ai_chance = { factor = 100 }
+		add_casus_belli = {
+			target = ALB
+			type = cb_annex
+			months = 120
+		}
+	}
+}
+
+country_event = {		#Tirnovo Revolt
+	id = fl_byz_crumbling.5
+	title = fl_byz_crumbling.5.t
+	desc = fl_byz_crumbling.5.d
+	picture = PANIC_eventPicture
+
+	#is_triggered_only = yes
+
+	major = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = BYZ
+		has_country_flag = byzantine_crumbling
+	}
+	
+	mean_time_to_happen = {
+		months = 5
+	}
+	
+	immediate = {
+		set_country_flag = BYZ_tirnovo_revolt
+		#custom_tooltip = epirus_breaks_free.tt
+		hidden_effect = {
+			SII = {
+				BYZ = { free_vassal = PREV }
+				change_country_color = { color = { 0 21 255 } }
+			}
+			SII = {
+				if = {
+					limit = { is_at_war = yes }
+					white_peace = NIC
+					white_peace = ALB
+					white_peace = EPI
+					white_peace = TRE
+					white_peace = ATH
+				}
+			}
+			BYZ = {
+				add_opinion = {
+					who = SII
+					modifier = byz_revolted_against_us
+				}
+			}
+		}		
+	}
+	
+	option = {				# Bulgaria belongs to Rome
+		name = fl_byz_crumbling.5.a
+		ai_chance = { factor = 20 }
+		
+		declare_war_with_cb = {
+			who = SII
+			casus_belli = cb_core
+			war_goal_province = 4704
+		}
+	}
+	
+	option = {				# Our core territories are the priority
+		name = fl_byz_crumbling.5.b
+		ai_chance = { factor = 80 }
+		add_prestige = -25
+		
+	}
+	
+	#option = {				# Down with Rome up with the next Bulgarian Empire!
+	#	name = fl_byz_crumbling.5.c
+	#	trigger = { ai = no }
+	#	ai_chance = { factor = 0 }
+	#	
+	#	switch_tag = SII
+	#}
+}
+
+country_event = {			# Stick with Komnenos or they flee to Pontus
+	id = fl_byz_crumbling.6
+	title = fl_byz_crumbling.6.t
+	desc = fl_byz_crumbling.6.d
+	picture = PANIC_eventPicture
+
+	#is_triggered_only = yes
+
+	major = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = BYZ
+		has_country_flag = byzantine_crumbling
+	}
+	
+	mean_time_to_happen = {
+		months = 15
+	}
+	
+	immediate = {
+		set_country_flag = BYZ_coup_revolt
+		#custom_tooltip = epirus_breaks_free.tt		
+		hidden_effect = {
+			TRE = {
+				if = {
+					limit = { 
+						AND = {
+							#is_subject = no
+							is_at_war = yes
+						}	
+					}
+					white_peace = NIC
+					white_peace = ALB
+					white_peace = EPI
+					white_peace = SII
+					white_peace = ATH
+				}
+			}
+		}
+	}
+	
+	option = {				#Fight the Coup
+		name = fl_byz_crumbling.6.a
+		ai_chance = { factor = 0 }
+		149 = {
+			spawn_rebels = {
+				type = pretender_rebels
+				size = 15
+				leader = Konstantinos
+				leader_dynasty = Palaiologos
+			}
+		}
+	}
+	
+	option = {				#Flee to Pontus
+		name = fl_byz_crumbling.6.b
+		ai_chance = { factor = 100 }
+		custom_tooltip = komnenos_flee_to_pontus.tt
+		hidden_effect = {
+		BYZ = {
+			exile_ruler_as = { name = komnenos_exiled_to_pontus }
+			define_ruler = {
+				name = "Konstantinos"
+				dynasty = "Palaiologos"
+				adm = 3
+				dip = 3
+				mil = 5
+			}
+		}
+		TRE = {
+			BYZ = { break_union = PREV }
+			change_country_color = { color = { 40  164  157 } }
+			set_ruler = komnenos_exiled_to_pontus
+		}
+		#switch_tag = TRE
+		add_casus_belli = {
+			target = TRE
+			type = cb_annex
+			months = 120
+		}
+		}
+	}
+}
+
+country_event = {			# Pope sends Crusaders
+	id = fl_byz_crumbling.7
+	title = fl_byz_crumbling.7.t
+	desc = fl_byz_crumbling.7.d
+	picture = PANIC_eventPicture
+
+	#is_triggered_only = yes
+
+	major = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = PAP
+		has_global_flag = byz_rejects_the_union_of_churches
+		
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	immediate = {
+		#set_country_flag = pap_deciding_
+		#custom_tooltip = epirus_breaks_free.tt		
+		#hidden_effect = {
+		#	
+		#}
+	}
+	
+	option = {				#	We shouldnt get involved
+		name = fl_byz_crumbling.7.a
+		ai_chance = { factor = 0 }
+		add_prestige = 25
+		
+	}
+	
+	option = {				#Send them
+		name = fl_byz_crumbling.7.b
+			4701 = {
+				add_core = ATH
+			}
+			146 = {
+				add_core = ATH
+			}
+			4985 = {
+				add_core = ATH
+			}
+			3003 = {
+				add_core = ATH
+			}
+			BYZ = { release = ATH }
+			ATH = {
+				change_government = monarchy
+				add_government_reform = feudalism_reform
+				add_legitimacy = 100
+				add_manpower = 13
+				add_prestige = 30
+				add_treasury = 150
+				create_general = { tradition = 100 }
+			}
+			ATH = {
+				capital_scope = {
+					build_to_forcelimit = {
+						infantry = 0.7
+						cavalry = 0.3
+					}
+				}
+				declare_war_with_cb = {
+					who = BYZ
+					casus_belli = cb_annex
+					war_goal_province = 147
+				}
+			}
+	}
+	
+	option = {				#Deus Vult!
+		name = fl_byz_crumbling.7.c
+		ai_chance = { factor = 0 }
+		4701 = {
+			add_core = ATH
+		}
+		146 = {
+			add_core = ATH
+		}
+		4985 = {
+			add_core = ATH
+		}
+		3003 = {
+			add_core = ATH
+		}
+		BYZ = { release = ATH }
+		ATH = {
+			change_government = monarchy
+			add_government_reform = feudalism_reform
+			add_legitimacy = 100
+			add_manpower = 13
+			add_prestige = 30
+			add_treasury = 150
+			create_general = { tradition = 100 }
+		}
+		ATH = {
+			capital_scope = {
+				build_to_forcelimit = {
+					infantry = 0.7
+					cavalry = 0.3
+				}
+			}
+		}
+		switch_tag = ATH
+		declare_war_with_cb = {
+			who = BYZ
+			casus_belli = cb_annex
+			war_goal_province = 147
+		}
+	}
+}
+###########################################################
+# End Event#
+country_event = {
+	id = fl_byz_crumbling.8
+	title = fl_byz_crumbling.8.t
+	desc = fl_byz_crumbling.8.d
+		
+	picture = WAR_OF_THE_ROSES_eventPicture
+	major = yes
+	
+
+	is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = had_byzantine_crumbling_ended
+	}
+	
+	option = {
+		name = fl_byz_crumbling.8.a
+
+		add_stability_or_adm_power = yes
+		add_prestige = 50
+	}
+}
+######################################################
+
+#Event for bandits or rebels causing devastation
+country_event = {
+	id = fl_byz_crumbling.9
+	title = fl_byz_crumbling.9.t
+	desc = fl_byz_crumbling.9.d
+	picture = WAR_OF_THE_ROSES_eventPicture
+	
+	is_triggered_only = yes
+	trigger = { tag = BYZ }
+	
+	immediate = {
+		#hidden_effect = {
+		#	random_owned_province = {
+		#		add_devastation = 25
+		#	}
+		#}
+	}
+	
+	option = {
+		name = fl_byz_crumbling.9.a
+		#custom_tooltip = byz_bandits_cause_devastation
+		random_owned_province = {
+			add_devastation = 25
+		}
+	}
+}

@@ -1,0 +1,24 @@
+#886 - Waco
+
+owner = CAD
+add_core = CAD
+controller = CAD
+culture = wichita
+religion = totemism
+capital = "Waco"
+trade_goods = grain
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+# is_city = yes
+native_size = 6
+native_ferocity = 2
+native_hostileness = 8
+
+is_city = yes
+
+
+discovered_by = north_american
+
+1444.11.12 = { trade_goods = unknown }

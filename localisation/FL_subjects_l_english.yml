@@ -1,0 +1,6 @@
+﻿l_english:0
+ #Bavarian Feudatories
+ feudal_lordship_title:0 "Feudatory"
+ feudal_lordship_title_plural:0 "Feudatories"
+ feudal_lordship_long_desc:0 "REPLACE_ME"
+ feudal_lordship_is_our:0 "$NAME|Y$ is our Feudatory"

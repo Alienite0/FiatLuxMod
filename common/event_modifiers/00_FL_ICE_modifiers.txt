@@ -1,0 +1,51 @@
+#Icelandic Modifiers Events/Missions
+
+ice_heathen_army = {		#Second Great Heathen Army
+	land_forcelimit = 15
+	land_maintenance_modifier = -0.50
+	global_tax_income = 24
+	naval_forcelimit = 15
+	galley_power = 0.15
+	naval_maintenance_modifier = -0.15
+}
+
+ice_find_the_route_to_vinland = {
+	may_explore = yes
+}
+
+ice_full_control_of_baltic_trade = {
+	global_trade_power = 0.20
+	trade_efficiency = 0.15
+	#center_of_trade_upgrade = -0.15
+	embargo_efficiency = 0.25
+	ship_trade_power_modifier = 0.15
+}
+
+ice_northumbrian_shipyards = {
+	ship_durability = 0.10
+}
+
+ice_growing_legitimacy = {
+	core_creation = -0.1
+	legitimacy = 1
+}
+
+ice_north_sea_empire = {
+	diplomatic_reputation = 1
+	administrative_efficiency = 0.05
+	max_absolutism = 15
+}
+
+ice_total_naval_hegemony = {
+	ship_durability = 0.10
+	naval_forcelimit_modifier = 0.15
+	#naval_maintenance_modifier = -0.1
+	own_coast_naval_combat_bonus = 1.0
+	galley_power = 0.1
+	heavy_ship_power = 0.1
+}
+
+ice_high_king_of_ireland = {
+	prestige = 0.15
+	num_accepted_cultures = 1
+}

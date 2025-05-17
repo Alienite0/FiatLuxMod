@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = limousin
+religion = catholic
+technology_group = western
+capital = 4697	# La Marche
+government_rank = 1

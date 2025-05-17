@@ -1,0 +1,100 @@
+country_decisions = {
+
+	maya_nation = {
+		major = yes
+		potential = {
+			is_random_new_world = no
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_mayapan_flag }
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				ai = no
+				num_of_cities = 6
+			}
+			culture_group = maya
+			OR = {
+				primary_culture = yucatec
+				primary_culture = putun
+				
+			}
+			religion = mesoamerican_religion
+			NOT = { has_reform = celestial_empire }
+			NOT = { exists = MAY }
+			NOT = { tag = PAP }
+			NOT = { tag = HLR }			
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = yucatan_area
+				area = east_yucatan_area
+				area = campeche_area
+				area = guatemala_lowlands_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			
+			yucatan_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			east_yucatan_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			campeche_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			guatemala_lowlands_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			change_tag = MAY
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			add_prestige_or_monarch_power = { amount = 25 }
+			set_country_flag = formed_mayapan_flag
+			if = {
+				limit = { is_tribal = yes }
+				change_government = monarchy
+				add_government_reform = autocracy_reform
+			}
+			swap_non_generic_missions = yes
+			on_change_tag_effect = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		ai_importance = 400
+	}
+}

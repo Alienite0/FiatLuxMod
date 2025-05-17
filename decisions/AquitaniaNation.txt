@@ -1,0 +1,117 @@
+country_decisions = {
+
+	aquitanian_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_aquitania_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				NOT = { exists = AQI }
+				ai = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
+			NOT = { tag = PAP }
+			NOT = { tag = AQI }
+			NOT = { tag = HLR }
+			OR = {
+				culture = occitain
+				culture = limousin
+				culture = gascon
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+					province_id = 174
+					province_id = 196
+					province_id = 199
+					province_id = 2753
+				}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+			
+		allow = {
+			adm_tech = 7
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			NOT = { exists = AQI }
+			owns_core_province = 174	# Bordeaux
+			owns_core_province = 196	# Tolouse
+			owns_core_province = 199	# Clermont
+			owns_core_province = 2753	# Narbonne
+		}
+	 	effect = {
+			if = {
+				limit = {
+					is_elector = no
+					is_emperor = no
+					OR = {
+						is_part_of_hre = yes
+						any_owned_province = {
+							is_part_of_hre = yes
+						}
+					}
+				}
+				set_in_empire = no
+				hidden_effect = {
+					every_owned_province = {
+						limit = {
+							is_part_of_hre = yes
+						}
+						set_in_empire = no
+					}
+				}
+			}
+			change_tag = AQI
+			swap_non_generic_missions = yes
+			on_change_tag_effect = yes
+			if = {
+				limit = {
+					NOT = {
+						government_rank = 2
+					}
+					is_part_of_hre = no
+				}
+				ROOT = { set_government_rank = 2 }
+			}
+			set_country_flag = formed_aquitania_flag
+			add_prestige = 25
+			if = {
+				limit = {
+					has_custom_ideas = no
+					NOT = { has_idea_group = AQI_ideas }
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { adm_tech = 9 }
+			}
+			modifier = {
+				factor = 0
+				tag = LOR
+				NOT = { is_year = 1500 }
+			}
+			modifier = {
+				factor = 0
+				NOT = { num_of_cities = 3 }
+			}
+		}
+		ai_importance = 400
+	}
+	
+}

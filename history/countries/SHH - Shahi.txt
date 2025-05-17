@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = afghani
+religion = hinduism
+technology_group = indian
+capital = 578	# Roh
+
+1444.1.1 = {
+	monarch = {
+		name = "Placeholder"
+		dynasty = "Shahi"
+		adm = 2
+		dip = 3
+		mil = 3
+		culture = afghani
+	}
+}

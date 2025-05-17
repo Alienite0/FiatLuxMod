@@ -1,0 +1,51 @@
+#Moghulistan Vassals
+#Moghulistan-Jetisu
+vassal = {
+	first = MOG
+	second = JET
+	start_date = 1444.1.1
+	end_date = 1493.1.1
+}
+
+#Moghulistan-Kara Del
+#vassal = {
+#	first = MOG
+#	second = HMI
+#	start_date = 1444.1.1
+#	end_date = 1493.1.1
+#}
+
+#Moghulistan-Sarig Yogir
+#vassal = {
+#	first = MOG
+#	second = SYG
+#	start_date = 1444.1.1
+#	end_date = 1493.1.1
+#}
+
+#Moghulistan-Yarkand
+vassal = {
+	first = MOG
+	second = KAS
+	start_date = 1444.1.1
+	end_date = 1493.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = MOG
+	second = OIR
+	start_date = 1444.1.1
+	end_date = 1644.4.22
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = MOG
+	second = KSD
+	start_date = 1444.1.1
+	end_date = 1644.4.22
+}
+
+
+#Turan Vassals

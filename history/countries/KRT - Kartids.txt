@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = iranian_shahdom
+technology_group = muslim
+religion = zoroastrian
+primary_culture = tajik
+add_accepted_culture = khorasani
+
+capital = 446	# Herat
+
+1400.1.1 = {
+	monarch = {
+		name = "Ilbars"
+		dynasty ="Kartid"
+		dip = 4
+		adm = 3
+		mil = 5
+	}
+}

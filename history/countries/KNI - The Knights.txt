@@ -1,0 +1,49 @@
+government = theocracy
+add_government_reform = monastic_order_reform
+government_rank = 1
+primary_culture = occitain
+religion = catholic
+technology_group = western
+capital = 2987 # Urgell
+historical_friend = ARE
+add_army_professionalism = 0.1
+
+add_truce_with = MJR
+
+1396.1.1 = {
+	monarch = {
+		name = "Philibert de Naillac"
+		birth_date = 1369.1.1
+		#culture = cosmopolitan_french
+		adm = 1
+		dip = 0
+		mil = 3
+	}
+}
+
+1421.1.1 = {
+	monarch = {
+		name = "Anton Flavian de Ripa"
+		birth_date = 1383.1.1
+		culture = aragonese
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1437.1.1 = {
+	monarch = {
+		name = "Jean Bonpar de Lastic"
+		birth_date = 1371.1.1
+		culture = occitain
+		adm = 1
+		dip = 1
+		mil = 3
+	}
+	add_cash = 500
+}
+
+1444.10.1 = {
+	add_truce_with = KNI
+}

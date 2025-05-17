@@ -1,0 +1,18 @@
+government = theocracy
+add_government_reform = arabic_plutocracy_reform
+primary_culture = omani_culture
+religion = ibadi
+technology_group = muslim
+capital = 403	# Nizwa
+government_rank = 1
+religious_school = hanbali_school
+
+1444.1.1 = {
+	monarch = {
+		name = "Electoral Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

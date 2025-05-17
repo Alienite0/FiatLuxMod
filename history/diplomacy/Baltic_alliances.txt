@@ -1,0 +1,21 @@
+# Poland - Silesia
+vassal = {
+	first = POL
+	second = GLG
+	start_date = 1444.1.1
+	end_date = 1526.8.29
+}
+vassal = {
+	first = POL
+	second = OPL
+	start_date = 1444.1.1
+	end_date = 1526.8.29
+}
+
+# Polish guarantee/tribute
+guarantee = {
+	first = POL
+	second = DOB
+	start_date = 1444.1.1
+	end_date = 1447.12.12
+}

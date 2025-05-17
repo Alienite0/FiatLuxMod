@@ -1,0 +1,131 @@
+#####################################
+# Events for Andalusia and Taifas	#
+#									#
+# written by Alienite				#
+#####################################
+
+namespace = flavor_adu
+normal_or_historical_nations = yes
+
+
+country_event = {
+	id = flavor_adu.1
+	title = "flavor_adu.1.t"
+	desc = "flavor_adu.1.d"
+	picture = BIG_BOOK_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		mission_completed = adu_restore_the_city_of_cordoba
+	}	
+	option = {
+		name = "flavor_adu.1.a"
+		225 = {
+			add_base_tax = 4
+			add_base_production = 4
+			add_base_manpower = 3
+			center_of_trade = 1
+		}
+	}
+}
+	
+# Casa de Contratación
+country_event = {
+	id = flavor_adu.2
+	title = "flavor_adu.2.t"
+	desc = "flavor_adu.2.d"
+	picture = COLONIZATION_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		mission_completed = adu_found_havana
+	}
+
+	option = {		# We should establish it
+		name = "flavor_adu.2.a"
+		ai_chance = { factor = 90 }
+		add_country_modifier = {
+			name = adu_casa_de_contratacion
+			duration = -1
+		}
+		clr_country_flag = adu_house_of_trade_flag
+	}
+}
+
+#Porto Revolt
+country_event = {
+	id = flavor_adu.3
+	title = flavor_adu.3.t
+	desc = flavor_adu.3.d
+	picture = PANIC_eventPicture
+
+	#is_triggered_only = yes
+
+	major = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		AND = {
+			owns_core_province = 231
+			owns_core_province = 232
+			religion_group = muslim
+		}
+		#is_year = 1445
+	}
+	
+	mean_time_to_happen = {
+		months = 15
+	}
+	
+	immediate = {
+		set_country_flag = ADU_porto_revolts
+		hidden_effect = {
+			231 = {
+				add_core = POR
+			}
+			232 = {
+				add_core = POR
+			}
+			release = POR
+			POR = {
+				change_government = monarchy
+				add_government_reform = feudalism_reform
+				add_legitimacy = 100
+				add_manpower = 13
+				add_prestige = 30
+				add_treasury = 150
+				create_general = { tradition = 50 }
+			}
+			POR = {
+				capital_scope = {
+					build_to_forcelimit = {
+						infantry = 0.7
+						cavalry = 0.3
+					}
+				}
+			}
+		}		
+	}
+	
+	option = {
+		name = flavor_adu.3.a
+		ai_chance = { factor = 100 }
+		declare_war_with_cb = {
+			who = POR
+			casus_belli = cb_core
+			war_goal_province = 231
+		}
+	}
+	
+	option = {
+		name = flavor_adu.3.b
+		trigger = { ai = no }
+		ai_chance = { factor = 0 }
+		
+		switch_tag = POR
+	}
+}

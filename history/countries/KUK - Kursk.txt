@@ -1,0 +1,26 @@
+government = monarchy
+add_government_reform = principality
+government_rank = 1
+primary_culture = ryazanian
+religion = orthodox
+technology_group = eastern
+capital = 298	# Ryazan
+fixed_capital = 298 # Cannot move capital away from this province & no power cost to move to it
+
+1427.1.1 = {
+	monarch = {
+		name = "Gleb Fyodorovich"
+		dynasty = "Rurikovich"
+		birth_date = 1402.1.1
+		adm = 3
+		dip = 1
+		mil = 3
+	}
+	#clear_scripted_personalities = yes
+	#add_ruler_personality = zealot_personality
+	#add_ruler_personality = craven_personality
+}
+
+1454.1.1 = {
+	government_rank = 1
+}

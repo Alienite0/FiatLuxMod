@@ -1,0 +1,215 @@
+country_decisions = {
+
+	unite_japanese_culture = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { has_country_flag = fl_united_japanese_culture }
+			culture_group = japanese_g
+			is_institution_enabled = enlightenment
+		}
+		provinces_to_highlight = {
+			culture_group = japanese_g
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			dip_power = 200
+			stability = 3
+			has_institution = enlightenment
+			owns_all_provinces = {
+				culture_group = ROOT
+			}
+		}
+		effect = {
+			set_country_flag = fl_united_japanese_culture
+			add_dip_power = -200
+			change_primary_culture = united_japanese
+			custom_tooltip = japanese_culture_united.tt
+			
+			hidden_effect = {
+				every_province = {
+					limit = {
+						culture_group = japanese_g
+					}
+					change_culture = united_japanese
+				}
+				set_heir_culture = united_japanese
+				set_ruler_culture = united_japanese
+				every_country = {
+					limit = {
+						culture_group = japanese_g
+					}
+					change_primary_culture = united_japanese
+					set_heir_culture = united_japanese
+					set_ruler_culture = united_japanese
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400	
+	}
+	
+	unite_chinese_culture = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { has_country_flag = fl_united_chinese_culture }
+			culture_group = east_asian
+			is_institution_enabled = enlightenment
+		}
+		provinces_to_highlight = {
+			culture_group = east_asian
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			dip_power = 200
+			stability = 3
+			has_institution = enlightenment
+			owns_all_provinces = {
+				culture_group = ROOT
+			}
+		}
+		effect = {
+			set_country_flag = fl_united_chinese_culture
+			add_dip_power = -200
+			change_primary_culture = united_chinese
+			custom_tooltip = chinese_culture_united.tt
+			
+			hidden_effect = {
+				every_province = {
+					limit = {
+						culture_group = east_asian
+					}
+					change_culture = united_chinese
+				}
+				set_heir_culture = united_chinese
+				set_ruler_culture = united_chinese
+				every_country = {
+					limit = {
+						culture_group = east_asian
+					}
+					change_primary_culture = united_chinese
+					set_heir_culture = united_chinese
+					set_ruler_culture = united_chinese
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400	
+	}
+	
+	unite_andalusian_culture = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { has_country_flag = fl_united_andalusian_culture }
+			culture_group = andalusian_g
+			is_institution_enabled = enlightenment
+		}
+		provinces_to_highlight = {
+			culture_group = andalusian_g
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			dip_power = 200
+			stability = 3
+			has_institution = enlightenment
+			owns_all_provinces = {
+				culture_group = ROOT
+			}
+		}
+		effect = {
+			set_country_flag = fl_united_andalusian_culture
+			add_dip_power = -200
+			change_primary_culture = andalucian
+			custom_tooltip = andalusian_culture_united.tt
+			
+			hidden_effect = {
+				every_province = {
+					limit = {
+						culture_group = andalusian_g
+					}
+					change_culture = andalucian
+				}
+				set_heir_culture = andalucian
+				set_ruler_culture = andalucian
+				every_country = {
+					limit = {
+						culture_group = andalusian_g
+					}
+					change_primary_culture = andalucian
+					set_heir_culture = andalucian
+					set_ruler_culture = andalucian
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400	
+	}
+	
+	unite_iberian_culture = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { has_country_flag = fl_united_iberian_culture }
+			culture_group = iberian
+			is_institution_enabled = enlightenment
+		}
+		provinces_to_highlight = {
+			culture_group = iberian
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			dip_power = 200
+			stability = 3
+			has_institution = enlightenment
+			owns_all_provinces = {
+				culture_group = ROOT
+			}
+		}
+		effect = {
+			set_country_flag = fl_united_iberian_culture
+			add_dip_power = -200
+			change_primary_culture = united_iberian
+			custom_tooltip = andalusian_culture_united.tt
+			
+			hidden_effect = {
+				every_province = {
+					limit = {
+						culture_group = iberian
+					}
+					change_culture = united_iberian
+				}
+				set_heir_culture = united_iberian
+				set_ruler_culture = united_iberian
+				every_country = {
+					limit = {
+						culture_group = iberian
+					}
+					change_primary_culture = iberian_united
+					set_heir_culture = iberian_united
+					set_ruler_culture = iberian_united
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400	
+	}
+	
+}

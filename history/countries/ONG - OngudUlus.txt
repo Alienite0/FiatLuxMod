@@ -1,0 +1,16 @@
+government = tribal
+add_government_reform = holy_horde_reform
+primary_culture = ongud
+religion = catholic
+technology_group = nomad_group
+capital = 443	#Ust Yurt
+
+1435.1.1 = {
+	monarch = {
+		name = "Petros"
+		dynasty = "Ongudid"
+		adm = 1
+		dip = 3
+		mil = 2
+	}
+}

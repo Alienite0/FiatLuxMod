@@ -1,0 +1,25 @@
+﻿l_english:0
+ #England
+ PETTY:0 "Petty"
+ PETTY_CYNING:0 "Petty Cyning"
+ CYNING:0 "Cyning"
+ CASERE:0 "Casere"
+ PETTY_CYNINGE:0 "Petty Cyninge"
+ CYNINGE:0 "Cyninge"
+ CASERN:0 "Casern"
+ 
+ #Iran
+ MARZBAN:0 "Marzban"
+ MARZBANA:0 "Marzbana"
+ 
+ #Iceland
+ icelandic_jarldom:0 "Icelandic Kingdom"
+ icelandic_jarldom_desc:0 "REPLACE_ME"
+ ice_vikingr_traditions:0 "Vikingr Legacy"
+ ice_vikingr_traditions_desc:0 "REPLACE_ME"
+ 
+ #Sardinia
+ sardinian_judicate:0 "Sardinian Judicate"
+ JUDICATE:0 "Judicate"
+ GRAND_JUDICATE:0 "Grand Judicate"
+ JUDGE:0 "Judge"

@@ -1,0 +1,234 @@
+# Do not change tags in here without changing every other reference to them.
+# Do not change tags in here without changing every other reference to them.
+# If adding new groups or ideas, make sure they are unique.
+
+# This one is the first for the case that some country manages to become fully Norse.
+##########
+#Siqiliya#
+##########
+SIQ_ideas = {
+	start = {
+		trade_steering = 0.1
+		naval_maintenance_modifier = -0.1
+	}
+	
+	bonus = {
+		galley_power = 0.15
+	}
+	
+	trigger = {
+		tag = SIQ
+	}
+	free = yes
+	
+	
+	SIQ_multicultural_government = {
+		tolerance_heathen = 2
+	}
+	
+	SIQ_barbary_privateers = {
+		privateer_efficiency = 0.2
+	}
+	
+	SIQ_educational_center = {
+		global_institution_spread = 0.1
+	}
+	
+	SIQ_fortress_sicily = {
+		defensiveness = 0.15
+	}
+	
+	SIQ_jewel_palermo = {
+		global_trade_goods_size_modifier = 0.15
+	}
+	
+	SIQ_siqiliyan_armada = {
+		naval_forcelimit_modifier = 0.1
+	}
+	
+	SIQ_efficient_administration = {
+		adm_tech_cost_modifier = -0.1
+	}
+	
+}
+
+###########
+#Benevento#
+###########
+BVT_ideas = {
+	start = {
+		infantry_power = 0.10
+		diplomatic_upkeep = 1
+	}
+	
+	bonus = {
+		prestige = 1
+	}
+	
+	trigger = {
+		tag = BVT
+	}
+	free = yes
+	
+	
+	BVT_refugee_haven = {
+		local_manpower_modifier = 0.15
+	}
+	
+	BVT_diplomatic_maneuvering = {
+		diplomatic_reputation = 2
+	}
+	
+	BVT_papal_alliances = {
+		papal_influence = 0.5
+	}
+	
+	BVT_beneventan_wine = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	
+	BVT_lombard_legitimacy = {
+		ae_impact = -0.15
+	}
+	
+	BVT_improve_southern_development = {
+		development_cost = -0.1
+	}
+	
+	BVT_school_of_diplomats = {
+		improve_relation_modifier = 0.2
+	}
+}
+
+#########
+#Iceland#
+#########
+ICE_ideas = {
+	start = {
+		may_perform_slave_raid_on_same_religion = yes
+		hostile_attrition = 1
+	}
+	
+	bonus = {
+		naval_morale = 0.10
+	}	
+
+	trigger = {
+		tag = ICE
+	}
+	free = yes
+	
+	ICE_althingi = {
+		global_unrest = -1
+		reform_progress_growth = 0.15
+	}
+	ICE_hrafna_floki = {
+		global_ship_recruit_speed = -0.2
+	}
+	ICE_colonialism = {
+		may_explore = yes
+		colonists = 1
+		effect = { remove_temporary_colonist = yes }
+	}
+	ICE_norse_identity = {
+		global_missionary_strength = 0.02
+	}
+	ICE_merchant_navy = {
+		light_ship_power = 0.15
+	}
+	ICE_fire_and_ice = {
+		discipline = 0.05
+	}
+	ICE_natural_builders = {
+		build_cost = -0.1
+		development_cost = -0.05
+	}
+}
+
+#######
+#Arles#
+#######
+ARE_ideas = {
+	start = {
+		diplomatic_upkeep = 1
+		trade_efficiency = 0.1
+	}
+	
+	bonus = {
+		global_trade_goods_size_modifier = 0.1
+	}	
+
+	trigger = {
+		tag = ARE
+	}
+	free = yes
+	
+	ARE_imperial_connections = {
+		improve_relation_modifier = 0.2
+		imperial_authority = 0.1
+	}
+	ARE_tax_reforms = {
+		global_tax_modifier = 0.10
+	}
+	ARE_arleat_troubadour_patronage = {
+		prestige = 0.5
+		advisor_cost = -0.1
+	}
+	ARE_alpine_defenses = {
+		defensiveness = 0.15
+	}
+	ARE_rudolphin_supremacy = {
+		diplomatic_reputation = 1
+	}
+	ARE_cultural_crossroads = {		# We sit on the border between Italy and Gaul smth smth idk im not a writer
+		num_accepted_cultures = 2
+		promote_culture_cost = -0.25
+	}
+	ARE_arleat_war_ministry = {
+		discipline = 0.05
+	}
+}
+
+##########
+#Mujirids#
+##########
+MJR_ideas = {
+	start = {
+		trade_efficiency = 0.15
+		land_morale = 0.10
+	}
+	
+	bonus = {
+		administrative_efficiency = 0.05
+	}	
+
+	trigger = {
+		tag = MJR
+	}
+	free = yes
+	
+	MJR_mamluk_cavalry = {
+		cavalry_power = 0.10
+		cav_to_inf_ratio = 0.25
+	}
+	MJR_nile_agricultural_reforms = {
+		production_efficiency = 0.10
+		development_cost = -0.05
+	}
+	MJR_red_sea_trade = {
+		trade_range_modifier = 0.10
+		global_trade_power = 0.05
+	}
+	MJR_scholarly_agenda = {
+		technology_cost = -0.1
+	}
+	MJR_jizya_reforms = {
+		global_tax_modifier = 0.10
+	}
+	MJR_efficient_bureaucracy = {
+		core_creation = -0.15
+	}
+	MJR_mujirid_legalism = {
+		monthly_piety = 0.015
+	}
+}

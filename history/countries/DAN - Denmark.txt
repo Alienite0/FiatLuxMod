@@ -1,0 +1,45 @@
+government = monarchy
+add_government_reform = kalmar_union
+primary_culture = danish
+religion = catholic
+technology_group = western
+historical_friend = NOR
+historical_rival = HSA
+capital = 12 #Sjaelland
+
+change_estate_land_share = {
+	estate = estate_nobles
+	share = 8
+}
+change_estate_land_share = {
+	estate = estate_church
+	share = -15
+}
+change_estate_land_share = {
+	estate = estate_burghers
+	share = 7
+}
+
+1387.6.17 = {
+	monarch = {
+		name = "Margaret"
+		dynasty = Estridsen
+		female = yes
+		birth_date = 1353.1.1
+		adm = 1
+		dip = 2
+		mil = 3
+	}
+}
+
+1412.9.24 = {
+	monarch = {
+		name = "Christian"
+		dynasty = Estridsen
+		#culture = pommeranian
+		adm = 1
+		dip = 2
+		mil = 3
+		birth_date = 1382.1.1
+	}
+}

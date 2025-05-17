@@ -1,0 +1,25 @@
+#Dutch states
+vassal = {
+	first = LOR
+	second = FLA
+	start_date = 1444.1.1
+	end_date = 1493.1.1
+}
+union = {
+	first = LOR
+	second = BRB
+	start_date = 1444.1.1
+	end_date = 1477.1.5
+}
+#union = {
+#	first = LOR
+#	second = HOL
+#	start_date = 1444.1.1
+#	end_date = 1477.1.5
+#}
+union = {
+	first = LOR
+	second = HAI
+	start_date = 1444.1.1
+	end_date = 1477.1.5
+}

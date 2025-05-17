@@ -1,0 +1,19 @@
+﻿l_english:0
+ hre_event.4.t:0 "The Kingdom of Germanie and the Empire"
+ hre_event.4.d:0 "For years now Imperial Authority over the Kingdom of Germanie has been waning. Successive Emperors have failed to impose their will on the Italian states, as they have begun to act with total disregard for Imperial laws and customs. \nUnless the wayward nations of Germanie are firmly reigned in soon, Germanie may slip out of Imperial contorl forever."
+ hre_event.2.d:0 "For years now Imperial Authority over the Kingdom of Germanie has been waning. Successive Emperors have failed to impose their will on the Italian states, as they have begun to act with total disregard for Imperial laws and customs. \nUnless the wayward nations of Germanie are firmly reigned in soon, Germanie may slip out of Imperial contorl forever."
+ 
+ shadow_kingdom.3.t:0 "The Shadow Kingdom"
+ shadow_kingdom.3.d:0 ""
+ shadow_kingdom.3.d2:0 "True to its promise, the Empire has reined in the Princes of Germanie and secured their place within the Holy Roman Empire. With this feat of diplomatic and military genius, all of Christendom now knows the futility of defying Imperial Rule."
+ shadow_kingdom.3.a:0 ""
+ shadow_kingdom.3.b:0 "Italy has been returned to the fold. Long live the Empire!"
+ 
+ hre_event.1.t:0 "The Shadow Kingdom"
+ hre_event.1.d2:0
+ hre_event.1.d:0 "While the Kingdom of Germanie is still formally part of the Holy Roman Empire it has in many ways turned into a 'Shadow Kingdom,' with the German states acting independently of the Emperor. The failure of successive emperors to restore Imperial Authority in the region has also left large areas under the control of states that outright reject Imperial Authority. \nBy now the question for many German states is why they should let a Foreign Emperor any authority over their lands."
+ hre_event.1.b:0 "Our country is a natural part of the Empire."
+ hre_event.1.a:0 "The Empire does not concern us."
+ 
+ shadow_kingdom.2.d:0 "While the Kingdom of Germanie is still formally part of the Holy Roman Empire it has in many ways turned into a 'Shadow Kingdom,' with the German states acting independently of the Emperor. The failure of successive emperors to restore Imperial Authority in the region has also left large areas under the control of states that outright reject Imperial Authority. \nBy now the question for many German states is why they should let a Foreign Emperor any authority over their lands."
+ shadow_kingdom.2.d

@@ -1,0 +1,116 @@
+#Andalusian Missions/Granadan Missions
+renovated_palace_of_alhambra = {
+	local_institution_spread = 0.5
+	local_unrest = -2
+}
+
+gra_bolstered_morale = {
+	land_morale = 0.05
+	land_maintenance_modifier = -0.05
+}
+
+gra_rebuilding_mosques = {
+	local_unrest = -2
+	#local_missionary_strength = 0.03
+	build_time = -0.15
+}
+
+gra_seperation_of_power = {
+	ae_impact = -0.15
+	improve_relation_modifier = 0.2
+}
+
+gra_mouth_of_mediterranean = {
+	province_trade_power_modifier = 0.25
+}
+
+gra_reconvert_giralda = {
+	local_development_cost = -0.15
+	local_monthly_devastation = -0.1
+	local_unrest = -3
+}
+
+gra_merchants_inspired = {
+	global_ship_trade_power = 0.2
+	embargo_efficiency = 0.2
+}
+
+gra_eagerness_to_serve = {
+	manpower_recovery_speed = 0.2
+}
+
+adu_new_world_discoveries = {
+	global_colonial_growth = 25
+	range = 0.25
+}
+
+adu_trade_hub = {
+	trade_goods_size_modifier = 0.25
+	province_trade_power_modifier = 0.25
+}
+
+adu_native_concord = {
+	native_uprising_chance = -0.5
+}
+
+sicily_in_safe_hands = {
+	local_missionary_strength = 0.03
+	province_trade_power_modifier = 0.5
+}
+
+adu_popular_appeal = {
+	advisor_cost = -0.25
+	#global_heretic_missionary_strength = 0.02
+	advisor_pool = 1
+}
+
+adu_conservative_backlash = {
+	tolerance_own = 2
+}
+
+adu_righteous_conquest = {
+	warscore_cost_vs_other_religion = -0.25
+}
+
+adu_white_phoenix = {
+	land_morale = 0.1
+}
+
+adu_summer_capital = {
+	local_monthly_devastation = -0.1
+	local_institution_spread = 1
+}
+
+adu_tolerance_heretics_mod = {
+	tolerance_heretic = 1
+	monthly_piety = -0.0025
+}
+
+adu_greater_than_alexander = {
+	core_creation = -0.2
+}
+
+adu_trade_company_founded = {
+	global_sailors_modifier = 0.15
+	trade_steering = 0.10
+}
+
+adu_investments_in_cordoba = {
+	build_cost = -0.1
+}
+
+adu_casa_de_contratacion = {
+	colonist_placement_chance = 0.01
+	global_colonial_growth = 5
+}
+
+adu_viceroyalty_of_new_andalus = {
+	global_tariffs = 0.1
+	liberty_desire_from_subject_development = -0.1
+	free_dip_policy = 1 
+}
+
+adu_new_asturias = {
+	reduced_liberty_desire = 15
+	vassal_forcelimit_bonus = 0.5
+}

@@ -1,0 +1,23 @@
+#41 - Händlersberg
+
+owner = HND
+controller = HND
+capital = "Händlersberg"
+culture = baltic_german
+religion = catholic
+trade_goods = gems #Amber
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 3
+is_city = yes
+fort_15th = yes
+add_core = HND
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+extra_cost = 8
+center_of_trade = 1

@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = icelandic_jarldom
+primary_culture = icelandic
+religion = norse_pagan_reformed
+technology_group = western
+capital = 370 #Rejkyavik
+
+1430.11.6 = { #Coronation
+	monarch = {
+		name = "Bjorn"
+		dynasty = "Odinsson"
+		birth_date = 1410.12.6
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = legendary_conqueror_personality
+	add_ruler_personality = inspiring_leader_personality
+	add_ruler_personality = tactical_genius_personality
+}

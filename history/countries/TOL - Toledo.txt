@@ -1,0 +1,29 @@
+government = monarchy
+add_government_reform = iqta
+religion = sunni
+primary_culture = awsati
+technology_group = muslim
+capital = 219	# Tulaytullah
+religious_school = zahiri_school
+
+government_rank = 1
+
+1387.1.1 = {
+	monarch = {
+		name = "Walid"
+		dynasty = "Makhzumi"		#Banu Makhzumi, dynasty formed by Khalid bin al-Walid's descendants with Wallada bint al-Mustakfi
+		adm = 3
+		mil = 6
+		dip = 4
+	}
+}
+
+1418.1.1 = {
+	monarch = {
+		name = "Khalid"
+		dynasty = "Makhzumi"		#Banu Makhzumi, dynasty formed by Khalid bin al-Walid's descendants with Wallada bint al-Mustakfi
+		adm = 2
+		mil = 5
+		dip = 2
+	}
+}

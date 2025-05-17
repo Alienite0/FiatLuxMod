@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = shogunate
+government_rank = 2
+primary_culture = togoku
+religion = mahayana
+technology_group = chinese
+capital = 1020	# Kyoto
+
+1399.1.1 = {
+	monarch = {
+		name = "Nagatoki" # 1456 - 1519 
+		dynasty = "Hojo"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = careful_personality
+	add_ruler_personality = midas_touched_personality
+	add_ruler_personality = tactical_genius_personality
+}

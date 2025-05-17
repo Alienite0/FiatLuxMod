@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = iqta
+religion = zaydi
+primary_culture = gharbi
+technology_group = muslim
+capital = 218	# Badajoz
+religious_school = ismaili_school
+
+1405.1.1 = {
+	monarch = {
+		name = "Habib"
+		dynasty = "Hammudid"	
+		adm = 3
+		mil = 3
+		dip = 6
+	}
+}

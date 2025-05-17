@@ -1,0 +1,30 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = provencal
+add_accepted_culture = arpitan
+religion = catholic
+technology_group = western
+capital = 201 # Arles
+
+1434.11.16 = {
+	monarch = {
+		name = "René I"
+		dynasty = "Rudolphin"
+		birth_date = 1409.1.16
+		adm = 3
+		dip = 5
+		mil = 2
+	}
+	queen = {
+		country_of_origin = LOR
+		name = "Isabella"
+		dynasty = "de Metz"
+		birth_date = 1400.1.1
+		death_date = 1453.2.28
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

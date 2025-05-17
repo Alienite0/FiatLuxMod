@@ -1,0 +1,46 @@
+# Pope and Perugia
+vassal = {
+	first = PAP
+	second = PGA
+	start_date = 1444.1.1
+	end_date = 1534.1.1
+}
+
+# Pope and Urbino
+vassal = {
+	first = PAP
+	second = URB
+	start_date = 1444.1.1
+	end_date = 1534.1.1
+}
+
+#Pope and Spoleto
+vassal = {
+	first = PAP
+	second = SPL
+	start_date = 1444.1.1
+	end_date = 1534.1.1
+}
+
+# Montferrat and Savoy
+vassal = {
+	first = SAV
+	second = MFA
+	start_date = 1444.1.1
+	end_date = 1445.3.12
+}
+# Montferrat and Savoy
+vassal = {
+	first = SAV
+	second = SZO
+	start_date = 1444.1.1
+	end_date = 1445.3.12
+}
+
+#Verona-Ferrara
+#vassal = {
+#	first = VRN
+#	second = FER
+#	start_date = 1444.1.1
+#	end_date = 1445.3.12
+#}

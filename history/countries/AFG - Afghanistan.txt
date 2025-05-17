@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = iqta
+technology_group = muslim
+religion = mahayana
+primary_culture = afghani
+capital = 451	# Kabul
+
+add_army_tradition = 20			#Years of fighting and infighting before the game start.
+add_army_professionalism = 0.05
+
+1444.11.11 = {
+	monarch = {
+		name = "Tribal Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

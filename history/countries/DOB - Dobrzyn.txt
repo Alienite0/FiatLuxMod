@@ -1,0 +1,21 @@
+government = theocracy
+add_government_reform = monastic_order_reform
+government_rank = 1
+technology_group = eastern
+primary_culture = polish
+religion = catholic
+historical_friend = POL
+historical_friend = RIG
+historical_friend = LIV
+capital = 1841	# Marienburg
+add_army_professionalism = 0.1
+
+
+change_estate_land_share = {
+	estate = estate_burghers
+	share = 10
+}
+change_estate_land_share = {
+	estate = estate_nobles
+	share = -10
+}

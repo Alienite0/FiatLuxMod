@@ -1,0 +1,21 @@
+#232 - Bragança
+
+owner = LIS
+controller = LIS
+add_core = GAL
+culture = galician
+religion = catholic
+capital = "Bragança"
+trade_goods = wine
+hre = no
+base_tax = 5 
+base_production = 5
+base_manpower = 2
+is_city = yes
+add_core = LIS
+add_core = LON
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

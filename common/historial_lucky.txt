@@ -1,0 +1,106 @@
+# Order here is the priority for taking them, if trigger is true.
+
+CAS = {
+	NOT = { 
+		exists = SPA 
+		is_year = 1700
+	}
+}
+
+ADU = {
+	NOT = { 
+		exists = CAS
+		is_year = 1700
+	}
+}
+
+KAR = {
+	NOT = { 
+		is_year = 1700
+	}
+}
+
+RUS = {
+	always = yes
+}
+
+VLD = {
+	NOT = { 
+		exists = RUS
+	}
+}
+
+GBR = {
+	always = yes
+}
+
+ENG = {
+	NOT = { 
+		exists = GBR
+	}
+}
+
+GER = {
+	always = yes
+}
+
+PRU = {
+	is_year = 1700
+}
+
+NED = {
+	always = yes
+}
+
+POR = {
+	NOT = { 
+		is_year = 1700
+	}
+}
+
+MJZ = {
+	NOT = {
+		exists = QNG
+	}
+	NOT = {
+		exists = MCH
+	}
+}
+
+MCH = {
+	NOT = {
+		exists = QNG
+	}
+}
+
+QNG = {
+	always = yes
+}
+
+BRA = {
+	always = yes
+}
+SWE = {
+	NOT = { 
+		is_year = 1700
+	}
+}
+
+VOL = {
+	NOT = {
+		exists = UKR
+	}
+}
+
+
+
+PLC = {
+	NOT = { 
+		is_year = 1700
+	}
+}
+
+
+CSU = {		#Cuzco		make Inca apppear
+	always = yes
+}

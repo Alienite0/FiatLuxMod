@@ -1,0 +1,23 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = burgundian
+religion = catholic
+technology_group = western
+capital = 183 # Paris
+government_rank = 1
+
+#elector = yes
+
+change_estate_land_share = {
+	estate = estate_nobles
+	share = 10
+}
+change_estate_land_share = {
+	estate = estate_church
+	share = -5
+}
+change_estate_land_share = {
+	estate = estate_burghers
+	share = -5
+}
+

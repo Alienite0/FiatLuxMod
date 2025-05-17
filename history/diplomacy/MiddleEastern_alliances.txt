@@ -1,0 +1,29 @@
+#Tabaristani Vassals
+vassal = {
+	first = TAB
+	second = KRY
+	start_date = 1444.1.1
+	end_date = 1810.1.1
+}
+
+vassal = {
+	first = TAB
+	second = BPI
+	start_date = 1444.1.1
+	end_date = 1810.1.1
+}
+
+#Chobanid Vassals
+vassal = {
+	first = TBR
+	second = BHT
+	start_date = 1444.1.1
+	end_date = 1810.1.1
+}
+
+vassal = {
+	first = TBR
+	second = ARD
+	start_date = 1444.1.1
+	end_date = 1810.1.1
+}

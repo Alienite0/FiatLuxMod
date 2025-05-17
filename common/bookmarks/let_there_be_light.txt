@@ -1,0 +1,25 @@
+bookmark =
+{
+	name = "LET_THERE_BE_LIGHT"
+	desc = "LET_THERE_BE_LIGHT_DESC"
+	date = 1444.11.11
+	
+	center = 201
+	default = yes
+	
+	country = ARE
+	country = LIS
+	country = ICE
+	#country = ENG
+	#country = LON
+	#country = BOH
+	#country = HUN
+	#country = BYZ
+	#country = ARE
+	#country = GER
+	#country = LOR
+	#country = HSA
+	
+	easy_country = ARE
+	easy_country = LIS
+}

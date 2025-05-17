@@ -1,0 +1,19 @@
+# 100 Friesland - Principal cities: Leeuwarden & Harlingen 
+
+owner = SHL
+controller = SHL
+capital = "Wiringhilrd"
+is_city = yes
+culture = frisian
+religion = catholic
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = fish 
+base_manpower = 2
+add_core = SHL
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

@@ -1,0 +1,38 @@
+
+technology_group = nomad_group
+primary_culture = uzbehk
+add_accepted_culture = uyghur
+religion = vajrayana
+government = tribal
+add_government_reform = steppe_horde
+government_rank = 2
+capital = 4207 # Turpan
+
+change_estate_land_share = {
+	estate = estate_church
+	share = -12
+}
+change_estate_land_share = {
+	estate = estate_nobles
+	share = 12
+}
+set_estate_privilege = estate_church_TIM_yasa_supremacy
+set_estate_privilege = estate_nobles_TIM_soyurghal_grants
+set_estate_privilege = estate_burghers_patronage_of_the_arts
+
+add_army_tradition = 20			#Years of fighting and infighting before the game start.
+add_army_professionalism = 0.05
+
+1440.1.1 = {
+	monarch = {
+		name = "Mirza"
+		birth_date = 1424.1.1
+		dynasty = "Timurid"
+		adm = 3
+		dip = 2
+		mil = 4
+		culture = uzbehk
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = bold_fighter_personality
+}

@@ -1,0 +1,8 @@
+government = monarchy
+
+add_government_reform = barbary_sultanate_reform
+
+religion = sunni
+primary_culture = catalan
+technology_group = western
+capital = 333	# Majorca

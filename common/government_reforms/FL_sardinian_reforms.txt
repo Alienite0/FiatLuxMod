@@ -1,0 +1,26 @@
+sardinian_judicate = {
+	icon = "politeia"
+	allow_normal_conversion = no
+	potential = {
+		OR = {
+			has_reform = sardinian_judicate
+			have_had_reform = sardinian_judicate
+		}
+	}
+	#monarchy = yes
+	#is_elective = yes
+	queen = no
+	heir = no
+	duration = 7
+	has_term_election = yes
+	is_eligible_for_hre_emperor = no
+	valid_for_nation_designer = no
+	modifiers = {
+		max_absolutism = -50
+		global_unrest = -1
+		nobles_influence_modifier = 0.05
+	}
+	ai = {
+		factor = 1
+	}
+}

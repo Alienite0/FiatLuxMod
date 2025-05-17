@@ -1,0 +1,18 @@
+government = republic
+add_government_reform = free_city
+government_rank = 1
+primary_culture = lombard
+religion = catholic
+technology_group = western
+capital = 2979 # Novara
+fixed_capital = 2979 # Cannot move capital away from this province & no power cost to move to it
+
+1427.12.2 = {
+	monarch = {
+		name = "City Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

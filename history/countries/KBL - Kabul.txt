@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = iranian_shahdom
+primary_culture = afghani
+religion = mahayana
+technology_group = muslim
+capital = 451	# Kabul
+
+1444.1.1 = {
+	monarch = {
+		name = "Council of Kabul"
+		adm = 3
+		dip = 3
+		mil = 3
+		regency = yes
+	}
+}

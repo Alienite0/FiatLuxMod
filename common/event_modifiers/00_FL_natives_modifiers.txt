@@ -1,0 +1,7 @@
+#Native Nation Modifiers
+
+nat_native_administration = {		# To prevent mass blobbing
+	administrative_efficiency =-0.15
+	development_cost_modifier = 0.15
+	global_institution_spread = -1
+}

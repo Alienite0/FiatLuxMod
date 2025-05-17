@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = bulgarian
+religion = orthodox
+technology_group = eastern
+capital = 4704	# Tirnovo
+add_accepted_culture = serbian
+
+
+1432.7.20 = {
+	monarch = {
+		name = "Aleksandar"
+		dynasty = "Shishman"
+		birth_date = 1413.1.1
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}

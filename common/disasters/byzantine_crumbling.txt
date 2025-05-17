@@ -1,0 +1,68 @@
+#Castilian Civil War
+#A mix of the civil wars with outside intervention and noble families siding against the crown between 1419 and 1479.
+
+byzantine_crumbling = {
+	potential = {
+		tag = BYZ
+		NOT = { has_country_flag = had_byzantine_crumbling }
+		is_free_or_tributary_trigger = yes
+		government = monarchy
+		normal_or_historical_nations = yes
+		uses_doom = no
+	}
+
+
+	can_start = {
+		has_country_flag = byz_1400_heir_death
+	}
+	
+	
+	can_stop = {
+		has_any_disaster = yes
+	}
+		
+	progress = {
+		modifier = {
+			factor = 100
+			tag = BYZ
+		} 
+	}
+	
+	can_end = {
+		#hidden_trigger = { has_country_flag = civil_war_in_castile }
+		stability = 1
+		NOT = { num_of_rebel_controlled_provinces = 1 }
+		NOT = {
+			has_spawned_rebels = pretender_rebels
+		}
+		NOT = { exists = NIC }
+		OR = {
+			EPI = { is_subject_of = ROOT }
+			NOT = { exists = EPI }
+		}
+		#OR = {
+		#	TRE = { is_subject_of = ROOT }
+		#	NOT = { exists = TRE }
+		#}
+	}
+	
+
+	modifier = {
+		global_unrest = 7
+		global_tax_modifier = -0.10
+	}	
+	
+	
+	on_start = fl_byz_crumbling.1
+	on_end = fl_byz_crumbling.8
+	ended_by_country_breaking_to_rebels = no
+	
+	on_monthly = {
+		events = {
+		}
+		random_events = { 
+			100 = fl_byz_crumbling.9
+		}
+	}
+}
+

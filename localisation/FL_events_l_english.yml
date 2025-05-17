@@ -1,0 +1,121 @@
+﻿l_english:0
+ #Bohemia
+ flavor_boh.22.t:0 "The Hussite reformation"
+ flavor_boh.22.d:0 "The Hussite reformation is in full swing!"
+ flavor_boh.22.a:0 "The truth of Jan Hus shall spread throughout Europe!"
+ 
+ #Andalus
+ flavor_adu.1.t:0 "Return on Investments in Cordoba"
+ flavor_adu.1.d:0 "REPLACE_ME"
+ flavor_adu.1.a:0 "A good sign for years to come!"
+ 
+ flavor_adu.2.t:0 "Founding of Havana"
+ flavor_adu.2.d:0 "REPLACE_ME"
+ flavor_adu.2.a:0 "The Grandest Base of Operation!"
+    adu_casa_de_contratacion:0 "Havanese Bazaar"
+    
+ #Iceland
+ flavor_ice.1.t:0 "Story of Bjorn 'Firebeard' Odinsson"
+ flavor_ice.1.d:0 "REPLACE_ME"
+ flavor_ice.1.a:0 "Odin's Wrath Shall be Wrought upon Europe!!"
+ 
+ flavor_ice.2.t:0 "Claiming the Crown of Norway"
+ flavor_ice.2.d:0 "REPLACE_ME"
+ flavor_ice.2.a:0 "Our Court shall move to Nidaros!"
+ 
+ flavor_ice.3.t:0 "An Ivory Shipment in Reykjavik"
+ flavor_ice.3.d:0 ""My lord there is something urgent you must know, a mysterious longship has made landfall in Reykjavik claiming to come from a settlement called Ulfsland. They brought with them ivory saying they apologized for a lack of shipments."\n The King pondered for a moment and declared that they will find the homeland of these mysterious Norsemen at once."
+ flavor_ice.3.a:0 "We shall find where these Norsemen hail."
+    ice_new_contact_with_vinland_flag_tt:0 "Gain country flag '§YContact with Vinland?§!'"
+    
+ #Hungary
+ fl_flavor_hun.1.t:0 "The Hussite Revolt"
+ fl_flavor_hun.1.d:0 "REPLACE_ME"
+ fl_flavor_hun.1.a:0 "The heretics shall burn!"
+ fl_flavor_hun.1.b:0 "We do not have the resources..."
+ 
+ fl_flavor_hun.2.t:0 "The Hussites Defeated"
+ fl_flavor_hun.2.d:0 "REPLACE_ME"
+ fl_flavor_hun.2.a:0 "Burn the heretics!"
+ 
+ #Bohemia
+ flavor_boh.23.t:0 "Our Hussite Brothers Ask for Aid"
+ flavor_boh.23.d:0 "REPLACE_ME"
+ flavor_boh.23.a:0 "To war!"
+ flavor_boh.23.b:0 "We have to abandon our brothers..."
+ 
+ flavor_boh.24.t:0 "Slovak Nobles offer us their Crown"
+ flavor_boh.24.d:0 "REPLACE_ME"
+ flavor_boh.24.a:0 "...Our King shall accept their offer!"
+ flavor_boh.24.b:0 "...Our King cannot accept."
+ 
+ #Maddhab
+ muslim_school_events.20.i:0 "Dawud al-Zahiri's literalism shall suit our interests"
+ 
+ #Byzantium
+ fl_flavor_byz.1.t:0 "A Horrifying Hunting Accident"
+ fl_flavor_byz.1.d:0 "In July of this year, while hunting, Ioannes fell of his horse and died. Leaving our realm without an heir, and with the age of our Emperor the estates are preparing to make moves against us."
+ fl_flavor_byz.1.a:0 "Our enemies inside and out will be plotting moves..."
+    byz_1400_heir_death:0 "Death of Ioannes"
+    
+ fl_byz_crumbling.1.t:0 "Crisis of the XV Century"
+ fl_byz_crumbling.1.d:0 "Our enemies make their moves, God help us"
+ fl_byz_crumbling.1.a:0 "The time of trials is upon us..."
+ 
+ fl_byz_crumbling.2.t:0 "The Laskarid Rebellion"
+ fl_byz_crumbling.2.d:0 "The Laskarids of Nicaea have raised blades against us."
+ fl_byz_crumbling.2.a:0 "The Laskarids shall know no mercy!"
+ fl_byz_crumbling.2.b:0 "Down with the Komnenos, the Laskarids should rule!"
+ 
+ fl_byz_crumbling.3.t:0 "The Despots of Epirus Claims the Throne"
+ fl_byz_crumbling.3.d:0 "Long have the Doukas sought to gain control of Constantinople, now they make their bid."
+ fl_byz_crumbling.3.a:0 "The Doukas shall die!"
+ 
+ fl_byz_crumbling.4.t:0 "Astrapi Declares the League of Lezhe"
+ fl_byz_crumbling.4.d:0 "Astrapi, a long respected general, has declared the Arbanon lands independent from us."
+ fl_byz_crumbling.4.a:0 "We will reclaim Arbanon"
+ 
+ fl_byz_crumbling.5.t:0 "The Bulgarians Revolt Against Us"
+ fl_byz_crumbling.5.d:0 "A Tsardom has been declared in Tirnovo"
+ fl_byz_crumbling.5.a:0 "Bulgaria shall face our spears!"
+ fl_byz_crumbling.5.b:0 "We cannot afford to deal with Bulgaria right now."
+ 
+ fl_byz_crumbling.6.t:0 "The Palaiologos Attempt a Coup!"
+ fl_byz_crumbling.6.d:0 "The long allies to the Komnenos, the Palaiologos, have made a bid for the Throne."
+ fl_byz_crumbling.6.a:0 "We will not give up easily, we march against the Palaiologean army!"
+ #fl_byz_crumbling.6.b:0 "Screw this I'm fleeing to Pontus!"
+ fl_byz_crumbling.6.b:0 "Let the Komnenos rule Pontus, we shall reconquer them in time."
+    komnenos_flee_to_pontus.tt:0 "§YAlexios Komnenos§! will flee to §YPontus§!, and §YKonstantinos Palaiologos§! will become Basileus"
+    
+ fl_byz_crumbling.7.t:0 "A Divine Opportunity"
+ fl_byz_crumbling.7.d:0 "REPLACE_ME"
+ fl_byz_crumbling.7.a:0 "We shouldn't get involved"
+ fl_byz_crumbling.7.b:0 "Send the crusaders"
+ fl_byz_crumbling.7.c:0 "Deus Vult!"
+ 
+ fl_byz_crumbling.8.t:0 "The Crisis has Ended"
+ fl_byz_crumbling.8.d:0 "REPLACE_ME"
+ fl_byz_crumbling.8.a:0 "Like a Phoenix we Shall Rise from the Ashes!"
+ 
+ fl_byz_crumbling.9.t:0 "Bandits Raze our Territories"
+ fl_byz_crumbling.9.d:0 "REPLACE_ME"
+ fl_byz_crumbling.9.a:0 "Bastardos!"
+ 
+ #Arles
+ flavor_are.1.t:0 "Renewal of the Treaty of Lyon"
+ flavor_are.1.d:0 "Should we renew the treaty allowing Waldensian Autonomy?"
+ flavor_are.1.a:0 "We shall not renew the treaty."
+ flavor_are.1.b:0 "Allow them continued atuonomy!"
+    waldensians_allowed_continued_autonomy.tt:0 "This will allow us to eventually peacefully become Waldensian"
+    
+ flavor_are.2.t:0 "All of Burgundy under one banner!"
+ flavor_are.2.d:0 "Our kingdom has forever united the Burgundies under one banner!"
+ flavor_are.2.a:0 "Omnis Mundus Arles Adorabit!"
+    are_become_arleat.tt:0 "Any remaining §YBurgundian§!, §YArpitan§!, and §YProvencal§! nations will become §YArleat§!."
+    
+ #Siqiliya
+ flavor_siq.1.t:0 "The Siqili Threat"
+ flavor_siq.1.d:0 "The fall of the Duchy of Benevento puts us in a precarious situation. Siqiliya is right at our doorstep and threatens the security of Rome. We must decide if we should seek imperial protection or to bolster ourselves to fight."
+ flavor_siq.1.a:0 "We shall seek imperial protection!"
+    pap_provinces_join_empire.tt:0 "All of our and our subject's provinces will join the §YHRE§!."
+ flavor_siq.1.b:0 "We will not seek imperial protection."

@@ -1,0 +1,12 @@
+﻿l_english:0
+ #Start Dates
+ LET_THERE_BE_LIGHT:0 "§YLet There Be Light§!"
+ LET_THERE_BE_LIGHT_DESC:0 "Iceland prepares for a massive incursion into the mainland, the church of Jan Hus spreads like fire throughout Eastern Europe, threatening the hegemony of the Pope in Rome. The collapse of the Sultanate of Cordoba has massively shifted the balance of power in Europe, this is the last chance for Christendom to retake Iberia before Cordoba can reunify and regain its strength. In Angland, the War of the Barons is brewing, threatening the absolute rule of the Cyning."
+ LET_THERE_BE_LIGHT_ASIA:0 "§YRealms of the East§!"
+ LET_THERE_BE_LIGHT_ASIA_DESC:0 "REPLACE_ME"
+ 
+ #Scripted Trigger Tooltips
+ is_shiite.tt:0 "Primary religion is §YImamiyya§!, §YZaydi§!, §YIsmaili§!, §YAlawite§!, or §Mushasha§!."
+ 
+ #Start up Screens
+ 

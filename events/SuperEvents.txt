@@ -1,0 +1,33 @@
+#####################################
+#    	 Super Events				#
+#									#
+#		written by Alienite			#
+#####################################
+
+namespace = super_event
+normal_or_historical_nations = yes
+
+
+country_event = {		# Byzantium Dismantled
+	id = super_event.1
+	title = "super_event.1.t"
+	desc = "super_event.1.d"
+	picture = BIG_BOOK_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		NOT = { exists = BYZ }
+		ai = no
+	}
+	mean_time_to_happen = {
+		days = -1
+	}
+		
+	immediate = {
+		play_sound = religion_presbytarian
+	}
+	option = {
+		name = "super_event.1.a"
+	}
+}

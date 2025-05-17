@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = parisian
+capital = 186	# Reims
+fixed_capital = 186 # Cannot move capital away from this province & no power cost to move to it
+
+
+1400.1.1 = {
+	monarch = {
+		name = "Robert II"
+		#dynasty = "de Valois"
+		dynasty = "Capet"
+		adm = 0
+		mil = 2
+		dip = 4
+	}
+}

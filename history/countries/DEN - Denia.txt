@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = iqta
+religion = sunni
+primary_culture = sharqi
+technology_group = muslim
+capital = 1750	# Alicant
+religious_school = zahiri_school
+
+government_rank = 1
+
+1444.1.1 = {
+	monarch = {
+		name = "Isma'il III"
+		dynasty = "Umayyad"		#Last Ruling Umayyad
+		adm = 2
+		mil = 0
+		dip = 0
+	}
+}

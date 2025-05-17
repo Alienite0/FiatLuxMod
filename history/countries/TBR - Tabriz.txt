@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = iranian_shahdom
+government_rank = 1
+primary_culture = azerbaijani
+religion = nestorian
+technology_group = muslim
+capital = 416 # Tabriz
+
+#Tabriz Khanate
+
+1400.1.1 = {
+	monarch = {
+		name = "Najaf Qoli"
+		dynasty = "Chobanid"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}

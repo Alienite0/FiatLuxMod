@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = bulgarian
+religion = orthodox
+technology_group = eastern
+capital = 4704	# Tirnovo
+
+
+1428.7.20 = {
+	monarch = {
+		name = "Ivan"
+		dynasty = "Asen"	
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}

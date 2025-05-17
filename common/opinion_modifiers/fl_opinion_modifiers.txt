@@ -1,0 +1,8 @@
+#####################################
+#Brah#
+
+#Byz
+byz_revolted_against_us = {
+	opinion = -75
+	yearly_decay = 1
+}

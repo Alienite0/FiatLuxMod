@@ -1,0 +1,56 @@
+
+
+feudal_lordship = {
+	copy_from = vassal
+	count = vassal
+	
+	# Properties:
+	has_power_projection = yes
+	takes_diplo_slot = no
+	gets_help_with_rebels = yes
+	separatists_become_subjects = yes
+	allows_taking_land_without_independence = yes
+	can_use_claims = yes
+	forms_trade_companies = no
+	can_concentrate_development = no
+
+	trust_on_start = 0
+	
+	base_liberty_desire = 5.0
+	military_focus = 1.0
+
+	relative_power_class = 1
+	should_quit_wars_on_activation = yes
+
+	can_fight = {
+		same_overlord = feudal_lordship
+	}
+	can_rival = {
+	}
+	can_ally = {
+		same_overlord = feudal_lordship
+	}
+	can_marry = {
+		same_overlord = feudal_lordship
+	}
+	
+	# Subject Interactions
+	#(disable)
+	scutage = no
+	grant_core_claim = yes
+	grant_province = yes
+	place_relative_on_throne = no
+	enforce_religion = no
+	enforce_culture = no
+	seize_territory = no
+	#(enable)
+	return_land = yes
+	
+	# Modifiers
+	
+	modifier_overlord = clear #We don't want to duplicate the ones inherited from vassal
+	modifier_subject = clear #Ditto
+	modifier_subject = {
+		modifier = subject_nation
+	}
+}

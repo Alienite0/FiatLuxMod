@@ -1,0 +1,69 @@
+country_decisions = {
+
+	gascon_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_gascony_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				NOT = { exists = GUY }
+				ai = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
+			NOT = { tag = PAP }
+			NOT = { tag = GUY }
+			NOT = { tag = HLR }
+			culture = gascon
+		}
+		provinces_to_highlight = {
+			OR = {
+					province_id = 174
+					province_id = 4954
+					province_id = 173
+					province_id = 176
+					province_id = 175
+					province_id = 4694
+				}
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+		}
+		allow = {
+			#adm_tech = 7
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			NOT = { exists = GUY }
+			owns_core_province = 174	# Bordeaux
+			owns_core_province = 4954	# Landes
+			owns_all_provinces = {
+				area = pyrenees_area
+			}
+		}
+	 	effect = {
+			change_tag = GUY
+			swap_non_generic_missions = yes
+			on_change_tag_effect = yes
+			set_country_flag = formed_gascony_flag
+			add_prestige = 25
+			if = {
+				limit = {
+					has_custom_ideas = no
+					NOT = { has_idea_group = GUY_ideas }
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_importance = 1000
+	}
+	
+}

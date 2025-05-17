@@ -1,0 +1,117 @@
+#Gaule
+ARE = "countries/Arles.txt"
+REI = "countries/Reims.txt"
+PRI = "countries/Paris.txt"
+FNC = "countries/FrancheComte.txt"
+ANE = "countries/Anjou.txt"
+SAI = "countries/Saintonge.txt"
+VIV = "countries/Vivarais.txt"
+LIM = "countries/Limousin.txt"
+ANG = "countries/Angoumois.txt"
+LAM = "countries/LaMarche.txt"
+POI = "countries/Poitou.txt"
+BRD = "countries/Bordeaux.txt"
+CLS = "countries/Calais.txt"
+LAB = "countries/Labourd.txt"
+BOI = "countries/Blois.txt"
+MET = "countries/Metz.txt"
+AQI = "countries/Aquitania.txt"
+VLO = "countries/Valois.txt"
+ARO = "countries/Artois.txt"
+
+#Italia
+SIQ = "countries/Siqilia.txt"
+BVT = "countries/Benevento.txt"
+BRC = "countries/Brescia.txt"
+ITL = "countries/Iitalia.txt"
+NAR = "countries/Novara.txt"
+CMO = "countries/Como.txt"
+ABO = "countries/Arborea.txt"
+CAG = "countries/Cagliari.txt"
+GLL = "countries/Gallura.txt"
+SVO = "countries/Savona.txt"
+
+#Poland
+DOB = "countries/Dobrzyn.txt"
+
+#Russia
+KUK = "countries/Kursk.txt"
+VLD = "countries/Vladimir.txt"
+
+#Anatolia
+CIC = "countries/Cilicia.txt"
+NIC = "countries/Nicaea.txt"
+
+#Levant
+ANO = "countries/Antioch.txt"
+
+#Iberia
+ZAR = "countries/Zaragoza.txt"
+SEV = "countries/Sevilla.txt"
+LIS = "countries/Lisbon.txt"
+IBR = "countries/Iberia.txt"
+TOL = "countries/Toledo.txt"
+ADR = "countries/Andorra.txt"
+AGH = "countries/AlGharb.txt"
+DEN = "countries/Denia.txt"
+CNR = "countries/Canaria.txt"
+
+#Germanie
+AGR = "countries/Angria.txt"
+NEU = "countries/Neumark.txt"
+RAV = "countries/Ravensberg.txt"
+ALM = "countries/Altmark.txt"
+MKD = "countries/Markland.txt"
+WEI = "countries/Weimar.txt"
+ARS = "countries/Arnsberg.txt"
+CMM = "countries/Cammin.txt"
+
+#Lowlands
+BEL = "countries/Belgium.txt"
+
+#Baltics
+HND = "countries/Handlersberg.txt"
+
+#Steppe
+BLH = "countries/BlueHorde.txt"
+WHH = "countries/WhiteHorde.txt"
+ONG = "countries/OngudUlus.txt"
+JET = "countries/Jetisu.txt"
+MOG = "countries/Moghulistan.txt"
+SLY = "countries/Salyr.txt"
+
+#Iran
+KRT = "countries/Kartids.txt"
+LWL = "countries/LaterWesternLiao.txt"
+MIH = "countries/Mihranids.txt"
+ZBL = "countries/Zabulistan.txt"
+SHB = "countries/Shabankara.txt"
+LRE = "countries/Larestan.txt"
+IST = "countries/Istakhr.txt"
+JLY = "countries/Jalayrids.txt"
+SHH = "countries/Shahi.txt"
+KHL = "countries/Khalji.txt"
+KBL = "countries/Kabul.txt"
+
+#Mashriq
+MJR = "countries/Mujirids.txt"
+
+#Siberia
+OBD = "countries/Obdor.txt"
+
+#Balkans
+SII = "countries/Silistria.txt"
+VID = "countries/Vidin.txt"
+
+#Mongolia
+GOR = "countries/Gorlos.txt"
+TUM = "countries/Tumed.txt"
+ORO = "countries/Ordos.txt"
+
+#Manchuria(will rename i think)
+WRK = "countries/Warka.txt"
+
+#Scythia
+ALN = "countries/Alania.txt"
+ABK = "countries/Abkhazia.txt"
+KTL = "countries/Kartli.txt"

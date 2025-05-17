@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = barbary_sultanate_reform
+government_rank = 2
+technology_group = muslim
+religion = ismaili
+primary_culture = siqilian
+capital = 125	# Palermo
+religious_school = ismaili_school

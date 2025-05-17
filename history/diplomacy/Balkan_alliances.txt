@@ -1,0 +1,39 @@
+# Byzantine-Tirnovo
+vassal = {
+	first = BYZ
+	second = SII
+	start_date = 1444.1.1
+	end_date = 1534.1.1
+}
+
+# Byzantine-Epirus Vetus
+vassal = {
+	first = BYZ
+	second = EPI
+	start_date = 1444.1.1
+	end_date = 1534.1.1
+}
+
+# Byzantine-Albania
+vassal = {
+	first = BYZ
+	second = ALB
+	start_date = 1444.1.1
+	end_date = 1534.1.1
+}
+
+#Byzantine-Pontus
+union = {
+	first = BYZ
+	second = TRE
+	start_date = 1444.1.1
+	end_date = 1534.1.1
+}
+
+#Serbia-Vidin
+march = {
+	first = SER
+	second = VID
+	start_date = 1444.1.1
+	end_date = 1534.1.1
+}

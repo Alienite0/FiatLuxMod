@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = iranian_shahdom
+mercantilism = 25
+primary_culture = mazandarani
+religion = zoroastrian
+technology_group = muslim
+capital = 417 # Lahijan
+
+
+1430.1.1 = {
+	monarch = {
+		name = "Cyrus"
+		dynasty = "Spendiad "
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}

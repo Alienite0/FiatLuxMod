@@ -1,0 +1,8 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_disaster_byzantine_crumbling"
+		texturefile = "gfx//interface//disasters//byzantine_crumbling.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}
+}

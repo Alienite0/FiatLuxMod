@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = iqta
+primary_culture = mongol
+religion = shiite
+technology_group = muslim
+capital = 4289 # Gondeshapur
+add_accepted_culture = persian
+add_accepted_culture = al_iraqiya_arabic
+
+1444.1.1 = {
+	monarch = {
+		name = "Helugu"
+		dynasty = "Jalayrid"
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}

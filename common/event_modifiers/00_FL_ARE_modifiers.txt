@@ -1,0 +1,38 @@
+#Arleat Mission/Event Modifiers
+
+waldensian_autonomy_mod = {
+	local_missionary_strength = -1.0
+	local_religious_unity_contribution = 0.05
+}
+
+are_iberian_ties = {
+	heavy_ship_cost = -0.05
+	diplomatic_reputation = 1
+	diplomatic_upkeep = 1
+}
+
+are_union_with_toulouse = {
+	diplomatic_upkeep = 1
+	liberty_desire = -10
+}
+
+are_masters_of_toulouse = {
+	legitimacy = 1
+	imperial_authority_value = 0.1
+}
+
+are_genoa_rebirth = {
+	trade_steering = 0.1
+	global_trade_power = 0.1
+}
+
+are_westend_company_1 = {
+	merchants = 1
+	range = 0.25
+}
+
+are_westend_company_2 = {
+	merchants = 1
+	trade_steering = 0.1
+	range = 0.25
+}

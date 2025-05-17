@@ -1,0 +1,17 @@
+government = republic
+add_government_reform = veche_republic
+government_rank = 1
+primary_culture = byelorussian
+religion = orthodox
+technology_group = eastern
+capital = 275	# Polotsk
+fixed_capital = 275 # Cannot move capital away from this province & no power cost to move to it
+
+1386.1.1 = {
+	monarch = {
+		name = "Vladimir"
+		adm = 0
+		dip = 1
+		mil = 3
+	}
+}

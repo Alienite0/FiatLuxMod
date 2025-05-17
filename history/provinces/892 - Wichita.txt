@@ -1,0 +1,23 @@
+#892 - Wichita
+
+owner = CAD
+add_core = CAD
+controller = CAD
+culture = wichita
+religion = totemism
+capital = "Wichita"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+native_size = 20
+native_ferocity = 3
+native_hostileness = 8
+# tribal_owner = WIC
+
+is_city = yes
+
+
+discovered_by = north_american
+1444.11.12 = { trade_goods = unknown }

@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = lower_saxon
+religion = catholic
+#elector = yes
+technology_group = western
+capital = 4775 # Ravensberg
+
+1428.1.1 = {
+	monarch = {
+		name = "Albrecht"
+		dynasty = "von Welf"		#von Ravensberg
+		birth_date = 1373.1.1
+		dip = 1
+		adm = 3
+		mil = 1
+	}
+}

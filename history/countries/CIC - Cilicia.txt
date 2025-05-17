@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = autocracy_reform 
+primary_culture = armenian
+religion = apostolic
+technology_group = western
+capital = 5018	# Sis
+
+1444.1.1 = {
+	monarch = {
+		name = "Avedis"
+		dynasty = "Hethumid"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}

@@ -1,0 +1,49 @@
+# Lithuania and Pskov
+#vassal = {
+#	first = LIT
+#	second = PSK
+#	start_date = 1444.1.1
+#	end_date = 1503.4.1
+#}
+
+# Russia 
+
+# Vladimir and Yaroslavl
+vassal = {
+	first = VLD
+	second = YAR
+	start_date = 1444.1.1
+	end_date = 1463.1.1
+}
+
+# Vladimir and Beloozero
+vassal = {
+	first = VLD
+	second = BLO
+	start_date = 1444.1.1
+	end_date = 1486.1.1
+}
+
+# Vladimir and Rostov
+vassal = {
+	first = VLD
+	second = RSO
+	start_date = 1444.1.1
+	end_date = 1474.1.1
+}
+
+# Vladimir and Moscow
+vassal = {
+	first = VLD
+	second = MOS
+	start_date = 1444.1.1
+	end_date = 1474.1.1
+}
+
+# Vladimirtsev vassal - Great Perm
+#vassal = {
+#	first = VLD
+#	second = PRM
+#	start_date = 1444.1.1
+#	end_date = 1503.4.1
+#}

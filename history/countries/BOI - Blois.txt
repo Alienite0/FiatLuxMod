@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = orleanais
+religion = catholic
+technology_group = western
+capital = 4776	# Blois
+fixed_capital = 4776 # Cannot move capital away from this province & no power cost to move to it
+
+1420.8.15 = {
+	monarch = {
+		name = "Robert I"
+		dynasty = "de Normandie"
+		adm = 0
+		dip = 1
+		mil = 0
+	}
+}

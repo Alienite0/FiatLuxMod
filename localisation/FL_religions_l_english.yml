@@ -1,0 +1,123 @@
+﻿l_english:0
+ #Religions
+ nestorian:0 "Nestorian"
+ nestorian_religion_desc:0 "Nestorianism is an early Christian branch which holds that Christ has two separate natures - one divine and one human. This is the opposite of the monophysite position where christ has but a single nature."
+ 
+ bogomil:0 "Bogomilism"
+ bogomil_religion_desc:0 "REPLACE_ME"
+ 
+ presbytarian:0 "Presbytarian"
+ presbytarian_religion_desc:0 "REPLACE_ME"
+ 
+ quaker:0 "Quaker"
+ quaker_religion_desc:0 "REPLACE_ME"
+ 
+ manichaeism:0 "Manichaeism"
+ manichaeism_religion_desc:0 "Manichaeism is a dualistic gnostic religion founded by the prophet Mani. Mani believed he was the final prophet after Zoroaster, the Buddha, and Jesus Christ. This religion is highly syncretic combining aspects of Christianity, Zoroastrianism, Buddhism, and paganism. It was once the most widepsread religion in the world, reaching from Britain to China."
+ 
+ zaydi:0 "Zaydi"
+ zaydi_religion_desc:0 "REPLACE_ME"
+ 
+ ismaili:0 "Ismaili"
+ ismaili_religion_desc:0 "REPLACE_ME"
+ 
+ mushasha:0 "Mushasha"
+ mushasha_religion_desc:0 "REPLACE_ME"
+ 
+ yazidi:0 "Yazidi"
+ yazidi_religion_desc:0 "REPLACE_ME"
+ 
+ alawite:0 "Alawite"
+ alawite_religion_desc:0 "REPLACE_ME"
+ 
+ apostolic:0 "Apostolic"
+ apostolic_religion_desc:0 "REPLACE_ME"
+ 
+ zunism:0 "Zhunism"
+ zunism_religion_desc:0 "REPLACE_ME"
+ 
+ wakhan_thanka:0 "Wakhan Thanka"
+ wakhan_thanka_religion_desc:0 "REPLACE_ME"
+ 
+ manitou:0 "Manitou"
+ manitou_religion_desc:0 "REPLACE_ME"
+ 
+ kokumthenan:0 "Kokumthenan"
+ kokumthenan_religion_desc:0 "REPLACE_ME"
+ 
+ mississippian:0 "Mississippian"
+ mississippian_religion_desc:0 "REPLACE_ME"
+ 
+ comanche_religion:0 "Puha"
+ comanche_religion_religion_desc:0 "REPLACE_ME"
+ 
+ hozhooji:0 "Hozhooji"
+ hozhooji_religion_desc:0 "REPLACE_ME"
+ 
+ kachina:0 "Kachina"
+ kachina_religion_desc:0 "REPLACE_ME"
+ 
+ iroquois_religion:0 "Orendism"
+ iroquois_religion_religion_desc:0 "REPLACE_ME"
+ 
+ cathar:0 "Cathar"
+ cathar_religion_desc:0 "REPLACE_ME"
+ 
+ wycliffian:0 "Wycliffite"
+ wycliffian_religion_desc:0 "REPLACE_ME"
+ 
+ waldensian:0 "Waldensian"
+ waldensian_religion_desc:0 "REPLACE_ME"
+ 
+ white_lotus:0 "White Lotus"
+ white_lotus_religion_desc:0 "REPLACE_ME"
+ 
+ bimoism:0 "Bimoism"
+ bimoism_religion_desc:0 "REPLACE_ME"
+ 
+ hmongism:0 "Hmongism"
+ hmongism_religion_desc:0 "REPLACE_ME"
+ 
+ moism:0 "Moism"
+ moism_religion_desc:0 "REPLACE_ME"
+ 
+ shamanist:0 "Shamanist"
+ shamanist_religion_desc:0 "REPLACE_ME"
+ 
+ taoism:0 "Taoist"
+ taoism_religion_desc:0 "REPLACE_ME"
+ 
+ #Holy Site Localization
+ norse_pagan_reformed_blessings:0 "Blessings of the Gods"
+ pick_norse_pagan_reformed_blessing:0 "Choose a God's Blessing"
+ 
+ 
+ #Personal Deities
+ ahura_mazda:0 "§OOhrmuzd§!"          #Wanted to do Ahura Mazda, but didn't fit right
+ mithra:0 "§OMithra§!"
+ anahita:0 "§OAnahita§!"
+ rashnu:0 "§ORashnu§!"
+ sraosha:0 "§OSraosha§!"
+ verethragna:0 "§OVerethragna§!"
+ 
+ #Schools
+ zahiri_school:0 "Zahiri"
+ 
+ #Nestorian Icons
+ icon_nestorius:0 "Icon of St. Nestorius"
+ icon_nestorious_desc:0 "REPLACE_ME"
+ 
+ icon_mari:0 "Icon of St. Mari"
+ icon_mari_desc:0 "REPLACE_ME"
+ 
+ icon_pancreator_nestor:0 "Icon of Christ Pantocrator"
+ icon_pancreator_nestor_desc:0 "Christ Pantocrator depicts the All-powerful Christ, mild yet stern. It is one of the most popular images in our Church and is often seen painted inside the central dome of a church."
+ 
+ icon_sergius:0 "Icon of St. Sergius"
+ icon_sergius_desc:0 "Saint Sergius of Samarkand, responsible for converting the Keraites REPLACE_ME"
+ 
+ icon_zayya:0 "Icon of St. Zayya"
+ icon_zayya_desc:0 "Saint Zayya the Blessed"
+ 
+ #Centers of Reformation
+ orthodox_center_of_reformation:0 "Center of Reformation"

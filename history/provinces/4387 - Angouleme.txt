@@ -1,0 +1,25 @@
+# 4387 Angoulême
+
+owner = ANG
+controller = ANG
+add_core = ANG
+capital = "Angoulême"
+is_city = yes
+culture = poitevin
+religion = catholic 
+hre = yes
+base_tax = 3
+base_production = 3
+trade_goods = livestock
+base_manpower = 2
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.1.1 = {
+	# note - Angoulême as a tag, vassal of Orleans?
+	owner = ANG
+	controller = ANG
+	add_core = ANG
+}

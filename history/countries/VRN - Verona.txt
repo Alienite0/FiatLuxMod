@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = elective_monarchy_reform
+government_rank = 1
+primary_culture = venetian
+religion = catholic
+technology_group = western
+capital = 108
+fixed_capital = 108 # Cannot move capital away from this province & no power cost to move to it
+
+
+1404.1.1 = {
+	monarch = {
+		name = "Brunoro"
+		dynasty = "Della Scala"
+		birth_date = 1380.1.1
+		adm = 3
+		dip = 3
+		mil = 6
+	}
+}

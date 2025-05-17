@@ -1,0 +1,21 @@
+government = tribal
+add_government_reform = steppe_horde
+technology_group = nomad_group
+religion = tengri_pagan_reformed
+secondary_religion = nestorian
+primary_culture = khazak
+capital = 476 # Kypshak
+
+1435.1.1 = {
+	monarch = {
+		name = "Aniyar"
+		dynasty = "Borjigin"
+		birth_date = 1435.1.1
+		death_date = 1481.1.6
+		claim = 90
+		adm = 1
+		dip = 3
+		mil = 2
+		religion = nestorian
+	}
+}

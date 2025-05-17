@@ -1,0 +1,35 @@
+iranian_shahdom = {
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	icon = "ottoman_government"
+	potential = {
+		has_reform = iranian_shahdom
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 20
+	nation_designer_trigger = {
+		culture_group = iranian
+	}
+	#legacy_equivalent = ottoman_government_legacy
+	maintain_dynasty = yes
+	modifiers = {
+		unjustified_demands = -0.1
+		legitimacy = 0.5
+		max_absolutism = 5
+		governing_capacity = 150
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+	#conditional = {
+	#	allow = { has_dlc = "Domination" }
+	#	has_pashas = yes
+	#}
+	#conditional = {
+	#	allow = {
+	#		has_dlc = "Lions of the North"
+	#	}
+	#	allow_carolean = yes
+	#}
+}

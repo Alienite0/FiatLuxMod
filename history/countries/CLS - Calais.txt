@@ -1,0 +1,9 @@
+government = republic
+add_government_reform = free_city
+government_rank = 1
+primary_culture = picard
+religion = catholic
+technology_group = western
+capital = 87 # picardy
+fixed_capital = 87 # Cannot move capital away from this province & no power cost to move to it
+

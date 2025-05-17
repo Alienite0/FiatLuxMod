@@ -1,0 +1,25 @@
+government = monarchy
+add_government_reform = autocracy_reform 
+primary_culture = armenian
+religion = apostolic
+technology_group = eastern
+capital = 419	# Ani
+
+1390.1.1 = {
+	every_province = {
+		limit = { region = persia_region }
+		ROOT = { discover_province = PREV }
+	}
+	discover_province = 4170 
+	discover_province = 4172
+}
+
+1430.1.1 = {
+	monarch = {
+		name = "Hasan"
+		dynasty = "Proshyan"			#This dynasty started as Zakarid vassals, but overthrew them
+		adm = 3
+		dip = 2
+		mil = 1
+	}
+}

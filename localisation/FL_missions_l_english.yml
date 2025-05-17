@@ -1,0 +1,277 @@
+﻿l_english:0
+
+ FL_blank.tt:0 " "
+ 
+ ##########################
+ #Andalusian(ADU) Missions#
+ ##########################
+ #Row One
+ adu_call_on_the_levies_title:0 "Call Upon the Levies"
+ adu_call_on_the_levies_desc:0 "REPLACE_ME"
+    adu_claim_on_neightboring_province.tt:0 "We shall gain claims on all neighboring provinces."
+    
+ adu_restore_the_city_of_cordoba_title:0 "Restore Qurtubah"
+ adu_restore_the_city_of_cordoba_desc:0 "REPLACE_ME"
+ 
+ #Row Two
+  adu_stabilize_the_realm_title:0 "Stabilize the Realm"
+  adu_stabilize_the_realm_desc:0 "REPLACE_ME"
+  
+  adu_reign_in_the_taifas_title:0 "Reign in the Taifas"
+  adu_reign_in_the_taifas_desc:0 "REPLACE_ME"
+    adu_claims_on_muslim_iberia.tt:0 "We shall lay claim to all §GMuslim§! provinces in §YIberia§!."
+  
+  adu_gain_allies_title:0 "Gain Allies"
+  adu_gain_allies_desc:0 "REPLACE_ME"
+    andalusia_gain_trust_favors_w_allies.tt:0 "Gain §Y10§! §Gtrust§! and §Y10§! §Gfavors§! with our allies that are above §Y150§! §Gopinion§!."
+  
+  adu_renovate_alhambra_title:0 "Renovate Al-Hambra"
+  adu_renovate_alhambra_desc:0 "REPLACE_ME"
+  
+  adu_reinvite_scholars_title:0 "Reinvite Scholars"
+  adu_reinvite_scholars_desc:0 "REPLACE_ME"
+
+  
+ #Row Three  
+ adu_cordoban_mantle_reclaimed_title:0 "Cordoban Mantle"
+ adu_cordoban_mantle_reclaimed_desc:0 "REPLACE_ME"
+    sets_flag_cordoban_mantle_flag.tt:0 "Sets country flag '§YCordoban Mantle Reclaimed§!'"
+    reclaimed_cordoban_mantle_flag:0 "Cordoban Mantle Reclaimed"
+    adu_qurtubah_rename_and_color_change.tt:0 "Our nation shall be renamed to §YQurtubah§! and we will gain a new color."
+    
+ adu_rival_leonese_fleet_title:0 "Rival Leonese Fleet"
+ adu_rival_leonese_fleet_desc:0 "REPLACE_ME"
+ 
+ adu_restore_trade_superiority_title:0 "Restore Trade Superiority"
+ adu_restore_trade_superiority_desc:0 "REPLACE_ME"    
+    
+ #Row Four
+ adu_destroy_leon_castille_title:0 "Destroy Leon-Castille"
+ adu_destroy_leon_castille_desc:0 "REPLACE_ME"
+ 
+ adu_encroaching_on_the_empire_title:0 "Encroach on the Empire"
+ adu_encroaching_on_the_empire_desc:0 "REPLACE_ME"
+ 
+ adu_into_the_unknown_title:0 "Into the Unknown"
+ adu_into_the_unknown_desc:0 "REPLACE_ME"
+ 
+ adu_claim_mediterranean_islands_title:0 "Claim Sardinia"
+ adu_claim_mediterranean_islands_desc:0 "REPLACE_ME"
+ 
+ #Row Five
+ adu_iberian_dawn_title:0 "Iberian Dawn"
+ adu_iberian_dawn_desc:0 "REPLACE_ME"
+ 
+ #adu_buy_africa: defined already by pdx
+    adu_trade_company_founded:0 "Naval Trade Investment Policy"
+ 
+ #Row Six
+ adu_into_septimania_title:0 "Into Septimania"
+ adu_into_septimania_desc:0 "REPLACE_ME"
+ 
+ adu_emirate_of_new_asturias_title:0 "Emirate of New Asturias"
+ adu_emirate_of_new_asturias_desc:0 "REPLACE_ME"
+    adu_new_asturias:0 "Emirate of New Asturias"
+ 
+ adu_found_havana_title:0 "Found Hafana"
+ adu_found_havana_desc:0 "REPLACE_ME"
+ 
+ #Row Six
+ adu_infiltrate_morocco_title:0 "Infiltrate Morocco"
+ adu_infiltrate_morocco_desc:0 "REPLACE_ME"
+ 
+ adu_conquer_the_inca_title:0 "Conquer the Inca"
+ adu_conquer_the_inca_desc:0 "REPLACE_ME"
+ 
+ adu_destroy_the_aztecs_title:0 "Destroy the Aztecs"
+ adu_destroy_the_aztecs_desc:0 "REPLACE_ME"
+ 
+ adu_la_plata_cn_title:0 "Settle the Southern Plain"
+ adu_la_plata_cn_desc:0 "REPLACE_ME"
+ 
+ #Row Seven
+ #Moroccan conquest mission already defined
+ 
+ adu_wealth_of_potosi_title:0 "Wealth of Potosi"
+ adu_wealth_of_potosi_desc:0 "REPLACE_ME"
+ 
+ adu_viceroyalty_new_andalusia_title:0 "Viceroyalty of New Andalus"
+ adu_viceroyalty_new_andalusia_desc:0 "REPLACE_ME"
+    adu_viceroyalty_of_new_andalus:0 "Viceroyalty of New Andalus"
+ 
+ #Row Eight
+ adu_own_tunis_title:0 "Lords of Tunis"
+ adu_own_tunis_desc:0 "REPLACE_ME"
+ 
+ #Row Nine
+ adu_mediterranean_breadbasket_title:0 "Mediterranean Breadbasket"
+ adu_mediterranean_breadbasket_desc:0 "REPLACE_ME"
+ 
+ #Row Ten
+ #Levantine restoration already defined
+ 
+ 
+ #########################
+ #Icelandic(ICE) Missions#
+ #########################
+ #Row One
+ ice_king_of_the_isles_title:0 "Kingdom of the Isles"
+ ice_king_of_the_isles_desc:0 "REPLACE_ME"
+ 
+ ice_ivory_from_the_west_title:0 "A Shipment of Ivory?"
+ ice_ivory_from_the_west_desc:0 "REPLACE_ME"
+    ice_new_contact_with_vinland:0 "Contact with Vinland?"
+ 
+ #Row Two
+ ice_king_of_scots_title:0 "King of Scots"
+ ice_king_of_scots_desc:0 "REPLACE_ME"
+    ice_growing_legitimacy:0 "Growing Legitimacy"
+ 
+ ice_king_of_norway_title:0 "Kings of Norway"
+ ice_king_of_norway_desc:0 "REPLACE_ME"
+ 
+ #Row Three
+ ice_restoration_of_the_danelaw_title:0 "Restore the Danelaw"
+ ice_restoration_of_the_danelaw_desc:0 "REPLACE_ME"
+    ice_northumbrian_shipyards:0 "Northumbrian Shipyards"
+ 
+ ice_banner_of_svealand_title:0 "Claim the Svean Banner"
+ ice_banner_of_svealand_desc:0 "REPLACE_ME"
+ 
+ #Row Four
+ ice_lord_of_all_angleland_title:0 "Lord of the Angles"
+ ice_lord_of_all_angleland_desc:0 "REPLACE_ME"
+    ice_total_naval_hegemony:0 "Total Naval Hegemony"
+ 
+ ice_cross_the_danish_strait_title:0 "The Danish Straits"
+ ice_cross_the_danish_strait_desc:0 "REPLACE_ME"
+    ice_gain_claims_on_major_hanseatic_cities:0 "§YIceland§! gains claims on the major §YHanseatic§! cities."
+ 
+ #Row Five
+ ice_gaelic_lords_title:0 "Lord of Tutorial Island"
+ ice_gaelic_lords_desc:0 "REPLACE_ME"
+ 
+ ice_finish_the_finnish_title:0 "Finish the Finnish"
+ ice_finish_the_finnish_desc:0 "REPLACE_ME"
+ 
+ #Row Six
+ ice_claims_on_the_lands_of_rollo_title:0 "The Lands of Rollo"
+ ice_claims_on_the_lands_of_rollo_desc:0 "REPLACE_ME"
+ 
+ ice_proclaim_the_north_sea_empire_title:0 "Empire of the North"
+ ice_proclaim_the_north_sea_empire_desc:0 "REPLACE_ME"
+    ice_north_sea_empire:0 "The North Sea Empire"
+ 
+ ice_reorganize_the_hansa_title:0 "Reorganize the Hansa"
+ ice_reorganize_the_hansa_desc:0 "REPLACE_ME"
+    ice_full_control_of_baltic_trade:0 "Controlling Baltic Trade"
+    
+    
+ #########################
+ #Rhomanian(BYZ) Missions#
+ #########################
+ #Row One
+ byz_deteriorating_army_title:0 "Repaired the Army"
+ byz_deteriorating_army_desc:0 "REPLACE_ME"
+   #byz_repaired_the_army.tt:0 "
+    byz_repaired_the_army:0 "Repaired Byzantine Army"
+    
+    
+ ######################
+ #Arleat(ARE) Missions#
+ ######################
+ #Row One
+ are_secure_electors_title:0 "Secure the Emperorship"
+ are_secure_electors_desc:0 "REPLACE_ME"
+    
+ are_iberian_relations_title:0 "Leonese Ties"
+ are_iberian_relations_desc:0 "REPLACE_ME"
+ 
+ #Row Two
+ are_imperial_borders_title:0 "Secure Imperial Borders"
+ are_imperial_borders_desc:0 "REPLACE_ME"
+ 
+ are_a_holy_empire_title:0 "A Holy Empire"
+ are_a_holy_empire_desc:0 "REPLACE_ME"
+ 
+ are_imperial_ascendancy_title:0 "Imperial Ascendency"
+ are_imperial_ascendancy_desc:0 "REPLACE_ME"
+ 
+ are_catalonian_march_title:0 "Catalonian March"
+ are_catalonian_march_desc:0 "REPLACE_ME"
+ 
+ #Row Three
+ are_imperial_capitals_title:0 "Imperial Cities"
+ are_imperial_capitals_desc:0 "REPLACE_ME"
+ 
+ are_true_holy_roman_emperor_title:0 "Truly a Holy Roman Empire"
+ are_true_holy_roman_emperor_desc:0 "REPLACE_ME"
+ 
+ are_a_roman_empire_title:0 "Emperor of Rome"
+ are_a_roman_empire_desc:0 "REPLACE_ME"
+ 
+ are_iberian_lords_title:0 "Lords of Iberia"
+ are_iberian_lords_desc:0 "REPLACE_ME"
+ 
+ #Row Four
+ are_masters_of_toulouse_title:0 "Masters of Toulouse"
+ are_masters_of_toulouse_desc:0 "REPLACE_ME"
+ 
+ are_burgundian_unification_title:0 "Burgundian Reunification"
+ are_burgundian_unification_desc:0 "REPLACE_ME"
+ 
+ are_italian_ambition_title:0 "Italian Ambitions"
+ are_italian_ambition_desc:0 "REPLACE_ME"
+ 
+ #Row Five
+ are_aquitanian_ascendancy_title:0 "Aquitanian Ascendency"
+ are_aquitanian_ascendancy_desc:0 "REPLACE_ME"
+ 
+ are_reorganize_swiss_cantons_title:0 "Subjugate the Cantons"
+ are_reorganize_swiss_cantons_desc:0 "REPLACE_ME"
+ 
+ are_genoese_rebirth_title:0 "Genoese Renaissance"
+ are_genoese_rebirth_desc:0 "REPLACE_ME"
+    #are_perm_claim_on_pisa_city:0 "§YArles§! gains a permanant claim on §YPisa§!."
+    are_perm_claim_on_pisa_city:0 "§YArles§! gains a permanant claim on all §YPisan§! provinces."
+    
+ are_po_valley_subjugation_title:0 "Subjugate Po Valley"
+ are_po_valley_subjugation_desc:0 "REPLACE_ME"
+ 
+ #Row Six
+ are_crown_of_gaul_title:0 "Crown of Gaul"
+ are_crown_of_gaul_desc:0 "REPLACE_ME"
+ 
+ are_tuscan_domination_title:0 "Dominate Tuscany"
+ are_tuscan_domination_desc:0 "REPLACE_ME"
+ 
+ are_papal_relations_title:0 "Papal Influence"
+ are_papal_relations_desc:0 "REPLACE_ME"
+ 
+ #Row Seven
+ are_kingdom_of_italy_title:0 "Kingdom of Italy"
+ are_kingdom_ofitaly_desc:0 "REPLACE_ME"
+ 
+ are_balance_estates_title:0 "Balance the Estates"
+ are_balance_estates_desc:0 "REPLACE_ME"
+ 
+ #Row Eight
+  
+ are_african_ports_title:0 "African Ports"
+ are_african_ports_desc:0 "REPLACE_ME"
+ 
+ are_arles_prospers_title:0 "A Prosperous Nation"
+ are_arles_prospers_desc:0 "REPLACE_ME"
+ 
+ are_arles_university_title:0 "University of Arles"
+ are_arles_university_desc:0 "REPLACE_ME"
+ 
+ #Row Nine
+ are_arleat_noble_culture_title:0 "Noble Arleat Culture"
+ are_arleat_noble_culture_desc:0 "REPLACE_ME"
+ 
+ are_westend_company_title:0 "The Westende Company"
+ are_westend_company_desc:0 "REPLACE_ME"
+ 
+ are_indian_riches_title:0 "Riches of India"
+ are_indian_riches_desc:0 "REPLACE_ME"

@@ -1,0 +1,9 @@
+government = theocracy
+add_government_reform = leading_clergy_reform
+primary_culture = poitevin
+religion = catholic
+technology_group = western
+capital = 4111	# Saintes
+fixed_capital = 4111 # Cannot move capital away from this province & no power cost to move to it
+
+elector = yes

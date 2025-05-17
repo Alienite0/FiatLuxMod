@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = system_of_councils_reform
+primary_culture = leonese
+religion = catholic
+technology_group = western
+capital = 217 # Madrid
+government_rank = 2

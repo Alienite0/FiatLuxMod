@@ -1,0 +1,287 @@
+
+#Shiba-Oda
+alliance = {
+	first = SBA
+	second = ODA
+	start_date = 1444.1.1
+	end_date = 1532.1.1
+}
+
+#Anti Uesugi Alliance
+alliance = {
+	first = STK
+	second = UTN
+	start_date = 1444.1.1
+	end_date = 1483.1.6
+}
+alliance = {
+	first = STK
+	second = CBA
+	start_date = 1444.1.1
+	end_date = 1483.1.6
+}
+alliance = {
+	first = UTN
+	second = CBA
+	start_date = 1444.1.1
+	end_date = 1483.1.6
+}
+
+#Hosokawa-Tokugawa
+alliance = {
+	first = HSK
+	second = TKG
+	start_date = 1444.1.1
+	end_date = 1478.1.1
+}
+
+#Hatakeyama-Tsutsui
+alliance = {
+	first = HSK
+	second = HTK
+	start_date = 1444.1.1
+	end_date = 1455.1.1
+}
+
+# Shoni-So
+alliance = {
+	first = SHN
+	second = SOO
+	start_date = 1444.1.1
+	end_date = 1559.2.18
+}
+
+# Daimyo Vassals
+#1573.7.3 -> Oda
+#1600.10.21 -> Tokugawa
+
+vassal = { #So
+	first = HJO
+	second = SOO
+	start_date = 1444.11.11
+	end_date = 1573.7.1
+}
+
+vassal = { #Kitabatake
+	first = HJO
+	second = KTB
+	start_date = 1444.11.11
+	end_date = 1569.10.3 #Annexed
+}
+
+vassal = {
+	first = HJO
+	second = AMA
+	start_date = 1444.11.11
+	end_date = 1566.11.28 #Annexed
+}
+
+vassal = {
+	first = HJO
+	second = DTE
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = HJO
+	second = RFR
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = HJO
+	second = HSK
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = HJO
+	second = HTK
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = HJO
+	second = IMG
+	start_date = 1444.11.11
+	end_date = 1568.12.1 #Annexed
+}
+
+vassal = {
+	first = HJO
+	second = ODA
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = HJO
+	second = OTM
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = HJO
+	second = OUC
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = HJO
+	second = SBA
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = HJO
+	second = SMZ
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = HJO
+	second = TKD
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = HJO
+	second = TKG
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = HJO
+	second = UES
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = HJO
+	second = YMN
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = HJO
+	second = AKT
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = HJO
+	second = CBA
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = HJO
+	second = ISK
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = HJO
+	second = ITO
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = HJO
+	second = KKC
+	start_date = 1444.11.11
+	end_date = 1554.1.1 #Annexed
+}
+
+vassal = {
+	first = HJO
+	second = KNO
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = HJO
+	second = OGS
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = HJO
+	second = SHN
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = HJO
+	second = STK
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = HJO
+	second = TKI
+	start_date = 1444.11.11
+	end_date = 1567.10.1 #Annexed
+}
+
+vassal = {
+	first = HJO
+	second = UTN
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = HJO
+	second = TTI
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = HJO
+	second = ASA
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = HJO
+	second = MRI
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = HJO
+	second = CSK
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = HJO
+	second = ASK
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}

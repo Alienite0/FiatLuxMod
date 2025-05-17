@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = sardinian_judicate
+technology_group = western
+religion = catholic
+primary_culture = sardinian
+capital = 2986	# Cagliari
+
+1407.1.1 = {
+	monarch = { 
+		name = "Andrea I"
+		dynasty = "Massa"
+		dip = 1
+		mil = 1
+		adm = 2
+	}
+}

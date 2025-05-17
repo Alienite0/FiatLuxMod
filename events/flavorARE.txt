@@ -1,0 +1,184 @@
+#####################################
+# Events for Arles					#
+#									#
+# written by Alienite				#
+#####################################
+
+namespace = flavor_are
+normal_or_historical_nations = yes
+
+
+country_event = {			# Waldensians of Lyon
+	id = flavor_are.1
+	title = flavor_are.1.t
+	desc = flavor_are.1.d
+	picture = PRAYING_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = ARE
+	}	
+	option = {		# Do not renew the treaty of autonomy
+		name = flavor_are.1.a
+		set_country_flag = waldensians_not_allowed_autonomy
+		remove_province_modifier = waldensian_autonomy_mod
+		custom_tooltip = waldensians_not_allowed_continued_autonomy.tt
+		every_owned_province = {
+			limit = {
+				religion = waldensian
+			}
+			spawn_rebels = {
+				type = waldensian_rebels
+				size = 1
+			}
+		}
+	}
+	option = {		# Allow them continued autonomy!
+		name = flavor_are.1.b
+		trigger = { ai = no }
+		set_country_flag = waldensians_allowed_autonomy
+		#custom_tooltip = waldensians_allowed_continued_autonomy.tt
+		every_owned_province = {
+			limit = {
+				religion = waldensian
+			}
+			add_province_modifier = {
+				name = waldensian_autonomy_mod
+				duration = -1				
+			}
+		}
+	}
+}
+
+country_event = {			#Unification of the Burgundies
+	id = flavor_are.2
+	title = flavor_are.2.t
+	desc = flavor_are.2.d
+	picture = REFORM_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = ARE
+	}	
+	
+	option = {
+		name = flavor_are.2.a 
+		
+		change_primary_culture = arleat
+		custom_tooltip = are_become_arleat.tt
+		hidden_effect = {
+			every_province = {
+				limit = {
+					OR = {
+						culture = burgundian
+						culture = arpitan
+						culture = provencal
+					}	
+				}
+				change_culture = arleat
+			}
+			set_ruler_culture = arleat
+			if = {
+				limit = {
+					has_heir = yes
+				}
+				set_heir_culture = arleat
+			}
+			if = {
+				limit = {
+					has_consort = yes
+					OR = {
+						consort_culture = burgundian
+						consort_culture = arpitan
+						consort_culture = provencal
+					}
+				}
+				set_consort_culture = arleat
+			}
+			every_country = {
+				limit = {
+					OR = {
+						culture = burgundian
+						culture = arpitan
+						culture = provencal
+					}
+				}
+				change_primary_culture = arleat
+				set_ruler_culture = arleat
+				if = {
+					limit = {
+						has_heir = yes
+					}
+					set_heir_culture = arleat
+				}
+				if = {
+					limit = {
+						has_consort = yes
+						OR = {
+							consort_culture = burgundian
+							consort_culture = arpitan
+							consort_culture = provencal
+						}
+					}
+					set_consort_culture = arleat
+				}
+			}
+		}
+	}
+}
+
+country_event = {			# Kingdom of Italy
+	id = flavor_are.3
+	title = flavor_are.3.t
+	desc = flavor_are.3.d
+	picture = DIET_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = ARE
+	}	
+	option = {		# Release the Kingdom
+		name = flavor_are.3.a
+		every_owned_province = {
+			limit = { 		#using culture cause im dumb and cant figure out area
+				OR = {
+					culture = tuscan
+					culture = venetian
+					culture = lombard
+					culture = romagnan
+				}
+			}
+			add_core = ITA
+		}
+		release = ITA
+		ITA = {
+			change_country_color = { color = { 235 231 185 } }
+		}
+		ROOT = {
+			create_union = ITA
+		}
+		ITA = {
+			give_claims = { area = naples_area }
+			give_claims = { area = calabria_area }
+			give_claims = { area = apulia_area }
+			give_claims = { area = central_italy_area }
+			give_claims = { area = sicily_area }
+			give_claims = { area = western_sicily_area }
+		}
+	}
+	option = {		# Allow them continued autonomy!
+		name = flavor_are.3.b
+		trigger = { ai = no }
+		ROOT = {
+			give_claims = { area = naples_area }
+			give_claims = { area = calabria_area }
+			give_claims = { area = apulia_area }
+			give_claims = { area = central_italy_area }
+			give_claims = { area = sicily_area }
+			give_claims = { area = western_sicily_area }
+		}
+	}
+}

@@ -1,0 +1,29 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = lombard
+religion = catholic
+technology_group = western
+capital = 4740 # Como
+fixed_capital = 4740 # Cannot move capital away from this province & no power cost to move to it
+add_army_professionalism = 0.05
+
+change_estate_land_share = {
+	estate = estate_church
+	share = -5
+}
+change_estate_land_share = {
+	estate = estate_burghers
+	share = 5
+}
+
+1413.5.16 = {
+	monarch = {
+		name = "Claudio"
+		dynasty = "Rusca"
+		birth_date = 1394.9.3
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
