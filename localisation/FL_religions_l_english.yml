@@ -87,6 +87,9 @@
  taoism:0 "Taoist"
  taoism_religion_desc:0 "REPLACE_ME"
  
+ khabzeism:0 "Khabeism"
+ khabzeism_religion_desc:0 "REPLACE_ME"
+ 
  #Holy Site Localization
  norse_pagan_reformed_blessings:0 "Blessings of the Gods"
  pick_norse_pagan_reformed_blessing:0 "Choose a God's Blessing"

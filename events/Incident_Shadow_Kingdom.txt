@@ -60,6 +60,17 @@ country_event = {
 				}
 				country_event = { id = shadow_kingdom.4 }
 			}
+			every_country = {
+				limit = {
+					has_reform = free_city
+					OR = {
+						region = north_german_region
+						region = south_german_region
+					}
+				}
+				remove_government_reform = free_city
+				#add_government_reform = oligarchy_reform
+			}
 		}
 		every_province = {
 			limit = {
@@ -71,17 +82,6 @@ country_event = {
 				owner = {
 					is_part_of_hre = no
 				}
-			}
-			every_country = {
-				limit = {
-					has_reform = free_city
-					OR = {
-						region = north_german_region
-						region = south_german_region
-					}
-				}
-				remove_government_reform = free_city
-				#add_government_reform = oligarchy_reform
 			}
 			set_in_empire = no
 		}

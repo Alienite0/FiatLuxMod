@@ -1,0 +1,86 @@
+#Country Name: Please see filename.
+
+graphical_culture = asiangfx
+
+color = { 17 153 255 } 
+
+historical_idea_groups = {
+	horde_ideas
+	defensive_ideas
+	trade_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	quality_ideas
+	religious_ideas
+}
+
+historical_units = {
+	steppe_riders
+	steppe_lancers
+	steppe_mounted_raiders
+	steppe_cavalry
+	steppe_uhlans
+	steppe_raiders
+	steppe_footmen
+	steppe_musketeers
+	steppe_infantry
+	steppe_rifles
+	reformed_steppe_rifles
+}
+
+monarch_names = {
+	"Aiaan #0" = 10
+	"Atch-ytagyn #0" = 10
+	"Giv-ynkeev #0" = 10
+	"Nute-nli #0" = 10
+	"Gyrgol-gyrgyn #0" = 10
+	"Tanat #0" = 10
+	"Darkhan #0" = 10
+	"Dokhsun #0" = 20
+	"Duolan #0" = 20
+	"Dygyn #0" = 10
+	"Dulustaan #0" = 10
+	"Kyytymei #0" = 10
+	"Kencheeri #0" = 10
+	"Keskil #0" = 10
+	"Manchaary #0" = 20
+	"Michil #0" = 10
+	"Modun #0" = 10
+	"Nurgun #0" = 20
+	"Nuolan #0" = 20
+	"Sulustaan #0" = 10
+	"Tolluman #0" = 10
+	"Timir #0" = 10
+	"Tygyn #0" = 10
+	"Tuskul #0" = 10
+	"Uolan #0" = 10
+	"Ergis #0" = 10
+	"Erchim #0" = 10
+	"Erkin #0" = 10
+	"Yrgel #0" = 10
+	"Kharyskhan #0" = 10
+	
+	"Naryiaana #0" = -1
+	"Aiyyna #0" = -1
+	"Kydaana  #0" = -1
+	"Tuskulaana  #0" = -1
+	"Khaarchaana  #0" = -1
+	"Temülen  #0" = -1
+	"Börte  #0" = -1
+	"Mandukhai  #0" = -1
+	"Samar  #0" = -1
+	"Zaufishan  #0" = -1
+}
+
+leader_names = { 
+	"Mongke Cheren" "Suren Gal" "Chagan Chinua" "Batu Arslan"
+	"Bora Unegen" Kokechar Qutughgge Temurgene Yekedai Tegus-tu 
+	Toluichu Cherenqai Burilgijin
+}
+
+ship_names = {
+	"Uli Jüz" "Orta Jüz" "Kisi Jüz" Töre
+	Qoja Tölengit Turgay Isim Emba Uil
+	Syrdarja Cu Ili Irtys Nura
+}

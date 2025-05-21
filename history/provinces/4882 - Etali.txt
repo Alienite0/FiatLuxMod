@@ -1,6 +1,9 @@
 # No previous file for Etali
 
-
+owner = CHE
+controller = CHE
+add_core = CHE
+is_city = yes
 culture = cherokee
 religion = totemism
 capital = "Eta"

@@ -100,6 +100,7 @@
  PROV5016:0 "Limassol"
  PROV5017:0 "Arish"
  PROV5018:0 "Sis"
+ PROV5019:0 "Jiao'ao"
  
  #Province Adjectives   for some reason
  PROV_ADJ4942:0 "Achridos"
@@ -179,3 +180,4 @@
  PROV_ADJ5016:0 "Limassol"
  PROV_ADJ5017:0 "Arish"
  PROV_ADJ5018:0 "Sis"
+ PROV_ADJ5019:0 "Jiao'ao"

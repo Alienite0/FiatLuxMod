@@ -129,7 +129,7 @@ sea_of_grau_area = {
 }
 
 chilean_sea_area = {
-	1539 1540 1541 1542 1543
+	1539 1540 1541 1542 1543 5007
 }
 
 gulf_of_panama_area = {
@@ -2876,8 +2876,8 @@ south_hebei_area = { #4
 	695 696 2137 4195
 }
 
-shandong_area = { #5
-	690 691 2138 2139 2140
+shandong_area = { #6
+	690 691 2138 2139 2140 5019
 }
 
 jiangsu_area = { #3

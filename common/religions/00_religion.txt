@@ -1948,7 +1948,7 @@ eastern = {
 		heretic = { TAOIST }
 		#uses_harmony = yes
 		can_have_secondary_religion = yes
-		harmonized_modifier = harmonized_confucianism
+		#harmonized_modifier = harmonized_confucianism
 	}
 	
 	taoism = {
@@ -1966,7 +1966,6 @@ eastern = {
 			local_missionary_strength = -0.02
 		}
 		heretic = { QUANZHEN }
-		uses_harmony = yes #neoconfucian was wacky
 		
 		#can_have_secondary_religion = yes
 	}
@@ -1988,9 +1987,10 @@ eastern = {
 		heretic = { SHUGENDO }
 		uses_isolationism = yes
 		
-		harmonized_modifier = harmonized_shinto
+		#harmonized_modifier = harmonized_shinto
 		
 	}
+	harmonized_modifier = harmonized_mahayana
 	
 	crusade_name = CRUSADE
 	
@@ -3240,11 +3240,11 @@ manichean_group = {
 		}
 		
 		#personal_deity = yes
+		uses_harmony = yes #neoconfucian was wacky
 		
 		heretic = { OLD_MANICHEAN }
 		
 	}
-	harmonized_modifier = harmonized_mahayana
 }
 
 north_american_native_g = {

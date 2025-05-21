@@ -1,9 +1,9 @@
 #993 - Hochelega
 
-# owner = OSH
-# controller = OSH
-# add_core = OSH
-# is_city = yes
+owner = OSH
+controller = OSH
+add_core = OSH
+is_city = yes
 culture = laurentian
 religion = iroquois_religion
 capital = "Hochelega"

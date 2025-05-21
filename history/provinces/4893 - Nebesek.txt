@@ -14,4 +14,9 @@ native_hostileness = 2
 # tribal_owner = STA
 discovered_by = north_american
 
+owner = OSH
+controller = OSH
+add_core = OSH
+is_city = yes
+
 1444.11.12 = { trade_goods = unknown }

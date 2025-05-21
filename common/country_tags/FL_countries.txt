@@ -98,6 +98,7 @@ MJR = "countries/Mujirids.txt"
 
 #Siberia
 OBD = "countries/Obdor.txt"
+SKH = "countries/Sakha.txt"
 
 #Balkans
 SII = "countries/Silistria.txt"

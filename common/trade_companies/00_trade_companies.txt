@@ -348,6 +348,8 @@ trade_company_north_china = {
 		704 726 2112 2113 4652  #Liaoning
 		693 694 697 2177 2178 #Shanxi
 		4670
+		#Fiat Lux
+		5019
 	}
 	
 	# Specific

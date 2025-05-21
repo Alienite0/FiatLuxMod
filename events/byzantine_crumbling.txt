@@ -579,7 +579,7 @@ country_event = {
 		name = fl_byz_crumbling.9.a
 		#custom_tooltip = byz_bandits_cause_devastation
 		random_owned_province = {
-			add_devastation = 25
+			add_devastation = 10
 		}
 	}
 }

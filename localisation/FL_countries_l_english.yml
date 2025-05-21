@@ -178,6 +178,8 @@
  ABK_ADJ:0 "Abkhazian"
  KTL:0 "Kartli"
  KTL_ADJ:0 "Kartlian"
+ SKH:0 "Sakha"
+ SKH_ADJ:0 "Sakha"
  
  #Renames
  SULTANATE_OF_CORDOBA:0 "Qurtubah"

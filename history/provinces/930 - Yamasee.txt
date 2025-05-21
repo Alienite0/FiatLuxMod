@@ -1,9 +1,9 @@
 #930 - Yamasee
 
-# owner = KSI
-# controller = KSI
-# add_core = KSI
-# is_city = yes
+owner = CRE
+controller = CRE
+add_core = CRE
+is_city = yes
 culture = creek
 religion = mississippian
 capital = "Yamasee"

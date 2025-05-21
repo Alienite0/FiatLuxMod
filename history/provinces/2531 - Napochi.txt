@@ -1,9 +1,9 @@
 # No previous file for Napochi
 
-# owner = ABI
-# controller = ABI
-# add_core = ABI
-# is_city = yes
+owner = CRE
+controller = CRE
+add_core = CRE
+is_city = yes
 culture = creek
 religion = mississippian
 capital = "Napochi"

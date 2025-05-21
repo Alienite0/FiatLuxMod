@@ -5627,6 +5627,9 @@ eastern_algonquian = {
 			Awashonks Djitsbudnaca Weetamoo Wootonekanuske
 		}
 	}
+	passamaquoddy = {
+		primary = MLS
+	}
 }
 
 iroquoian = {

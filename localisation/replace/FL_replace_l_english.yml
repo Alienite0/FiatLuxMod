@@ -141,6 +141,17 @@
  SME_ADJ:0 "Meskhetian"
  CAB:0 "Kalina"
  CAB_ADJ:0 "Kalina"
+ MOS:0 "Moscow"
+ MOS_ADJ:0 "Muscovite"
+ CHG:0 "Chagatai"
+ CHG_ADJ:0 "Chagatai"
+ MIK:0 "Mikmaqi"
+ MIK_ADJ:0 "Mikmaqi"
+ MLS:0 "Wolastoqiyiki"
+ MLS_ADJ:0 "Wolastoqiyiki"
+ CRE:0 "Muscogee"
+ CRE_ADJ:0 "Muscogee"
+ 
  
  #Cultures
  #germanic:0 "Frankish"
@@ -198,6 +209,8 @@
  zhuang_new:0 "Zhuang"
  british:0 "Anglish"
  byelorussian:0 "Belarusian"
+ dagestani:0 "Kumuk"
+ maliseet:0 "Wolastoqiyik"
  
  #Parliament
  ENG_parliament_name:0 "Witenagemot"
@@ -274,6 +287,7 @@
  PROV367:0 "Sao Miguel"
  PROV321:0 "Nicosia"
  PROV425:0 "Quba"
+ PROV2200:0 "Aparanchal Range"
  
  #Areas
  lower_andalucia_area:0 "West al-Mawsat"
