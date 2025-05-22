@@ -181,3 +181,8 @@
  PROV_ADJ5017:0 "Arish"
  PROV_ADJ5018:0 "Sis"
  PROV_ADJ5019:0 "Jiao'ao"
+ 
+ 
+ #Trade Goods
+ rice_good:0 "Rice"
+ rice_goodDESC:0 "REPLACE_ME"
