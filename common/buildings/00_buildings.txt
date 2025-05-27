@@ -2454,6 +2454,7 @@ farm_estate = {
 		grain
 		livestock
 		wine
+		rice_good
 	}
 	onmap = yes
 	on_built = {

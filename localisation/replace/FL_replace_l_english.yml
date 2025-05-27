@@ -38,8 +38,10 @@
  CLI_ADJ:0 "Carantanian"
  MJO:0 "Mayurqa"
  MJO_ADJ:0 "Mayurqan"
- SCO:0 "Albany"
- SCO_ADJ:0 "Alban"
+ #SCO:0 "Albany"
+ #SCO_ADJ:0 "Alban"
+ SCO:0 "Scotland"
+ SCO_ADJ:0 "Scottish"
  CAN:0 "Borealia"
  CAN_ADJ:0 "Borealian"
  POR:0 "Porto"
@@ -217,6 +219,7 @@
  
  #Monuments
  white_house:0 "President's Palace" 
+ kremlin:0 "Vladimir Kremlin"
  
  #Regions
  #france_region:0 "Gaule"            # Since Germany is Frankia, OTL France is named after the roman name
@@ -307,6 +310,7 @@
  
  #Trade Good
  gold:0 "Precious Metals"
+ naval_supplies:0 "Lumber"
  
  #Religions
  inti:0 "Andean"
@@ -359,6 +363,18 @@
 
  #Ideas
  GRA_ideas:0 "Andalusi Ideas"
+ 
+ 
+ #Angland and Brytannia
+ eng_red_coats:0 "Bluecoats"
+ 
+ british_bill_of_rights:0 "Anglish Bill of Rights"
+ 
+ 
+ the_british_parliament:0 "Brytannian Parliament"
+ 
+ britanna_rules_the_waves:0 "Brytannia Rules the Waves"
+ britanna_rules_the_waves_desc:0 "Rule Brytannia!\n Brytannia rule the waves.\n Brytens never, never, never shall be slaves!"
 
  #Great Projects
  #divrigi_hospital_mosque:0 "Arslan Church & Hospital"

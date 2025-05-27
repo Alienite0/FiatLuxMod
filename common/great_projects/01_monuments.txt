@@ -2048,7 +2048,7 @@ cologne_cathedral = {
 
 kremlin = {
 	# province it starts in
-	start = 295
+	start = 307
 	
 	# date built in real life (so anything built during game time will be there if you start a game after that date)
 	date = 1339.01.01
@@ -21508,5 +21508,64 @@ aachen_cathedral = {
 				}
 			}
 		}
+	}
+}
+
+tower_of_pisa = {
+	start = 115
+	date = 1172.1.5
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 0
+	type = monument
+	build_trigger = {
+		
+	}
+	on_built = {}
+	on_destroyed = {}
+	can_use_modifiers_trigger = {}
+	can_upgrade_trigger = {}
+	keep_trigger = {}
+	tier_0 = {
+		upgrade_time = { months = 0 }
+		cost_to_upgrade = { factor = 0 }
+		province_modifiers = { }
+		area_modifier = {}
+		country_modifiers = {}
+		on_upgraded = {}
+	}
+	tier_1 = {
+		upgrade_time = { months = 120 }
+		cost_to_upgrade = { factor = 1000 }
+		province_modifiers = {
+			
+		}
+		area_modifier = { }
+		country_modifiers = {
+		}
+		on_upgraded = {}
+	}
+	tier_2 = {
+		upgrade_time = { months = 240 }
+		cost_to_upgrade = { factor = 2500 }
+		province_modifiers = {
+			
+		}
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = {}
+	}
+	tier_3 = {
+		upgrade_time = { months = 480 }
+		cost_to_upgrade = { factor = 5000 }
+		province_modifiers = {
+			
+		}
+		area_modifier = { }
+		country_modifiers = {
+		}
+		on_upgraded = {}
 	}
 }
