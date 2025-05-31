@@ -1,8 +1,8 @@
 #2217 - Yasuj
 
-owner = JLY
-controller = JLY
-add_core = JLY
+owner = MSY
+controller = MSY
+add_core = MSY
 culture = luri
 religion = shiite
 capital = "Yasuj"

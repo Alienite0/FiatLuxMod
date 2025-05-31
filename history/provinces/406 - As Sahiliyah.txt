@@ -1,8 +1,8 @@
 #406 - As Sahiliyah
 
-owner = MSY
-controller = MSY
-add_core = MSY
+owner = JLY
+controller = JLY
+add_core = JLY
 culture = al_iraqiya_arabic
 religion = sunni
 capital = "Sahiliyah"

@@ -10,7 +10,7 @@ base_tax = 4
 base_production = 4
 trade_goods = grain 
 base_manpower = 3
-capital = "Avellino" 
+capital = "Benevento" 
 is_city = yes	# Estimated
 
 discovered_by = western

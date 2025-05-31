@@ -3,7 +3,7 @@ add_government_reform = iqta
 primary_culture = mongol
 religion = shiite
 technology_group = muslim
-capital = 4289 # Gondeshapur
+capital = 410 # Al-Mada'in
 add_accepted_culture = persian
 add_accepted_culture = al_iraqiya_arabic
 
