@@ -14,6 +14,5 @@ tags={
 name="Nova Fiat Lux"
 replace_path="gfx/loadingscreens"
 replace_path="common/bookmarks"
-#replace_path="missions"
 supported_version="v1.37.5.0"
 remote_file_id="3355903714"
