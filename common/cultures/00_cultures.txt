@@ -4707,6 +4707,9 @@ aridoamerican = {
 			Nenetl Nochtli Papan Teoxihuitl Teuicui Tlachinolli Tlaco Tlahutli Tlalli Tlazohtzin Tlexictli Tonatzin Xihuitl 
 		}
 	}
+	zacateco = {
+		#Names Pending
+	}
 	yaqui = {
 		primary = YAQ
 		male_names = {
@@ -6228,6 +6231,12 @@ na_dene = {
 	eyak = {
 		#names pending
 	}
+	tututni = {
+		#names pending
+	}
+	wailaki = {
+		#names pending
+	}
 }
 
 penutian = {
@@ -6261,6 +6270,18 @@ penutian = {
 		female_names = {
 			Elvamox Ethete Natane Bly Dae Cocheta Ekta Ela Elina Ila Imala Inayat Kushala Kusuma Liluye Lipika Lolaksi 
 		}
+	}
+	ohlone = {
+		
+	}
+	miwok = {
+		
+	}
+	wintun = {
+		
+	}
+	maidu = {
+		
 	}
 }
 
@@ -10784,6 +10805,12 @@ hokan = {
 	salinan = {
 		
 	}
+	pomo = {
+		
+	}
+	shasta = {
+		
+	}
 }
 
 guaycura_g = {
@@ -11231,5 +11258,11 @@ albanian_g = {
 			Gjylo Afërdita Blerta Bora Dafina Dardana Era Fatmire Flutura Gentiana Jehona Lindita Lule Luljeta Pranvera Shpresa 
 			Shqipe Teuta Venera Vera Vesa Yllka
 		}
+	}
+}
+
+chumash_g = {
+	chumash = {
+		
 	}
 }

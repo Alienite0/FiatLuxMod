@@ -1,6 +1,6 @@
 #860 - Tepehuan
 
-culture = chichimecan
+culture = zacateco
 religion = animism 
 capital = "Tepehuan" 
 trade_goods = unknown

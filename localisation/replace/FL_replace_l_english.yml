@@ -213,6 +213,7 @@
  byelorussian:0 "Belarusian"
  dagestani:0 "Kumuk"
  maliseet:0 "Wolastoqiyik"
+ chichimecan:0 "Guachichil"
  
  #Parliament
  ENG_parliament_name:0 "Witenagemot"
@@ -291,6 +292,7 @@
  PROV321:0 "Nicosia"
  PROV425:0 "Quba"
  PROV2200:0 "Aparanchal Range"
+ PROV868:0 "Tongva"
  
  #Areas
  lower_andalucia_area:0 "West al-Mawsat"

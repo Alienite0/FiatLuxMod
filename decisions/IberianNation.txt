@@ -28,7 +28,7 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 213	# Barcelona
+				#province_id = 213	# Barcelona
 				province_id = 214	# Arag�n
 				province_id = 215	# Castilla La Vieja
 				province_id = 216	# Salamanca
@@ -52,7 +52,7 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
-			owns_core_province = 213	# Barcelona
+			#owns_core_province = 213	# Barcelona
 			owns_core_province = 214	# Arag�n
 			owns_core_province = 215	# Castilla La Vieja
 			owns_core_province = 216	# Salamanca

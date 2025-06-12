@@ -1,6 +1,6 @@
 # No previous file for Toboso
 
-culture = chichimecan
+culture = zacateco
 religion = animism
 capital = "Toboso"
 trade_goods = unknown

@@ -1,7 +1,7 @@
 #2021 - Miwok
 
-culture = yokuts
-religion = totemism
+culture = miwok
+religion = kuksu
 capital = "Miwok" 
 trade_goods = unknown 
 hre = no 

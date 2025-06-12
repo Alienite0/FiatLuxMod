@@ -3417,7 +3417,7 @@ kansas_area = { #4 NEW
 }
 
 high_plains_area = { #5
-    889 2507 2625
+    889 2507 2625 5029
 }
 
 dakota_area = { #4
@@ -3620,19 +3620,19 @@ colorado_plateau_area = { #4
 }
 
 arizona_area = { #5
-     877 867 876 2491 4633
+     877 876 2491 4633
 }
 
 california_area = { #5
-    868 869 2021 2476 4637
+    869 4637 5023 5025 5026
 }
  
 central_valley_area = { #4
-    870 2478 4635 4636
+    870 2478 4636 5022 5027 5028
 }
 
 northern_california_area = { #5
-    871 2477 2479 2480 4638
+    871 2477 2479 2480 4638 2021
 }
 
 baja_california_area = { #4
@@ -3773,6 +3773,10 @@ aruba_trinidad_area = {
 
 transvaal_area = { #4
 	4781 4782 4783 4784
+}
+
+takic_area = {
+	867 868 2476 4635
 }
 
 #############################

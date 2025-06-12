@@ -15,5 +15,6 @@ native_hostileness = 5
 
 
 discovered_by = mesoamerican
+discovered_by = north_american
 
 1444.11.12 = { trade_goods = unknown }

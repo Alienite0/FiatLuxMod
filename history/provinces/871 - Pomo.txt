@@ -1,7 +1,7 @@
 #871 - Pomo
 
-culture = chinook
-religion = totemism
+culture = pomo
+religion = kuksu
 capital = "Pomo" 
 trade_goods = unknown 
 hre = no 
@@ -11,6 +11,7 @@ base_manpower = 1
 native_size = 20 
 native_ferocity = 1 
 native_hostileness = 4 
+discovered_by = north_american
 
 
 1444.11.12 = { trade_goods = unknown }

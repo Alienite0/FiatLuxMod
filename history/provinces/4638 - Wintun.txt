@@ -1,8 +1,8 @@
 # No previous file for Wintun
 
 
-culture = yokuts
-religion = totemism
+culture = wintun
+religion = kuksu
 capital = "Wintun"
 trade_goods = unknown
 hre = no

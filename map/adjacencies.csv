@@ -113,6 +113,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 4983;242;sea;1284;-1;-1;-1;-1;Anglesey-Gwynedd
 5000;35;sea;1926;-1;-1;-1;-1;Osel-Dago
 35;36;sea;1926;-1;-1;-1;-1;Osel-Estland
-5010;4565;sea;1471;-1;-1;-1;-1;LaPalma - Tenerife
-366;5011;sea;1471;-1;-1;-1;-1;GranCanaria - Lanzarote
+5010;4565;sea;1471;-1;-1;-1;-1;LaPalma-Tenerife
+366;5011;sea;1471;-1;-1;-1;-1;GranCanaria-Lanzarote
+4637;2021;sea;1556;-1;-1;-1;-1;Ohlone-Miwok
 -1;-1;;-1;-1;-1;-1;-1;-1;

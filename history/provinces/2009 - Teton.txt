@@ -1,5 +1,9 @@
 #2009 - Teton
 
+owner = CHY
+controller = CHY
+add_core = CHY
+is_city = yes
 culture = cheyenne #Not yet Dakota
 religion = manitou
 capital = "Teton"
@@ -11,7 +15,6 @@ base_manpower = 1
 native_size = 1
 native_ferocity = 1
 native_hostileness = 1
-
 
 
 discovered_by = north_american

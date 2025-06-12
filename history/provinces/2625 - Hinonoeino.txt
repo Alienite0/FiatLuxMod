@@ -1,5 +1,9 @@
 # No previous file for Hinonoeino
 
+owner = ARP
+controller = ARP
+add_core = ARP
+is_city = yes
 culture = arapaho
 religion = manitou
 capital = "Hinonoeino"

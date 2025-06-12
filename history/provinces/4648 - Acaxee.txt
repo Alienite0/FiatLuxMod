@@ -1,6 +1,6 @@
 # No previous file for Acaxee
 
-culture = chichimecan
+culture = zacateco
 religion = animism 
 capital = "Acaxee" 
 trade_goods = unknown 

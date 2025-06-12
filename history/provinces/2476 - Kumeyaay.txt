@@ -1,6 +1,6 @@
 # No previous file for Kumeyaay
 
-culture = takic
+culture = yavapai
 religion = totemism
 capital = "Kumeyaay"
 trade_goods = unknown

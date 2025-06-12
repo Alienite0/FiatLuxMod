@@ -1,7 +1,11 @@
 #870 - Yorkuts
 
+owner = YKT
+controller = YKT
+add_core = YKT
+is_city = yes
 culture = yokuts
-religion = totemism
+religion = kuksu
 capital = "Yorkuts" 
 trade_goods = unknown 
 hre = no 
@@ -11,6 +15,7 @@ base_manpower = 1
 native_size = 50 
 native_ferocity = 3 
 native_hostileness = 5 
+
 discovered_by = north_american
 1444.11.12 = { trade_goods = unknown }
 

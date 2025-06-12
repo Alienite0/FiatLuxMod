@@ -1,6 +1,6 @@
 # No previous file for Klamath
 
-culture = chinook
+culture = tututni
 religion = totemism
 capital = "Klamath"
 trade_goods = unknown

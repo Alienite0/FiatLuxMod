@@ -1,7 +1,7 @@
 # No previous file for Ohlone
 
-culture = yokuts
-religion = totemism
+culture = ohlone
+religion = kuksu
 capital = "Ohlone" 
 trade_goods = unknown 
 hre = no 
@@ -12,7 +12,5 @@ native_size = 5
 native_ferocity = 1 
 native_hostileness = 3 
 discovered_by = north_american
-extra_cost = 8
-center_of_trade = 1
 
 1444.11.12 = { trade_goods = unknown }

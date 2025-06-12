@@ -1,6 +1,6 @@
 #949 - Monacan
 
-culture = yuchi
+culture = tutelo
 religion = totemism
 capital = "Monacan"
 trade_goods = unknown

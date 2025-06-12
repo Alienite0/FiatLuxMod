@@ -1,6 +1,6 @@
 # No previous file for Yuki
 
-culture = chinook
+culture = wailaki
 religion = totemism
 capital = "Yuki"
 trade_goods = unknown

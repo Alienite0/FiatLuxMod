@@ -103,6 +103,14 @@
  PROV5019:0 "Jiao'ao"
  PROV5020:0 "Baetic Mountains"
  PROV5021:0 "Baetic Mountains"
+ PROV5022:0 "Sierra"
+ PROV5023:0 "Lisiánish"
+ PROV5024:0 "Colorado"
+ PROV5025:0 "Mutsun"
+ PROV5026:0 "Chumash"
+ PROV5027:0 "Tulamni"
+ PROV5028:0 "Yachikumne"
+ PROV5029:0 "Denver"
  
  #Province Adjectives   for some reason
  PROV_ADJ4942:0 "Achridos"
@@ -183,7 +191,14 @@
  PROV_ADJ5017:0 "Arish"
  PROV_ADJ5018:0 "Sis"
  PROV_ADJ5019:0 "Jiao'ao"
- 
+ PROV_ADJ5022:0 "Sierra"
+ PROV_ADJ5023:0 "Lisiánish"
+ PROV_ADJ5024:0 "Colorado"
+ PROV_ADJ5025:0 "Mutsun"
+ PROV_ADJ5026:0 "Chumash"
+ PROV_ADJ5027:0 "Tulamni"
+ PROV_ADJ5028:0 "Yachikumne"
+ PROV_ADJ5029:0 "Denver"
  
  #Trade Goods
  rice_good:0 "Rice"
