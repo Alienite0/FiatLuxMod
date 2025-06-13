@@ -111,6 +111,8 @@
  PROV5027:0 "Tulamni"
  PROV5028:0 "Yachikumne"
  PROV5029:0 "Denver"
+ PROV5030:0 "Patwin"
+ PROV5031:0 "Nomlaki"
  
  #Province Adjectives   for some reason
  PROV_ADJ4942:0 "Achridos"
@@ -199,6 +201,8 @@
  PROV_ADJ5027:0 "Tulamni"
  PROV_ADJ5028:0 "Yachikumne"
  PROV_ADJ5029:0 "Denver"
+ PROV_ADJ5030:0 "Patwin"
+ PROV_ADJ5031:0 "Nomlaki"
  
  #Trade Goods
  rice_good:0 "Rice"
