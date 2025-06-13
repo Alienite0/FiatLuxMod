@@ -3420,7 +3420,7 @@ north_american_native_g = {
 		heretic = { BEAR_SPIRIT }
 	}
 	kuksu = {
-		color = { 0 55 55 }
+		color = { 235 106 014 }
 		icon = 13
 		country = {
 			tolerance_own = 1

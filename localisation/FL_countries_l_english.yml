@@ -180,6 +180,12 @@
  KTL_ADJ:0 "Kartlian"
  SKH:0 "Sakha"
  SKH_ADJ:0 "Sakha"
+ CLL:0 "Cahuilla"
+ CLL_ADJ:0 "Cahuilla"
+ TAQ:0 "Taaqtam"
+ TAQ_ADJ:0 "Taaqtam"
+ TGV:0 "Tongva"
+ TGV_ADJ:0 "Tongva"
  
  #Renames
  SULTANATE_OF_CORDOBA:0 "Qurtubah"

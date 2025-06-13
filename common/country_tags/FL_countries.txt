@@ -116,3 +116,8 @@ WRK = "countries/Warka.txt"
 ALN = "countries/Alania.txt"
 ABK = "countries/Abkhazia.txt"
 KTL = "countries/Kartli.txt"
+
+#North America Natives
+CLL = "countries/Cahuilla.txt"
+TAQ = "countries/Taaqtam.txt"
+TGV = "countries/Tongva.txt"
