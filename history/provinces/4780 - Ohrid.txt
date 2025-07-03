@@ -1,7 +1,8 @@
 # 4780 - Ohrid
 
-owner = SII
-controller = SII
+owner = BYZ
+controller = BYZ
+add_core = BYZ
 culture = bulgarian
 religion = bogomil
 capital = "Ohrid"
@@ -13,6 +14,7 @@ base_manpower = 2
 is_city = yes
 add_core = SII
 add_core = SER
+add_local_autonomy = 90
 
 discovered_by = KAZ
 discovered_by = CRI

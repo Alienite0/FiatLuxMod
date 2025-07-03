@@ -4,7 +4,7 @@ religion = sunni
 primary_culture = sharqi
 technology_group = muslim
 capital = 220	# Valencia
-religious_school = zahiri_school
+religious_school = maliki_school
 
 government_rank = 1
 

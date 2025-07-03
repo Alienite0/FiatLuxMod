@@ -1,8 +1,8 @@
 #328 - Sinope
 
-owner = TRE
-controller = TRE
-add_core = TRE
+owner = BYZ
+controller = BYZ
+add_core = BYZ
 culture = pontic_greek
 religion = orthodox
 capital = "Sinop"
@@ -12,6 +12,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
+add_local_autonomy = 75
 
 fort_15th = yes
 

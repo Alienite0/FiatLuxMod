@@ -1,7 +1,7 @@
 # No previous file for Manahoac
 
-culture = susquehannock
-religion = iroquois_religion
+culture = tutelo
+religion = totemism
 capital = "Manahoac"
 trade_goods = unknown
 hre = no

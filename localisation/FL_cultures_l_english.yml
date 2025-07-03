@@ -92,9 +92,15 @@
  tarahumara:0 "Tarahumara"
  wakashan:0 "Wakashan"
  tuvan:0 "Tuvan"
- 
+ monongahela:0 "Monongahela"
  
  #United Cultures
  united_japanese:0 "Japanese"
  united_chinese:0 "Chinese"     #May make Han
  united_iberian:0 "Iberian"
+ 
+ #Moved Cultures
+ greco_turkish:0 "Turkish"
+ arabic_turkish:0 "Turkish"
+ greco_bulgarian:0 "Bulgar"
+ russo_turkic:0 "Tatar"

@@ -1,7 +1,7 @@
 #948 - Ohio
 
-culture = shawnee
-religion = kokumthenan
+culture = monongahela		#probably only abt half of the province	
+religion = iroquois_religion
 capital = "Ohio"
 trade_goods = unknown
 hre = no

@@ -1,8 +1,8 @@
 #2304 - Canik
 
-owner = TRE
-controller = TRE
-add_core = TRE
+owner = BYZ
+controller = BYZ
+add_core = BYZ
 culture = pontic_greek
 religion = orthodox
 capital = "Samsun"
@@ -12,6 +12,7 @@ base_tax = 2
 base_production = 2
 base_manpower = 2
 is_city = yes
+add_local_autonomy = 75
 
 discovered_by = western
 discovered_by = eastern

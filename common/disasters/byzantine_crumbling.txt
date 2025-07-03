@@ -30,16 +30,7 @@ byzantine_crumbling = {
 	
 	can_end = {
 		#hidden_trigger = { has_country_flag = civil_war_in_castile }
-		stability = 1
-		NOT = { num_of_rebel_controlled_provinces = 1 }
-		NOT = {
-			has_spawned_rebels = pretender_rebels
-		}
-		NOT = { exists = NIC }
-		OR = {
-			EPI = { is_subject_of = ROOT }
-			NOT = { exists = EPI }
-		}
+		mission_completed = byz_end_of_the_crisis
 		#OR = {
 		#	TRE = { is_subject_of = ROOT }
 		#	NOT = { exists = TRE }
@@ -62,7 +53,7 @@ byzantine_crumbling = {
 		events = {
 		}
 		random_events = { 
-			100 = fl_byz_crumbling.9
+			5 = fl_byz_crumbling.9
 		}
 	}
 }

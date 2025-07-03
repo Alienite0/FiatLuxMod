@@ -145,7 +145,7 @@
  
  ice_cross_the_danish_strait_title:0 "The Danish Straits"
  ice_cross_the_danish_strait_desc:0 "REPLACE_ME"
-    ice_gain_claims_on_major_hanseatic_cities:0 "§YIceland§! gains claims on the major §YHanseatic§! cities."
+    ice_gain_claims_on_major_hanseatic_cities:0 "§Y[Root.GetName]§! gains claims on the major §YHanseatic§! cities."
  
  #Row Five
  ice_gaelic_lords_title:0 "Lord of Tutorial Island"
@@ -171,11 +171,71 @@
  #Rhomanian(BYZ) Missions#
  #########################
  #Row One
- byz_deteriorating_army_title:0 "Repaired the Army"
+ byz_weather_the_storm_title:0 "Weather the Storm"
+ byz_weather_the_storm_desc:0 "REPLACE_ME"
+ 
+ #Row Two
+ byz_deal_with_corruption_title:0 "Deal with Corruption"
+ byz_deal_with_corruption_desc:0 "REPLACE_ME"
+ 
+ byz_stabilize_the_realm_title:0 "Stabilize the Chaos"
+ byz_stabilize_the_realm_desc:0 "REPLACE_ME"
+ 
+ byz_deteriorating_army_title:0 "Repair the Army"
  byz_deteriorating_army_desc:0 "REPLACE_ME"
-   #byz_repaired_the_army.tt:0 "
-    byz_repaired_the_army:0 "Repaired Byzantine Army"
+ 
+ #Row Three
+ byz_end_of_the_crisis_title:0 "The Purple Phoenix"
+ byz_end_of_the_crisis_desc:0 "REPLACE_ME"
+    byz_end_of_crisis.tt:0 "The §YCrisis of the XV Century§! disaster will §Rend§!."
+ 
+ #Row Four
+ byz_destroy_lezhe_title:0 "Deal with Astrapi"
+ byz_destroy_lezhe_desc:0 "REPLACE_ME"
+ 
+ byz_reconquer_the_bulgars_title:0 "Slay the Bulgars"
+ byz_reconquer_the_bulgars_desc:0 "REPLACE_ME"
+    byz_dacia_claims_and_cb.tt:0 "§Y[Root.GetName]§! lays claim to §YWallachia§! & §YMoldavia§!."
+ 
+ byz_expel_the_latins_title:0 "Expel the Latins"
+ byz_expel_the_latins_desc:0 "REPLACE_ME"
+ 
+ byz_subjugate_the_orthodox_turks_title:0 "Reintegrate the Orthodox Turks"
+ byz_subjugate_the_orthodox_turks_desc:0 "REPLACE_ME"
+ 
+ #Row Five
+ byz_reclaim_illyricum_title:0 "Reclaim Illyricum"
+ byz_reclaim_illyricum_desc:0 "REPLACE_ME"
+ 
+ byz_subjugate_the_dacians_title:0 "Reclaim Dacia"
+ byz_subjugate_the_dacians_desc:0 "REPLACE_ME"
+ 
+ byz_reclaim_magna_graecia_title:0 "Lombardia et Sicilia"
+ byz_reclaim_magna_graecia_desc:0 "REPLACE_ME"
+ 
+ byz_reclaim_anatolia_title:0 "Eastward Bound"
+ byz_reclaim_anatolia_desc:0 "REPLACE_ME"
+    byz_claims_on_levant.tt:0 "§Y[Root.GetName]§! gains a permanant claim on former §YLevantine§! territories."
+    byz_claims_on_mesopotamia.tt:0 "§Y[Root.GetName]§! gains a temporary claim on former §Mesopotamian§! territories."
+    byz_turkish_culture.tt:0 "§YTurkish§! culture will be moved into the §YByzantine§! group."
     
+ #Row Six
+ byz_not_just_in_name_title:0 "Roman Restoration"
+ byz_not_just_in_name_desc:0 "REPLACE_ME"
+ 
+ byz_exarchate_of_africa_title:0 "Exarchate of Africa"
+ byz_exarchate_of_africa_desc:0 "REPLACE_ME"
+ 
+ byz_champions_of_the_east_title:0 "Champions of the East"
+ byz_champions_of_the_east_desc:0 "REPLACE_ME"
+ 
+ #Row Seven
+ byz_claim_the_iron_crown_title:0 "Belisarius' Revenge"
+ byz_claim_the_iron_crown_desc:0 "REPLACE_ME"
+ 
+ byz_levant_restoration_title:0 "Levantine Restoration"
+ byz_levant_restoration_desc:0 "REPLACE_ME"
+ 
     
  ######################
  #Arleat(ARE) Missions#

@@ -97,15 +97,20 @@ country_event = {
 				add_manpower = 13
 				add_prestige = 30
 				add_treasury = 150
-				create_general = { tradition = 50 }
+				create_general = { tradition = 100 }
 				add_truce_with = KAR
 				add_truce_with = ERE
+				add_country_modifier = { 
+					name = against_byz_peasant_levies
+					duration = 9125
+				}
 			}
+			
 			NIC = {
 				capital_scope = {
 					build_to_forcelimit = {
-						infantry = 0.7
-						cavalry = 0.3
+						infantry = 0.8
+						cavalry = 0.2
 					}
 				}
 			}
@@ -162,18 +167,45 @@ country_event = {			#Epirote Rebellion
 		set_country_flag = BYZ_epirote_revolt
 		#custom_tooltip = epirus_breaks_free.tt
 		hidden_effect = {
+			release = EPI
 			EPI = {
-				BYZ = { free_vassal = PREV }
 				change_country_color = { color = { 230  228  214 } }
+				add_country_modifier = { 
+					name = against_byz_peasant_levies
+					duration = 9125
+				}
+			}
+			
+			EPI = {
+				add_legitimacy = 100
+				add_manpower = 13
+				add_prestige = 30
+				add_treasury = 150
+				create_general = { tradition = 50 }
 			}
 			EPI = {
-				if = {
-					limit = { is_at_war = yes }
-					white_peace = NIC
-					white_peace = ALB
-					white_peace = SII
-					white_peace = TRE
-					white_peace = ATH
+				capital_scope = {
+					build_to_forcelimit = {
+						infantry = 0.8
+						cavalry = 0.2
+					}
+				}
+				random_owned_province = {
+					limit = {
+						has_port = yes
+					}
+					build_to_forcelimit = {
+						galley = 0.7
+						light_ship = 0.2
+						transport = 0.1
+					}
+				}
+			}
+			
+			EPI = {
+				add_opinion = {
+					who = SII
+					modifier = byz_revolted_against_us
 				}
 			}
 		}		
@@ -228,11 +260,60 @@ country_event = {			#	Skanderbeg's Rebellion
 		set_country_flag = BYZ_albanian_revolt
 		#custom_tooltip = epirus_breaks_free.tt
 		hidden_effect = {
+			release = ALB
+			every_province = {
+				limit = { owned_by = ALB }
+				add_local_autonomy = -55
+			}
 			ALB = {
-				BYZ = { free_vassal = ALB }
 				change_country_color = { color = { 181  0  20 } }
 				override_country_name = LEAGUE_OF_LEZHE
+				add_country_modifier = { 
+					name = against_byz_peasant_levies
+					duration = 9125
+				}
 			}
+			ALB = {
+				add_legitimacy = 100
+				add_manpower = 13
+				add_prestige = 30
+				add_treasury = 150
+				#create_general = { tradition = 50 }
+				define_ruler = {
+					name = "Gjergj Astrapi"
+					dynasty = "Kastrioti"	
+					adm = 6
+					dip = 5
+					mil = 6
+					claim = 95
+					male = yes
+				}
+				define_ruler_to_general = {
+					fire = 5
+					shock = 5
+					manuever = 5
+					siege = 1
+				}
+			}
+			ALB = {
+				capital_scope = {
+					build_to_forcelimit = {
+						infantry = 0.8
+						cavalry = 0.2
+					}
+				}
+				random_owned_province = {
+					limit = {
+						has_port = yes
+					}
+					build_to_forcelimit = {
+						galley = 0.7
+						light_ship = 0.2
+						transport = 0.1
+					}
+				}
+			}
+			
 			BYZ = {
 				add_opinion = {
 					who = ALB
@@ -278,20 +359,44 @@ country_event = {		#Tirnovo Revolt
 		set_country_flag = BYZ_tirnovo_revolt
 		#custom_tooltip = epirus_breaks_free.tt
 		hidden_effect = {
-			SII = {
-				BYZ = { free_vassal = PREV }
-				change_country_color = { color = { 0 21 255 } }
+			release = SII
+			every_province = {
+				limit = { owned_by = SII }
+				add_local_autonomy = -55
 			}
 			SII = {
-				if = {
-					limit = { is_at_war = yes }
-					white_peace = NIC
-					white_peace = ALB
-					white_peace = EPI
-					white_peace = TRE
-					white_peace = ATH
+				change_country_color = { color = { 0 21 255 } }
+				add_country_modifier = { 
+					name = against_byz_peasant_levies
+					duration = 9125
 				}
 			}
+			SII = {
+				add_legitimacy = 100
+				add_manpower = 13
+				add_prestige = 30
+				add_treasury = 150
+				create_general = { tradition = 50 }
+			}
+			SII = {
+				capital_scope = {
+					build_to_forcelimit = {
+						infantry = 0.8
+						cavalry = 0.2
+					}
+				}
+				random_owned_province = {
+					limit = {
+						has_port = yes
+					}
+					build_to_forcelimit = {
+						galley = 0.7
+						light_ship = 0.2
+						transport = 0.1
+					}
+				}
+			}
+			
 			BYZ = {
 				add_opinion = {
 					who = SII
@@ -352,23 +457,7 @@ country_event = {			# Stick with Komnenos or they flee to Pontus
 	immediate = {
 		set_country_flag = BYZ_coup_revolt
 		#custom_tooltip = epirus_breaks_free.tt		
-		hidden_effect = {
-			TRE = {
-				if = {
-					limit = { 
-						AND = {
-							#is_subject = no
-							is_at_war = yes
-						}	
-					}
-					white_peace = NIC
-					white_peace = ALB
-					white_peace = EPI
-					white_peace = SII
-					white_peace = ATH
-				}
-			}
-		}
+		
 	}
 	
 	option = {				#Fight the Coup
@@ -389,6 +478,18 @@ country_event = {			# Stick with Komnenos or they flee to Pontus
 		ai_chance = { factor = 100 }
 		custom_tooltip = komnenos_flee_to_pontus.tt
 		hidden_effect = {
+		hidden_effect = {
+			TRE = {
+				add_core = 328
+				add_core = 2304
+				add_core = 330
+			}
+			release = TRE
+			build_to_forcelimit = {
+				infantry = .8
+				cavalry = .2
+			}
+		}
 		BYZ = {
 			exile_ruler_as = { name = komnenos_exiled_to_pontus }
 			define_ruler = {
@@ -400,11 +501,11 @@ country_event = {			# Stick with Komnenos or they flee to Pontus
 			}
 		}
 		TRE = {
-			BYZ = { break_union = PREV }
+			#BYZ = { break_union = PREV }
 			change_country_color = { color = { 40  164  157 } }
 			set_ruler = komnenos_exiled_to_pontus
 		}
-		#switch_tag = TRE
+		switch_tag = TRE
 		add_casus_belli = {
 			target = TRE
 			type = cb_annex

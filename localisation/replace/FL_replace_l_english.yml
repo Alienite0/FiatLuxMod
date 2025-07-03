@@ -12,8 +12,8 @@
  GER_ADJ:0 "German"
  #ENG:0 "Ængland"
  #ENG_ADJ:0 "Ænglish"
- ENG:0 "Angland"
- ENG_ADJ:0 "Anglish"
+ ENG:0 "Ængland"
+ ENG_ADJ:0 "Ænglish"
  #BRG:0 "Jülich"
  #BRG_ADJ:0 "Jülicher"
  ADU:0 "Al-Andalus"
@@ -153,6 +153,8 @@
  MLS_ADJ:0 "Wolastoqiyiki"
  CRE:0 "Muscogee"
  CRE_ADJ:0 "Muscogee"
+ DUL:0 "Artuk"
+ DUL_ADJ:0 "Artukid"
  
  
  #Cultures
@@ -163,7 +165,8 @@
  english:0 "Anglish"
  occitain:0 "Languedocian"
  andalucian:0 "Andalusi"
- neapolitan:0 "Meridionale"
+ #neapolitan:0 "Meridionale"
+ neapolitan:0 "Lombard"
  #lower_saxon:0 "Saxon"
  lower_saxon:0 "Ostphalian"
  saxon:0 "Meissener"
@@ -171,7 +174,8 @@
  leonese:0 "Asturleonese"
  russian:0 "Vladimirtsev"
  ryazanian:0 "Severian"
- al_suryah_arabic:0 "Levantine"
+ #al_suryah_arabic:0 "Levantine"
+ al_suryah_arabic:0 "Shami"
  al_iraqiya_arabic:0 "Iraqi"
  #turko_semitic:0 "Arab"
  turko_semitic:0 "Mashriqi"
@@ -214,6 +218,7 @@
  dagestani:0 "Kumuk"
  maliseet:0 "Wolastoqiyik"
  chichimecan:0 "Guachichil"
+ lombard:0 "Transpadane"
  
  #Parliament
  ENG_parliament_name:0 "Witenagemot"
@@ -252,6 +257,8 @@
  
  #Tooltips
  boh_starting_hussite_reform_center_tt:0 "§YPraha§!, §YPoznan§!, and §YNitra§! will become a §YHussite Center of Reformation§! for §G150§! years."
+ 
+ BYZ_unlock_justinians_empire_decision:0 "Enable the '§YJustinian's Empire'§! Decision, allowing us to adopt the '§YRhomanian Empire§!' Name, once we have conquered enough provinces."
  
  #Norse Blessings
  odin:0 "Odin's Blessing"
@@ -381,6 +388,13 @@
  #Great Projects
  #divrigi_hospital_mosque:0 "Arslan Church & Hospital"
  sultan_ahmed_mosque:0 "St. Arslan Cathedral"
+ 
+ #Trade Nodes
+ wien:0 "Munich"
+ crimea:0 "Black Sea"
+ kiev:0 "Kyiv"
+ yumen:0 "Mongolia"
+ lhasa:0 "Tibet"
  
  
  

@@ -1,7 +1,8 @@
 #143 - Vlorë - Southern Albania
 
-owner = EPI
-controller = EPI
+owner = BYZ
+controller = BYZ
+add_core = BYZ
 culture = albanian
 religion = orthodox
 capital = "Vlorë"
@@ -11,9 +12,10 @@ base_tax = 2
 base_production = 1
 base_manpower = 1
 is_city = yes
-add_core = BYZ
 add_core = EPI
 add_core = ALB
+add_local_autonomy = 90
+
 
 discovered_by = KAZ
 discovered_by = CRI

@@ -1022,11 +1022,14 @@ country_event = {			#Slovakia offers crown
 	#is_triggered_only = yes
 	trigger = {
 		tag = BOH
-		has_global_flag = hun_pussied_out_against_hus_slovak_revolt
+		has_global_flag = hus_slovak_revolt
 		NOT = {
 			has_global_flag = bohemia_refuses_to_help_hus_slovaks
 		}
-		is_at_war = no
+		AND = {
+			is_at_war = no
+			SLO = { is_at_war = no }
+		}
 	}
 	
 	mean_time_to_happen = {

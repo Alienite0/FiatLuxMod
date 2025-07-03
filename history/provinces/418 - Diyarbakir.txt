@@ -1,8 +1,8 @@
 #418 - Diyarbakir
 
-owner = AKK
-controller = AKK
-add_core = AKK
+owner = DUL
+controller = DUL
+add_core = DUL
 culture = turkoman
 religion = shiite
 capital = "Diyar Bekir"

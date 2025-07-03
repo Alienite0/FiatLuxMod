@@ -512,7 +512,7 @@ calabria_area = { #3 (+Lucania)
 }
 
 apulia_area = { #4
-	122 1933 2985 4733
+	122 1933 2985 
 }
 
 emilia_romagna_area = { #5
@@ -521,7 +521,7 @@ emilia_romagna_area = { #5
 }
 
 central_italy_area = { #3
-	119 120 2977
+	119 120 2977 4733
 }
 
 ########################################

@@ -1214,33 +1214,6 @@ iberian	= {
 			Isabel
 		}
 	}
-	aragonese = {
-		country = { } 
-		province = { local_has_caravel = yes local_has_galleon = yes }
-		primary = ARA
-		dynasty_names = {
-			"d'Aragó" "de Borja" "de Luna" "d'Urgell" "Folc de Cardona"
-			#CK2
-			"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
-			"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
-			Zúñiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
-		}
-		male_names = {
-			Alfons Alphonse Arnau Arnold Artau Artal Berenguer Berengar Berenguer-Ramon Bernat Bernard 
-			Bernat-Guillem Dalmau Ermengol Ermengaud Felip Philip Ferran Ferdinand Frederic Frederick 
-			Gausfred Godfrey Gerard Gerard Gombau Guerau Gerald Guifré Wilfred Guillem William 
-			Guislabert Gilbert Hug Hugh Jaume Jacob Joan John Jofré Godfrey Ott Otto Pere Peter Ponç 
-			Ponç-Hug Ramon Raymond Ramon-Berenguer Raymond-Berengar Ramon-Folc Roger Roger Sanç Sancho 
-			Sunyer Sunyer Udalard Pons Guillem-Ramon 
-		}
-		female_names = {
-			Isabel Juana María Catalina
-			Adelaida Adelaide Agnès Agnes Alamanda Arsenda Arsenda Beatriu Beatrice Blanca Blanche 
-			Brunisenda Constança Constance Dolça Douce Elionor Eleanor Elisenda Ermessenda Ermesinda 
-			Estefania Stephania Gueraua Guillelma Guisla Gisela Isabel Elisabeth Margarida Margaret 
-			Maria Marquesa Marquise Sança Sancha Sibila Sibylla Teresa Teresa Toda Toda Violant Yolanda
-		}
-	}
 	leonese = {
 		country = { } 
 		province = { local_has_caravel = yes local_has_galleon = yes }
@@ -1573,6 +1546,33 @@ french	= {
 		female_names = {
 			Àgata Àgueda Aina Anna Antònia Caterina Cecília Cristina Dolors Francesca Genoveva Isabel Joana Justina Laia 
 			Montserrat Núria Octàvia Prudència Roberta Rodolfa
+		}
+	}
+	aragonese = {
+		country = { } 
+		province = { local_has_caravel = yes local_has_galleon = yes }
+		primary = ARA
+		dynasty_names = {
+			"d'Aragó" "de Borja" "de Luna" "d'Urgell" "Folc de Cardona"
+			#CK2
+			"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
+			"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
+			Zúñiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
+		}
+		male_names = {
+			Alfons Alphonse Arnau Arnold Artau Artal Berenguer Berengar Berenguer-Ramon Bernat Bernard 
+			Bernat-Guillem Dalmau Ermengol Ermengaud Felip Philip Ferran Ferdinand Frederic Frederick 
+			Gausfred Godfrey Gerard Gerard Gombau Guerau Gerald Guifré Wilfred Guillem William 
+			Guislabert Gilbert Hug Hugh Jaume Jacob Joan John Jofré Godfrey Ott Otto Pere Peter Ponç 
+			Ponç-Hug Ramon Raymond Ramon-Berenguer Raymond-Berengar Ramon-Folc Roger Roger Sanç Sancho 
+			Sunyer Sunyer Udalard Pons Guillem-Ramon 
+		}
+		female_names = {
+			Isabel Juana María Catalina
+			Adelaida Adelaide Agnès Agnes Alamanda Arsenda Arsenda Beatriu Beatrice Blanca Blanche 
+			Brunisenda Constança Constance Dolça Douce Elionor Eleanor Elisenda Ermessenda Ermesinda 
+			Estefania Stephania Gueraua Guillelma Guisla Gisela Isabel Elisabeth Margarida Margaret 
+			Maria Marquesa Marquise Sança Sancha Sibila Sibylla Teresa Teresa Toda Toda Violant Yolanda
 		}
 	}
 	louisianans = {
@@ -3581,6 +3581,13 @@ byzantine = {
 			Nino Rusudan Sanatha Shorena Shukhia Suliko
 			Tamari Tamar Taplo Tinatini Tsiala Vardo
 		}
+	}
+	
+	greco_turkish = {
+		#Names pending
+	}
+	greco_bulgarian = {
+		#Names pending
 	}
 	dynasty_names = { 
 		Kantakouzenos Doukas Komnenos Palaiologos Laskaris Angelos Phokas
@@ -5778,6 +5785,9 @@ iroquoian = {
 		female_names = {
 			Tyonajanegen Alliquippa Konwatsitiaienni Genessee Satékon Tekakwitha
 		}
+	}
+	monongahela = {
+		#names pending
 	}
 }
 

@@ -5,8 +5,11 @@ gen_europe = {
 	ai = yes
 	
 	potential = {
-		capital_scope = {
-			continent = europe
+		AND = {
+			NOT = { tag = BYZ }
+			capital_scope = {
+				continent = europe
+			}
 		}
 	}
 	has_country_shield = no

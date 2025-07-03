@@ -59,3 +59,7 @@ byz_repaired_army = {
 	drill_gain_modifier = 0.10
 	discipline = 0.025
 }
+
+against_byz_peasant_levies = {
+	land_forcelimit_modifier = 0.75
+}

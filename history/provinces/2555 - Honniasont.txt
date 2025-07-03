@@ -1,6 +1,6 @@
 # No previous file for Honniasont
 
-culture = erie		#Honniasont people
+culture = monongahela		#Honniasont people
 religion = iroquois_religion
 capital = "Honniasont"
 trade_goods = unknown

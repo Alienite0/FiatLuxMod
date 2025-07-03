@@ -3,7 +3,7 @@
 owner = MJR
 controller = MJR
 add_core = MJR
-culture = bedouin_arabic
+culture = al_suryah_arabic
 religion = sunni
 capital = "Al Karak"
 trade_goods = grain

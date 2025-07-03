@@ -1,7 +1,8 @@
 #144 - Epiros
 
-owner = EPI
-controller = EPI
+owner = BYZ
+controller = BYZ
+add_core = BYZ
 culture = greek
 religion = orthodox
 capital = "Ioannina"
@@ -12,7 +13,7 @@ base_production = 1
 base_manpower = 1
 is_city = yes
 add_core = EPI
-add_core = BYZ
+add_local_autonomy = 75
 
 discovered_by = KAZ
 discovered_by = CRI

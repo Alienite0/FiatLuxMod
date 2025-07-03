@@ -10,8 +10,8 @@ country_decisions = {
 			NOT = { owned_by = ROOT }
 		}
 		allow = {
-			mission_completed = BYZ_justinians_ambition
-			mission_completed = BYZ_egypt
+			#mission_completed = BYZ_justinians_ambition
+			#mission_completed = BYZ_egypt
 			
 			num_of_owned_provinces_with = {
 				custom_trigger_tooltip = {
@@ -22,7 +22,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			override_country_name = BYZ_eastern_roman_empire
+			override_country_name = RHOMANIAN_EMPIRE
 			set_country_flag = is_BYZ_eastern_roman_empire_flag
 			clr_country_flag = BYZ_justinians_empire_decision_flag
 			

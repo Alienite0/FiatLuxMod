@@ -3,7 +3,7 @@
 owner = BVT
 controller = BVT
 add_core = BVT
-culture = umbrian 
+culture = neapolitan
 religion = catholic 
 hre = yes
 base_tax = 5 

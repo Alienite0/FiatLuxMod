@@ -375,14 +375,14 @@ christian = {
 			clerical_poverty_aspect
 			bread_and_wine_aspect
 			sola_scriptura_aspect
-			adamite_services_aspect
+			#adamite_services_aspect
 			pacifism_aspect
 			punishment_of_sins_aspect
 			regular_defenestrations_aspect
 			taborite_resurgence_aspect
 			orphan_hetmans_aspect
 			freedom_to_preach_aspect
-			rekindle_the_hussite_wars_aspect
+			#rekindle_the_hussite_wars_aspect
 		}
 		aspects_name = PROTESTANT_ASPECTS
 		

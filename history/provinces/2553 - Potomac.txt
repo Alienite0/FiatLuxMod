@@ -1,6 +1,6 @@
 # No previous file for Potomac
 
-culture = susquehannock
+culture = monongahela		
 religion = iroquois_religion
 capital = "Potomac"
 trade_goods = unknown

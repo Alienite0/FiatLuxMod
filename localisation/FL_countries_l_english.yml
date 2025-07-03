@@ -198,6 +198,8 @@
  LEAGUE_OF_LEZHE_ADJ:0 "Lezhean"
  STATE_OF_ALBANIA:0 "Albania"
  STATE_OF_ALBANIA_ADJ:0 "Albanian"
+ RHOMANIAN_EMPIRE:0 "Rhomanian Empire"
+ RHOMANIAN_EMPIRE_ADJ:0 "Rhomanian"
  
  #Federations
  three_fires_federation_name:0 "Three Fires Confederacy"

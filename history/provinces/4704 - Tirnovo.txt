@@ -1,6 +1,7 @@
 
-owner = SII
-controller = SII
+owner = BYZ
+controller = BYZ
+add_core = BYZ
 add_core = SII
 culture = bulgarian
 religion = orthodox
@@ -11,6 +12,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 3
 is_city = yes
+add_local_autonomy = 50
 
 discovered_by = western
 discovered_by = eastern

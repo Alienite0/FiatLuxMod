@@ -16,20 +16,144 @@ byz_column_1 = {
 		NOT = { map_setup = map_setup_random }
 	}
 	
-	byz_deteriorating_army = {
+	byz_destroy_lezhe = {
 		icon = mission_build_up_to_force_limit
-		position = 1
+		position = 4
+		required_missions = { byz_end_of_the_crisis }
+		
+		provinces_to_highlight = {
+			area = albania_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
 		
 		trigger = {
-			NOT = { has_estate_privilege = estate_nobles_deteriorating_army }
-		}
-		effect = {
-			add_country_modifier = {
-				name = byz_repaired_army
-				duration = 45625
+			albania_area  = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
+		effect = {
+			give_claims = { region = balkan_region }
+		}
+	}
+	
+	byz_reclaim_illyricum = {
+		icon = secure_the_sava
+		position = 5
+		required_missions = {  byz_destroy_lezhe byz_reconquer_the_bulgars }
 		
+		provinces_to_highlight = {
+			region = balkan_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		trigger = {
+			balkan_region  = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			
+		}
+	}
+	
+	byz_claim_the_iron_crown = {
+		icon = kingdom_of_lombardy
+		position = 7
+		required_missions = {  byz_reclaim_illyricum byz_not_just_in_name }
+		
+		provinces_to_highlight = {
+			OR = {
+				area = tuscany_area
+				area = emilia_romagna_area
+				area = venetia_area
+				area = po_valley_area
+				area = lombardy_area
+				area = piedmont_area
+				area = liguria_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		trigger = {
+			
+		}
+		effect = {
+			#Event to establish archonate of Ravenna or keep for self
+		}
+	}
+	
+	BYZ_france = {
+		icon = mission_the_french_menace
+		required_missions = { byz_claim_the_iron_crown }
+		position = 7
+		provinces_to_highlight = {
+			region = france_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				region = france_region
+				value = 20 #out of whateva
+			}
+		}
+		effect = {
+			custom_tooltip = BYZ_western_flank_3_4
+			hidden_effect = {
+				remove_country_modifier = BYZ_western_flank_3
+				add_country_modifier = {
+					name = BYZ_western_flank_4
+					duration = -1
+				}
+			}
+			
+			custom_tooltip = " "
+			
+			add_country_modifier_for_age = {
+				name = BYZ_ceasarean_conquests
+				age = age_of_reformation
+				else = "
+					add_army_tradition_or_mil_power = { amount = 25 }
+					
+					custom_tooltip = \" \"
+					
+					add_mil_power = 100
+				"
+			}
+			
+			custom_tooltip = BYZ_france_ct
+			hidden_effect = {
+				give_claims = { area = east_midlands_area }
+				give_claims = { area = west_midlands_area }
+				give_claims = { area = scottish_marches_area }
+				give_claims = { area = yorkshire_area }
+				give_claims = { area = wessex_area }
+				give_claims = { area = home_counties_area }
+				give_claims = { area = east_anglia_area }
+				give_claims = { area = wales_area }
+				
+				give_claims = { area = romandie_area }
+				give_claims = { area = upper_rhineland_area }
+				give_claims = { area = romandie_area }
+				give_claims = { area = alsace_area }
+				give_claims = { area = palatinate_area }
+				give_claims = { area = lower_rhineland_area }
+				give_claims = { id = 85 } #cologne
+				give_claims = { area = north_brabant_area }
+				give_claims = { area = brabant_area }
+				give_claims = { area = flanders_area }
+				give_claims = { area = wallonia_area }
+				give_claims = { id = 96 } #zeeland
+			}
+			
+			custom_tooltip = " "
+			
+			add_permanent_power_projection = {
+				type = byz_permanent_power_projection
+				amount = 5
+			}
+		}
 	}
 	
 }
@@ -46,8 +170,146 @@ byz_column_2 = {
 		}
 		NOT = { map_setup = map_setup_random }
 	}
+	byz_deal_with_corruption = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { byz_weather_the_storm }
+		
+		trigger = {
+			NOT = { corruption = 25 }
+		}
+		effect = {
+			
+		}
+	}
 	
+	byz_reconquer_the_bulgars = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = {  byz_end_of_the_crisis }
+		
+		provinces_to_highlight = {
+			AND = {
+				continent = europe
+				culture = bulgarian
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		trigger = {
+			ROOT = {
+				owns_all_provinces = {
+					continent = europe
+					culture = bulgarian
+				}
+			}
+		}
+		effect = {
+			
+			#EVENT - Reintegrate Bulgarian nobility (lower autonomy in bulgaria and mtth event to make bulgar culture byzantine) or punish them (#Bulgar slayer modifier and unrest in bulgaria)
+		
+		
+			custom_tooltip = byz_dacia_claims_and_cb.tt
+			hidden_effect = {
+				give_claims = { area = severin_area }
+				give_claims = { area = wallachia_area }
+				give_claims = { area = moldavia_area }
+				add_casus_belli = {
+					target = WAL
+					type = subjugation
+					months = 240
+				}
+				add_casus_belli = {
+					target = MOL
+					type = subjugation
+					months = 240
+				}
+				
+				every_province = {
+					limit = {
+						culture = bulgarian
+					}
+					change_culture = greco_bulgarian
+				}
+				set_heir_culture = greco_bulgarian
+				set_ruler_culture = greco_bulgarian
+				every_country = {
+					limit = {
+						culture = bulgarian
+					}
+					change_primary_culture = greco_bulgarian
+					set_heir_culture = greco_bulgarian
+					set_ruler_culture = greco_bulgarian
+				}
+			}
+		}
+	}
+	
+	byz_subjugate_the_dacians = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { byz_reconquer_the_bulgars }
+		
+		provinces_to_highlight = {
+			OR = {
+				area = severin_area
+				area = wallachia_area
+				area = moldavia_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}
+	
+	byz_not_just_in_name = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { byz_reclaim_magna_graecia }
+		
+		provinces_to_highlight = {
+			OR = {
+				area = lazio_area
+				area = central_italy_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		trigger = {
+			
+		}
+		effect = {
+			country_event_with_effect_insight = { 
+				id = MEE_Byzantine_Events.4
+				
+				effect = "
+					custom_tooltip = BYZ_unlock_justinians_empire_decision 
+					
+					custom_tooltip = \" \" 
+				
+					add_permanent_power_projection = {
+						type = byz_permanent_power_projection
+						amount = 5
+					}
+					
+					if = {
+						limit = {
+							BYZ_has_rights_of_man = yes
+						}
+						custom_tooltip = \" \"
+						custom_tooltip = BYZ_double_conquer_chance
+					}
+				"
+			}
+		}
+	}
 }
+
 byz_column_3 = {
 	slot = 3
 	generic = no
@@ -61,6 +323,291 @@ byz_column_3 = {
 		}
 		NOT = { map_setup = map_setup_random }
 	}
+	
+	byz_weather_the_storm = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		
+		trigger = {
+			AND = {
+				has_country_flag = BYZ_nicaean_revolt
+				has_country_flag = BYZ_epirote_revolt
+				has_country_flag = BYZ_albanian_revolt
+				has_country_flag = BYZ_tirnovo_revolt
+				has_country_flag = BYZ_coup_revolt
+			}
+			is_at_war = no
+		}
+		effect = {
+			
+		}
+	}
+	
+	byz_stabilize_the_realm = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { byz_weather_the_storm }
+		
+		trigger = {
+			stability = 1
+			average_unrest = 2
+		}
+		effect = {
+			
+		}
+	}
+	
+	byz_end_of_the_crisis = {
+		icon = mission_plc_purple_phoenix
+		position = 3
+		required_missions = { byz_deteriorating_army byz_stabilize_the_realm byz_deal_with_corruption }
+		
+		trigger = {
+			stability = 1
+			average_unrest = 2
+		}
+		effect = {
+			custom_tooltip = byz_end_of_crisis.tt
+			
+			add_government_reform = reformed_byzantine_monarchy_reform
+		}
+	}
+	
+	byz_expel_the_latins = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { byz_end_of_the_crisis }
+		
+		provinces_to_highlight = {
+			OR = {
+				province_id = 320
+				province_id = 163
+				province_id = 142
+				province_id = 4174
+				province_id = 4754
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		trigger = {
+			AND = {
+				owns_or_non_sovereign_subject_of = 320 
+				owns_or_non_sovereign_subject_of = 163
+				owns_or_non_sovereign_subject_of = 142
+				owns_or_non_sovereign_subject_of = 4174
+				owns_or_non_sovereign_subject_of = 4754
+			}
+			NOT = { exists = ATH }
+		}
+		effect = {
+			custom_tooltip = BYZ_buff_burgher_loans_no_mercantilism_loss #done via mission_completed
+			
+			FL_blank.tt:0 " "
+			
+			add_country_modifier = {
+				name = BYZ_dominance
+				duration = 7300
+			}
+		}
+	}
+	
+	byz_reclaim_magna_graecia = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = {  byz_reconquer_the_bulgars byz_expel_the_latins }
+		
+		provinces_to_highlight = {
+			OR = {
+				area = calabria_area
+				area = naples_area
+				area = apulia_area
+				area = sicily_area
+				area = western_sicily_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		trigger = {
+			calabria_area  = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			naples_area  = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			apulia_area  = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			sicily_area  = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			western_sicily_area  = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			123 = {
+				change_culture = griko
+				add_base_tax = 1
+				add_base_production = 1
+			}
+			122 = {
+				change_culture = griko
+				add_base_tax = 1
+				add_base_production = 1
+			}
+				
+			custom_tooltip = FL_blank.tt
+				
+			add_years_of_trade_income = {
+				years = 1
+				custom_tooltip = BYZ_add_1_years_of_trade_income
+			}
+			
+			custom_tooltip = FL_blank.tt
+			
+			add_country_modifier = {
+				name = "theme_of_sicily"
+				duration = 5475
+			}
+			
+			create_admiral = { tradition = 60 }
+		}
+	}
+	
+	byz_exarchate_of_africa = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = {  byz_reclaim_magna_graecia }
+		
+		provinces_to_highlight = {
+			OR = {
+				area = tunisia_area
+				area = djerba_area
+				area = tripolitania_area
+				area = kabylia_area
+				area = corsica_sardinia_area
+				area = baleares_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		trigger = {
+			tunisia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			djerba_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			tripolitania_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			kabylia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			corsica_sardinia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			baleares_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			#Establishes Archonate of Africa event, or keep all for self
+			
+			give_claims = { area = lower_andalucia_area }
+			give_claims = { area = upper_andalucia_area }
+			give_claims = { area = northern_morocco_area }
+		}
+	}
+	
+	BYZ_iberia = {
+		icon = mission_plus_ultra
+		required_missions = { byz_exarchate_of_africa }
+		position = 8
+		provinces_to_highlight = {
+			region = iberia_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				region = iberia_region
+				value = 40 #out of 64
+			}
+		}
+		effect = {
+			custom_tooltip = BYZ_southern_provinces_1_2
+			hidden_effect = {
+				remove_country_modifier = BYZ_southern_provinces_1
+				add_country_modifier = {
+					name = BYZ_southern_provinces_2
+					duration = -1
+				}
+			}
+			
+			custom_tooltip = " "
+			
+			add_country_modifier_for_age = {
+				name = BYZ_roman_vigour
+				age = age_of_reformation
+				else = "
+					add_army_tradition_or_mil_power = { amount = 25 }
+					
+					custom_tooltip = \" \"
+					
+					add_mil_power = 100
+				"
+			}
+		}
+	}
+	
+	BYZ_roman_empire = {
+		icon = a_place_among_the_great_powers
+		required_missions = { BYZ_egypt BYZ_france BYZ_iberia }
+		position = 8
+		provinces_to_highlight = {
+			BYZ_roman_empire_decision_trigger = yes
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			tag = ROM
+		}
+		effect = {
+			custom_tooltip = BYZ_unite_all_modifiers_into_one
+			hidden_effect = {
+				remove_country_modifier = BYZ_western_flank_4
+				remove_country_modifier = BYZ_southern_provinces_2
+				remove_country_modifier = BYZ_eastern_flank_3
+				add_country_modifier = {
+					name = BYZ_united_modifier
+					duration = -1
+				}
+			}
+			
+			custom_tooltip = " "
+			
+			custom_tooltip = BYZ_rebel_sentiment_will_fire_more_rarely
+			set_country_flag = BYZ_less_rebel_sentiment
+			
+			custom_tooltip = " "
+			
+			add_permanent_power_projection = {
+				type = byz_permanent_power_projection
+				amount = 10
+			}
+		}
+	}
+	
 }
 
 byz_column_4 = {
@@ -76,6 +623,179 @@ byz_column_4 = {
 		}
 		NOT = { map_setup = map_setup_random }
 	}
+	
+	
+	byz_deteriorating_army = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { byz_weather_the_storm }
+		
+		trigger = {
+			NOT = { has_estate_privilege = estate_nobles_deteriorating_army }
+		}
+		effect = {
+			add_country_modifier = {
+				name = byz_repaired_army
+				duration = 45625
+			}
+		}	
+	}	
+	
+	byz_subjugate_the_orthodox_turks = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = {  byz_end_of_the_crisis }
+		
+		provinces_to_highlight = {
+			OR = {
+				area = aydin_area
+				area = germiyan_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		trigger = {
+			aydin_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			germiyan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			give_claims = { region = anatolia_region }
+		}
+	}	
+	
+	byz_reclaim_anatolia = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = {  byz_subjugate_the_orthodox_turks }
+		
+		provinces_to_highlight = {
+			OR = {
+				region = anatolia_region
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		trigger = {
+			anatolia_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = BYZ_eastern_flank_1
+				duration = -1
+			}
+			custom_tooltip = byz_claims_on_levant.tt	#We will get claims on the coastal levant
+			
+			custom_tooltip = byz_turkish_culture.tt		#Turkish will be moved into the Byzantine culture group	
+			
+			hidden_effect = {
+				every_province = {
+					limit = {
+						culture = turkish
+					}
+					change_culture = greco_turkish
+				}
+				set_heir_culture = greco_turkish
+				set_ruler_culture = greco_turkish
+				every_country = {
+					limit = {
+						culture = turkish
+					}
+					change_primary_culture = greco_turkish
+					set_heir_culture = greco_turkish
+					set_ruler_culture = greco_turkish
+				}
+				
+				give_claims = { area = al_jazira_area }
+				give_claims = { area = aleppo_area }
+				give_claims = { area = syria_area }
+				give_claims = { area = palestine_area }
+				give_claims = { area = kurdistan_area }
+				give_claims = { area = trans_jordan_area }
+				
+				iraq_arabi_area = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_claim = ROOT }
+					}
+					add_claim = ROOT
+				}
+				basra_area = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_claim = ROOT }
+					}
+					add_claim = ROOT
+				}
+			}
+		}
+	}	
+	
+	byz_levant_restoration = {
+		icon = mission_build_up_to_force_limit
+		position = 7
+		required_missions = {  byz_reclaim_anatolia }
+		
+		provinces_to_highlight = {
+			OR = {
+				area = aleppo_area
+				area = syria_area
+				area = syrian_desert_area
+				area = palestine_area
+				area = trans_jordan_area
+				area = al_jazira_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				OR = {
+					area = aleppo_area
+					area = syria_area
+					area = syrian_desert_area
+					area = palestine_area
+					area = trans_jordan_area
+					area = al_jazira_area
+				}
+				value = 13
+			}
+		}
+		effect = {
+			custom_tooltip = BYZ_eastern_flank_1_2
+			hidden_effect = {
+				remove_country_modifier = BYZ_eastern_flank_1
+				add_country_modifier = {
+					name = BYZ_eastern_flank_2
+					duration = -1
+				}
+			}
+		
+			custom_tooltip = " "
+			
+			give_claims = { region = egypt_region }
+			
+			custom_tooltip = " "
+			
+			if = {
+				limit = {
+					has_dlc = "Third Rome"
+				}
+				custom_tooltip = " "
+				
+				set_country_flag = BYZ_extra_patriarch_authority
+				custom_tooltip = BYZ_consecrating_metropolitan
+			}
+		}
+	}	
+	
 }
 
 byz_column_5 = {
@@ -91,5 +811,294 @@ byz_column_5 = {
 		}
 		NOT = { map_setup = map_setup_random }
 	}
+	BYZ_reinforce_constantinople = {
+		icon = byz_reinforce_constantinople
+		required_missions = { byz_end_of_the_crisis }
+		position = 4
+		provinces_to_highlight = {
+			province_id = 151
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { base_manpower = 6 }
+			}
+		}
+		trigger = {
+			151 = {
+				base_manpower = 10
+				owned_by = ROOT
+			}
+			OR = {
+				has_mil_advisor_2 = yes
+				fortification_expert = 1
+				if = {
+					limit = {
+						OR = {
+							has_dlc = "Common Sense"
+							has_dlc = "Res Publica"
+						}
+					}
+					national_focus = mil
+				}
+				else = { hidden_trigger = { always = no } }
+			}
+		}
+		effect = {
+			custom_tooltip = BYZ_unlock_decision_for_theodosian_walls
+			set_country_flag = BYZ_unlock_decision_to_upgrade_theodosian_wall_flag
+			
+			custom_tooltip = " "
+			
+			country_event_with_option_insight = {
+				id = MEE_Byzantine_Events.12
+				option_1 = "
+					custom_tooltip = BYZ_we_will_ask_for_serbian_help
+					SER = {
+						country_event = { id = MEE_Byzantine_Events.15 }
+					}
+				"
+				option_2 = "
+					151 = {
+						add_base_tax = -2
+						add_province_modifier = {
+							name = BYZ_theodosian_wall_1
+							duration = -1
+						}
+					}
+					
+					custom_tooltip = BYZ_if_it_is_being_upgraded
+				"
+				option_3 = "
+					add_prestige_or_monarch_power = { amount = 20 }
+				"
+			}
+		}
+	}
 	
+	BYZ_defence_in_depth = {
+		icon = mission_conquer_mewar
+		required_missions = { BYZ_reinforce_constantinople }
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4750
+				province_id = 3001
+				province_id = 1765
+				province_id = 4704
+				province_id = 330
+				province_id = 2305
+				province_id = 332
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				province_has_current_tech_fort_trigger = no
+			}
+		}
+		
+		trigger = {
+			4750 = {
+				owned_by = ROOT
+				province_has_current_tech_fort_trigger = yes
+			}
+			3001 = {
+				owned_by = ROOT
+				province_has_current_tech_fort_trigger = yes
+			}
+			1765 = {
+				owned_by = ROOT
+				province_has_current_tech_fort_trigger = yes
+			}
+			4704 = {
+				owned_by = ROOT
+				province_has_current_tech_fort_trigger = yes
+			}
+			330 = {
+				owned_by = ROOT
+				province_has_current_tech_fort_trigger = yes
+			}
+			2305 = {
+				owned_by = ROOT
+				province_has_current_tech_fort_trigger = yes
+			}
+			332 = {
+				owned_by = ROOT
+				province_has_current_tech_fort_trigger = yes
+			}
+			
+		}
+		effect = {
+			add_army_tradition_or_mil_power = { amount = 20 }
+			
+			custom_tooltip = " "
+			
+			
+		}
+	}
+	
+	byz_champions_of_the_east  = {
+		icon = mission_persian_soldiers
+		required_missions = { byz_reclaim_anatolia }
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					OR = {
+						area = imereti_area
+						area = kartli_kakheti_area
+						area = samtskhe_area
+						area = circassia_area
+						area = armenia_area
+						area = shirvan_area
+					}
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+				AND = {
+					owner = {
+						culture_group = iranian
+						total_development = 300
+						NOT = {
+							ROOT = {
+								has_won_war_against = {
+									who = PREV
+									max_years_since = 10
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		trigger = {
+			OR = {
+				custom_trigger_tooltip = {
+					tooltip = BYZ_won_war_against_persian
+					any_country = {
+						culture_group = iranian
+						total_development = 300
+						ROOT = {
+							has_won_war_against = {
+								who = PREV
+								max_years_since = 10
+							}
+						}
+					}
+				}
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					OR = {
+						area = imereti_area
+						area = kartli_kakheti_area
+						area = samtskhe_area
+						area = circassia_area
+						area = armenia_area
+						area = shirvan_area
+					}
+					value = 18
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = BYZ_champions_of_the_east
+				duration = 14600
+			}
+			
+			add_permanent_power_projection = {
+				type = byz_permanent_power_projection
+				amount = 5
+			}
+			
+			custom_tooltip = " "
+			
+			simple_dynamic_effect = {
+				first_custom_tooltip = BYZ_if_done_via_conquest
+				first_limit = "
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						OR = {
+							area = imereti_area
+							area = kartli_kakheti_area
+							area = samtskhe_area
+							area = circassia_area
+							area = armenia_area
+							area = shirvan_area
+						}
+						value = 18
+					}
+				"
+				first_effect = "
+					custom_tooltip = BYZ_the_conquered_areas_will_get_separatism
+					hidden_effect = {
+						every_owned_province = {
+							limit = {
+								OR = {
+									area = imereti_area
+									area = kartli_kakheti_area
+									area = samtskhe_area
+									area = circassia_area
+									area = armenia_area
+									area = shirvan_area
+								}
+							}
+							add_nationalism = -10
+						}
+					}
+				"
+				second_custom_tooltip = BYZ_if_done_via_war
+				second_limit = "
+					any_country = {
+						culture_group = iranian
+						total_development = 300
+						ROOT = {
+							has_won_war_against = {
+								who = PREV
+								max_years_since = 10
+							}
+						}
+					}
+				"
+				second_effect = "
+					create_general_with_pips = { tradition = 80 add_siege = 1 }
+				"
+			}
+		}
+	}
+	
+	BYZ_egypt = {
+		icon = control_the_means_of_transaction
+		required_missions = { byz_levant_restoration }
+		position = 8
+		provinces_to_highlight = {
+			region = egypt_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			NOT = { area = lower_nubia_area }
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				region = egypt_region
+				NOT = { area = lower_nubia_area }
+				value = 22
+			}
+		}
+		effect = {
+			custom_tooltip = BYZ_eastern_flank_2_3
+			hidden_effect = {
+				remove_country_modifier = BYZ_eastern_flank_2
+				add_country_modifier = {
+					name = BYZ_eastern_flank_3
+					duration = -1
+				}
+			}
+			
+			custom_tooltip = " "
+			
+			give_claims = { area = tabuk_area }
+			give_claims = { area = medina_area }
+			give_claims = { area = mecca_area }
+			
+			give_claims = { area = corsica_sardinia_area }
+			give_claims = { area = barbary_coast_area }
+			give_claims = { area = kabylia_area }
+			give_claims = { area = tunisia_area }
+			give_claims = { area = djerba_area }
+			give_claims = { area = tripolitania_area }
+		}
+	}
 }

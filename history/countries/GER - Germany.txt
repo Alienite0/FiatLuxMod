@@ -3,8 +3,8 @@ add_government_reform = feudal_france_reform
 technology_group = western
 primary_culture = franconian
 add_accepted_culture = swabian
-add_truce_with = POM
-add_truce_with = BOH
+#add_truce_with = POM
+#add_truce_with = BOH
 
 religion = catholic
 capital = 1876	# Frankfurt
