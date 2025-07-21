@@ -21213,25 +21213,23 @@ damascus_house_of_wisdom = {
 	tier_1 = {
 		upgrade_time = { months = 120 }
 		cost_to_upgrade = { factor = 1000 }
-		province_modifiers = {}
-		area_modifier = {
-			global_institution_spread = 0.05
-			same_religion_advisor_cost = -0.05
-		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = {
+			same_religion_advisor_cost = -0.05
+			global_institution_spread = 0.05
 		}
 		on_upgraded = {}
 	}
 	tier_2 = {
 		upgrade_time = { months = 240 }
 		cost_to_upgrade = { factor = 2500 }
-		province_modifiers = {}
-		area_modifier = {
-			global_institution_spread = 0.10
+		province_modifiers = {  }
+		area_modifier = { }
+		country_modifiers = {
 			same_religion_advisor_cost = -0.1
 			advisor_pool = 1
-		}
-		country_modifiers = {
+			global_institution_spread = 0.10
 		}
 		on_upgraded = {}
 	}
@@ -21239,12 +21237,11 @@ damascus_house_of_wisdom = {
 		upgrade_time = { months = 480 }
 		cost_to_upgrade = { factor = 5000 }
 		province_modifiers = {}
-		area_modifier = {
+		area_modifier = { }
+		country_modifiers = {
 			global_institution_spread = 0.15
 			same_religion_advisor_cost = -0.15
 			advisor_pool = 2
-		}
-		country_modifiers = {
 		}
 		on_upgraded = {}
 	}

@@ -54,6 +54,11 @@ byz_column_1 = {
 			}
 		}
 		effect = {
+			give_claims = { area = { carinthia_area } }
+			give_claims = { area = { tirol_area } }
+			give_claims = { area = { inner_austria_area } }
+			give_claims = { area = { austria_proper_area } }
+			give_claims = { area = { transdanubia_area } }
 			
 		}
 	}
@@ -176,10 +181,20 @@ byz_column_2 = {
 		required_missions = { byz_weather_the_storm }
 		
 		trigger = {
-			NOT = { corruption = 25 }
+			NOT = { corruption = 35 }
 		}
 		effect = {
+			add_country_modifier = {
+				name = byz_rooting_out_corruption
+				duration = 3650
+			}
 			
+			random_owned_province = {
+				spawn_rebels = {
+					type = noble_rebels
+					size = 1
+				}
+			}
 		}
 	}
 	
@@ -208,38 +223,25 @@ byz_column_2 = {
 			
 			#EVENT - Reintegrate Bulgarian nobility (lower autonomy in bulgaria and mtth event to make bulgar culture byzantine) or punish them (#Bulgar slayer modifier and unrest in bulgaria)
 		
+			country_event = { 
+				id = fl_flavor_byz.2
+			}
 		
 			custom_tooltip = byz_dacia_claims_and_cb.tt
+			
 			hidden_effect = {
 				give_claims = { area = severin_area }
 				give_claims = { area = wallachia_area }
 				give_claims = { area = moldavia_area }
 				add_casus_belli = {
 					target = WAL
-					type = subjugation
+					type = cb_vassalize_mission
 					months = 240
 				}
 				add_casus_belli = {
 					target = MOL
-					type = subjugation
+					type = cb_vassalize_mission
 					months = 240
-				}
-				
-				every_province = {
-					limit = {
-						culture = bulgarian
-					}
-					change_culture = greco_bulgarian
-				}
-				set_heir_culture = greco_bulgarian
-				set_ruler_culture = greco_bulgarian
-				every_country = {
-					limit = {
-						culture = bulgarian
-					}
-					change_primary_culture = greco_bulgarian
-					set_heir_culture = greco_bulgarian
-					set_ruler_culture = greco_bulgarian
 				}
 			}
 		}
@@ -260,15 +262,29 @@ byz_column_2 = {
 		}
 		
 		trigger = {
-			
+			wallachia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			severin_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			moldavia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 		effect = {
-			
+			give_claims = { area = yedisan_area }
+			give_claims = { area = crimea_area }
+			give_claims = { area = transylvania_area }
+			give_claims = { area = southern_transylvania_area }
 		}
 	}
 	
 	byz_not_just_in_name = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_rule_italy
 		position = 6
 		required_missions = { byz_reclaim_magna_graecia }
 		
@@ -281,7 +297,18 @@ byz_column_2 = {
 		}
 		
 		trigger = {
-			
+			lazio_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			central_italy_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			118 = {
+				owned_by = ROOT
+				is_state_core = ROOT
+			}
 		}
 		effect = {
 			country_event_with_effect_insight = { 
@@ -350,7 +377,7 @@ byz_column_3 = {
 		
 		trigger = {
 			stability = 1
-			average_unrest = 2
+			NOT = {	unrest = 1 }
 		}
 		effect = {
 			
@@ -363,8 +390,7 @@ byz_column_3 = {
 		required_missions = { byz_deteriorating_army byz_stabilize_the_realm byz_deal_with_corruption }
 		
 		trigger = {
-			stability = 1
-			average_unrest = 2
+			
 		}
 		effect = {
 			custom_tooltip = byz_end_of_crisis.tt
@@ -450,23 +476,32 @@ byz_column_3 = {
 			}
 		}
 		effect = {
+			give_claims = { area = corsica_sardinia_area }
+			give_claims = { area = tunisia_area } 
+			give_claims = { area = kabylia_area }
+			give_claims = { area = djerba_area }
+			give_claims = { area = tripolitania_area }
+			give_claims = { area = baleares_area }
+			
+			custom_tooltip = FL_blank.tt
+		
 			123 = {
 				change_culture = griko
-				add_base_tax = 1
-				add_base_production = 1
+				#add_base_tax = 1
+				#add_base_production = 1
 			}
 			122 = {
 				change_culture = griko
-				add_base_tax = 1
-				add_base_production = 1
+				#add_base_tax = 1
+				#add_base_production = 1
 			}
 				
 			custom_tooltip = FL_blank.tt
 				
-			add_years_of_trade_income = {
-				years = 1
-				custom_tooltip = BYZ_add_1_years_of_trade_income
-			}
+			#add_years_of_trade_income = {
+			#	years = 1
+			#	custom_tooltip = BYZ_add_1_years_of_trade_income
+			#}
 			
 			custom_tooltip = FL_blank.tt
 			
@@ -686,6 +721,12 @@ byz_column_4 = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
+			NOT = {
+				any_province = {
+					culture = turkish
+					NOT = { religion = orthodox }
+				}
+			}
 		}
 		effect = {
 			add_country_modifier = {
@@ -887,6 +928,7 @@ byz_column_5 = {
 				province_id = 330
 				province_id = 2305
 				province_id = 332
+				province_id = 324
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -920,6 +962,10 @@ byz_column_5 = {
 				province_has_current_tech_fort_trigger = yes
 			}
 			332 = {
+				owned_by = ROOT
+				province_has_current_tech_fort_trigger = yes
+			}
+			324 = {
 				owned_by = ROOT
 				province_has_current_tech_fort_trigger = yes
 			}
@@ -1093,12 +1139,7 @@ byz_column_5 = {
 			give_claims = { area = medina_area }
 			give_claims = { area = mecca_area }
 			
-			give_claims = { area = corsica_sardinia_area }
-			give_claims = { area = barbary_coast_area }
-			give_claims = { area = kabylia_area }
-			give_claims = { area = tunisia_area }
-			give_claims = { area = djerba_area }
-			give_claims = { area = tripolitania_area }
+			give_claims = { area = cyrenaica_area }
 		}
 	}
 }

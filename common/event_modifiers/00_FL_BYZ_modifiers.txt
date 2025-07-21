@@ -63,3 +63,11 @@ byz_repaired_army = {
 against_byz_peasant_levies = {
 	land_forcelimit_modifier = 0.75
 }
+
+byz_bulgar_slayer = {
+	cavalry_shock = 1
+}
+
+byz_rooting_out_corruption = {
+	yearly_corruption = -0.25
+}

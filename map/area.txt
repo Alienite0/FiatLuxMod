@@ -1642,7 +1642,7 @@ kurdufan_area = { #3
 }
 
 lower_nubia_area = { #3
-	1234 2322 2323
+	1234 2322
 }
 
 dongola_area = { #3

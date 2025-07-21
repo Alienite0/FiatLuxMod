@@ -3765,3 +3765,73 @@ country_event = {
 		name = fl_flavor_byz.1.a
 	}
 }
+
+country_event = {
+	id = fl_flavor_byz.2
+	title = fl_flavor_byz.2.t
+	desc = fl_flavor_byz.2.d
+	picture = BYZ_BYZANTINE_EAGLE_eventPicture
+
+	is_triggered_only = yes
+
+	#major = yes
+	
+	#fire_only_once = yes
+	
+	immediate = {
+		#set_country_flag = byz_1400_heir_death
+		#hidden_effect = {
+		#	kill_heir = { allow_new_heir = no }
+		#}		
+	}
+	
+	option = {						# Reintegrate Bulgarian Nobility
+		name = fl_flavor_byz.2.a
+		add_dip_power = -150
+		
+		custom_tooltip = FL_blank.tt
+		
+		custom_tooltip = byz_bulgarian_to_bulgar.tt
+		
+		custom_tooltip = FL_blank.tt
+		
+		define_consort = {
+			name = "Ivana"
+			culture = bulgarian
+			adm = 5
+			dip = 4
+			mil = 5
+			female = yes
+		}
+		hidden_effect = {
+			every_province = {
+				limit = {
+					culture = bulgarian
+				}
+				change_culture = greco_bulgarian
+			}
+			set_heir_culture = greco_bulgarian
+			set_ruler_culture = greco_bulgarian
+			every_country = {
+				limit = {
+					culture = bulgarian
+				}
+				change_primary_culture = greco_bulgarian
+				set_heir_culture = greco_bulgarian
+				set_ruler_culture = greco_bulgarian
+			}
+		}
+	}
+	
+	option = {						# Destroy Bulgarian Identity
+		name = fl_flavor_byz.2.b
+		add_mil_power = -150
+		custom_tooltip = FL_blank.tt
+		add_ruler_modifier = { 
+			name = byz_bulgar_slayer
+			duration = -1  
+			#desc = MAD_AND_BAD_DESC
+			#hidden = yes
+		}
+	}
+}
