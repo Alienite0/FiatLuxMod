@@ -1,0 +1,18 @@
+
+owner = HES		#Not hessian YET, but gonna put it as that until i update HRE
+controller = HES
+add_core = HES
+culture = hessian
+religion = catholic
+capital = "Darmstadt"
+trade_goods = glass
+base_tax = 4
+base_production = 3
+base_manpower = 3
+is_city = yes
+hre = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

@@ -19,6 +19,8 @@
  #########################
  #Rhomania(BYZ) Modifiers#
  #########################
+ byz_rooting_out_corruption:0 "Anti-Corruption Campaigns"
+ byz_repaired_army:0 "Army Reforms"
  
  ######################
  #Arles(ARE) Modifiers#

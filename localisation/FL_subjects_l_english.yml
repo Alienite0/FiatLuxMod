@@ -4,3 +4,9 @@
  feudal_lordship_title_plural:0 "Feudatories"
  feudal_lordship_long_desc:0 "REPLACE_ME"
  feudal_lordship_is_our:0 "$NAME|Y$ is our Feudatory"
+ 
+ #Byzantine Exarchates
+ byzantine_exarchate_title:0 "Exarchate"
+ byzantine_exarchate_title_plural:0 "Exarchates"
+ byzantine_exarchate_long_desc:0 "REPLACE_ME"
+ byzantine_exarchate_is_our:0 "$NAME|Y$ is our Exarchate"

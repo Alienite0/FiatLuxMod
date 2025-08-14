@@ -134,6 +134,7 @@ monarchy = {
 				mujirid_government
 				iranian_shahdom
 				sardinian_judicate
+				byzanine_exarch_reform
 			}
 		}
 		hereditary_vs_nobility = {

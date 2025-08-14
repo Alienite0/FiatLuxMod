@@ -1,5 +1,8 @@
 # No previous file for Adirondack
 
+owner = IRO
+controller = IRO
+add_core = IRO
 culture = iroquois
 religion = iroquois_religion
 capital = "Adirondack"
@@ -8,6 +11,7 @@ hre = no
 base_tax = 1 
 base_production = 1
 base_manpower = 1
+is_city = yes
 native_size = 5
 native_ferocity = 1
 native_hostileness = 2

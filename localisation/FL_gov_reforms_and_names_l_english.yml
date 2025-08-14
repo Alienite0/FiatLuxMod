@@ -1,12 +1,15 @@
 ﻿l_english:0
  #England
- PETTY:0 "Petty"
- PETTY_CYNING:0 "Petty Cyning"
- CYNING:0 "Cyning"
- CASERE:0 "Casere"
- PETTY_CYNINGE:0 "Petty Cyninge"
- CYNINGE:0 "Cyninge"
- CASERN:0 "Casern"
+  PETTY_CYNINGDOM:0 "Petty Cyningdom"
+  CYNINGDOM:0 "Cyningdom"
+  CAESERDOM:0 "Caeserdom"
+  PETTY_CYNING:0 "Petty Cyning"
+  CYNING:0 "Cyning"
+  CASERE:0 "Casere"
+  PETTY_CYNINGE:0 "Petty Cyninge"
+  CYNINGE:0 "Cyninge"
+  CASERN:0 "Casern"
+  
  
  #Iran
  MARZBAN:0 "Marzban"
@@ -23,3 +26,7 @@
  JUDICATE:0 "Judicate"
  GRAND_JUDICATE:0 "Grand Judicate"
  JUDGE:0 "Judge"
+ 
+ #Byzantium / Rhomania
+ EXARCHATE:0 "Exarchate"
+ EXARCH:0 "Exarch"

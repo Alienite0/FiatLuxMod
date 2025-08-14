@@ -209,6 +209,7 @@
  
  byz_subjugate_the_dacians_title:0 "Reclaim Dacia"
  byz_subjugate_the_dacians_desc:0 "REPLACE_ME"
+    BYZ_establish_dacian_exarchate_decision:0 "Enable the §Y'Dacian Exarchate'§! Decision, allowing us to release §YDacia§! as an Exarchate subject."
  
  byz_reclaim_magna_graecia_title:0 "Lombardia et Sicilia"
  byz_reclaim_magna_graecia_desc:0 "REPLACE_ME"
@@ -232,6 +233,7 @@
  #Row Seven
  byz_claim_the_iron_crown_title:0 "Belisarius' Revenge"
  byz_claim_the_iron_crown_desc:0 "REPLACE_ME"
+    byz_establish_exarchate_italy.tt:0 "We shall establish an Exarchate out of our Northern Italian provinces!"
  
  byz_levant_restoration_title:0 "Levantine Restoration"
  byz_levant_restoration_desc:0 "REPLACE_ME"

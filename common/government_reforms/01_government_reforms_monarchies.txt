@@ -7376,3 +7376,28 @@ crusader_nobility_reform = {
 	}
 
 }
+
+byzanine_exarch_reform = {
+	icon = ""byzantine_rule""
+	allow_normal_conversion = no
+	potential = {
+		has_reform = byzanine_exarch_reform
+	}
+	valid_for_nation_designer = no
+	nation_designer_cost = 10
+	modifiers = {
+		global_tax_modifier = 0.05
+		same_culture_advisor_cost = -0.2
+		liberty_desire = -10
+	}
+	conditional = {
+		allow = { has_dlc = "Domination" }
+		custom_attributes = {
+			has_ruler_election = yes
+			has_improved_ruler_election = yes
+		}
+	}
+	ai = {
+		factor = 1
+	}
+}

@@ -565,4 +565,100 @@ country_decisions = {
 			factor = 100
 		}
 	}
+	
+	BYZ_dacia_decision = {
+		major = yes
+		potential = {
+			mission_completed = byz_subjugate_the_dacians
+		}
+		allow = {
+			is_at_war = no
+			wallachia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			severin_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			moldavia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			NOT = {
+				has_country_flag = byz_established_dacian_exarchate
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					AND = {
+						WAL = { is_subject_of = BYZ }
+						MOL = { is_subject_of = BYZ }
+					}
+				}
+				WAL = { change_tag = RMN }
+				moldavia_area = {
+					cede_province = RMN
+				}
+				create_subject = {
+					subject_type = byzantine_exarchate
+					subject = RMN
+				}
+				RMN = {
+					change_country_color = { country = ROOT }
+					add_government_reform = byzanine_exarch_reform
+				}
+			}
+			else_if = {
+				limit = { WAL = { is_subject_of = BYZ } }
+				WAL = { change_tag = RMN }
+				create_subject = {
+					subject_type = byzantine_exarchate
+					subject = RMN
+				}
+				RMN = {
+					change_country_color = { country = ROOT }
+					add_government_reform = byzanine_exarch_reform
+				}
+			}
+			else_if = {
+				limit = { MOL = { is_subject_of = BYZ } }
+				MOL = { change_tag = RMN }
+				create_subject = {
+					subject_type = byzantine_exarchate
+					subject = RMN
+				}
+				RMN = {
+					change_country_color = { country = ROOT }
+					add_government_reform = byzanine_exarch_reform
+				}
+			}
+			else = {
+				wallachia_area = {
+					add_core = RMN
+				}
+				severin_area = {
+					add_core = RMN
+				}
+				moldavia_area = {
+					add_core = RMN
+				}
+				release = RMN
+				create_subject = {
+					subject_type = byzantine_exarchate
+					subject = RMN
+				}
+				RMN = {
+					change_country_color = { country = ROOT }
+					add_government_reform = byzanine_exarch_reform
+				}
+			}
+			
+			set_country_flag = byz_established_dacian_exarchate
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
 }

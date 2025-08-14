@@ -200,6 +200,8 @@
  STATE_OF_ALBANIA_ADJ:0 "Albanian"
  RHOMANIAN_EMPIRE:0 "Rhomanian Empire"
  RHOMANIAN_EMPIRE_ADJ:0 "Rhomanian"
+ ITALIA_NATION:0 "Italía"
+ ITALIA_NATION_ADJ:0 "Italíka"
  
  #Federations
  three_fires_federation_name:0 "Three Fires Confederacy"

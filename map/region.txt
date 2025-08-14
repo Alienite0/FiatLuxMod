@@ -1164,8 +1164,6 @@ indo_china_region = {
 
 canada_region = {
 	areas = {
-		upper_acadia_area
-		lower_acadia_area
 		newfoundland_area
 		labrador_area
 		cote_nord_area
@@ -1176,7 +1174,6 @@ canada_region = {
 		huronia_area
 		upper_ontario_area
 		greenland_area
-		st_john_valley_area
 		trois_rivieres_area
 		ottawa_valley_area
 	}
@@ -1209,6 +1206,9 @@ northeast_america_region = {
 		eastern_maine_area
 		new_york_area
 		westsylvania_area
+		upper_acadia_area
+		lower_acadia_area
+		st_john_valley_area
 	}
 }
 

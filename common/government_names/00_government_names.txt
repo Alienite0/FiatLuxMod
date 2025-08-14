@@ -3,11 +3,60 @@
 
 #Heir and consort titles are generally kept simple for clarity unless there is something special in particular that can be used.
 
+byzantine_exarchs = {
+	rank = {
+		1 = EXARCHATE
+		2 = EXARCHATE
+		3 = EXARCHATE
+	}
+
+	ruler_male = {
+		1 = EXARCH
+		2 = EXARCH
+		3 = EXARCH
+	}
+
+	ruler_female = {
+		1 = EXARCH
+		2 = EXARCH
+		3 = EXARCH
+	}
+
+	consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+	}
+
+	consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+	}
+
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+
+	trigger = {
+		has_reform = byzanine_exarch_reform
+	}
+}
+
 anglo_saxon_england_localisation = {
 	rank = {
-		1 = DUCHY
-		2 = KINGDOM
-		3 = EMPIRE
+		1 = PETTY_CYNINGDOM
+		2 = CYNINGDOM
+		3 = CAESERDOM
 	}
 
 	ruler_male = {
@@ -17,7 +66,7 @@ anglo_saxon_england_localisation = {
 	}
 
 	ruler_female = {
-		1 = PETTY
+		1 = PETTY_CYNINGE
 		2 = CYNINGE
 		3 = CASERN
 	}

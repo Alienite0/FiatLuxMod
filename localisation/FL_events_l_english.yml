@@ -58,6 +58,16 @@
  fl_flavor_byz.1.a:0 "Our enemies inside and out will be plotting moves..."
     byz_1400_heir_death:0 "Death of Ioannes"
     
+ fl_flavor_byz.2.t:0 "Fate of the Bulgars"
+ fl_flavor_byz.2.d:0 "REPLACE_ME"
+ fl_flavor_byz.2.a:0 "We shall reintegrate the Bulgars"
+ fl_flavor_byz.2.b:0 "We shall destroy the Bulgarian identity!"
+    
+ fl_flavor_byz.3.t:0 "Administration of Northern Italy"
+ fl_flavor_byz..3.d:0 "REPLACE_ME"
+ fl_flavor_byz.3.a:0 "We shall establish an Italian exarchate!"
+ fl_flavor_byz.3.b:0 "We shall rule Italy directly from Constantinople! (does nothing)"
+    
  fl_byz_crumbling.1.t:0 "Crisis of the XV Century"
  fl_byz_crumbling.1.d:0 "Our enemies make their moves, God help us"
  fl_byz_crumbling.1.a:0 "The time of trials is upon us..."
@@ -100,6 +110,8 @@
  fl_byz_crumbling.9.t:0 "Bandits Raze our Territories"
  fl_byz_crumbling.9.d:0 "REPLACE_ME"
  fl_byz_crumbling.9.a:0 "Bastardos!"
+ 
+ 
  
  #Arles
  flavor_are.1.t:0 "Renewal of the Treaty of Lyon"

@@ -1,0 +1,68 @@
+
+
+byzantine_exarchate = {
+	copy_from = vassal
+	count = vassal
+	
+	# Properties:
+	has_power_projection = yes
+	takes_diplo_slot = no
+	gets_help_with_rebels = yes
+	separatists_become_subjects = yes
+	allows_taking_land_without_independence = no
+	can_use_claims = no
+	forms_trade_companies = no
+	can_concentrate_development = no
+
+	trust_on_start = 0
+	
+	can_be_annexed = yes
+	counts_for_borders = yes
+	share_rebel_popup = yes
+	max_government_rank = 2
+	
+	liberty_desire_same_dynasty = -5.0
+	liberty_desire_revolution = 50.0
+	
+	base_liberty_desire = 0.0
+	military_focus = 1.0
+	
+
+	relative_power_class = 1
+	should_quit_wars_on_activation = yes
+
+	can_fight = {
+		#same_overlord = feudal_lordship
+	}
+	can_rival = {
+	}
+	can_ally = {
+		#same_overlord = feudal_lordship
+	}
+	can_marry = {
+		same_overlord = feudal_lordship
+	}
+	
+	# Subject Interactions
+	#(disable)
+	scutage = yes
+	grant_core_claim = yes
+	grant_province = yes
+	place_relative_on_throne = no
+	enforce_religion = yes
+	enforce_culture = yes
+	seize_territory = no
+	conscript_general = yes
+	knowledge_sharing = yes
+	#(enable)
+	return_land = yes
+	
+	
+	# Modifiers
+	
+	modifier_overlord = clear #We don't want to duplicate the ones inherited from vassal
+	modifier_subject = clear #Ditto
+	modifier_subject = {
+		modifier = subject_nation
+	}
+}

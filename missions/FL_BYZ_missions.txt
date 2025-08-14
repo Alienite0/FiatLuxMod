@@ -54,11 +54,11 @@ byz_column_1 = {
 			}
 		}
 		effect = {
-			give_claims = { area = { carinthia_area } }
-			give_claims = { area = { tirol_area } }
-			give_claims = { area = { inner_austria_area } }
-			give_claims = { area = { austria_proper_area } }
-			give_claims = { area = { transdanubia_area } }
+			give_claims = { area =  carinthia_area  }
+			give_claims = { area =  tirol_area  }
+			give_claims = { area =  inner_austria_area  }
+			give_claims = { area =  austria_proper_area  }
+			give_claims = { area =  transdanubia_area  }
 			
 		}
 	}
@@ -82,7 +82,18 @@ byz_column_1 = {
 		}
 		
 		trigger = {
-			
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				OR = {
+					area = tuscany_area
+					area = emilia_romagna_area
+					area = venetia_area
+					area = po_valley_area
+					area = lombardy_area
+					area = piedmont_area
+					area = liguria_area
+				}
+				value = 15
+			}
 		}
 		effect = {
 			#Event to establish archonate of Ravenna or keep for self
@@ -92,7 +103,7 @@ byz_column_1 = {
 	BYZ_france = {
 		icon = mission_the_french_menace
 		required_missions = { byz_claim_the_iron_crown }
-		position = 7
+		position = 8
 		provinces_to_highlight = {
 			region = france_region
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
@@ -104,17 +115,6 @@ byz_column_1 = {
 			}
 		}
 		effect = {
-			custom_tooltip = BYZ_western_flank_3_4
-			hidden_effect = {
-				remove_country_modifier = BYZ_western_flank_3
-				add_country_modifier = {
-					name = BYZ_western_flank_4
-					duration = -1
-				}
-			}
-			
-			custom_tooltip = " "
-			
 			add_country_modifier_for_age = {
 				name = BYZ_ceasarean_conquests
 				age = age_of_reformation
@@ -161,6 +161,20 @@ byz_column_1 = {
 		}
 	}
 	
+	BYZ_destroy_the_hre = {
+		icon = mission_dismantle_hre
+		required_missions = { BYZ_france }
+		position = 9
+		provinces_to_highlight = {
+			
+		}
+		trigger = {
+			
+		}
+		effect = {
+		
+		}
+	}
 }
 byz_column_2 = {
 	slot = 2
@@ -276,6 +290,10 @@ byz_column_2 = {
 			}
 		}
 		effect = {
+			custom_tooltip = BYZ_establish_dacian_exarchate_decision
+			
+			
+			
 			give_claims = { area = yedisan_area }
 			give_claims = { area = crimea_area }
 			give_claims = { area = transylvania_area }
@@ -333,6 +351,15 @@ byz_column_2 = {
 					}
 				"
 			}
+			
+			custom_tooltip = FL_blank.tt
+			
+			give_claims = { area = tuscany_area }
+			give_claims = { area = liguria_area }
+			give_claims = { area = piedmont_area }
+			give_claims = { area = lombardy_area }
+			give_claims = { area = po_valley_area }
+			give_claims = { area = venetia_area }
 		}
 	}
 }
@@ -370,24 +397,12 @@ byz_column_3 = {
 		}
 	}
 	
-	byz_stabilize_the_realm = {
-		icon = mission_build_up_to_force_limit
-		position = 2
-		required_missions = { byz_weather_the_storm }
-		
-		trigger = {
-			stability = 1
-			NOT = {	unrest = 1 }
-		}
-		effect = {
-			
-		}
-	}
+	
 	
 	byz_end_of_the_crisis = {
 		icon = mission_plc_purple_phoenix
 		position = 3
-		required_missions = { byz_deteriorating_army byz_stabilize_the_realm byz_deal_with_corruption }
+		required_missions = { byz_deteriorating_army byz_deal_with_corruption }
 		
 		trigger = {
 			
@@ -581,16 +596,6 @@ byz_column_3 = {
 			}
 		}
 		effect = {
-			custom_tooltip = BYZ_southern_provinces_1_2
-			hidden_effect = {
-				remove_country_modifier = BYZ_southern_provinces_1
-				add_country_modifier = {
-					name = BYZ_southern_provinces_2
-					duration = -1
-				}
-			}
-			
-			custom_tooltip = " "
 			
 			add_country_modifier_for_age = {
 				name = BYZ_roman_vigour
@@ -618,15 +623,9 @@ byz_column_3 = {
 			tag = ROM
 		}
 		effect = {
-			custom_tooltip = BYZ_unite_all_modifiers_into_one
-			hidden_effect = {
-				remove_country_modifier = BYZ_western_flank_4
-				remove_country_modifier = BYZ_southern_provinces_2
-				remove_country_modifier = BYZ_eastern_flank_3
-				add_country_modifier = {
-					name = BYZ_united_modifier
-					duration = -1
-				}
+			add_country_modifier = {
+				name = BYZ_united_modifier
+				duration = -1
 			}
 			
 			custom_tooltip = " "
@@ -667,6 +666,7 @@ byz_column_4 = {
 		
 		trigger = {
 			NOT = { has_estate_privilege = estate_nobles_deteriorating_army }
+			manpower_percentage = 0.75
 		}
 		effect = {
 			add_country_modifier = {
@@ -677,7 +677,7 @@ byz_column_4 = {
 	}	
 	
 	byz_subjugate_the_orthodox_turks = {
-		icon = mission_build_up_to_force_limit
+		icon = anatolian_frontier
 		position = 4
 		required_missions = {  byz_end_of_the_crisis }
 		
@@ -705,7 +705,7 @@ byz_column_4 = {
 	}	
 	
 	byz_reclaim_anatolia = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_unify_anatolia
 		position = 5
 		required_missions = {  byz_subjugate_the_orthodox_turks }
 		
@@ -762,6 +762,7 @@ byz_column_4 = {
 				give_claims = { area = kurdistan_area }
 				give_claims = { area = trans_jordan_area }
 				
+				
 				iraq_arabi_area = {
 					limit = {
 						NOT = { is_core = ROOT }
@@ -781,7 +782,7 @@ byz_column_4 = {
 	}	
 	
 	byz_levant_restoration = {
-		icon = mission_build_up_to_force_limit
+		icon = jerusalem
 		position = 7
 		required_missions = {  byz_reclaim_anatolia }
 		
@@ -806,21 +807,10 @@ byz_column_4 = {
 					area = trans_jordan_area
 					area = al_jazira_area
 				}
-				value = 13
+				value = 20
 			}
 		}
 		effect = {
-			custom_tooltip = BYZ_eastern_flank_1_2
-			hidden_effect = {
-				remove_country_modifier = BYZ_eastern_flank_1
-				add_country_modifier = {
-					name = BYZ_eastern_flank_2
-					duration = -1
-				}
-			}
-		
-			custom_tooltip = " "
-			
 			give_claims = { region = egypt_region }
 			
 			custom_tooltip = " "
@@ -1052,58 +1042,6 @@ byz_column_5 = {
 				amount = 5
 			}
 			
-			custom_tooltip = " "
-			
-			simple_dynamic_effect = {
-				first_custom_tooltip = BYZ_if_done_via_conquest
-				first_limit = "
-					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-						OR = {
-							area = imereti_area
-							area = kartli_kakheti_area
-							area = samtskhe_area
-							area = circassia_area
-							area = armenia_area
-							area = shirvan_area
-						}
-						value = 18
-					}
-				"
-				first_effect = "
-					custom_tooltip = BYZ_the_conquered_areas_will_get_separatism
-					hidden_effect = {
-						every_owned_province = {
-							limit = {
-								OR = {
-									area = imereti_area
-									area = kartli_kakheti_area
-									area = samtskhe_area
-									area = circassia_area
-									area = armenia_area
-									area = shirvan_area
-								}
-							}
-							add_nationalism = -10
-						}
-					}
-				"
-				second_custom_tooltip = BYZ_if_done_via_war
-				second_limit = "
-					any_country = {
-						culture_group = iranian
-						total_development = 300
-						ROOT = {
-							has_won_war_against = {
-								who = PREV
-								max_years_since = 10
-							}
-						}
-					}
-				"
-				second_effect = "
-					create_general_with_pips = { tradition = 80 add_siege = 1 }
-				"
-			}
 		}
 	}
 	
@@ -1124,22 +1062,29 @@ byz_column_5 = {
 			}
 		}
 		effect = {
-			custom_tooltip = BYZ_eastern_flank_2_3
-			hidden_effect = {
-				remove_country_modifier = BYZ_eastern_flank_2
-				add_country_modifier = {
-					name = BYZ_eastern_flank_3
-					duration = -1
-				}
+			add_country_modifier = {
+				name = BYZ_egyptian_breadbasket
+				duration = -1
 			}
-			
-			custom_tooltip = " "
-			
 			give_claims = { area = tabuk_area }
 			give_claims = { area = medina_area }
 			give_claims = { area = mecca_area }
 			
 			give_claims = { area = cyrenaica_area }
+		}
+	}
+	BYZ_fate_of_mecca = {
+		icon = kok_mam_holy_cities
+		required_missions = { BYZ_egypt }
+		position = 9
+		provinces_to_highlight = {
+			
+		}
+		trigger = {
+			
+		}
+		effect = {
+			
 		}
 	}
 }
