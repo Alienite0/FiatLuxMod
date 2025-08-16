@@ -14,6 +14,11 @@
  flavor_adu.2.a:0 "The Grandest Base of Operation!"
     adu_casa_de_contratacion:0 "Havanese Bazaar"
     
+ flavor_adu.3.t:0 "Porto Revolt!"
+ flavor_adu.3.d:0 "The city of Porto has entered open revolt."
+ flavor_adu.3.a:0 "Return Porto into the fold"
+ flavor_adu.3.b:0 "the Portoans are right.."
+    
  #Iceland
  flavor_ice.1.t:0 "Story of Bjorn 'Firebeard' Odinsson"
  flavor_ice.1.d:0 "REPLACE_ME"
@@ -67,6 +72,11 @@
  fl_flavor_byz..3.d:0 "REPLACE_ME"
  fl_flavor_byz.3.a:0 "We shall establish an Italian exarchate!"
  fl_flavor_byz.3.b:0 "We shall rule Italy directly from Constantinople! (does nothing)"
+ 
+ fl_flavor_byz.4.t:0 "Administration of Africa"
+ fl_flavor_byz..4.d:0 "REPLACE_ME"
+ fl_flavor_byz.4.a:0 "We shall establish an African exarchate!"
+ fl_flavor_byz.4.b:0 "We shall rule Italy directly from Constantinople! (does nothingish)"
     
  fl_byz_crumbling.1.t:0 "Crisis of the XV Century"
  fl_byz_crumbling.1.d:0 "Our enemies make their moves, God help us"

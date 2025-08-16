@@ -3917,3 +3917,68 @@ country_event = {		#Establish Italian Exarchate
 		name = fl_flavor_byz.3.b
 	}
 }
+
+country_event = {		#Establish Italian Exarchate
+	id = fl_flavor_byz.4
+	title = fl_flavor_byz.4.t
+	desc = fl_flavor_byz.4.d
+	picture = BYZ_BYZANTINE_EAGLE_eventPicture
+
+	is_triggered_only = yes
+
+	#major = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = BYZ
+	}
+	
+	immediate = {
+				
+	}
+	
+	option = {						# Establish Africa
+		name = fl_flavor_byz.4.a
+		custom_tooltip = byz_establish_exarchate_italy.tt
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						area = tunisia_area
+						area = djerba_area
+						area = tripolitania_area
+						area = kabylia_area
+						area = corsica_sardinia_area
+						area = baleares_area
+					}
+					OR = {
+						owned_by = ROOT
+						owned_by_subject_of = ROOT
+					}
+				}
+				cede_province = AFR
+				create_subject = {
+					subject_type = byzantine_exarchate
+					subject = AFR
+				}
+				AFR = { 
+					change_country_color = { country = ROOT } 
+					add_government_reform = byzanine_exarch_reform
+				}
+			}
+			341 = {
+				change_religion = ROOT
+				add_reform_center = orthodox
+			}
+		}
+	}
+	option = {						# Directly Rule
+		name = fl_flavor_byz.4.b
+		341 = {
+			change_religion = ROOT
+			add_reform_center = orthodox
+		}
+		
+	}
+}

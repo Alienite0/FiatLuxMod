@@ -113,10 +113,7 @@ country_event = {
 						cavalry = 0.2
 					}
 				}
-				random_owned_province = {
-					limit = {
-						has_port = yes
-					}
+				317 = {
 					build_to_forcelimit = {
 						galley = 0.7
 						light_ship = 0.2

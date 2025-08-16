@@ -1,0 +1,6 @@
+government = monarchy
+#add_government_reform = byzantine_autocracy_reform
+government_rank = 2
+primary_culture = tunisian
+religion = orthodox
+technology_group = eastern

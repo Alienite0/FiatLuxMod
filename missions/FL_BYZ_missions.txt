@@ -96,7 +96,12 @@ byz_column_1 = {
 			}
 		}
 		effect = {
-			#Event to establish archonate of Ravenna or keep for self
+			
+			country_event = { id = fl_flavor_byz.3 }
+			
+			custom_tooltip = FL_blank.tt
+			
+			give_claims = { region = france_region }
 		}
 	}
 	
@@ -161,20 +166,20 @@ byz_column_1 = {
 		}
 	}
 	
-	BYZ_destroy_the_hre = {
-		icon = mission_dismantle_hre
-		required_missions = { BYZ_france }
-		position = 9
-		provinces_to_highlight = {
-			
-		}
-		trigger = {
-			
-		}
-		effect = {
-		
-		}
-	}
+	#BYZ_destroy_the_hre = {
+	#	icon = mission_dismantle_hre
+	#	required_missions = { BYZ_france }
+	#	position = 9
+	#	provinces_to_highlight = {
+	#		
+	#	}
+	#	trigger = {
+	#		hre_size = 0
+	#	}
+	#	effect = {
+	#	
+	#	}
+	#}
 }
 byz_column_2 = {
 	slot = 2
@@ -574,6 +579,10 @@ byz_column_3 = {
 		}
 		effect = {
 			#Establishes Archonate of Africa event, or keep all for self
+			
+			country_event = { id = fl_flavor_byz.4 }
+			
+			custom_tooltip = FL_blank.tt
 			
 			give_claims = { area = lower_andalucia_area }
 			give_claims = { area = upper_andalucia_area }
@@ -1073,18 +1082,18 @@ byz_column_5 = {
 			give_claims = { area = cyrenaica_area }
 		}
 	}
-	BYZ_fate_of_mecca = {
-		icon = kok_mam_holy_cities
-		required_missions = { BYZ_egypt }
-		position = 9
-		provinces_to_highlight = {
-			
-		}
-		trigger = {
-			
-		}
-		effect = {
-			
-		}
-	}
+	#BYZ_fate_of_mecca = {
+	#	icon = kok_mam_holy_cities
+	#	required_missions = { BYZ_egypt }
+	#	position = 9
+	#	provinces_to_highlight = {
+	#		
+	#	}
+	#	trigger = {
+	#		
+	#	}
+	#	effect = {
+	#		
+	#	}
+	#}
 }

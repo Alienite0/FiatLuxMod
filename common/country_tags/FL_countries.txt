@@ -121,3 +121,6 @@ KTL = "countries/Kartli.txt"
 CLL = "countries/Cahuilla.txt"
 TAQ = "countries/Taaqtam.txt"
 TGV = "countries/Tongva.txt"
+
+#Maghreb
+AFR = "countries/Africa.txt"
