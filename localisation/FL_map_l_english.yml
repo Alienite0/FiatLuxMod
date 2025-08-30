@@ -114,6 +114,10 @@
  PROV5030:0 "Patwin"
  PROV5031:0 "Nomlaki"
  PROV5032:0 "Payómkawichum"
+ PROV5033:0 "Darmstadt"
+ PROV5034:0 "Tarsus Mountains"
+ PROV5035:0 "Tarsus Mountains"
+ PROV5036:0 "Pontic Mountains"
  
  #Province Adjectives   for some reason
  PROV_ADJ4942:0 "Achridos"
@@ -205,6 +209,10 @@
  PROV_ADJ5030:0 "Patwin"
  PROV_ADJ5031:0 "Nomlaki"
  PROV_ADJ5032:0 "Payómkawichum"
+ PROV_ADJ5033:0 "Darmstadt"
+ PROV_ADJ5034:0 "Tarsus Mountains"
+ PROV_ADJ5035:0 "Tarsus Mountains"
+ PROV_ADJ5036:0 "Pontic Mountains"
  
  #Trade Goods
  rice_good:0 "Rice"
