@@ -79,10 +79,10 @@ siq_column_3 = {
 		
 		required_missions = { siq_army_of_the_faithful }
 		trigger = {
-			OR = {
+			AND = {
 				NOT = { exists = BVT }
 				NOT = { exists = TTS }
-				NOT = { exists = SIQ }
+				#NOT = { exists = SIC }
 			}
 		}
 		effect = {

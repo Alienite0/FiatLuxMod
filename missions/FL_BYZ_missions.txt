@@ -218,7 +218,7 @@ byz_column_2 = {
 	}
 	
 	byz_reconquer_the_bulgars = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_impaled_soldies
 		position = 4
 		required_missions = {  byz_end_of_the_crisis }
 		
@@ -267,7 +267,7 @@ byz_column_2 = {
 	}
 	
 	byz_subjugate_the_dacians = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_unite_home_region
 		position = 5
 		required_missions = { byz_reconquer_the_bulgars }
 		
@@ -398,7 +398,7 @@ byz_column_3 = {
 			is_at_war = no
 		}
 		effect = {
-			
+			add_war_exhaustion = -2
 		}
 	}
 	
@@ -535,7 +535,7 @@ byz_column_3 = {
 	}
 	
 	byz_exarchate_of_africa = {
-		icon = mission_build_up_to_force_limit
+		icon = africa_proconsulare
 		position = 6
 		required_missions = {  byz_reclaim_magna_graecia }
 		
