@@ -1,9 +1,9 @@
 #435 - Sistan
 
-owner = KRT
-controller = KRT
-add_core = KRT
-add_core = LWL
+owner = MIH
+controller = MIH
+add_core = MIH
+add_core = MIH
 culture = baluchi
 religion = zoroastrian
 capital = "Zaranj"

@@ -1,8 +1,7 @@
 # 2128 - Ngari
 
-owner = TIB
-controller = TIB
-add_core = TIB
+owner = GUG
+controller = GUG
 add_core = GUG
 culture = tibetan
 religion = vajrayana

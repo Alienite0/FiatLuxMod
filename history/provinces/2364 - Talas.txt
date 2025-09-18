@@ -1,10 +1,10 @@
 # 2364 - Talas
 
-owner = TRS
-controller = TRS
-add_core = TRS
+owner = TRK
+controller = TRK
+add_core = TRK
 culture = kirgiz
-religion = tengri_pagan_reformed
+religion = nestorian
 capital = "Talas"
 trade_goods = iron
 hre = no

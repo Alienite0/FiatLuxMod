@@ -1,9 +1,8 @@
 # 2130 - Nyingchi
 
-owner = TIB
-controller = TIB
-add_core = TIB
-add_core = UTS
+owner = PHA
+controller = PHA
+add_core = PHA
 culture = tibetan
 religion = vajrayana
 capital = "Nyingchi"

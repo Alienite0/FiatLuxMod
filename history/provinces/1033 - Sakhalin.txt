@@ -72,7 +72,7 @@ discovered_by = SOL
 	owner = TKG
 	controller = TKG
 	culture = togoku
-	religion = mahayana
+	religion = shinbutsu_shugo
 	trade_goods = fish
 } # Russian & Japanese attemps at colonization
 #1704.1.1 = { add_core = JAP }

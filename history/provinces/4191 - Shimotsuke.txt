@@ -2,8 +2,8 @@
 
 owner = UTN
 controller = UTN
-culture = togoku
-religion = mahayana
+culture = kanto
+religion = shinbutsu_shugo
 capital = "Utsunomiya"
 trade_goods = rice_good
 hre = no

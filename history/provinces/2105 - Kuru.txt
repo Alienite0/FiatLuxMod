@@ -1,8 +1,8 @@
 # 2105 - Kuru
 
-owner = EJZ
-controller = EJZ
-add_core = EJZ
+owner = KLI
+controller = KLI
+add_core = KLI
 culture = kili
 religion = shamanist
 capital = "Kuru"

@@ -3,8 +3,8 @@
 owner = AMA
 controller = AMA
 add_core = AMA
-culture = japanese
-religion = mahayana
+culture = chugoku
+religion = shinbutsu_shugo
 capital = "Hamada"
 trade_goods = fish
 hre = no

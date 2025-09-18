@@ -2,8 +2,8 @@
 
 owner = UES
 controller = UES
-culture = togoku
-religion = mahayana
+culture = kanto
+religion = shinbutsu_shugo
 capital = "Mayabashi"
 trade_goods = livestock
 hre = no

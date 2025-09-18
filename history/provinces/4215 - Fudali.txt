@@ -3,7 +3,7 @@
 owner = EJZ
 controller = EJZ
 add_core = EJZ
-culture = woji
+culture = nanai
 religion = shamanist
 capital = "Fudali"
 trade_goods = naval_supplies

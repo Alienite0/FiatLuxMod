@@ -1,8 +1,8 @@
 #427 - Qumis
 
-owner = KRT
-controller = KRT
-add_core = KRT
+owner = MIH
+controller = MIH
+add_core = MIH
 culture = khorasani
 religion = zoroastrian
 capital = "Damghan"

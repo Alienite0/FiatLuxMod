@@ -3,7 +3,7 @@
 owner = EJZ
 controller = EJZ
 add_core = EJZ
-culture = woji
+culture = ulch
 religion = shamanist
 capital = "Kalar"
 trade_goods = fur

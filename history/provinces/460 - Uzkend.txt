@@ -4,9 +4,8 @@ latent_trade_goods = {
 	coal #Isfara
 }
 
-owner = TRS
-controller = TRS
-add_core = TRS
+owner = KOK
+controller = KOK
 add_core = KOK
 culture = kirgiz
 religion = nestorian

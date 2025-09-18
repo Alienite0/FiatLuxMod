@@ -1,7 +1,8 @@
 #2212 - Mianeh
 
-owner = TBR
-controller = TBR
+owner = MIH
+controller = MIH
+add_core = MIH
 add_core = TBR
 culture = azerbaijani
 religion = nestorian

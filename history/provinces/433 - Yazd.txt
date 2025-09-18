@@ -1,8 +1,9 @@
 #433 - Yadz
 
-owner = KRT
-controller = KRT
-add_core = KRT
+owner = MIH
+controller = MIH
+add_core = MIH
+add_core = YZD
 culture = persian
 religion = zoroastrian
 capital = "Yazd"

@@ -1,9 +1,9 @@
 #4343 - Termez
 
-owner = KRT
-controller = KRT
-add_core = KRT
-add_core = TRS
+owner = BRL
+controller = BRL
+add_core = BRL
+#add_core = TRS
 culture = tajik
 religion = nestorian
 capital = "Termez"

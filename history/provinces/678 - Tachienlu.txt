@@ -1,8 +1,7 @@
 #678 - Kham
 
-owner = TIB
-controller = TIB
-add_core = TIB
+owner = KAM
+controller = KAM
 add_core = KAM
 culture = tibetan
 religion = vajrayana

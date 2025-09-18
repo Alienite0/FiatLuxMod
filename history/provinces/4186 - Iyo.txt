@@ -2,8 +2,8 @@
 
 owner = KNO
 controller = KNO
-culture = japanese
-religion = mahayana
+culture = shikoku
+religion = shinbutsu_shugo
 capital = "Yuzuki"
 trade_goods = copper
 hre = no

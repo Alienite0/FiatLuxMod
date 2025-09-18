@@ -4,10 +4,10 @@ latent_trade_goods = {
 	coal
 }
 
-owner = EJZ
-controller = EJZ
-add_core = EJZ
-culture = kili
+owner = WRK
+controller = WRK
+add_core = WRK
+culture = manchu
 religion = shamanist
 capital = "Jixi"
 trade_goods = naval_supplies

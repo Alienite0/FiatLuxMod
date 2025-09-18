@@ -3,7 +3,7 @@
 owner = RFR
 controller = RFR
 culture = togoku
-religion = mahayana
+religion = shinbutsu_shugo
 capital = "Sannohe"
 trade_goods = livestock
 hre = no

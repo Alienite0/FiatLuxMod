@@ -1,8 +1,8 @@
 #4970 - Jiroft
 
-owner = LWL
-controller = LWL
-add_core = LWL
+owner = MIH
+controller = MIH
+add_core = MIH
 culture = persian
 religion = zoroastrian
 capital = "Jiroft"

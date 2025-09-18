@@ -1,9 +1,7 @@
 #4520 - Rutog
 
-owner = TIB
-controller = TIB
-add_core = TIB
-add_core = GUG
+owner = LDK
+controller = LDK
 add_core = LDK
 culture = tibetan
 religion = vajrayana

@@ -18819,7 +18819,7 @@ st_basil_cathedral = {
 	}
 }
 
-grand_canal_1 = {
+grand_canal_1 = { # Southern Canal
 	start = 684 #Hangzhou
 	date = 1427.01.09
 	time = { months = 0	}
@@ -18929,8 +18929,8 @@ grand_canal_1 = {
 	}
 }
 
-grand_canal_2 = {
-	start = 1822 #Suzhou
+grand_canal_2 = { # Central Canal
+	start = 2140 #Jizhou
 	date = 1427.01.09
 	time = { months = 0	}
 	build_cost = 0
@@ -19039,8 +19039,8 @@ grand_canal_2 = {
 	}
 }
 
-grand_canal_3 = {
-	start = 2145 #Zhenjiang
+grand_canal_3 = {	#Northern Canal
+	start = 1816 # Beiping
 	date = 1427.01.09
 	time = { months = 0	}
 	build_cost = 0
@@ -19149,7 +19149,7 @@ grand_canal_3 = {
 	}
 }
 
-grand_canal_4 = {
+grand_canal_4 = {	#Nanjing Grand Canal
 	start = 1821 #Nanjing
 	date = 1427.01.09
 	time = { months = 0	}

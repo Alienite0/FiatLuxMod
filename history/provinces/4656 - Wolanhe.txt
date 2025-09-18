@@ -1,9 +1,9 @@
 # Wolanhe
 
-owner = EJZ							#Nanai will represent Nanais and Nanis
-controller = EJZ
-add_core = EJZ
-culture = woji
+owner = WRK
+controller = WRK
+add_core = WRK
+culture = manchu
 religion = shamanist
 capital = "Wolanhe"
 trade_goods = fish

@@ -1,9 +1,9 @@
 #1850 - Yaran
 
-owner = EJZ
-controller = EJZ
-add_core = EJZ
-culture = woji
+owner = WRK
+controller = WRK
+add_core = WRK
+culture = manchu
 religion = shamanist
 capital = "Yaran"
 trade_goods = fish

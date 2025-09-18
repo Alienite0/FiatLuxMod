@@ -1,0 +1,27 @@
+##################################################################################################
+##################################################################################################
+# scriptable and usable for event-system below.
+##################################################################################################
+
+#Harmony
+
+harmonized_manichaen_group = {
+	#num_accepted_cultures = 2
+	religious_unity = .25
+	religion = yes
+}
+
+harmonized_north_america_native_group = {
+	production_efficiency = 0.05
+	religion = yes
+}
+
+harmonized_tibetic_pagan = {
+	defensiveness = 0.10
+	religion = yes
+}
+
+harmonized_confucianism = {
+	advisor_cost = -0.15
+	religion = yes
+}

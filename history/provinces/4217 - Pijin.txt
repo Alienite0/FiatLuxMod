@@ -1,9 +1,9 @@
 # 4217 - Pijin
 
-owner = EJZ
-controller = EJZ
-add_core = EJZ
-culture = woji
+owner = WRK
+controller = WRK
+add_core = WRK
+culture = manchu
 religion = shamanist
 capital = "Pijin"
 trade_goods = naval_supplies

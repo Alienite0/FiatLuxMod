@@ -1,8 +1,7 @@
 # 2167 - Lijiang
 
-owner = TIB
-controller = TIB
-add_core = TIB
+owner = CDL
+controller = CDL
 add_core = CDL
 culture = bai
 religion = vajrayana

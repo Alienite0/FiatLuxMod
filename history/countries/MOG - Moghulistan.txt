@@ -2,7 +2,7 @@
 technology_group = nomad_group
 primary_culture = uzbehk
 add_accepted_culture = uyghur
-religion = vajrayana
+religion = nestorian
 government = tribal
 add_government_reform = steppe_horde
 government_rank = 2

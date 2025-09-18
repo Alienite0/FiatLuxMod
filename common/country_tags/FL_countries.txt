@@ -79,6 +79,9 @@ ONG = "countries/OngudUlus.txt"
 JET = "countries/Jetisu.txt"
 MOG = "countries/Moghulistan.txt"
 SLY = "countries/Salyr.txt"
+BRL = "countries/Barlas.txt"
+SMR = "countries/Samarkand.txt"
+TRK = "countries/Turkestan.txt"
 
 #Iran
 KRT = "countries/Kartids.txt"
@@ -111,6 +114,7 @@ ORO = "countries/Ordos.txt"
 
 #Manchuria(will rename i think)
 WRK = "countries/Warka.txt"
+KLI = "countries/Kili.txt"
 
 #Scythia
 ALN = "countries/Alania.txt"
@@ -124,3 +128,6 @@ TGV = "countries/Tongva.txt"
 
 #Maghreb
 AFR = "countries/Africa.txt"
+
+#Tibet
+AMD = "countries/Amdo.txt"

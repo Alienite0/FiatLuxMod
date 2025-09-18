@@ -1,8 +1,8 @@
 #1969 - Syghnak
 
-owner = WHH
-controller = WHH
-add_core = WHH
+owner = TRK
+controller = TRK
+add_core = TRK
 culture = khazak
 religion = tengri_pagan_reformed
 capital = "Sozak"

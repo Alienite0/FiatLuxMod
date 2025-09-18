@@ -1,8 +1,9 @@
 #4344 - Kish
 
-owner = TRS
-controller = TRS
-add_core = TRS
+owner = BRL
+controller = BRL
+add_core = BRL
+#add_core = TRS
 culture = tajik
 religion = nestorian
 capital = "Shahrisabz" #Renamed by Timur, but both names in use for most our era.

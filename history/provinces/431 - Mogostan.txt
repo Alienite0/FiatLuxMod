@@ -1,8 +1,9 @@
 #431 - Mogostan
 
-owner = LRE
-controller = LRE
-add_core = LRE
+owner = MIH
+controller = MIH
+add_core = MIH
+add_core = FRS
 culture = persian
 religion = zoroastrian
 capital = "Gamrun"

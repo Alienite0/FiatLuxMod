@@ -1,10 +1,10 @@
 #457 - Tashkent
 
-owner = TRS
-controller = TRS
-add_core = TRS
+owner = TRK
+controller = TRK
+add_core = TRK
 culture = uzbehk
-religion = tengri_pagan_reformed
+religion = nestorian
 capital = "Tashkent"
 trade_goods = tea
 hre = no

@@ -1,8 +1,9 @@
 #453 - Qarshi
 
-owner = TRS
-controller = TRS
-add_core = TRS
+owner = SMR
+controller = SMR
+add_core = SMR
+add_core = BRL
 culture = uzbehk
 religion = nestorian
 capital = "Qarshi"

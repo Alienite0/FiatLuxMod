@@ -3,8 +3,8 @@
 owner = HTK
 controller = HTK
 add_core = HTK
-culture = japanese
-religion = mahayana
+culture = shikoku
+religion = shinbutsu_shugo
 capital = "Tokushima"
 trade_goods = fish
 hre = no

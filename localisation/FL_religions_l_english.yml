@@ -81,14 +81,17 @@
  moism:0 "Moism"
  moism_religion_desc:0 "REPLACE_ME"
  
- shamanist:0 "Shamanist"
+ shamanist:0 "Shamanism"
  shamanist_religion_desc:0 "REPLACE_ME"
  
- taoism:0 "Taoist"
+ taoism:0 "Taoism"
  taoism_religion_desc:0 "REPLACE_ME"
  
  khabzeism:0 "Khabeism"
  khabzeism_religion_desc:0 "REPLACE_ME"
+ 
+ shinbutsu_shugo:0 "Shinbutsu Shugo"
+ shinbutsu_shugo_religion_desc:0 "Shibutsu Shugo represents the blend of Buddhism and Shinto practices that dominated Japan until the Meiji restoration."
  
  #Holy Site Localization
  norse_pagan_reformed_blessings:0 "Blessings of the Gods"
@@ -124,3 +127,22 @@
  
  #Centers of Reformation
  orthodox_center_of_reformation:0 "Center of Reformation"
+ 
+ #Gurus (Dalai Lamas)
+ gedun_drupa: "Gedun Drupa"
+ gedun_gyatso: "Gedun Gyatso"
+ sonam_gyatso: "Sonam Gyatso"
+ yonten_gyatso: "Yonten Gyatso"
+ ngawang_lobsang_gyatso: "Ngawang Lobsang Gyatso"
+ tsangyang_gyatso: "Tsangyang Gyatso"
+ kelzang_gyatso: "Kelzang Gyatso"
+ 
+ #Buddhist Schools
+ fl_nyingma_school: "Nyingma"
+ fl_nyingma_school_modifier: "Nyingma School"
+ fl_kagyu_school: "Kagyu"
+ fl_nyingma_school_modifier: "Kagyu School"
+ fl_gelug_school: "Gelug"
+ fl_nyingma_school_modifier: "Gelug School"
+ fl_sakya_school: "Sakya"
+ fl_nyingma_school_modifier: "Sakya School"

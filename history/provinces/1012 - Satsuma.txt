@@ -3,7 +3,7 @@
 owner = SMZ
 controller = SMZ
 culture = kyushuan
-religion = mahayana
+religion = shinbutsu_shugo
 capital = "Kagoshima"
 trade_goods = iron
 hre = no

@@ -69,7 +69,7 @@ discovered_by = NHX
 	owner = TKG
 	controller = TKG
 	culture = togoku
-	religion = mahayana
+	religion = shinbutsu_shugo
 	trade_goods = fish
 } # Japanese attemps at colonization
 1671.1.1 = { add_core = TKG }

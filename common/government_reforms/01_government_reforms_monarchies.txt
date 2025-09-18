@@ -548,7 +548,7 @@ chinese_warlord = {
 					primary_culture = miao
 					primary_culture = yi
 				}
-				religion = animism
+				#religion = animism
 			}
 			AND = {
 				primary_culture = bai
@@ -598,10 +598,10 @@ chinese_warlord = {
 				region = south_china_region
 			}
 		}
-		if = {
-			limit = { is_subject = yes }
-			overlord = { has_reform = celestial_empire }
-		}
+		#if = {
+		#	limit = { is_subject = yes }
+		#	overlord = { has_reform = celestial_empire }
+		#}
 	}
 	maintain_dynasty = yes
 	allow_force_tributary = no
@@ -1609,14 +1609,18 @@ zoroastrian_persian_government_reform = {
 	custom_attributes = {
 		enables_divine_idea_group = yes
 		enables_aristocratic_idea_group = no
+		
 	}
-	maintain_dynasty = yes
-	conditional = {
-		allow = { has_dlc = "King of Kings" }
-		government_abilities = {
-			the_three_royal_fires_mechanic
+	government_abilities = {
+			ottoman_decadence_mechanic
 		}
-	}
+	maintain_dynasty = yes
+	#conditional = {
+	#	allow = { has_dlc = "King of Kings" }
+	#	government_abilities = {
+	#		the_three_royal_fires_mechanic
+	#	}
+	#}
 	#post_removed_effect = {
 	#	hidden_effect = {
 	#		if = {

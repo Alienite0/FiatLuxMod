@@ -3,8 +3,8 @@
 owner = HJO
 controller = HJO
 add_core = HJO
-culture = japanese
-religion = mahayana
+culture = kansai
+religion = shinbutsu_shugo
 capital = "Kyoto"
 trade_goods = silk
 hre = no

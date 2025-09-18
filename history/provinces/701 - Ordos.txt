@@ -4,9 +4,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = ORO
-controller = ORO
-add_core = ORO
+owner = TUM
+controller = TUM
+add_core = TUM
 culture = chahar
 religion = vajrayana
 capital = "Ordos"

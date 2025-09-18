@@ -1,8 +1,7 @@
 #1967 - Khujand
 
-owner = TRS
-controller = TRS
-add_core = TRS
+owner = KOK
+controller = KOK
 add_core = KOK
 culture = tajik
 religion = nestorian

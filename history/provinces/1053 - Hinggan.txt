@@ -3,7 +3,7 @@
 owner = SOL
 controller = SOL
 add_core = SOL
-culture = evenk
+culture = oroqen
 religion = shamanist
 capital = "Hinggan"
 trade_goods = fur

@@ -3,7 +3,7 @@
 owner = AKT
 controller = AKT
 culture = togoku
-religion = mahayana
+religion = shinbutsu_shugo
 capital = "Akita"
 trade_goods = fish
 hre = no

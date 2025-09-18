@@ -3,7 +3,7 @@
 owner = DTE
 controller = DTE
 culture = togoku
-religion = mahayana
+religion = shinbutsu_shugo
 capital = "Aizu"
 trade_goods = rice_good
 hre = no

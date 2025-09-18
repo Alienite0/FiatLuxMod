@@ -1,7 +1,7 @@
 owner = SOL
 controller = SOL
 add_core = SOL
-culture = evenk
+culture = oroqen
 religion = shamanist
 capital = "Oroqen"
 trade_goods = livestock

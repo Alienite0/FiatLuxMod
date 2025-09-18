@@ -2,8 +2,8 @@
 
 owner = AMA
 controller = AMA
-culture = japanese
-religion = mahayana
+culture = chugoku
+religion = shinbutsu_shugo
 capital = "Matsue"
 trade_goods = iron
 hre = no

@@ -2,8 +2,8 @@
 
 owner = ISK
 controller = ISK
-culture = japanese
-religion = mahayana
+culture = kansai
+religion = shinbutsu_shugo
 capital = "Miyazu"
 trade_goods = fish
 hre = no

@@ -1,8 +1,8 @@
 #698 - Guyuan
 
-owner = ORO
-controller = ORO
-add_core = ORO
+owner = TUM
+controller = TUM
+add_core = TUM
 culture = chahar
 religion = vajrayana
 capital = "Ningxia"

@@ -2,8 +2,8 @@
 
 owner = KTB
 controller = KTB
-culture = japanese
-religion = mahayana
+culture = kansai
+religion = shinbutsu_shugo
 capital = "Kiriyama"
 trade_goods = fish
 hre = no

@@ -1,9 +1,9 @@
 #4216 - Ulch
 
-owner = EJZ
-controller = EJZ
-add_core = EJZ
-culture = woji
+owner = NHX
+controller = NHX
+add_core = NHX
+culture = orochoni		# Outdated Term represents the Udihe(Udege) and the Nani(Orochs)
 religion = shamanist
 capital = "Ulch"
 trade_goods = fish

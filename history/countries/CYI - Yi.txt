@@ -1,0 +1,7 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = yi
+religion = bimoism
+technology_group = chinese
+capital = 675	# Umung
+

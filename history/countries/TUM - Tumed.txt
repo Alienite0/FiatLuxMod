@@ -4,4 +4,4 @@ technology_group = nomad_group
 religion = vajrayana
 primary_culture = chahar
 capital = 702	# Hohhot
-
+religious_school = fl_gelug_school

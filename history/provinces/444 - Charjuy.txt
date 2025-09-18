@@ -1,9 +1,8 @@
 #444 - Charjuy
 
-owner = KRT
-controller = KRT
-add_core = KRT
-add_core = TRS
+owner = SLY
+controller = SLY
+add_core = SLY
 culture = uzbehk
 religion = nestorian
 capital = "Charjuy"

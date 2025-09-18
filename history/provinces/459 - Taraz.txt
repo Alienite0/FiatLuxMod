@@ -1,8 +1,8 @@
 #459 - Taraz
 
-owner = JET
-controller = JET
-add_core = JET
+owner = TRK
+controller = TRK
+add_core = TRK
 culture = khazak
 religion = tengri_pagan_reformed
 capital = "Taraz"

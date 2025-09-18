@@ -1,5 +1,5 @@
-government = monarchy
-add_government_reform = chinese_warlord
+government = tribal
+add_government_reform = tribal_kingdom
 technology_group = chinese
 religion = moism
 primary_culture = zhuang

@@ -2,8 +2,8 @@
 
 owner = OUC
 controller = OUC
-culture = japanese
-religion = mahayana
+culture = chugoku
+religion = shinbutsu_shugo
 capital = "Yamaguchi"
 trade_goods = silk
 hre = no

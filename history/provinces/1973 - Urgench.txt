@@ -1,8 +1,7 @@
 #1973 - Urgench
 
-owner = TRS
-controller = TRS
-add_core = TRS
+owner = KHI
+controller = KHI
 add_core = KHI
 culture = uzbehk
 religion = nestorian

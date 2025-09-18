@@ -2,8 +2,8 @@
 
 owner = HTK
 controller = HTK
-culture = togoku
-religion = mahayana
+culture = chubu
+religion = shinbutsu_shugo
 capital = "Kanazawa"
 trade_goods = rice_good
 hre = no

@@ -3,7 +3,7 @@
 owner = MOG
 controller = MOG
 add_core = MOG
-culture = oirats
+culture = uyghur
 religion = vajrayana
 capital = "Hami"
 trade_goods = grain

@@ -3,8 +3,8 @@
 owner = MRI
 controller = MRI
 add_core = MRI
-culture = japanese
-religion = mahayana
+culture = chugoku
+religion = shinbutsu_shugo
 capital = "Okayama"
 trade_goods = iron
 hre = no

@@ -1,7 +1,9 @@
 #472 - Zhetyru
 
-owner = NOG
-controller = NOG
+owner = WHH
+controller = WHH
+add_core = WHH
+add_core = NOG
 culture = nogaybak
 religion = tengri_pagan_reformed
 capital = "Zhetyru"
@@ -11,9 +13,6 @@ base_tax = 2
 base_production = 2
 base_manpower = 2
 is_city = yes
-add_core = NOG
-
-
 
 discovered_by = muslim
 discovered_by = ottoman

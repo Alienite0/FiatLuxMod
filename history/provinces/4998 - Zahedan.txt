@@ -1,8 +1,8 @@
 #4969 - Zahedan
 
-owner = LWL
-controller = LWL
-add_core = LWL
+owner = MIH
+controller = MIH
+add_core = MIH
 culture = baluchi
 religion = zoroastrian
 capital = "Zahedan"

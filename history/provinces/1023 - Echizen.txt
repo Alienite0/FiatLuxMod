@@ -3,8 +3,8 @@
 owner = ASA
 controller = ASA
 add_core = ASA
-culture = japanese
-religion = mahayana
+culture = chubu
+religion = shinbutsu_shugo
 capital = "Takefu"
 trade_goods = paper
 hre = no

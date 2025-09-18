@@ -1,8 +1,8 @@
 #429 - Isfahan
 
-owner = KRT
-controller = KRT
-add_core = KRT
+owner = MIH
+controller = MIH
+add_core = MIH
 culture = persian
 religion = zoroastrian
 capital = "Spahan"

@@ -7,60 +7,55 @@
 #}
 
 #Gurkani Tributary
-dependency = {
-	subject_type = "tributary_state"
-	first = MOG
-	second = KHA
-	start_date = 1444.1.1
-	end_date = 1644.4.22
-}
+#dependency = {
+#	subject_type = "tributary_state"
+#	first = MOG
+#	second = KHA
+#	start_date = 1444.1.1
+#	end_date = 1644.4.22
+#}
 
 #Yuan Tributes
 
-dependency = {
-	subject_type = "tributary_state"
+vassal = {
 	first = KHA
 	second = KRC
 	start_date = 1444.1.1
 	end_date = 1644.4.22
 }
-dependency = {
-	subject_type = "tributary_state"
+vassal = {
 	first = KHA
 	second = GOR
 	start_date = 1444.1.1
 	end_date = 1644.4.22
 }
-dependency = {
-	subject_type = "tributary_state"
+vassal = {
 	first = KHA
 	second = CHH
 	start_date = 1444.1.1
 	end_date = 1644.4.22
 }
-dependency = {
-	subject_type = "tributary_state"
-	first = KHA
-	second = TUM
-	start_date = 1444.1.1
-	end_date = 1644.4.22
-}
-dependency = {
-	subject_type = "tributary_state"
+vassal = {
+
 	first = KHA
 	second = ORO
 	start_date = 1444.1.1
 	end_date = 1644.4.22
 }
 
-dependency = {
-	subject_type = "tributary_state"
+vassal = {
 	first = KHA
 	second = KLK
 	start_date = 1444.1.1
 	end_date = 1644.4.22
 }
 
+vassal = {
+	first = KHA
+	second = TUM
+	start_date = 1444.1.1
+	end_date = 1644.4.22
+}
 
 #Wu Tributaries
 
@@ -68,6 +63,46 @@ dependency = {
 	subject_type = "tributary_state"
 	first = WUU
 	second = RYU
+	start_date = 1444.1.1
+	end_date = 1609.4.5
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = WUU
+	second = SHUU
+	start_date = 1444.1.1
+	end_date = 1609.4.5
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = WUU
+	second = CHC
+	start_date = 1444.1.1
+	end_date = 1609.4.5
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = WUU
+	second = MIN
+	start_date = 1444.1.1
+	end_date = 1609.4.5
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = WUU
+	second = YUE
+	start_date = 1444.1.1
+	end_date = 1609.4.5
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = WUU
+	second = KOR
 	start_date = 1444.1.1
 	end_date = 1609.4.5
 }

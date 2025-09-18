@@ -1,7 +1,8 @@
 #2234 - Rafsanjan
 
-owner = SHB
-controller = SHB
+owner = MIH
+controller = MIH
+add_core = MIH
 add_core = SHB
 culture = persian
 religion = zoroastrian

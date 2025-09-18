@@ -3,8 +3,8 @@
 owner = HTK
 controller = HTK
 add_core = HTK
-culture = japanese
-religion = mahayana
+culture = kansai
+religion = shinbutsu_shugo
 capital = "Naniwa"
 trade_goods = chinaware
 hre = no

@@ -209,6 +209,15 @@ religious_center = {
 			}
 			religion = manichaeism
 		}
+		else_if = {
+			limit = {
+				province_id = 410
+			}
+			OR = {
+				religion = nestorian
+				has_estate_privilege = estate_dhimmi_guaranteed_autonomy
+			}
+		}
 	}
 
 	local_missionary_strength = -0.05

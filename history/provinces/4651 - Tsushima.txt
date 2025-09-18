@@ -3,7 +3,7 @@
 owner = SOO
 controller = SOO
 culture = kyushuan
-religion = mahayana
+religion = shinbutsu_shugo
 capital = "Tsushima"
 trade_goods = chinaware
 hre = no

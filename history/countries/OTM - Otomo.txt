@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = daimyo
 government_rank = 1
 primary_culture = kyushuan
-religion = mahayana
+religion = shinbutsu_shugo
 technology_group = chinese
 capital = 1014	# Bungo
 
@@ -378,7 +378,7 @@ capital = 1014	# Bungo
 	
 1578.7.1 = { religion = catholic }
 
-1587.6.11 = { religion = mahayana }
+1587.6.11 = { religion = shinbutsu_shugo }
 
 1587.6.11 = {
 	monarch = {

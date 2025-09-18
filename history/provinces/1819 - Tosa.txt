@@ -3,8 +3,8 @@
 owner = CSK
 controller = CSK
 add_core = CSK
-culture = japanese
-religion = mahayana
+culture = shikoku
+religion = shinbutsu_shugo
 capital = "Nakamura"
 trade_goods = naval_supplies
 hre = no

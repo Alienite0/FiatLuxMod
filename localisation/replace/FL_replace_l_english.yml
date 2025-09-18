@@ -123,8 +123,8 @@
  ANU:0 "Ainu Mosir"
  ANU_ADJ:0 "Ainu Mosir"
  OIR:0 "Oirats"
- EJZ:0 "Woji"
- EJZ_ADJ:0 "Woji"
+ #EJZ:0 "Woji"
+ #EJZ_ADJ:0 "Woji"
  MHX:0 "Yehe Nara"
  MHX_ADJ:0 "Yehe Nara"
  MJZ:0 "Aisin Gioro"
@@ -173,6 +173,14 @@
  MPA_ADJ:0 "Kanthawaddy"
  AVA:0 "Pagan"
  AVA_ADJ:0 "Pagan"
+ KHI:0 "Khwarizm"
+ KHI_ADJ:0 "Khwarizm"
+ TRK:0 "Turkestan"
+ TRK_ADJ:0 "Turkestani"
+ LDK:0 "Maryul"
+ LDK_ADJ:0 "Maryul"
+ CGS:0 "Zhuang"
+ CGS_ADJ:0 "Zhuang"
  
  #Cultures
  #germanic:0 "Frankish"
@@ -236,6 +244,7 @@
  maliseet:0 "Wolastoqiyik"
  chichimecan:0 "Guachichil"
  lombard:0 "Transpadane"
+ togoku:0 "Tohoku"
  
  #Parliament
  ENG_parliament_name:0 "Witenagemot"
@@ -354,6 +363,7 @@
     vishnu:0 "§TVishnu§!"
     
  jewish:0 "Judaism"
+ confucianism:0 "Neo-Confucianism" (Song-Wu* Lixue)
  
  #Privileges
  estate_nobles_french_strong_duchies:0 "Frankish Strong Duchies"
@@ -412,8 +422,14 @@
  kiev:0 "Kyiv"
  yumen:0 "Mongolia"
  lhasa:0 "Tibet"
+ #korea_node:0 "Korea"
  
- 
+ #Guru Local
+ CURRENT_GURU:0 "Current Dalai Lama"
+ NEXT_GURU:0 "Next Dalai Lama"
+ CURRENT_GURU_DESC:0 "Your country currently gets the following benefits from $NAME$:\n\n$EFFECTS$"
+ NEXT_GURU_DESC:1 "When the current Dalai Lama dies, $NAME$ will be found to replace him. When he becomes Dalai Lama, your country will get the following benefits:\n\n$EFFECTS$"
+ PICK_TEACHING_DESC:0 "Add a teaching to permanently affect your country at a cost of some Monarch points."
  
  
  

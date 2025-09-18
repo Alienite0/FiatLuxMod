@@ -1,8 +1,7 @@
 #675 - Qujing
 
-owner = CDL
-controller = CDL
-add_core = CDL
+owner = CYI
+controller = CYI
 add_core = CYI
 culture = yi
 religion = bimoism

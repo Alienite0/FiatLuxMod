@@ -2,8 +2,8 @@
 
 owner = HTK
 controller = HTK
-culture = japanese
-religion = mahayana
+culture = kansai
+religion = shinbutsu_shugo
 capital = "Wakayama"
 trade_goods = naval_supplies
 hre = no

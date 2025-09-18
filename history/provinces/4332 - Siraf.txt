@@ -1,8 +1,9 @@
 #4332 - Siraf
 
-owner = LRE
-controller = LRE
-add_core = LRE
+owner = MIH
+controller = MIH
+add_core = MIH
+add_core = FRS
 culture = persian
 religion = nestorian
 capital = "Siraf"

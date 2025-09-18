@@ -10,3 +10,35 @@ on_startup = {
 		flavor_are.1
 	}
 }
+
+on_harmonized_manichaen_group = {
+	on_harmonized_effect = yes
+	on_harmonized_religion_estate_privileges_effect = yes
+	events = {
+		confucian_events.11
+	}
+}
+
+on_harmonized_confucianism = {
+	on_harmonized_effect = yes
+	on_harmonized_religion_estate_privileges_effect = yes
+	events = {
+		confucian_events.12
+	}
+}
+
+on_harmonized_north_america_native_group = {
+	on_harmonized_effect = yes
+	on_harmonized_religion_estate_privileges_effect = yes
+	events = {
+		confucian_events.14
+	}
+}
+
+on_harmonized_tibetic_pagan = {
+	on_harmonized_effect = yes
+	on_harmonized_religion_estate_privileges_effect = yes
+	events = {
+		confucian_events.15
+	}
+}
