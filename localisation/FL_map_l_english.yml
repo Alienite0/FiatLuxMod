@@ -115,6 +115,10 @@
  PROV5031:0 "Nomlaki"
  PROV5032:0 "Payómkawichum"
  PROV5033:0 "Darmstadt"
+ PROV5037:0 "Bouyei"
+ PROV5038:0 "Guangyuan"
+ PROV5039:0 "Baoshan"
+ PROV5040:0 "Honghe"
  
  #Province Adjectives   for some reason
  PROV_ADJ4942:0 "Achridos"
@@ -207,6 +211,10 @@
  PROV_ADJ5031:0 "Nomlaki"
  PROV_ADJ5032:0 "Payómkawichum"
  PROV_ADJ5033:0 "Darmstadt"
+ PROV_ADJ5037:0 "Bouyei"
+ PROV_ADJ5038:0 "Guangyuan"
+ PROV_ADJ5039:0 "Baoshan"
+ PROV_ADJ5040:0 "Honghe"
  
  #Trade Goods
  rice_good:0 "Rice"
@@ -214,3 +222,6 @@
  
  #Trade Nodes
  korea_node:0 "Korea"
+ 
+ #Trade Companies
+ trade_company_korea:0 "Korean Charter"

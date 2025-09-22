@@ -185,6 +185,10 @@
  SIS_ADJ:0 "Sakastani"
  CGS:0 "Bùzhuàng"
  CGS_ADJ:0 "Bùzhuàng"
+ TOK:0 "Dong Kinh"
+ TOK_ADJ:0 "Dong Kinh"
+ ANN:0 "Trung Ky"
+ ANN_ADJ:0 "Trung Ky"
  
  #Cultures
  #germanic:0 "Frankish"
