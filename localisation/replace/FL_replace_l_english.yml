@@ -181,6 +181,10 @@
  LDK_ADJ:0 "Maryul"
  CGS:0 "Zhuang"
  CGS_ADJ:0 "Zhuang"
+ SIS:0 "Sakastan"
+ SIS_ADJ:0 "Sakastani"
+ CGS:0 "Bùzhuàng"
+ CGS_ADJ:0 "Bùzhuàng"
  
  #Cultures
  #germanic:0 "Frankish"

@@ -4,7 +4,7 @@ government_rank = 1
 primary_culture = baluchi
 religion = zoroastrian
 technology_group = muslim
-capital = 577	# Quetta
+capital = 576	# Kalat
 
 #Mirwaris, ancestors of later Kambarani dynasty:
 

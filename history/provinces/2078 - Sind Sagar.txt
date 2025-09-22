@@ -1,10 +1,10 @@
 #2078 - Bannu
 
-owner = SHH
-controller = SHH
-add_core = SHH
+owner = KBL
+controller = KBL
+add_core = KBL
 culture = afghani
-religion = hinduism
+religion = mahayana
 capital = "Bannu"
 trade_goods = livestock
 hre = no

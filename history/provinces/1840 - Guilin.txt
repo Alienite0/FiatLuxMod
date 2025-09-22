@@ -1,7 +1,8 @@
 #1840 - Guilin
 
-owner = YUE
-controller = YUE
+owner = CGS
+controller = CGS
+add_core = CGS
 add_core = YUE
 culture = zhuang
 religion = moism

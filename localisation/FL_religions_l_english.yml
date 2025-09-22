@@ -93,6 +93,11 @@
  shinbutsu_shugo:0 "Shinbutsu Shugo"
  shinbutsu_shugo_religion_desc:0 "Shibutsu Shugo represents the blend of Buddhism and Shinto practices that dominated Japan until the Meiji restoration."
  
+ #Religion Groups
+ buddhist:0 "Buddhist"
+ manichean_group:0 "Manichaen"
+ north_american_native_g:0 "North American"
+ 
  #Holy Site Localization
  norse_pagan_reformed_blessings:0 "Blessings of the Gods"
  pick_norse_pagan_reformed_blessing:0 "Choose a God's Blessing"

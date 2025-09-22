@@ -131,3 +131,6 @@ AFR = "countries/Africa.txt"
 
 #Tibet
 AMD = "countries/Amdo.txt"
+
+#China
+CBZ = "countries/Bozhou.txt"

@@ -1,9 +1,8 @@
 # 2168 - Bozhou
 
-owner = SHU
-controller = SHU
-add_core = SHU
-add_core = CYI
+owner = CBZ
+controller = CBZ
+add_core = CBZ
 culture = yi
 religion = bimoism
 capital = "Bozhou"

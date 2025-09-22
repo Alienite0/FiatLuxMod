@@ -2925,7 +2925,7 @@ guangxi_area = { #5
 }
 
 yun_gui_area = { #5 (Yun-Gui Hinterland)
-	662 663 673 674 4199
+	662 663 673 674 4199 5034
 }
 
 yun_gui_borderland_area = { #5

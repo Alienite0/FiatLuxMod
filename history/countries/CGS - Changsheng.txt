@@ -4,3 +4,15 @@ technology_group = chinese
 religion = moism
 primary_culture = zhuang
 capital = 664 # Lingyun
+
+add_truce = YUE
+
+1444.1.1 = {
+	monarch = {
+		name = "Kumbar"
+		dynasty = "Cen"
+		dip = 1
+		adm = 1 
+		mil = 1
+	}
+}

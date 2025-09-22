@@ -1,8 +1,8 @@
 #448 - Gazni
 
-owner = KBL
-controller = KBL
-add_core = KBL
+owner = ZBL
+controller = ZBL
+add_core = ZBL
 culture = afghani
 religion = mahayana
 capital = "Gazni"

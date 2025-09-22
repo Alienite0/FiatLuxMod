@@ -1,8 +1,8 @@
 #2229 - Bust
 
-owner = KHL
-controller = KHL
-add_core = KHL
+owner = SIS
+controller = SIS
+add_core = SIS
 culture = afghani
 religion = zoroastrian
 capital = "Bust"

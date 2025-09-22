@@ -1,8 +1,8 @@
 #452 - Badakhshan
 
-owner = SHH
-controller = SHH
-add_core = SHH
+owner = KBL
+controller = KBL
+add_core = KBL
 culture = tajik
 religion = mahayana
 capital = "Munjan"

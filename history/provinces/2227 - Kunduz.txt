@@ -1,8 +1,9 @@
 #2227 - Kunduz
 
-owner = BRL
-controller = BRL
+owner = KBL
+controller = KBL
 add_core = BRL
+add_core = KBL
 culture = tajik
 religion = mahayana
 capital = "Kunduz"

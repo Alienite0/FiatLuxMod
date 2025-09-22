@@ -1,7 +1,8 @@
 #616 - Cao Bang
 
-owner = DAI
-controller = DAI
+owner = CGS
+controller = CGS
+add_core = CGS
 culture = zhuang
 religion = moism
 capital = "Cao Bang"

@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = yi
+religion = bimoism
+technology_group = chinese
+capital = 675	# Umung
+
+1444.11.11 = {
+	monarch = {
+		name = "Jiong"
+		dynasty = "Yang"
+		birth_date = 1426.8.10
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

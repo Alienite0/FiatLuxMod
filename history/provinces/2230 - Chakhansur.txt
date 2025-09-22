@@ -1,9 +1,8 @@
 #2230 - Chakansur
 
-owner = MIH
-controller = MIH
-add_core = MIH
-add_core = MIH
+owner = SIS
+controller = SIS
+add_core = SIS
 culture = baluchi
 religion = zoroastrian
 capital = "Chakansur"

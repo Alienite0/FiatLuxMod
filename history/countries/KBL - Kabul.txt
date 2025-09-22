@@ -5,12 +5,12 @@ religion = mahayana
 technology_group = muslim
 capital = 451	# Kabul
 
-1444.1.1 = {
+1444.11.11 = {
 	monarch = {
-		name = "Council of Kabul"
+		name = "Firoza"
+		dynasty = "Khalji"
 		adm = 3
 		dip = 3
 		mil = 3
-		regency = yes
 	}
 }

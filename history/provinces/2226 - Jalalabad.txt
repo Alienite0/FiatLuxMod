@@ -1,10 +1,10 @@
 #2226 - Jalalabad
 
-owner = SHH
-controller = SHH
-add_core = SHH
+owner = KBL
+controller = KBL
+add_core = KBL
 culture = afghani
-religion = hinduism
+religion = mahayana
 capital = "Jalalabad"
 trade_goods = livestock
 hre = no

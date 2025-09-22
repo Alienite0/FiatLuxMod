@@ -202,6 +202,8 @@
  AMD_ADJ:0 "Amdo"
  KLI:0 "Kili"
  KLI_ADJ:0 "Kili"
+ CBZ:0 "Buzhou"
+ CBZ_ADJ:0 "Buzhou"
  
  #Renames
  SULTANATE_OF_CORDOBA:0 "Qurtubah"
