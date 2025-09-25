@@ -253,6 +253,7 @@
  chichimecan:0 "Guachichil"
  lombard:0 "Transpadane"
  togoku:0 "Tohoku"
+ filipino:0 "Tawalisi"
  
  #Parliament
  ENG_parliament_name:0 "Witenagemot"
@@ -334,6 +335,8 @@
  PROV425:0 "Quba"
  PROV2200:0 "Aparanchal Range"
  PROV868:0 "Tongva"
+ PROV524:0 "Mathura"
+ PROV556:0 "Prayaga"
  
  #Areas
  lower_andalucia_area:0 "West al-Mawsat"
@@ -431,6 +434,7 @@
  yumen:0 "Mongolia"
  lhasa:0 "Tibet"
  #korea_node:0 "Korea"
+ philippines:0 "Tawalisi"
  
  #Guru Local
  CURRENT_GURU:0 "Current Dalai Lama"

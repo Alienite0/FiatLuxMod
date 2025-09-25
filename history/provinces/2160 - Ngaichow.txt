@@ -1,9 +1,9 @@
 # 2160 - Ngaichow
 
-owner = YUE
-controller = YUE
-add_core = YUE
-culture = chimin
+owner = NNY
+controller = NNY
+add_core = NNY
+culture = yuenan
 religion = mahayana
 capital = "Ngaichow"
 trade_goods = incense

@@ -1,9 +1,9 @@
 #666 - Hainan
 
-owner = YUE
-controller = YUE
-add_core = YUE
-culture = chimin
+owner = NNY
+controller = NNY
+add_core = NNY
+culture = yuenan
 religion = mahayana
 capital = "Kingchow"
 trade_goods = tropical_wood

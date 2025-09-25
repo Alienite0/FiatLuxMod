@@ -865,6 +865,7 @@ christian = {
 	nestorian = {
 		#color = { 255 215 0 }
 		color = { 224 197 49 }
+		#color = { 204 76 127 }
 		icon = 31
 		country = {
 			tolerance_own = 1
@@ -2168,7 +2169,7 @@ buddhist = {
 
 	buddhism = { #Theravada
 		color = { 204 76 0 }
-		icon = 24
+		icon = 7
 		allowed_conversion = {
 			vajrayana
 			mahayana
@@ -2517,7 +2518,7 @@ buddhist = {
 	
 	shinbutsu_shugo = {
 		color = { 204 0 0 }
-		icon = 23
+		icon = 33
 		allowed_conversion = {
 			#shinto
 		}

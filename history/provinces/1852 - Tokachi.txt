@@ -66,6 +66,7 @@ discovered_by = TTI
 discovered_by = ASK
 discovered_by = NVK
 discovered_by = NHX
+discovered_by = NTT
 
 1640.1.1 = { discovered_by = RUS } # Ivan Moskvitin
 

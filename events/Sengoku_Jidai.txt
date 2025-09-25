@@ -1,0 +1,49 @@
+#####################################
+# Events for Andalusia and Taifas	#
+#									#
+# written by Alienite				#
+#####################################
+
+namespace = sengoku.jidai
+normal_or_historical_nations = yes
+
+
+country_event = {
+	id = sengoku.jidai.1
+	title = "sengoku.jidai.1.t"
+	desc = "sengoku.jidai.1.d"
+	picture = BIG_BOOK_eventPicture
+	
+	fire_only_once = yes
+	#is_triggered_only = yes
+	major = yes
+	major_trigger = {
+		OR = {
+			capital_scope = { region = korea_region }
+			capital_scope = { region = japan_region }
+			capital_scope = { region = south_china_region }
+			capital_scope = { region = north_china_region }
+			capital_scope = { region = manchuria_region }
+			capital_scope = { region = mongolia_region }
+		}
+	}
+	trigger = {
+		OR = {
+			has_reform = daimyo
+			has_reform = shogunate
+		}
+		is_year = 1455
+	}	
+	mean_time_to_happen = {
+		months = 3
+	
+		modifier = {
+			factor = 0.8
+			NOT = { stability = 0 }
+		}
+	}
+	option = {
+		custom_tooltip = sengoku_jidai_start.tt
+		set_global_flag = sengoku_jidai_started
+	}
+}

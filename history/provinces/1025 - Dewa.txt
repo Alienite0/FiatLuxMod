@@ -1,8 +1,8 @@
 #1025 - Dewa
 
-owner = ASK
-controller = ASK
-add_core = ASK
+owner = NTT
+controller = NTT
+add_core = NTT
 culture = togoku
 religion = shinbutsu_shugo
 capital = "Yamagata"

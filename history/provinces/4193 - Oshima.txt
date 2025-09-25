@@ -58,6 +58,7 @@ discovered_by = ASK
 discovered_by = SOL
 discovered_by = NVK
 discovered_by = NHX
+discovered_by = NTT
 
 1514.1.1 = { capital = "Matsumae" }
 1590.8.10 = { remove_core = AKT add_core = ODA owner = ODA controller = ODA }

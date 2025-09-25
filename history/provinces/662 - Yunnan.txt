@@ -1,10 +1,10 @@
 #662 - Yunnan
 
-owner = CDL
-controller = CDL
-add_core = CDL
-culture = bai
-religion = vajrayana
+owner = CYI
+controller = CYI
+add_core = CYI
+culture = yi
+religion = bimoism
 capital = "Kunming"
 trade_goods = copper
 hre = no

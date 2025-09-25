@@ -1,0 +1,36 @@
+government = monarchy
+add_government_reform = daimyo
+government_rank = 1
+primary_culture = kanto
+religion = shinbutsu_shugo
+technology_group = chinese
+capital = 4190	# Sakura
+
+1407.10.22 = { 
+	monarch = {
+		name = "Hidenobu"
+		dynasty = "Nitta"
+		birth_date = 1400.1.1
+		adm = 1
+		dip = 2
+		mil = 4
+		}
+	#clear_scripted_personalities = yes
+	#add_ruler_personality = malevolent_personality
+	#add_ruler_personality = well_connected_personality
+	#add_ruler_personality = lawgiver_personality		
+	}
+	
+1420.1.1 = {
+	heir = {
+		name = "Yoshimasa"
+		dynasty = "Nitta"
+		birth_date = 1420.1.1
+		death_date = 1477.12.29
+		claim = 90
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+}
+	

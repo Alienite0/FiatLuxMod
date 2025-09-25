@@ -92,8 +92,10 @@
  #MOG_ADJ:0 "Altishahr"
  MOG:0 "Moghulistan"
  MOG_ADJ:0 "Moghulistani"
- JET:0 "Jetisu"
- JET_ADJ:0 "Jetisu"
+ #JET:0 "Jetisu"
+ #JET_ADJ:0 "Jetisu"
+ JET:0 "Zhetysu"
+ JET_ADJ:0 "Zhetysu"
  SLY:0 "Salyr"
  SLY_ADJ:0 "Salyrid"
  KRT:0 "Kartids"
@@ -204,6 +206,10 @@
  KLI_ADJ:0 "Kili"
  CBZ:0 "Buzhou"
  CBZ_ADJ:0 "Buzhou"
+ NNY:0 "Yuenan"
+ NNY_ADJ:0 "Yuenanese"
+ NTT:0 "Nitta"
+ NTT_ADJ:0 "Nitta"
  
  #Renames
  SULTANATE_OF_CORDOBA:0 "Qurtubah"

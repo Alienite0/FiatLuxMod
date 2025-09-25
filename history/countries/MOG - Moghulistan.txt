@@ -16,23 +16,86 @@ change_estate_land_share = {
 	estate = estate_nobles
 	share = 12
 }
-set_estate_privilege = estate_church_TIM_yasa_supremacy
-set_estate_privilege = estate_nobles_TIM_soyurghal_grants
 set_estate_privilege = estate_burghers_patronage_of_the_arts
 
-add_army_tradition = 20			#Years of fighting and infighting before the game start.
-add_army_professionalism = 0.05
-
-1440.1.1 = {
+#Khans of Mughalistan
+1399.1.1 = {
 	monarch = {
-		name = "Mirza"
-		birth_date = 1424.1.1
-		dynasty = "Timurid"
+		name = "Shams-i-Jahan"
+		dynasty = "Chagatayid"
+		adm = 0
+		dip = 3
+		mil = 1
+	}
+	add_piety = 0.2
+}
+
+1408.1.1 = {
+	monarch = {
+		name = "Muhammad I"
+		dynasty = "Chagatayid"
+		adm = 4
+		dip = 1
+		mil = 1
+	}
+}
+
+1416.1.1 = {
+	monarch = {
+		name = "Sher Muhammad"
+		dynasty = "Chagatayid"
+		adm = 2
+		dip = 3
+		mil = 1
+	}
+}
+
+1416.6.1 = {
+	monarch = {
+		name = "Naqsh-i-Jahan"
+		dynasty = "Chagatayid"
 		adm = 3
 		dip = 2
-		mil = 4
-		culture = uzbehk
+		mil = 3
 	}
-	clear_scripted_personalities = yes
-	add_ruler_personality = bold_fighter_personality
+}
+
+1418.1.1 = {
+	monarch = {
+		name = "Uwais"
+		dynasty = "Chagatayid"
+		adm = 0
+		dip = 2
+		mil = 2
+	}
+}
+
+1421.1.1 = {
+	monarch = {
+		name = "Sher Muhammad"
+		dynasty = "Chagatayid"
+		adm = 2
+		dip = 3
+		mil = 1
+	}
+}
+
+1425.1.1 = {
+	monarch = {
+		name = "Uwais"
+		dynasty = "Chagatayid"
+		adm = 0
+		dip = 2
+		mil = 2
+	}
+}
+
+1429.1.1 = {
+	monarch = {
+		name = "Esen Buqa"
+		dynasty = "Chagatayid"
+		adm = 1
+		dip = 0
+		mil = 5
+	}
 }

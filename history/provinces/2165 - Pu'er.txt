@@ -1,10 +1,10 @@
 # 2165 - Pu'er
 
-owner = CDL
-controller = CDL
-add_core = CDL
-culture = bai
-religion = buddhism
+owner = CYI
+controller = CYI
+add_core = CYI
+culture = yi
+religion = bimoism
 capital = "Pu'er"
 trade_goods = tea
 hre = no

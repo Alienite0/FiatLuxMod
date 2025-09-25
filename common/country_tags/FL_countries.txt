@@ -134,3 +134,7 @@ AMD = "countries/Amdo.txt"
 
 #China
 CBZ = "countries/Bozhou.txt"
+NNY = "countries/Yuenan.txt"
+
+#Japan
+NTT = "countries/Nitta.txt"

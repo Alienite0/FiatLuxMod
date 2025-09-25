@@ -1,7 +1,8 @@
 # 2158 - Shiukwan
 
-owner = YUE
-controller = YUE
+owner = NNY
+controller = NNY
+add_core = NNY
 add_core = YUE
 culture = hakka
 religion = mahayana

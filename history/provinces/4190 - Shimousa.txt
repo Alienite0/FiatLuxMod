@@ -1,8 +1,8 @@
 #4190 - Shimousa
 
-owner = HJO
-controller = HJO
-add_core = HJO
+owner = NTT
+controller = NTT
+add_core = NTT
 culture = kanto
 religion = shinbutsu_shugo
 capital = "Sakura"

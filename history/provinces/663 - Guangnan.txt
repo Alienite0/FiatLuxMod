@@ -1,10 +1,10 @@
 #663 - Wenshan
 
-owner = CDL
-controller = CDL
-add_core = CDL
-culture = bai
-religion = buddhism
+owner = CYI
+controller = CYI
+add_core = CYI
+culture = miao
+religion = hmongism
 capital = "Guangnan"
 trade_goods = copper
 hre = no

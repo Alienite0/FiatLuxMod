@@ -647,6 +647,7 @@ cb_sengoku = {
 			}
 			has_country_flag = ikko_ikki_peasants_flag
 		}
+		has_global_flag = sengoku_jidai_started
 	}
 
 	prerequisites = {
@@ -661,6 +662,7 @@ cb_sengoku = {
 				has_country_flag = ikko_ikki_peasants_flag
 			}
 			is_subject = yes
+			has_global_flag = sengoku_jidai_started
 		}
 	}
 
