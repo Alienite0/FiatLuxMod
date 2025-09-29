@@ -1,8 +1,8 @@
 #663 - Wenshan
 
-owner = CYI
-controller = CYI
-add_core = CYI
+owner = CGS
+controller = CGS
+add_core = CGS
 culture = miao
 religion = hmongism
 capital = "Guangnan"

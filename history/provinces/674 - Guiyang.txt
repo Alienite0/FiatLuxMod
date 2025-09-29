@@ -1,8 +1,8 @@
 #674 - Guiyang
 
-owner = CYI
-controller = CYI
-add_core = CYI
+owner = CBZ
+controller = CBZ
+add_core = CBZ
 culture = yi
 religion = bimoism
 capital = "Guiyang"

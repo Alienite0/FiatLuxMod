@@ -1,8 +1,8 @@
 #2406 - Jianchang
 
-owner = CYI
-controller = CYI
-add_core = CYI
+owner = CJN
+controller = CJN
+add_core = CJN
 culture = yi
 religion = bimoism
 capital = "Jianchang"
