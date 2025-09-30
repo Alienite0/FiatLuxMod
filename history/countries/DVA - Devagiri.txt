@@ -1,0 +1,32 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = indian
+religion = hinduism
+primary_culture = marathi
+capital = 1948	# Gulbarga
+
+1436.4.17 = {
+	monarch = {
+		name = "X"
+		dynasty = "Seuna"
+		DIP = 4
+		ADM = 4
+		MIL = 5
+	}
+	heir = {
+		name = "X"
+		dynasty = "Seuna"
+		birth_date = 1410.1.1
+		death_Date = 1461.9.4
+		claim = 95
+		ADM = 3
+		DIP = 3
+		MIL = 4
+	}
+	add_piety = -0.5
+	clear_scripted_personalities = yes
+	add_ruler_personality = well_connected_personality #Succesfully recruited talent from abroad extensively
+	add_ruler_personality = fierce_negotiator_personality #Extensive use of foreign mercenaries, manages to recruit from far away
+	#add_ruler_personality = drunkard_personality
+	add_heir_personality = well_advised_personality
+}

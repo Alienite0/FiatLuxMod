@@ -1,7 +1,8 @@
 #2072 - Bhakkar
 
-owner = SND
-controller = SND
+owner = MUL
+controller = MUL
+add_core = MUL
 culture = sindhi
 religion = mahayana
 capital = "Bhakkar"

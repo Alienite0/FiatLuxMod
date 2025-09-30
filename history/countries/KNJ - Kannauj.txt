@@ -1,0 +1,31 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = indian
+religion = hinduism
+primary_culture = avadhi
+capital = 4497	# Jaunpur
+fixed_capital = 4497 # Cannot move capital away from this province & no power cost to move to it
+
+
+1436.1.1 = {
+	monarch = {
+		name = "X"
+		dynasty = "X"
+		ADM = 5
+		DIP = 2
+		MIL = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = craven_personality
+	heir = {
+		name = "X"
+		dynasty = "X"
+		claim = 95
+		birth_date = 1436.1.1
+		death_date = 1458.6.1
+		ADM = 3
+		DIP = 1
+		MIL = 2
+	}
+	add_heir_personality = naive_personality
+}

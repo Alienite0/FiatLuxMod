@@ -1,7 +1,8 @@
 #2068 - Siwistan
 
-owner = BAL
-controller = BAL
+owner = MUL
+controller = MUL
+add_core = MUL
 culture = baluchi
 religion = mahayana
 capital = "Siwi"

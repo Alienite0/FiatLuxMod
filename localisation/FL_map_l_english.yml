@@ -119,6 +119,7 @@
  PROV5038:0 "Guangyuan"
  PROV5039:0 "Baoshan"
  PROV5040:0 "Honghe"
+ PROV5041:0 "Thar Desert"
  
  #Province Adjectives   for some reason
  PROV_ADJ4942:0 "Achridos"
@@ -215,6 +216,7 @@
  PROV_ADJ5038:0 "Guangyuan"
  PROV_ADJ5039:0 "Baoshan"
  PROV_ADJ5040:0 "Honghe"
+ PROV_ADJ5041:0 "Thar Desert"
  
  #Trade Goods
  rice_good:0 "Rice"

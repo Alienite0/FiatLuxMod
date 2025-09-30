@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = feudalism_reform
 technology_group = indian
 primary_culture = panjabi
-religion = hinduism
+religion = mahayana
 capital = 510 #Sirhind
 
 #Lodis
@@ -11,7 +11,7 @@ capital = 510 #Sirhind
 		name = "Bahlûl"
 		dynasty = "Lodi"
 		culture = afghani
-		religion = hindu
+		religion = mahayana
 		ADM = 4
 		DIP = 5
 		MIL = 6
@@ -19,25 +19,9 @@ capital = 510 #Sirhind
 	}
 	government = monarchy
 	add_government_reform = feudalism_reform
-	religion = hinduism
+	#religion = hinduism
 	clear_scripted_personalities = yes
 	add_ruler_personality = strict_personality
 	add_ruler_personality = conqueror_personality
 	add_ruler_personality = industrious_personality
-}
-
-#Surs
-1553.1.1 = {
-	monarch = {
-		name = "Sikandar"
-		dynasty = "Suri"
-		ADM = 1
-		DIP = 3
-		MIL = 2
-		culture = afghani
-	}
-	religion = hinduism
-	government = monarchy
-add_government_reform = feudalism_reform
-	capital = 507 #Lahore
 }

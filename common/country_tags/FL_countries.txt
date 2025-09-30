@@ -139,6 +139,13 @@ CHN = "countries/Hani.txt"
 CJN = "countries/Jianchang.txt"
 #CSX = "countries/Shuixi.txt"
 CKN = "countries/Kunming.txt"
+CZN = "countries/Nanzhao.txt"
 
 #Japan
 NTT = "countries/Nitta.txt"
+
+#India
+DVA = "countries/Devagiri.txt"
+KNJ = "countries/Kannauj.txt"
+VSI = "countries/Varanasi.txt"
+LHO = "countries/Lahore.txt"

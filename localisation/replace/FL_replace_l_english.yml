@@ -189,6 +189,10 @@
  TOK_ADJ:0 "Dong Kinh"
  ANN:0 "Trung Ky"
  ANN_ADJ:0 "Trung Ky"
+ #SRH:0 "Lahore"
+ #SRH_ADJ:0 "Lahore"
+ ODH:0 "Lucknow"
+ ODH_ADJ:0 "Lucknow"
  
  #Cultures
  #germanic:0 "Frankish"
@@ -254,6 +258,7 @@
  lombard:0 "Transpadane"
  togoku:0 "Tohoku"
  filipino:0 "Tawalisi"
+ persian:0 "Farsi"
  
  #Parliament
  ENG_parliament_name:0 "Witenagemot"
@@ -337,6 +342,8 @@
  PROV868:0 "Tongva"
  PROV524:0 "Mathura"
  PROV556:0 "Prayaga"
+ PROV545:0 "Devagiri"
+ PROV541:0 "Hampi"
  
  #Areas
  lower_andalucia_area:0 "West al-Mawsat"

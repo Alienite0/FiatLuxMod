@@ -1,0 +1,44 @@
+
+#Rajput
+vassal = {
+	first = JSL
+	second = MER
+	start_date = 1444.1.1
+	end_date = 1600.1.1
+}
+
+vassal = {
+	first = JSL
+	second = NGA
+	start_date = 1444.1.1
+	end_date = 1600.1.1
+}
+
+vassal = {
+	first = JSL
+	second = JAN
+	start_date = 1444.1.1
+	end_date = 1600.1.1
+}
+
+#Malwa
+guarantee = {
+	first = MLW
+	second = BGA
+	start_date = 1444.1.1
+	end_date = 1600.1.1
+}
+
+vassal = {
+	first = MLW
+	second = HAD
+	start_date = 1444.1.1
+	end_date = 1600.1.1
+}
+
+vassal = {
+	first = MLW
+	second = GDW
+	start_date = 1444.1.1
+	end_date = 1600.1.1
+}

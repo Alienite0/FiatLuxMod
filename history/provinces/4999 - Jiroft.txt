@@ -3,7 +3,7 @@
 owner = MIH
 controller = MIH
 add_core = MIH
-culture = persian
+culture = achomi
 religion = zoroastrian
 capital = "Jiroft"
 trade_goods = silk

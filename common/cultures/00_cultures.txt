@@ -4151,6 +4151,9 @@ iranian	= {
 	chorasmian = {
 		
 	}
+	achomi = {
+		primary = LRE
+	}
 	dynasty_names = {
 		Afsharid Zand Qajar Qoli Zahedi Talish Safavid Zulqadr Shamlu Sahandlu Zanganeh
 		Zaman Ustajlu Tekkelu Jaberi Khuzani Kujuji Ordubadi Khalifeh Karaki 
@@ -8099,7 +8102,7 @@ eastern_aryan = {
 		}
 	}
 	bihari = {
-		primary = TRT
+		primary = VSI
 		dynasty_names = {
 			"Sugauna" "Sharqi" "Suri" "Oinwara"
 		}

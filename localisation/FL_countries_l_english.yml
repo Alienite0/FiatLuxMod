@@ -218,6 +218,16 @@
  CJN_ADJ:0 "Jianchang"
  CKN:0 "Kunming"
  CKN_ADJ:0 "Kunming"
+ DVA:0 "Devagiri"
+ DVA_ADJ:0 "Devagiri"
+ KNJ:0 "Kannauj"
+ KNJ_ADJ:0 "Kannauj"
+ VSI:0 "Varanasi"
+ VSI_ADJ:0 "Varanasi"
+ CZN:0 "Nanzhao"
+ CZN_ADJ:0 "Nanzhao"
+ LHO:0 "Lahore"
+ LHO_ADJ:0 "Lahore"
  
  #Renames
  SULTANATE_OF_CORDOBA:0 "Qurtubah"

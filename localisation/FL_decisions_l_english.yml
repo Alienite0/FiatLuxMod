@@ -5,10 +5,6 @@
  belgian_nation_title:0 "@BEL There Was a Dream That Was Belgium"
  muslim_italy_nation_title:0 "@ITL Formalize the Sultanate of Iitalia"
  
- form_italian_nation:0 "@ITA Form Italian Nation"
- 
- aquitanian_nation_title:0 "@AQI Reform the Kingdom of Aquitane"
- 
  ukr_settle_steppe_ukraine_title:0 "Settle the Black Sea Steppe"
   ukr_settle_steppe_ukraine_desc:0 "REPLACE_ME"
  
@@ -31,3 +27,11 @@
  
  unite_japanese_culture_title:0 "Unite the Japanese Culture"
  unite_japanese_culture_desc:0 "REPLACE_ME"
+ 
+ #Nation Forming
+ form_italian_nation:0 "@ITA Form Italian Nation"
+ 
+ aquitanian_nation_title:0 "@AQI Reform the Kingdom of Aquitane"
+ 
+ nanzhao_nation_title:0 "@CZN Reforge the Nanzhao Kingdom"
+ nanzhao_nation_desc:0 "REPLACE_ME"

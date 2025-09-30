@@ -2925,7 +2925,7 @@ guangxi_area = { #5
 }
 
 yun_gui_area = { #5 (Yun-Gui Hinterland)
-	662 663 673 674 4199 5037 5040
+	662 663 674 5037 5040
 }
 
 yun_gui_borderland_area = { #5
@@ -2949,7 +2949,7 @@ huguang_area = { #5 (Hubei)
 }
 
 hunan_area = { #4
-	671 672 2173 2174
+	671 672 2174
 }
 
 henan_area = { #3 (South Henan)
@@ -2974,6 +2974,10 @@ gansu_area = { #5 (East Gansu)
 
 west_gansu_area = { #4 
 	707 708 2182 2184
+}
+
+hmongland_area = {
+	673 4199 2173
 }
 
 ########################################
