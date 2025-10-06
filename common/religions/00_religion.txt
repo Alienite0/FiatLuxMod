@@ -2554,10 +2554,11 @@ dharmic = {
 
 	hinduism = {
 		color = { 0 204 204 }
+		#color = { 244 196 48 }
 		icon = 8
-		allowed_conversion = {
-			sikhism
-		}
+		#allowed_conversion = {
+		#	sikhism
+		#}
 		country = {
 			tolerance_heathen = 1
 			tolerance_own = 1
@@ -2879,6 +2880,19 @@ pagan = {
 		
 		can_have_secondary_religion = yes
 		heretic = { OLD_BIMOISM }
+	}
+	koyapunem = {
+		icon = 11
+		color = { 220 20 60 }
+		country = {
+			
+		}
+		country_as_secondary = {
+			
+		}
+		
+		can_have_secondary_religion = yes
+		heretic = { OLD_KOYAPUNEM }
 	}
 	
 	crusade_name = CRUSADE

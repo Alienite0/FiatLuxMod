@@ -8,7 +8,7 @@ government_rank = 1
 
 1444.11.11 = {
 	monarch = {
-		name = "Native Council"
+		name = "Tribal Council"
 		adm = 3
 		dip = 3
 		mil = 3

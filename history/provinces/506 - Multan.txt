@@ -3,6 +3,7 @@
 owner = MUL
 controller = MUL
 add_core = MUL
+add_core = LHO
 culture = panjabi
 religion = mahayana
 capital = "Multan"

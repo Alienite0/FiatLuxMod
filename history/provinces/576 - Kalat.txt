@@ -2,7 +2,7 @@
 
 owner = BAL
 controller = BAL
-culture = baluchi
+culture = baluchi	# Brahui
 religion = mahayana
 capital = "Kalat"
 trade_goods = dyes

@@ -2,8 +2,8 @@
 
 owner = KBL
 controller = KBL
-add_core = SRH
 add_core = KBL
+add_core = LHO
 culture = panjabi
 religion = mahayana
 capital = "Bhera"

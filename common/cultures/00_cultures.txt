@@ -7158,52 +7158,6 @@ tibetan_group = {
 			"Kamala" "Indira" Dawa Dechen Diki Choden Dohna Dolkar Karma Sonam Sangmu
 		}
 	}
-	yi = {
-		primary = CYI
-		dynasty_names = {
-			"An" "She" "Liu" "Longzan" "Feng" "Pu"
-		}
-		male_names = {
-			Qizhen Qiyu Jianjun Youcheng Houzhao Houcong Zaihou Yijun Changluo Youjian Yousong Yujian Youlang Chenggong 
-			Kehshuan Biao Shuang Gang Su Zhen Fu Zi Qi Tan Chun Bai Gui Zhi Quan Pian Hui Song Mo Ying Jing Dang Nan 
-			Gaoxu Caosui Gauxi Youyuan Youlun Youbin Houwei Youxiao Youji Youxue Youyi Youshan Cixuan Cijiang Cizhao 
-			Cihuan Cican He Ji Da Yuchun
-		}
-		female_names = {
-			Heying Chunmei Tianhui Kon Mao Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen
-		}
-	}
-	bai = {
-		primary = CDL
-		dynasty_names = {
-			"Duan" "Gao" "Meng"
-		}
-		male_names = {
-			Qizhen Qiyu Jianjun Youcheng Houzhao Houcong Zaihou Yijun Changluo Youjian Yousong Yujian Youlang Chenggong 
-			Kehshuan Biao Shuang Gang Su Zhen Fu Zi Qi Tan Chun Bai Gui Zhi Quan Pian Hui Song Mo Ying Jing Dang Nan 
-			Gaoxu Caosui Gauxi Youyuan Youlun Youbin Houwei Youxiao Youji Youxue Youyi Youshan Cixuan Cijiang Cizhao 
-			Cihuan Cican He Ji Da Yuchun
-		}
-		female_names = {
-			Heying Chunmei Tianhui Kon Mao Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen
-		}
-	}
-	miao = {
-		primary = CMI
-		dynasty_names = {
-			"Fang" "Hang" "Hue" "Khang" "Kong" "Soung" "Kue" "Lo" "Lor" "Li" "Moua" "Pha" "Tang" "Thao" "Chang" "Cheng" 
-			"Chu" "Vang" "Vue" "Xiong" "Yang"
-		}
-		male_names = {
-			Qizhen Qiyu Jianjun Youcheng Houzhao Houcong Zaihou Yijun Changluo Youjian Yousong Yujian Youlang Chenggong 
-			Kehshuan Biao Shuang Gang Su Zhen Fu Zi Qi Tan Chun Bai Gui Zhi Quan Pian Hui Song Mo Ying Jing Dang Nan 
-			Gaoxu Caosui Gauxi Youyuan Youlun Youbin Houwei Youxiao Youji Youxue Youyi Youshan Cixuan Cijiang Cizhao 
-			Cihuan Cican He Ji Da Yuchun
-		}
-		female_names = {
-			Heying Chunmei Tianhui Kon Mao
-		}
-	}
 	bhutanese = {
 		primary = BHU
 		dynasty_names = {
@@ -8115,32 +8069,6 @@ eastern_aryan = {
 			Devavati Devi Ahiylya Gandharavati "Malika Bibi" "Kamala"
 		}
 	}
-	pahari = {
-		primary = GHR
-		dynasty_names = {
-			Chand Parmar Prakash Katoch
-		}
-	}
-	nepali = {
-		primary = NPL
-		dynasty_names = {
-			"Malla" "Ghorka" Limbu
-		}
-		male_names = {
-			Jayajyotimalla Jayayakshamalla Ratmamalla Suryamalla Amaramalla Narendramalla Mahendramalla Sadashivamalla 
-			Shivasimhamalla Lakshminarasimhamalla Pratapamalla Jayanripendramalla Parthivendramalla Bhupendramalla 
-			Bhaskaramalla Mahendrasimhamalla Jayaprakasamalla Bhimsen Amar Singh Ranjur Singh Bhakti
-		}
-		female_names = {
-			Devaladevi Kaushalyawati Rajendralakshmi Maiya Nanu Nani Maya Pragya Anu Chameli Nirmala Anushka Sarmila Komal 
-			Rita Kamala Goma Srijana Bhawana Pramila Saraswati Laxmi Ganga Radha Radhika Krishna Bishnu Sarita Kalpana 
-			Shanti Aayusha Ramita Gita Sita Sangita Mira Ranjita Ranju Manju Punam Maili Kaili Saili Jamuna Shova Pratiksha 
-			Sanjila Anita Nilam Nira Urmila Kopila Pavitra Iswari Khusbhu Rina Junu Tika Kali Rasmi Rupa Puja Aarati 
-			Mankumari Dhankumari Bechani Mangita Uru Lalita Rekha Prabha Shushila Laila Renu Muna Amrita Seti Gauri 
-			Kaushilya Rama Madhu Madhurima Renuka Chandrakala Fulkumari Indrakala Sabitri Archana Kamana Puspa Putali 
-			Suntali Dipa Ambika Dipshika Sabita Suravi Ramabati Mainabati Kabita Champa Kusum Rampyari
-		}
-	}
 	oriya = {
 		primary = ORI
 		dynasty_names = {
@@ -8184,47 +8112,6 @@ eastern_aryan = {
 			Krishnapriya Bishnupriya Tikayet Devi
 		}
 	}
-	sinhala = {
-		primary = CEY
-		dynasty_names = {
-			"Kotteid" "Konnapu Bandara" "Gampolan" "Savulu"
-		}
-		male_names = {
-			Parakramabahu Jayabahu Bhuvanaikabahu Vijayabahu Dharmapalabahu Vimala Dharmasuriya Senarut Rajasimha 
-			Narenda Sri Vijaya Rajasimha Kitri Sri Rajasimha Sri Rajadhiraja Simha Dhatmapala
-			Agabala Aggabodhi Agibuti Ananda Anikanga Apaya Arittha Avirada Ayasmantha Bhuvanekabahu 
-			Butisamana Chodaganga Dahamsena 
-			Danamitta Dappula Dathappabhuti Dathopatissa Dharmapala Dharmasena Dharmasoka Dhatusena 
-			Digakassapa Diganaguli 
-			Digasumana Gajabahu Hadaka Hadana Hujata Jayabahu Jetthatissa Jhotisena Kashyapa Kassapa Kitti 
-			Kittisena Kittivarma 
-			Magamitta Mahadeva Mahanaga Mahasattha Mahasena Mahasiva Mahinda Manavanna Mihidala Mihindala 
-			Mitta Moggallana 
-			Nandamitta Narendra Narendrasinha Nirmala Padita Parakkamabahu Parakramabahu Rajasinha Rakasala 
-			Ratana Rohaka 
-			Sadhatissa Sagala Saliya Sanghamitta Sanghatissa Sankha Sena Senarat Sidata Sigaratissa 
-			Silameghavanna Sinhabahu 
-			Siva Sobana Sobika Sudata Sumana Surakita Suratissa Tissa Udaya Upatissa Vassaba Vebeliya 
-			Vepali Vijayabahu 
-			Vikrama Vikrama Vikramabahu Vimaladharma Vimaladharmasuriya Virabahu Viranarendra
-		}
-		female_names = {
-			Abijliguta Ahali Anula Anurada Anuradi Anuridi Asadaguta Asali Aselaya Ata Barani Bodhideva 
-			Bohodevi Butadata 
-			Cadana Citadevi Citaguta Damadina Damaguta Damarajha Damarakita Damaruci Damasena Damati Damika 
-			Damutara 
-			Devanakata Devanapiya Devarakita Dhamarajha Dhamika Jhita Jhotisena Jhotiya Kalyanavati 
-			Kanadasika Kanaguta 
-			Kanatissa Kitaka Kituka Kubira Kumara Kumaradata Kumaratiha Lasani Lilavati Maga Magha Maka 
-			Maki Mita Nagadina 
-			Narayaguta Nuga Nugaya Paduma Palikada Pamatissa Purushadata Pusamitta Rajhita Ramadata 
-			Ramajhata Ramani 
-			Rasumiliya Reva Sagara Samidata Samudaguta Savera Seneya Silmini Siriguta Siripali Sivala 
-			Sivanabuti Somali Sugula 
-			Sujhata Sumanadevi Suri Suriguta Tisi Tissabuti Tissadata Tissadevi Tissamita Tissaraka 
-			Tissarakita Yahasaya Yahasini Sunetra Devi Kalyanavati Swarnamanikya 
-		}
-	}
 }
 
 hindusthani = {
@@ -8264,48 +8151,8 @@ hindusthani = {
 			Baghela Malikzada Bundela Tomara Karkare Newalkar 
 		}
 	}
-	panjabi = {
-		primary = PUN
-		dynasty_names = {
-			"Kohkkar" "Gakhkhar" "Phulkian" "Bhullara" "Dhaliwala" "Sandhawalia" "Ahluwalia" "Langa" 
-			"Mirrani" "Abbasi"
-			"Janda" "Jhuti" "Kahlon" "Banu Sama"
-		}
-		male_names = {
-			"Jassa Ahuwalia" "Lahina" "Ranjit" "Bhag" "Kharak" "Duleep" "Fateh" "Maha" "Sobha" "Narnak" 
-			"Ram" "Arjan" "Gobind" "Rai" "Krishan" "Bahadur" "Sardar Badar" "Balbir" "Bhalla" "Daya" 
-			"Gahunia" "Gian" "Nihang " "Granth" "Bhai Bachittar" "Himmat" "Hoora" "Ishnar" "Jhol" "Jhotti" 
-			"Mokham" "Nand" "Parmanand" "Rajsingh" "Sanlib" "Sardul" "Shabeg" "Shergill" "Sodhi" "Sohal" 
-			"Tara" "Udasi" "Angad" "Amar" "Lohaar" "Dharem" "Fakir" Ranjor
-			Ajit Amar "Amar Dasi" Amir Angad Arjun Atar Basawa Bhagwant Bhaimani Budh Chand Charat 
-			Damodar Dasu Datu Dayaram Didar Farid Fateh Gobind Gurdita 
-			Hargobind Hari "Har Krishan" "Har Rai" "Jai Ram" Jetha Jujhar 
-			Kalyan Kapur Kehar Kharak Khushal Lahna Lakhmichand Laxman 
-			Mahadev Mohan Mohri Nanak Narayan Nodha Partap Pheru Prithichand Prithvi "Ram Rai" Ranjit 
-			Sahdev Shamsher Sher Srichand "Tegh Bahadur" "Tej Bhan" Thakur Zorawar
-		}
-		female_names = {
-			Amro Anokhi Anup Begum Bhani Dani Gujri Jodhabai Khivi Kishan 
-			Lachmi Nanaki Nihal Ramo Sabhirai Sahib Sulakhni Sundari Tripta
-			"Chand Kaur" "Ratan Kaur" "Kanwal Kaur" "Datar Kaur" "Nand Kaur" "Mahtab"
-		}
-	}
-	kashmiri = {
-		primary = KSH
-		dynasty_names = {
-			"Shah Miri" "Sayyidi" "Mirrani"
-			#CK2
-			"Ladakhi"
-		}
-		male_names = {
-			"Sikandar" "Ali Shah" "Zayn al-'Abidin" "Haydar Shah" "Hasan Shah" "Muhammad Shah" "Sayyid Hassan" "Fath Shah" "Ibrahim Shah"
-			"Nazuk Shah" "Shams ad-Din" "Ismail Shah" "Ghazi Shah" "Husayn Shah" "Yusuf Shah" 
-			"Lohir Shah" "Nabib Shah" "Ya'qub Shah" "Ibrahim" "Hassan" "Nazuk" "Yusuf" "Ya'qub" "Muhammad" "Ali" 
-			"Ismail" "Gulab" "Ranbir" "Hari" "Pratap" "Kishore" "Zorawar" "Jonaraja" "Prajna" "Hamza"
-		}
-		female_names = {
-			"Kota" "Sibaia" "Tara Devi"
-		}
+	braj = {
+		
 	}
 	male_names = {
 		Achalraj Achalraja Achalraja Achalraja Adhandev Adityadeva Ajmal Alsi Amir Anangpal Anangpala 
@@ -8476,63 +8323,6 @@ western_aryan = {
 			Somalladevi Suhava Sundaridevi Tihunaka Udayamati
 		}
 	}
-	marathi = {
-		primary = MAR
-		dynasty_names = {
-			"Bhonsle" "Gaikwar" "Bhat" "Sindhia" "Koli" "Sinda" "Kamadeva" "Gaitonde" "Malviya" "Ruddha"
-		}
-		male_names = {
-			Shivaji Shambaji Rajaram Sahuji Balaji Baji Rao Madhu Rao Narayan Rao Ragunath Rao Pratap Singh Firangoji 
-			Kanhoji Netaji Moropant Baji Prabhu Suryaji Tanaji Chimaji Ranoji Raghunathrao Malhar Tukojirao Haripant 
-			Yashwantrao
-			Abaji Amutrao Bahadur Bahiroji Balaji Bajirao Chimnaji Dattaji Daulatrao Dhanaji Dhondu 
-			Ekoji Fatehsinh Gopalrao Hambirao Harirao Jayajirao Jayappa Janakappa Jivajirao 
-			Khanderao Krishnarao Madhavrao Mahadji Malerao Malharrao Mankoji Martandrao 
-			Moropant Murarirao Nanasaheb Narayanrao Pandurangrao Pratapsinh 
-			Raghunathrao Rajaram Ramaswami Ramchandrapant Ramshastri Ranojirao 
-			Sadashivrao Sambhaji Sayajirao Serfoji Shahuji Shivaji Shivajirao 
-			Tryambakrao Tukkoji Tukojirao Tulojirao Venkatrao Vishwanathpant Yashwantrao
-			Adityavarman Aiyaparaja Anantadeva Aparaditya Aparajita Arikesarin Arthapathi Avasara 
-			Bhavadatta Bhima Bhoja Bijjala Chandra Chandraditya Chhadvaideva Chhittaraja 
-			Daharasena Dhammayira Gandaraditya Goggiraja Gonka Guhala Guhalladeva Haripaladeva 
-			Indradatta Indraraja Jatiga Jayakeshi Jhanjha Kamadeva Kapardin Keshideva Kirtiraja 
-			Mallikarjuna Marsimha Mummuniraja Nagarjuna Nagavarma Naivarman Pullashakti Rattaraja 
-			Sanaphulla Shashthadeva Shivachitta Skandavarman Soddhala Someshvara Sovideva Suketuvarman 
-			Taila Tejahkantha Vappuvanna Vijayaditya Viravarmadeva Vishnuchitta Vyaghrasena 
-		}
-		female_names = {
-			Ahilyabai Ambikabai Anandibai Anubai Bhiubai Deepabai Durgabai Gangabai Gunvantibai 
-			Jankibai Jijibai Kamlabai Kashibai Laxmibai Mahadik Mastani Putalabai 
-			Rajasbai Rajkunvarbai Ramabai Ranubai Saibai Sagunabai Sakavaarbai Sayeebai Soyarabai Sujanbai 
-			Tarabai Yesubai Anjanibai Anuradha Durga Kamadevi Kamaladevi Kesarbai Kishori Kundaladevi 
-			Lasthiyavva Maya Mogubai Radhabai Radhika Shevanti Shudhamati Sovidevi Sudha Sumati Sunita
-			Tarabai Soyarabai Tukabai
-		}
-	}
-	sindhi = {
-		primary = SND
-		dynasty_names = {
-			"Samma" "Kalhora" "Soomra"
-			# CKII
-			"Ghanshani" "Doolani" "Khetpal" "Lohi" "Notani" "Sawai" "Bhambhani" 
-		}
-		male_names = {
-			"Ali Sher" "Fath Khan" "Tughluq" "Nizam ad-Din" "Furuz Salah ad-Din" "Shah Shuja' Beg" "Sanjar" "Nanda" 
-			"Shah Husayn" "Mirza Muhammad 'Isa" "Mirza Muhammad Baqi" "Mirza Jani Beg" "Yar Muhammad Khan" 
-			"Muhammad Murad" "Gulam Shah" "Sarfaraz Khan" "Gulam Nabi Khan" "'Abd an-Nabi Khan" 
-			"'Abd Allah Khan Talpur" "Mir Fath Ali" "Thara" "Mohammed 'Isa" "Mohammed Baqi" "Nur Mahammad" "Mohammad" 
-			"Muzzafar" "Ali" "Khalil" "Sikandar" "Bhenji" "Hamirji" "Bhav" "Natwar" "Sidhraj" "Ghulam" "Hussain" 
-			"Abdullah"
-			Abdullah Abdurrashid Abdurrahman Alauddin "Ali Sher" Amar Arnel Asamuddin Aziz 
-			Banhbina Bhungar "Bhungar Rao" Chanesar Doda "Dadu Phattu" "Dalu Rai" "Deva Rai" 
-			"Fateh Khan" Feruzuddin Genhra Hafif Khafif Hamir Ismail Junah Kahah Karan Khafif Khafif Khaira 
-			Khinrah Mahmud Mubarak Muhammad Muhammed-Tur Munzir Nangar Nizamuddin Pahtu Punhun Raidhan 
-			Sabar Salahuddin Sanghar Sanjar Shahabuddin Sikandar Sumrah Syed Tai Tamachi Taghlak Umar Unar
-		}
-		female_names = {
-			Bhagi Hamide Himu Sad Tari "Zainab Tari" "Noor" "Chaguli" "Khair"
-		}
-	}
 	rajput = {
 		primary = MER
 		dynasty_names = {
@@ -8650,6 +8440,9 @@ western_aryan = {
 		female_names = {
 			"Qudsia" "Hajjah" "Shahjahan Begum" Amro Anokhi Anup Bhani Dani Gujri Jodhabai Khivi Kishan
 		}
+	}
+	bhili = {
+		
 	}
 }
 
@@ -11453,5 +11246,232 @@ albanian_g = {
 chumash_g = {
 	chumash = {
 		
+	}
+}
+
+northwest_aryan = {
+	panjabi = {
+		primary = PUN
+		dynasty_names = {
+			"Kohkkar" "Gakhkhar" "Phulkian" "Bhullara" "Dhaliwala" "Sandhawalia" "Ahluwalia" "Langa" 
+			"Mirrani" "Abbasi"
+			"Janda" "Jhuti" "Kahlon" "Banu Sama"
+		}
+		male_names = {
+			"Jassa Ahuwalia" "Lahina" "Ranjit" "Bhag" "Kharak" "Duleep" "Fateh" "Maha" "Sobha" "Narnak" 
+			"Ram" "Arjan" "Gobind" "Rai" "Krishan" "Bahadur" "Sardar Badar" "Balbir" "Bhalla" "Daya" 
+			"Gahunia" "Gian" "Nihang " "Granth" "Bhai Bachittar" "Himmat" "Hoora" "Ishnar" "Jhol" "Jhotti" 
+			"Mokham" "Nand" "Parmanand" "Rajsingh" "Sanlib" "Sardul" "Shabeg" "Shergill" "Sodhi" "Sohal" 
+			"Tara" "Udasi" "Angad" "Amar" "Lohaar" "Dharem" "Fakir" Ranjor
+			Ajit Amar "Amar Dasi" Amir Angad Arjun Atar Basawa Bhagwant Bhaimani Budh Chand Charat 
+			Damodar Dasu Datu Dayaram Didar Farid Fateh Gobind Gurdita 
+			Hargobind Hari "Har Krishan" "Har Rai" "Jai Ram" Jetha Jujhar 
+			Kalyan Kapur Kehar Kharak Khushal Lahna Lakhmichand Laxman 
+			Mahadev Mohan Mohri Nanak Narayan Nodha Partap Pheru Prithichand Prithvi "Ram Rai" Ranjit 
+			Sahdev Shamsher Sher Srichand "Tegh Bahadur" "Tej Bhan" Thakur Zorawar
+		}
+		female_names = {
+			Amro Anokhi Anup Begum Bhani Dani Gujri Jodhabai Khivi Kishan 
+			Lachmi Nanaki Nihal Ramo Sabhirai Sahib Sulakhni Sundari Tripta
+			"Chand Kaur" "Ratan Kaur" "Kanwal Kaur" "Datar Kaur" "Nand Kaur" "Mahtab"
+		}
+	}
+	kashmiri = {
+		primary = KSH
+		dynasty_names = {
+			"Shah Miri" "Sayyidi" "Mirrani"
+			#CK2
+			"Ladakhi"
+		}
+		male_names = {
+			"Sikandar" "Ali Shah" "Zayn al-'Abidin" "Haydar Shah" "Hasan Shah" "Muhammad Shah" "Sayyid Hassan" "Fath Shah" "Ibrahim Shah"
+			"Nazuk Shah" "Shams ad-Din" "Ismail Shah" "Ghazi Shah" "Husayn Shah" "Yusuf Shah" 
+			"Lohir Shah" "Nabib Shah" "Ya'qub Shah" "Ibrahim" "Hassan" "Nazuk" "Yusuf" "Ya'qub" "Muhammad" "Ali" 
+			"Ismail" "Gulab" "Ranbir" "Hari" "Pratap" "Kishore" "Zorawar" "Jonaraja" "Prajna" "Hamza"
+		}
+		female_names = {
+			"Kota" "Sibaia" "Tara Devi"
+		}
+	}
+	sindhi = {
+		primary = SND
+		dynasty_names = {
+			"Samma" "Kalhora" "Soomra"
+			# CKII
+			"Ghanshani" "Doolani" "Khetpal" "Lohi" "Notani" "Sawai" "Bhambhani" 
+		}
+		male_names = {
+			"Ali Sher" "Fath Khan" "Tughluq" "Nizam ad-Din" "Furuz Salah ad-Din" "Shah Shuja' Beg" "Sanjar" "Nanda" 
+			"Shah Husayn" "Mirza Muhammad 'Isa" "Mirza Muhammad Baqi" "Mirza Jani Beg" "Yar Muhammad Khan" 
+			"Muhammad Murad" "Gulam Shah" "Sarfaraz Khan" "Gulam Nabi Khan" "'Abd an-Nabi Khan" 
+			"'Abd Allah Khan Talpur" "Mir Fath Ali" "Thara" "Mohammed 'Isa" "Mohammed Baqi" "Nur Mahammad" "Mohammad" 
+			"Muzzafar" "Ali" "Khalil" "Sikandar" "Bhenji" "Hamirji" "Bhav" "Natwar" "Sidhraj" "Ghulam" "Hussain" 
+			"Abdullah"
+			Abdullah Abdurrashid Abdurrahman Alauddin "Ali Sher" Amar Arnel Asamuddin Aziz 
+			Banhbina Bhungar "Bhungar Rao" Chanesar Doda "Dadu Phattu" "Dalu Rai" "Deva Rai" 
+			"Fateh Khan" Feruzuddin Genhra Hafif Khafif Hamir Ismail Junah Kahah Karan Khafif Khafif Khaira 
+			Khinrah Mahmud Mubarak Muhammad Muhammed-Tur Munzir Nangar Nizamuddin Pahtu Punhun Raidhan 
+			Sabar Salahuddin Sanghar Sanjar Shahabuddin Sikandar Sumrah Syed Tai Tamachi Taghlak Umar Unar
+		}
+		female_names = {
+			Bhagi Hamide Himu Sad Tari "Zainab Tari" "Noor" "Chaguli" "Khair"
+		}
+	}
+}
+
+northern_aryan = {
+	pahari = {
+		primary = GHR
+		dynasty_names = {
+			Chand Parmar Prakash Katoch
+		}
+	}
+	nepali = {
+		primary = NPL
+		dynasty_names = {
+			"Malla" "Ghorka" Limbu
+		}
+		male_names = {
+			Jayajyotimalla Jayayakshamalla Ratmamalla Suryamalla Amaramalla Narendramalla Mahendramalla Sadashivamalla 
+			Shivasimhamalla Lakshminarasimhamalla Pratapamalla Jayanripendramalla Parthivendramalla Bhupendramalla 
+			Bhaskaramalla Mahendrasimhamalla Jayaprakasamalla Bhimsen Amar Singh Ranjur Singh Bhakti
+		}
+		female_names = {
+			Devaladevi Kaushalyawati Rajendralakshmi Maiya Nanu Nani Maya Pragya Anu Chameli Nirmala Anushka Sarmila Komal 
+			Rita Kamala Goma Srijana Bhawana Pramila Saraswati Laxmi Ganga Radha Radhika Krishna Bishnu Sarita Kalpana 
+			Shanti Aayusha Ramita Gita Sita Sangita Mira Ranjita Ranju Manju Punam Maili Kaili Saili Jamuna Shova Pratiksha 
+			Sanjila Anita Nilam Nira Urmila Kopila Pavitra Iswari Khusbhu Rina Junu Tika Kali Rasmi Rupa Puja Aarati 
+			Mankumari Dhankumari Bechani Mangita Uru Lalita Rekha Prabha Shushila Laila Renu Muna Amrita Seti Gauri 
+			Kaushilya Rama Madhu Madhurima Renuka Chandrakala Fulkumari Indrakala Sabitri Archana Kamana Puspa Putali 
+			Suntali Dipa Ambika Dipshika Sabita Suravi Ramabati Mainabati Kabita Champa Kusum Rampyari
+		}
+	}
+}
+
+southern_aryan = {
+	marathi = {
+		primary = MAR
+		dynasty_names = {
+			"Bhonsle" "Gaikwar" "Bhat" "Sindhia" "Koli" "Sinda" "Kamadeva" "Gaitonde" "Malviya" "Ruddha"
+		}
+		male_names = {
+			Shivaji Shambaji Rajaram Sahuji Balaji Baji Rao Madhu Rao Narayan Rao Ragunath Rao Pratap Singh Firangoji 
+			Kanhoji Netaji Moropant Baji Prabhu Suryaji Tanaji Chimaji Ranoji Raghunathrao Malhar Tukojirao Haripant 
+			Yashwantrao
+			Abaji Amutrao Bahadur Bahiroji Balaji Bajirao Chimnaji Dattaji Daulatrao Dhanaji Dhondu 
+			Ekoji Fatehsinh Gopalrao Hambirao Harirao Jayajirao Jayappa Janakappa Jivajirao 
+			Khanderao Krishnarao Madhavrao Mahadji Malerao Malharrao Mankoji Martandrao 
+			Moropant Murarirao Nanasaheb Narayanrao Pandurangrao Pratapsinh 
+			Raghunathrao Rajaram Ramaswami Ramchandrapant Ramshastri Ranojirao 
+			Sadashivrao Sambhaji Sayajirao Serfoji Shahuji Shivaji Shivajirao 
+			Tryambakrao Tukkoji Tukojirao Tulojirao Venkatrao Vishwanathpant Yashwantrao
+			Adityavarman Aiyaparaja Anantadeva Aparaditya Aparajita Arikesarin Arthapathi Avasara 
+			Bhavadatta Bhima Bhoja Bijjala Chandra Chandraditya Chhadvaideva Chhittaraja 
+			Daharasena Dhammayira Gandaraditya Goggiraja Gonka Guhala Guhalladeva Haripaladeva 
+			Indradatta Indraraja Jatiga Jayakeshi Jhanjha Kamadeva Kapardin Keshideva Kirtiraja 
+			Mallikarjuna Marsimha Mummuniraja Nagarjuna Nagavarma Naivarman Pullashakti Rattaraja 
+			Sanaphulla Shashthadeva Shivachitta Skandavarman Soddhala Someshvara Sovideva Suketuvarman 
+			Taila Tejahkantha Vappuvanna Vijayaditya Viravarmadeva Vishnuchitta Vyaghrasena 
+		}
+		female_names = {
+			Ahilyabai Ambikabai Anandibai Anubai Bhiubai Deepabai Durgabai Gangabai Gunvantibai 
+			Jankibai Jijibai Kamlabai Kashibai Laxmibai Mahadik Mastani Putalabai 
+			Rajasbai Rajkunvarbai Ramabai Ranubai Saibai Sagunabai Sakavaarbai Sayeebai Soyarabai Sujanbai 
+			Tarabai Yesubai Anjanibai Anuradha Durga Kamadevi Kamaladevi Kesarbai Kishori Kundaladevi 
+			Lasthiyavva Maya Mogubai Radhabai Radhika Shevanti Shudhamati Sovidevi Sudha Sumati Sunita
+			Tarabai Soyarabai Tukabai
+		}
+	}
+	sinhala = {
+		primary = CEY
+		dynasty_names = {
+			"Kotteid" "Konnapu Bandara" "Gampolan" "Savulu"
+		}
+		male_names = {
+			Parakramabahu Jayabahu Bhuvanaikabahu Vijayabahu Dharmapalabahu Vimala Dharmasuriya Senarut Rajasimha 
+			Narenda Sri Vijaya Rajasimha Kitri Sri Rajasimha Sri Rajadhiraja Simha Dhatmapala
+			Agabala Aggabodhi Agibuti Ananda Anikanga Apaya Arittha Avirada Ayasmantha Bhuvanekabahu 
+			Butisamana Chodaganga Dahamsena 
+			Danamitta Dappula Dathappabhuti Dathopatissa Dharmapala Dharmasena Dharmasoka Dhatusena 
+			Digakassapa Diganaguli 
+			Digasumana Gajabahu Hadaka Hadana Hujata Jayabahu Jetthatissa Jhotisena Kashyapa Kassapa Kitti 
+			Kittisena Kittivarma 
+			Magamitta Mahadeva Mahanaga Mahasattha Mahasena Mahasiva Mahinda Manavanna Mihidala Mihindala 
+			Mitta Moggallana 
+			Nandamitta Narendra Narendrasinha Nirmala Padita Parakkamabahu Parakramabahu Rajasinha Rakasala 
+			Ratana Rohaka 
+			Sadhatissa Sagala Saliya Sanghamitta Sanghatissa Sankha Sena Senarat Sidata Sigaratissa 
+			Silameghavanna Sinhabahu 
+			Siva Sobana Sobika Sudata Sumana Surakita Suratissa Tissa Udaya Upatissa Vassaba Vebeliya 
+			Vepali Vijayabahu 
+			Vikrama Vikrama Vikramabahu Vimaladharma Vimaladharmasuriya Virabahu Viranarendra
+		}
+		female_names = {
+			Abijliguta Ahali Anula Anurada Anuradi Anuridi Asadaguta Asali Aselaya Ata Barani Bodhideva 
+			Bohodevi Butadata 
+			Cadana Citadevi Citaguta Damadina Damaguta Damarajha Damarakita Damaruci Damasena Damati Damika 
+			Damutara 
+			Devanakata Devanapiya Devarakita Dhamarajha Dhamika Jhita Jhotisena Jhotiya Kalyanavati 
+			Kanadasika Kanaguta 
+			Kanatissa Kitaka Kituka Kubira Kumara Kumaradata Kumaratiha Lasani Lilavati Maga Magha Maka 
+			Maki Mita Nagadina 
+			Narayaguta Nuga Nugaya Paduma Palikada Pamatissa Purushadata Pusamitta Rajhita Ramadata 
+			Ramajhata Ramani 
+			Rasumiliya Reva Sagara Samidata Samudaguta Savera Seneya Silmini Siriguta Siripali Sivala 
+			Sivanabuti Somali Sugula 
+			Sujhata Sumanadevi Suri Suriguta Tisi Tissabuti Tissadata Tissadevi Tissamita Tissaraka 
+			Tissarakita Yahasaya Yahasini Sunetra Devi Kalyanavati Swarnamanikya 
+		}
+	}
+	konkan = {
+		
+	}
+}
+southwestern_chinese_g = {
+	bai = {
+		primary = CDL
+		dynasty_names = {
+			"Duan" "Gao" "Meng"
+		}
+		male_names = {
+			Qizhen Qiyu Jianjun Youcheng Houzhao Houcong Zaihou Yijun Changluo Youjian Yousong Yujian Youlang Chenggong 
+			Kehshuan Biao Shuang Gang Su Zhen Fu Zi Qi Tan Chun Bai Gui Zhi Quan Pian Hui Song Mo Ying Jing Dang Nan 
+			Gaoxu Caosui Gauxi Youyuan Youlun Youbin Houwei Youxiao Youji Youxue Youyi Youshan Cixuan Cijiang Cizhao 
+			Cihuan Cican He Ji Da Yuchun
+		}
+		female_names = {
+			Heying Chunmei Tianhui Kon Mao Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen
+		}
+	}
+	miao = {
+		primary = CMI
+		dynasty_names = {
+			"Fang" "Hang" "Hue" "Khang" "Kong" "Soung" "Kue" "Lo" "Lor" "Li" "Moua" "Pha" "Tang" "Thao" "Chang" "Cheng" 
+			"Chu" "Vang" "Vue" "Xiong" "Yang"
+		}
+		male_names = {
+			Qizhen Qiyu Jianjun Youcheng Houzhao Houcong Zaihou Yijun Changluo Youjian Yousong Yujian Youlang Chenggong 
+			Kehshuan Biao Shuang Gang Su Zhen Fu Zi Qi Tan Chun Bai Gui Zhi Quan Pian Hui Song Mo Ying Jing Dang Nan 
+			Gaoxu Caosui Gauxi Youyuan Youlun Youbin Houwei Youxiao Youji Youxue Youyi Youshan Cixuan Cijiang Cizhao 
+			Cihuan Cican He Ji Da Yuchun
+		}
+		female_names = {
+			Heying Chunmei Tianhui Kon Mao
+		}
+	}
+	yi = {
+		primary = CYI
+		dynasty_names = {
+			"An" "She" "Liu" "Longzan" "Feng" "Pu"
+		}
+		male_names = {
+			Qizhen Qiyu Jianjun Youcheng Houzhao Houcong Zaihou Yijun Changluo Youjian Yousong Yujian Youlang Chenggong 
+			Kehshuan Biao Shuang Gang Su Zhen Fu Zi Qi Tan Chun Bai Gui Zhi Quan Pian Hui Song Mo Ying Jing Dang Nan 
+			Gaoxu Caosui Gauxi Youyuan Youlun Youbin Houwei Youxiao Youji Youxue Youyi Youshan Cixuan Cijiang Cizhao 
+			Cihuan Cican He Ji Da Yuchun
+		}
+		female_names = {
+			Heying Chunmei Tianhui Kon Mao Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen
+		}
 	}
 }

@@ -1,8 +1,8 @@
 #2999 - Hormuz
 
-owner = MIH
-controller = MIH
-add_core = MIH
+owner = LRE
+controller = LRE
+add_core = LRE
 add_core = FRS
 culture = achomi
 religion = nestorian

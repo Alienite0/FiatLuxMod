@@ -3,7 +3,7 @@
 owner = MIH
 controller = MIH
 add_core = MIH
-culture = baluchi
+culture = persian
 religion = zoroastrian
 capital = "Bam"
 trade_goods = cotton

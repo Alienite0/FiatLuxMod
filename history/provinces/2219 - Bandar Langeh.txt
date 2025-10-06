@@ -1,10 +1,9 @@
 #2219 - Bandar Langeh
 
-owner = MIH
-controller = MIH
-add_core = MIH
-add_core = FRS
+owner = LRE
+controller = LRE
 add_core = LRE
+add_core = FRS
 culture = achomi
 religion = nestorian
 capital = "Bandar Langeh"

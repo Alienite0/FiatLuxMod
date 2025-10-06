@@ -3,6 +3,7 @@
 owner = SRH
 controller = SRH
 add_core = SRH
+add_core = LHO
 culture = rajput
 religion = mahayana
 capital = "Bhatnair"

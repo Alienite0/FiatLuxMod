@@ -228,6 +228,8 @@
  CZN_ADJ:0 "Nanzhao"
  LHO:0 "Lahore"
  LHO_ADJ:0 "Lahore"
+ DWA:0 "Dvarasamudra"
+ DWA_ADJ:0 "Dvarasamudra"
  
  #Renames
  SULTANATE_OF_CORDOBA:0 "Qurtubah"

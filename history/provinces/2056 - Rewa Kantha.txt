@@ -3,7 +3,7 @@
 owner = MLW
 controller = MLW
 add_core = MLW
-culture = gujarati
+culture = bhili
 religion = hinduism
 capital = "Champaner"
 trade_goods = wool

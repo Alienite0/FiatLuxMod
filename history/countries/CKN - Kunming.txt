@@ -5,3 +5,13 @@ religion = bimoism
 technology_group = chinese
 capital = 662	# Kunming
 
+
+1444.11.11 = {
+	monarch = {
+		name = "Tribal Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

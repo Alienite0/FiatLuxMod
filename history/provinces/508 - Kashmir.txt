@@ -3,6 +3,7 @@
 owner = KSH
 controller = KSH
 add_core = KSH
+add_core = LHO
 culture = kashmiri
 religion = mahayana
 capital = "Srinagar"

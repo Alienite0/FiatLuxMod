@@ -2,7 +2,7 @@
 
 owner = GWA
 controller = GWA
-culture = vindhyan
+culture = braj
 religion = hinduism
 capital = "Gwalior"
 trade_goods = dyes

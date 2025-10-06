@@ -3,6 +3,7 @@
 owner = SRH
 controller = SRH
 add_core = SRH
+add_core = LHO
 culture = panjabi
 religion = mahayana
 capital = "Jalandhar"

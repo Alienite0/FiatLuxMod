@@ -3,6 +3,7 @@
 owner = KBL
 controller = KBL
 add_core = KBL
+add_core = LHO
 culture = afghani
 religion = mahayana
 capital = "Bannu"

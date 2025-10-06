@@ -2,7 +2,7 @@
 
 owner = DLH
 controller = DLH
-culture = kanauji
+culture = braj
 religion = hinduism
 capital = "Etawah"
 trade_goods = dyes

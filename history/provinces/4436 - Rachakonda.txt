@@ -1,7 +1,8 @@
 #4436 - Devarakonda
 
-owner = TLG
-controller = TLG
+owner = DWA
+controller = DWA
+add_core = DWA
 add_core = TLG
 culture = telegu
 religion = hinduism
