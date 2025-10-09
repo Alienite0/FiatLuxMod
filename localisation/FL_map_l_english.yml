@@ -121,6 +121,9 @@
  PROV5040:0 "Honghe"
  PROV5041:0 "Thar Desert"
  PROV5042:0 "Himalaya"
+ PROV5043:0 "Xianggang"
+ PROV5044:0 "Dalian"
+ PROV5045:0 "Tianjin"
  
  #Province Adjectives   for some reason
  PROV_ADJ4942:0 "Achridos"
@@ -219,6 +222,9 @@
  PROV_ADJ5040:0 "Honghe"
  PROV_ADJ5041:0 "Thar Desert"
  PROV_ADJ5042:0 "Himalaya"
+ PROV_ADJ5043:0 "Xianggang"
+ PROV_ADJ5044:0 "Dalian"
+ PROV_ADJ5045:0 "Tianjin"
  
  #Trade Goods
  rice_good:0 "Rice"

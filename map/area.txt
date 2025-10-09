@@ -2774,7 +2774,7 @@ jilin_area = { #4 (South Jilin Area)
 }
  
 liaoning_area = { #5
-	704 726 2112 2113 4652
+	704 726 2112 2113 4652 5044
 }
 
 ordos_area = { #4 (Western Inner Mongolia)
@@ -2869,7 +2869,7 @@ ngari_area = { #3
 } #new!!
 
 hebei_area = { #4 (North Hebei)
-	703 1816 2136 4194
+	703 1816 2136 4194 5045
 }
 
 south_hebei_area = { #4
@@ -2913,7 +2913,7 @@ taiwan_area = { #3
 }
 
 guangdong_area = { #5
-	667 668 2156 2157 2158
+	667 668 2156 2157 2158 5043
 }
 
 west_guangdong_area = { #5

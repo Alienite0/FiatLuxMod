@@ -3,6 +3,7 @@
 owner = DWA
 controller = DWA
 add_core = DWA
+add_core = DVA
 add_core = TLG
 culture = marathi
 religion = hinduism

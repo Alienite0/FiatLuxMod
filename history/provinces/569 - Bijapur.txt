@@ -3,6 +3,7 @@
 owner = DWA
 controller = DWA
 add_core = DWA
+add_core = DVA
 culture = kannada
 religion = hinduism
 capital = "Bijapur"

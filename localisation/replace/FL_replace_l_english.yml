@@ -345,6 +345,9 @@
  PROV556:0 "Prayaga"
  PROV545:0 "Devagiri"
  PROV541:0 "Hampi"
+ PROV544:0 "Bhingar"
+ PROV668:0 "Aomen"
+ PROV564:0 "Bikrampur"
  
  #Areas
  lower_andalucia_area:0 "West al-Mawsat"

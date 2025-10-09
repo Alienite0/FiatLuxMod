@@ -2137,30 +2137,30 @@ buddhist = {
 		
 		#Huayan
 		
-		#Tiantai
+		#Tiantai(Tendai in Japanese)
 		
 		#Pure Land
 		
 		#Zen/Chan
 		
+		
 		##########################
 		#Japanese
 		
-		#Shingon
+		#Shingon(Vajrayana Tradition)
 		
 		#Nichiren
 		
 		#Shin (Ikko Ikki)
 		
-		#Tendai
-		
-		
+
 		##########################
 		#White Lotus Stuff
 		
 		#Maitreya Worship
 		
 		#Queen Mother (also for mahayana if in south china indochina philippinwes indonesia)
+		
 		
 		###########################
 		#    Theravada Schools    #
@@ -2523,12 +2523,10 @@ buddhist = {
 			#shinto
 		}
 		country = {
-			tolerance_heretic = 2
-			idea_cost = -0.05
+			
 		}
 		country_as_secondary = {
-			global_tax_modifier = 0.1
-			tolerance_heathen = 2
+			
 		}
 		on_convert = {
 			add_prestige = -100
@@ -2542,6 +2540,35 @@ buddhist = {
 		heretic = { ZEN }
 		
 		#uses_karma = yes
+	}
+	
+	azhali = { #Bai Buddhism
+		color = { 138 90 14 }
+		icon = 7
+		#allowed_conversion = {
+		#	vajrayana
+		#	mahayana
+		#}
+		country = {
+			
+		}
+		country_as_secondary = {
+			
+		}
+		on_convert = {
+			add_prestige = -100
+			add_stability = -1
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		heretic = { ZEN }
+		
+		
+		
+		uses_karma = yes
 	}
 	
 	harmonized_modifier = harmonized_buddhism

@@ -3,6 +3,8 @@
 owner = DWA
 controller = DWA
 add_core = DWA
+add_core = DVA
+add_core = TLG
 culture = telegu
 religion = hinduism
 capital = "Golconda"

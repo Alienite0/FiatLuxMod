@@ -3,13 +3,14 @@
 owner = DWA
 controller = DWA
 add_core = DWA
+add_core = DVA
 culture = marathi
 religion = hinduism
-capital = "Ahmednagar"
+capital = "Bhingar"
 trade_goods = cotton
 hre = no
-base_tax = 4
-base_production = 4
+base_tax = 3
+base_production = 3
 base_manpower = 1
 is_city = yes
 
