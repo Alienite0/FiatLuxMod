@@ -1,9 +1,9 @@
 #2394 - Kedah
 
-owner = KED
-controller = KED
+owner = KTH
+controller = KTH
 culture = malayan
-religion = shiite
+religion = buddhism
 capital = "Kedah"
 trade_goods = rice_good
 hre = no
@@ -11,7 +11,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 2
 is_city = yes
-add_core = KED
+add_core = KTH
 
 
 

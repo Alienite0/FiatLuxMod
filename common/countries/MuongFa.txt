@@ -1,0 +1,97 @@
+#Country Name: Please see filename.
+
+graphical_culture = asiangfx
+special_unit_culture = south_east_asian_special
+
+color = { 90 129 15 }
+
+revolutionary_colors = { 16 13 16 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	trade_ideas
+	economic_ideas
+	religious_ideas
+	administrative_ideas
+	quantity_ideas
+}
+
+historical_units = {
+	east_asian_spearmen
+	eastern_bow
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	reformed_asian_musketeer
+	reformed_asian_cavalry
+}
+
+monarch_names = {
+	"Buavan #0" = 20
+	"Bouavan #0" = 20
+	"Bounson #1" = 40
+	"Bounta #0" = 20
+	"Kamphiu #1" = 20
+	"Khamla #0" = 20
+	"Thavone #0" = 20
+	"Unhuan #0" = 20
+	"Khun Lung #0" = 5
+	"Vong #0" = 20
+	"Anan #0" = 20
+	"Bunkhong #0" = 20
+	"Bunkong #0" = 20
+	"Bunpeng #0" = 20
+	"Chan-Op #0" = 20
+	"Lian #0" = 20
+	"Mark #0" = 20
+	"Phumi #0" = 20
+	"Phon #0" = 20
+	"Phuvong #0" = 20
+	"Bunnyo #0" = 20
+	"Hom Fa #0" = 20
+	"Poh Suea #0" = 20
+	"Thai Sa #0" = 20
+	"Jai Luang #0" = 20
+	"Taksin #0" = 20
+	"Rama #0" = 30
+	
+	"Sa-Nga #0" = -1
+	"Lian #0" = -1
+	"Thiang #0" = -1
+	"Thoeng #0" = -1
+	"Tubi #0" = -1
+}
+
+leader_names = {
+	Akradej Ariyanuntaka 
+	Boonmee 
+	Chaipatana Chakrabonse Chuasiriporn 
+	Diskul 
+	Ekaluck 
+	Hitapot 
+	Inchareon 
+	Kawrungruang Khuntilanont Klinpraneet Kriangsak 
+	Monkoltham 
+	Nitpattanasai Noppachorn Nut 
+	Panomyaong Phatipatanawong 
+	Sitdhirasdr Sivaraksa Srichure Supachai Supasawat 
+	Tantasatityanon Thabchumpon Tomson 
+	Wongrutiyan 
+	Yongchaiyudh
+	"Na Phayap" "Na Maharat" "Na Isan" "Na Roi Et" "Na Ubon"
+	"Na Udon" "Na Phuket" "Na Kedah" "Na Chumphon" "Na Prachinburi"
+	"Na Burapa" "Na Chanthaburi"
+}
+
+ship_names = {
+	Ramithibodi Ramesuan Borommaracha "Thong Chan"
+	Ramaratcha Intharatcha Boromtrailokanat Ratsada
+	Chairacha Yotfa Worawongsa Chakkraphat Mahin
+	Sanpet Naresuan Ekathotsarot "Si Saowaphak"
+	Songtham Chehha "Somdet Phra" "Prasat Thong" Chai
+	Suthammaracha Narai Petratcha Süa Phumintharacha
+	Uthumpon Ekkathat
+}

@@ -1,8 +1,8 @@
 #1815 - Pathein
 
-owner = PEG
-controller = PEG
-culture = mon
+owner = DYT
+controller = DYT
+culture = arakanese
 religion = buddhism
 capital = "Pathein"
 trade_goods = rice_good
@@ -11,7 +11,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
-add_core = PEG
+add_core = DYT
 
 
 

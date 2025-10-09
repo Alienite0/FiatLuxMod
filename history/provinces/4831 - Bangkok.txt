@@ -1,7 +1,7 @@
 
-owner = AYU
-controller = AYU
-culture = central_thai
+owner = AUD
+controller = AUD
+culture = mon
 religion = buddhism
 capital = "Bangkok"
 trade_goods = rice_good
@@ -10,7 +10,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 3
 is_city = yes
-add_core = AYU
+add_core = AUD
 
 
 

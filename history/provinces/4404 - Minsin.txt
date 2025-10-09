@@ -1,9 +1,9 @@
 #4404 - Minsin
 
-owner = MKA
-controller = MKA
+owner = JPH
+controller = JPH
 culture = kachin
-religion = animism
+religion = vajrayana
 capital = "Minsin"
 trade_goods = rice_good
 hre = no
@@ -11,7 +11,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
-add_core = MKA
+add_core = JPH
 
 
 discovered_by = chinese

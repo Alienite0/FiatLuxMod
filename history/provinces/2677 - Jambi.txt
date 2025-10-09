@@ -1,7 +1,7 @@
 #2677 - Jambi
 
-owner = JMB
-controller = JMB
+owner = SBG
+controller = SBG
 culture = sumatran
 religion = shiite
 capital = "Jambi"
@@ -11,7 +11,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 3
 is_city = yes
-add_core = JMB
+add_core = SBG
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim

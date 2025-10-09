@@ -1,9 +1,9 @@
 #603 - Nakhon Thung Yai
 
-owner = KHM
-controller = KHM
+owner = KPC
+controller = KPC
 culture = khmer
-religion = buddhism
+religion = mahayana
 capital = "Nakhon Thung Yai"
 trade_goods = gems #Rubies etc
 hre = no
@@ -11,8 +11,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 3
 is_city = yes
-add_core = KHM
-add_core = AYU
+add_core = KPC
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim

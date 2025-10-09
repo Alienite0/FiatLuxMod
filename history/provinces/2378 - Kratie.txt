@@ -3,7 +3,7 @@
 owner = CHA
 controller = CHA
 culture = khmer
-religion = animism
+religion = hinduism
 capital = "Kratie"
 trade_goods = rice_good
 hre = no
@@ -17,9 +17,3 @@ add_core = CHA
 
 discovered_by = chinese
 discovered_by = indian
-
-1535.1.1 = { discovered_by = POR }
-
-1694.1.1 = { add_core = ANN } # Vietnamese Intervention
-1811.1.1 = { unrest = 5 } # The Siamese-Cambodian Rebellion
-1812.1.1 = { unrest = 0 }

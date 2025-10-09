@@ -1,9 +1,9 @@
 #2398 - Thaungdut
 
-owner = KAL
-controller = KAL
+owner = NIT
+controller = NIT
 culture = chin
-religion = animism
+religion = hinduism
 capital = "Thaungdut"
 trade_goods = rice_good
 hre = no
@@ -11,7 +11,7 @@ base_tax = 2
 base_production = 2
 base_manpower = 1
 is_city = yes
-add_core = KAL
+add_core = NIT
 
 
 

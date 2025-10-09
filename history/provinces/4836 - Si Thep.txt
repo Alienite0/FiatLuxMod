@@ -1,9 +1,9 @@
 #592 - Ratchaburi
 
-owner = KHM
-controller = KHM
-culture = khmer
-religion = buddhism
+owner = PHM
+controller = PHM
+culture = lawa
+religion = mahayana
 capital = "Si Thep"
 trade_goods = rice_good
 hre = no
@@ -11,7 +11,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 3
 is_city = yes
-add_core = KHM
+add_core = PHM
 
 
 

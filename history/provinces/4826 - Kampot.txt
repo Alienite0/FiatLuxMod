@@ -1,9 +1,9 @@
 #1823 - Stung Treng
 
-owner = KHM
-controller = KHM
+owner = KCR
+controller = KCR
 culture = khmer
-religion = buddhism
+religion = hinduism
 capital = "Kampot"
 trade_goods = rice_good
 hre = no
@@ -11,7 +11,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 2
 is_city = yes
-add_core = KHM
+add_core = KCR
 
 
 

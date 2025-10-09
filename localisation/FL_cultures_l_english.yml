@@ -108,6 +108,14 @@
  yuenan:0 "Yuenanese"
  achomi:0 "Achomi"
  bhili:0 "Bhili"
+ mon_group:0 "Suvannabhumi"
+ wa:0 "Wa"
+ lawa:0 "Lawa"
+ lua:0 "Lua"
+ new_thai:0 "Tay"
+ pyu:0 "Pyu"
+ khom:0 "Khom"
+ kuy:0 "Kuy"
  
  #United Cultures
  united_japanese:0 "Japanese"

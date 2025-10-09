@@ -1,9 +1,9 @@
 #2380 - Phnom Penh
 
-owner = CHA
-controller = CHA
+owner = FUN
+controller = FUN
 culture = khmer
-religion = buddhism
+religion = hinduism
 capital = "Chaktomuk"
 trade_goods = iron
 hre = no
@@ -12,7 +12,7 @@ base_production = 5
 base_manpower = 3
 is_city = yes
 add_core = CHA
-add_core = KHM
+add_core = FUN
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim

@@ -1,8 +1,8 @@
 #600 - Ayutthaya
 
-owner = AYU 
-controller = AYU
-culture = central_thai
+owner = AUD 
+controller = AUD
+culture = mon
 religion = buddhism
 capital = "Ayutthaya"
 trade_goods = ivory
@@ -12,7 +12,7 @@ base_production = 8
 base_manpower = 4
 is_city = yes
 fort_15th = yes
-add_core = AYU
+add_core = AUD
 discovered_by = chinese
 discovered_by = indian
 extra_cost = 16
