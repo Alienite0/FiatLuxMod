@@ -3,7 +3,7 @@
 owner = TKH
 controller = TKH
 culture = kuy
-religion = animism
+religion = hinduism
 capital = "Stung Treng"
 trade_goods = rice_good
 hre = no

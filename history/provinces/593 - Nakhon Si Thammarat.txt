@@ -2,7 +2,7 @@
 
 owner = TBG
 controller = TBG
-culture = mon
+culture = malayan
 religion = buddhism
 capital = "Nakhon Si Thammarat"
 trade_goods = tropical_wood

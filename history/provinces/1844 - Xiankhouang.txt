@@ -2,8 +2,8 @@
 
 owner = MNH
 controller = MNH
-culture = lao
-religion = buddhism
+culture = new_thai
+religion = satsana_phi
 capital = "Muang Khoun"
 trade_goods = rice_good
 hre = no

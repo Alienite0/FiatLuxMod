@@ -3,7 +3,7 @@
 owner = NIT
 controller = NIT
 culture = chin
-religion = buddhism
+religion = hinduism
 capital = "Tabayin"
 trade_goods = cotton
 hre = no

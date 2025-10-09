@@ -3,7 +3,7 @@
 owner = MNV
 controller = MNV
 culture = wa
-religion = animism
+religion = satsana_phi
 capital = "Kengtung"
 trade_goods = tropical_wood
 hre = no

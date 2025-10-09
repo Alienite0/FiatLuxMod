@@ -1,6 +1,6 @@
 
 culture = new_thai
-religion = mahayana
+religion = satsana_phi
 capital = "Son Nam"
 owner = MNF
 controller = MNF

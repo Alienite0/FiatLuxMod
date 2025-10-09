@@ -3,7 +3,7 @@
 owner = MNC
 controller = MNC
 culture = new_thai
-religion = mahayana
+religion = satsana_phi
 capital = "Hai Phong"
 trade_goods = naval_supplies
 hre = no

@@ -3,7 +3,7 @@
 owner = MNF
 controller = MNF
 culture = new_thai
-religion = mahayana
+religion = satsana_phi
 capital = "Dong Kinh"
 trade_goods = chinaware
 hre = no

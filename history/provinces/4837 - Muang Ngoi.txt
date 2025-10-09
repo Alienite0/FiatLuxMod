@@ -1,7 +1,7 @@
 owner = MSU
 controller = MSU
 culture = new_thai
-religion = animism
+religion = satsana_phi
 capital = "Muang Ngoi"
 trade_goods = ivory
 hre = no

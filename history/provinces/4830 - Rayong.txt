@@ -2,7 +2,7 @@
 owner = AUD
 controller = AUD
 culture = khom
-religion = buddhism
+religion = mahayana
 capital = "Rayong"
 trade_goods = rice_good
 hre = no

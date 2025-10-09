@@ -1,7 +1,7 @@
 owner = MNK
 controller = MNK
 culture = new_thai
-religion = mahayana
+religion = satsana_phi
 capital = "Nghe An"
 trade_goods = rice_good
 hre = no

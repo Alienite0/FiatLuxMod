@@ -3,7 +3,7 @@
 owner = KTH
 controller = KTH
 culture = malayan
-religion = shiite
+religion = buddhism
 capital = "Kedah"
 trade_goods = rice_good
 hre = no

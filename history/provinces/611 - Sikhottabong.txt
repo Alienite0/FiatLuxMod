@@ -3,7 +3,7 @@
 owner = MNH
 controller = MNH
 culture = new_thai
-religion = animism
+religion = satsana_phi
 capital = "Sikhottabong"
 trade_goods = rice_good
 hre = no

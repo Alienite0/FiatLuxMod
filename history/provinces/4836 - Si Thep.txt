@@ -3,7 +3,7 @@
 owner = PHM
 controller = PHM
 culture = lawa
-religion = buddhism
+religion = mahayana
 capital = "Si Thep"
 trade_goods = rice_good
 hre = no

@@ -3,7 +3,7 @@
 owner = FUN
 controller = FUN
 culture = khmer
-religion = buddhism
+religion = hinduism
 capital = "Chaktomuk"
 trade_goods = iron
 hre = no

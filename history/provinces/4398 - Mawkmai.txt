@@ -3,7 +3,7 @@
 owner = KTY
 controller = KTY
 culture = karen
-religion = animism
+religion = buddhism
 capital = "Mawkmai"
 trade_goods = rice_good
 hre = no

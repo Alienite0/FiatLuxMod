@@ -3,7 +3,7 @@
 owner = MNV
 controller = MNV
 add_core = MNV
-culture = new_thai
+culture = wa
 religion = buddhism
 capital = "Dehong"
 trade_goods = tropical_wood

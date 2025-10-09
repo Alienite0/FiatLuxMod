@@ -3,7 +3,7 @@
 owner = MGS
 controller = MGS
 culture = new_thai
-religion = mahayana
+religion = satsana_phi
 capital = "Minh Quang"
 trade_goods = rice_good
 hre = no

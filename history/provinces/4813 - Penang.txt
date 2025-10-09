@@ -1,7 +1,7 @@
 owner = KTH
 controller = KTH
 culture = malayan
-religion = shiite
+religion = buddhism
 capital = "Pengang"
 trade_goods = tropical_wood
 hre = no

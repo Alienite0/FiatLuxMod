@@ -3,7 +3,7 @@
 owner = NIT
 controller = NIT
 culture = chin
-religion = animism
+religion = hinduism
 capital = "Kale"
 trade_goods = ivory
 hre = no

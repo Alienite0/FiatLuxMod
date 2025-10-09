@@ -3,7 +3,7 @@
 owner = TBG
 controller = TBG
 culture = malayan
-religion = shiite
+religion = buddhism
 capital = "Thalang"
 trade_goods = fish
 hre = no

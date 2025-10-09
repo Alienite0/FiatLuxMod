@@ -2,8 +2,8 @@
 
 owner = KPC
 controller = KPC
-culture = khmer
-religion = hinduism
+culture = khom
+religion = mahayana
 capital = "Angkor"
 trade_goods = tropical_wood
 hre = no

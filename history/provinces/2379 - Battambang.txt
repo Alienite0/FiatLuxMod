@@ -2,8 +2,8 @@
 
 owner = KPC
 controller = KPC
-culture = khmer
-religion = buddhism
+culture = khom
+religion = mahayana
 capital = "Battambang"
 trade_goods = ivory
 hre = no

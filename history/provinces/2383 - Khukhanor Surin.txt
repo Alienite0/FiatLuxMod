@@ -2,8 +2,8 @@
 
 owner = PHM
 controller = PHM
-culture = khmer
-religion = buddhism
+culture = khom
+religion = mahayana
 capital = "Khukhan"
 trade_goods = rice_good
 hre = no

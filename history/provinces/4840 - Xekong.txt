@@ -1,7 +1,7 @@
 owner = SVP
 controller = SVP
 culture = kuy
-religion = animism
+religion = hinduism
 capital = "Xekong"
 trade_goods = ivory
 hre = no

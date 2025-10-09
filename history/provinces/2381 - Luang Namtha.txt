@@ -3,7 +3,7 @@
 owner = MSU
 controller = MSU
 culture = new_thai
-religion = animism
+religion = satsana_phi
 capital = "Luang Namtha"
 trade_goods = tea
 hre = no

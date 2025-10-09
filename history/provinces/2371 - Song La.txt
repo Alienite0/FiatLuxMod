@@ -3,7 +3,7 @@
 owner = MGS
 controller = MGS
 culture = new_thai
-religion = animism
+religion = satsana_phi
 capital = "Song La"
 trade_goods = tea
 hre = no

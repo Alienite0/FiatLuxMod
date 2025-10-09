@@ -1,6 +1,6 @@
 government = tribal
 add_government_reform = tribal_kingdom
 technology_group = chinese
-religion = mahayana
+religion = vajrayana
 primary_culture = kachin
 capital = 2395

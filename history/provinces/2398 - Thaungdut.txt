@@ -3,7 +3,7 @@
 owner = NIT
 controller = NIT
 culture = chin
-religion = animism
+religion = hinduism
 capital = "Thaungdut"
 trade_goods = rice_good
 hre = no

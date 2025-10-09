@@ -3,7 +3,7 @@
 owner = PHM
 controller = PHM
 culture = khom
-religion = buddhism
+religion = mahayana
 capital = "Khorat"
 trade_goods = silk
 hre = no

@@ -3,7 +3,7 @@
 owner = UMS
 controller = UMS
 culture = new_thai
-religion = animism
+religion = buddhism
 capital = "Xieng Tong"
 trade_goods = chinaware
 hre = no

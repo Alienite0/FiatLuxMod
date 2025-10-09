@@ -3,7 +3,7 @@
 owner = KCR
 controller = KCR
 culture = khmer
-religion = buddhism
+religion = hinduism
 capital = "Kampot"
 trade_goods = rice_good
 hre = no
