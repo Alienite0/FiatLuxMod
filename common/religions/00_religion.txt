@@ -2868,6 +2868,20 @@ pagan = {
 		heretic = { OLD_MOISM }
 	}
 	
+	satsana_phi = {
+		icon = 11
+		color = { 156 106 200 }
+		country = {
+			
+		}
+		country_as_secondary = {
+			
+		}
+		
+		ancestors = yes
+		heretic = { OLD_PHI }
+	}
+	
 	khabzeism = {
 		icon = 11
 		color = { 171 133 82 }

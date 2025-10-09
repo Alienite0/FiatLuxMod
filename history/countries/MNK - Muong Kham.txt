@@ -1,0 +1,6 @@
+government = tribal
+add_government_reform = tribal_kingdom
+technology_group = chinese
+religion = bimoism
+primary_culture = new_thai
+capital = 1016

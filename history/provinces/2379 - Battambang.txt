@@ -1,7 +1,7 @@
 #2379 - Battambang
 
-owner = KHM
-controller = KHM
+owner = KPC
+controller = KPC
 culture = khmer
 religion = buddhism
 capital = "Battambang"
@@ -11,6 +11,6 @@ base_tax = 2
 base_production = 2
 base_manpower = 2
 is_city = yes
-add_core = KHM
+add_core = KPC
 discovered_by = chinese
 discovered_by = indian

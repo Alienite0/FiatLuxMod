@@ -19,9 +19,9 @@ extra_cost = 8
 center_of_trade = 1
 
 1444.1.1 = {
-	owner = PLB
-	controller = PLB
-	add_core = PLB
+	owner = SBG
+	controller = SBG
+	add_core = SBG
 	is_city = yes
 	trade_goods = spices
 }

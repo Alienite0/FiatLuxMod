@@ -1,9 +1,9 @@
 #582 - Mong Yang
 
-owner = MYA
-controller = MYA
-culture = shan
-religion = buddhism
+owner = JPH
+controller = JPH
+culture = kachin
+religion = vajrayana
 capital = "Mong Yang"
 trade_goods = copper
 hre = no
@@ -12,7 +12,7 @@ base_production = 3
 base_manpower = 3
 fort_15th = yes
 is_city = yes
-add_core = MYA
+add_core = JPH
 
 
 

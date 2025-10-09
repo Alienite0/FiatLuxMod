@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = mandala_reform
+technology_group = chinese
+religion = buddhism
+primary_culture = lawa
+add_accepted_culture = new_thai
+add_accepted_culture = kuy
+capital = 2386

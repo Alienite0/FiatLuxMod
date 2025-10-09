@@ -1,7 +1,7 @@
 #2675 - Rokan
 
-owner = DLI
-controller = DLI
+owner = SBG
+controller = SBG
 culture = sumatran
 religion = shiite
 capital = "Rokan"
@@ -11,7 +11,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
-add_core = DLI
+add_core = SBG
 
 
 
