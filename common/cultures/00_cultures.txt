@@ -7586,60 +7586,6 @@ southeastasian_group = {
 	}
 }
 
-mon_group = { 
-	graphical_culture = southeastasiangfx
-	second_graphical_culture = asiangfx
-	lawa = {
-		dynasty_names = { 
-			Ayutthaya Sukhothai Thonburi Phitsanulok "Phra Bang" Ratchaburi Phetchaburi "U Thong" "Nakhon Pathom" 
-			Phimai "Sri Thep" "Nakhon Sawan" Lavapura "Chiang Mai" "Chiang Rai" "Chet Ton" Lampang Lamphun
-		}
-		male_names = {
-			"Ramaracha" "Intha Racha" "Borommaracha" "Trailokanat" "Ramathibodi" "Ratsada" "Chairacha" "Keo Fa" 
-			"Bun Si" "Chakkraphat" "Mahin" "Thammaracha" "Naresuen" "Ekathotsarot" "Si Saowaphak" "Songtham" "Chettha" 
-			"Athittayawong" "Prasat Thong" "Chao Fa Jai" "Narai" "Si Suthammaracha" "Phetracha" "Phrachao Suea" "Thai Sa" "Boromakot" "Uthumphon" "Taksin" "Rama"
-			"Kü Na" "Saenmuenagma" "Samfangkaen" "Tilokaracha" "Yotchiangrai" "Kaeo" "Ket" "Saikham" "Setthathirat" 
-			"Mekuti" "Nawrahta Minsaw" "Phra Choi" "Phra Chaiyathip" "Sisongmueang" "Luangthipphanet" "Phra Saenmueang" 
-			"Phrae" "Ingsemang" "Cheputarai" "Mangraenara" "Ong Kham" "Ong Chan" "Khihut" "Po Aphaikhamini" "Po Mayunguan" "Phraya Chaban" "Thammalangka" "Kawila"
-		}
-		female_names = {
-			"Amporn" "Chanarong" "Sri Suriyothai" "Panjapapee" "Komol"
-			"Dara" "Mya" "Chiraprapha" "Wisutthithewi" "Yasuntarathewi"
-		}
-	}
-	lua = {
-		dynasty_names = { 
-			Ayutthaya Sukhothai Thonburi Phitsanulok "Phra Bang" Ratchaburi Phetchaburi "U Thong" "Nakhon Pathom" 
-			Phimai "Sri Thep" "Nakhon Sawan" Lavapura "Chiang Mai" "Chiang Rai" "Chet Ton" Lampang Lamphun
-		}
-		male_names = {
-			"Ramaracha" "Intha Racha" "Borommaracha" "Trailokanat" "Ramathibodi" "Ratsada" "Chairacha" "Keo Fa" 
-			"Bun Si" "Chakkraphat" "Mahin" "Thammaracha" "Naresuen" "Ekathotsarot" "Si Saowaphak" "Songtham" "Chettha" 
-			"Athittayawong" "Prasat Thong" "Chao Fa Jai" "Narai" "Si Suthammaracha" "Phetracha" "Phrachao Suea" "Thai Sa" "Boromakot" "Uthumphon" "Taksin" "Rama"
-			"Kü Na" "Saenmuenagma" "Samfangkaen" "Tilokaracha" "Yotchiangrai" "Kaeo" "Ket" "Saikham" "Setthathirat" 
-			"Mekuti" "Nawrahta Minsaw" "Phra Choi" "Phra Chaiyathip" "Sisongmueang" "Luangthipphanet" "Phra Saenmueang" 
-			"Phrae" "Ingsemang" "Cheputarai" "Mangraenara" "Ong Kham" "Ong Chan" "Khihut" "Po Aphaikhamini" "Po Mayunguan" "Phraya Chaban" "Thammalangka" "Kawila"
-		}
-		female_names = {
-			"Amporn" "Chanarong" "Sri Suriyothai" "Panjapapee" "Komol"
-			"Dara" "Mya" "Chiraprapha" "Wisutthithewi" "Yasuntarathewi"
-		}
-	}
-	mon = {
-		primary = PEG
-		dynasty_names = {
-			Pegu Dagon Thaton Martaban
-		}
-		male_names = {
-			"Razadarit" "Binnya Dhammaraza" "Binnya Ran" "Binnya Waru" "Binnya Kyan" "Leik Mawdaw" "Mawdaw" 
-			"Dhammazedi" "Takayutpi" "Smim Sawhtut" "Smim Htaw" "Binnya Dala"
-		}
-		female_names = {
-			"Mya" "Shin Sawbu"
-		}	
-	}
-}
-
 burman = {
 	graphical_culture = asiangfx
 
@@ -11604,5 +11550,59 @@ southwestern_chinese_g = {
 		female_names = {
 			Heying Chunmei Tianhui Kon Mao Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen
 		}
+	}
+}
+
+mon_group = { 
+	graphical_culture = southeastasiangfx
+	second_graphical_culture = asiangfx
+	lawa = {
+		dynasty_names = { 
+			Ayutthaya Sukhothai Thonburi Phitsanulok "Phra Bang" Ratchaburi Phetchaburi "U Thong" "Nakhon Pathom" 
+			Phimai "Sri Thep" "Nakhon Sawan" Lavapura "Chiang Mai" "Chiang Rai" "Chet Ton" Lampang Lamphun
+		}
+		male_names = {
+			"Ramaracha" "Intha Racha" "Borommaracha" "Trailokanat" "Ramathibodi" "Ratsada" "Chairacha" "Keo Fa" 
+			"Bun Si" "Chakkraphat" "Mahin" "Thammaracha" "Naresuen" "Ekathotsarot" "Si Saowaphak" "Songtham" "Chettha" 
+			"Athittayawong" "Prasat Thong" "Chao Fa Jai" "Narai" "Si Suthammaracha" "Phetracha" "Phrachao Suea" "Thai Sa" "Boromakot" "Uthumphon" "Taksin" "Rama"
+			"Kü Na" "Saenmuenagma" "Samfangkaen" "Tilokaracha" "Yotchiangrai" "Kaeo" "Ket" "Saikham" "Setthathirat" 
+			"Mekuti" "Nawrahta Minsaw" "Phra Choi" "Phra Chaiyathip" "Sisongmueang" "Luangthipphanet" "Phra Saenmueang" 
+			"Phrae" "Ingsemang" "Cheputarai" "Mangraenara" "Ong Kham" "Ong Chan" "Khihut" "Po Aphaikhamini" "Po Mayunguan" "Phraya Chaban" "Thammalangka" "Kawila"
+		}
+		female_names = {
+			"Amporn" "Chanarong" "Sri Suriyothai" "Panjapapee" "Komol"
+			"Dara" "Mya" "Chiraprapha" "Wisutthithewi" "Yasuntarathewi"
+		}
+	}
+	lua = {
+		dynasty_names = { 
+			Ayutthaya Sukhothai Thonburi Phitsanulok "Phra Bang" Ratchaburi Phetchaburi "U Thong" "Nakhon Pathom" 
+			Phimai "Sri Thep" "Nakhon Sawan" Lavapura "Chiang Mai" "Chiang Rai" "Chet Ton" Lampang Lamphun
+		}
+		male_names = {
+			"Ramaracha" "Intha Racha" "Borommaracha" "Trailokanat" "Ramathibodi" "Ratsada" "Chairacha" "Keo Fa" 
+			"Bun Si" "Chakkraphat" "Mahin" "Thammaracha" "Naresuen" "Ekathotsarot" "Si Saowaphak" "Songtham" "Chettha" 
+			"Athittayawong" "Prasat Thong" "Chao Fa Jai" "Narai" "Si Suthammaracha" "Phetracha" "Phrachao Suea" "Thai Sa" "Boromakot" "Uthumphon" "Taksin" "Rama"
+			"Kü Na" "Saenmuenagma" "Samfangkaen" "Tilokaracha" "Yotchiangrai" "Kaeo" "Ket" "Saikham" "Setthathirat" 
+			"Mekuti" "Nawrahta Minsaw" "Phra Choi" "Phra Chaiyathip" "Sisongmueang" "Luangthipphanet" "Phra Saenmueang" 
+			"Phrae" "Ingsemang" "Cheputarai" "Mangraenara" "Ong Kham" "Ong Chan" "Khihut" "Po Aphaikhamini" "Po Mayunguan" "Phraya Chaban" "Thammalangka" "Kawila"
+		}
+		female_names = {
+			"Amporn" "Chanarong" "Sri Suriyothai" "Panjapapee" "Komol"
+			"Dara" "Mya" "Chiraprapha" "Wisutthithewi" "Yasuntarathewi"
+		}
+	}
+	mon = {
+		primary = PEG
+		dynasty_names = {
+			Pegu Dagon Thaton Martaban
+		}
+		male_names = {
+			"Razadarit" "Binnya Dhammaraza" "Binnya Ran" "Binnya Waru" "Binnya Kyan" "Leik Mawdaw" "Mawdaw" 
+			"Dhammazedi" "Takayutpi" "Smim Sawhtut" "Smim Htaw" "Binnya Dala"
+		}
+		female_names = {
+			"Mya" "Shin Sawbu"
+		}	
 	}
 }
