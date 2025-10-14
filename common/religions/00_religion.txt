@@ -2575,6 +2575,7 @@ buddhist = {
 		heretic = { ZEN }
 		
 		#uses_karma = yes
+		personal_deity = yes
 	}
 	
 	white_lotus = {
