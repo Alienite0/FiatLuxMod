@@ -124,6 +124,12 @@
  PROV5043:0 "Xianggang"
  PROV5044:0 "Dalian"
  PROV5045:0 "Tianjin"
+ PROV5046:0 "Ningde"
+ PROV5047:0 "Zhangzhou"
+ PROV5048:0 "Hida Mountains"
+ PROV5049:0 "Sado"
+ PROV5050:0 "Sendai"
+ PROV5051:0 "Iwate"
  
  #Province Adjectives   for some reason
  PROV_ADJ4942:0 "Achridos"
@@ -225,6 +231,12 @@
  PROV_ADJ5043:0 "Xianggang"
  PROV_ADJ5044:0 "Dalian"
  PROV_ADJ5045:0 "Tianjin"
+ PROV_ADJ5046:0 "Ningde"
+ PROV_ADJ5047:0 "Zhangzhou"
+ PROV_ADJ5048:0 "Hida Mountains"
+ PROV_ADJ5049:0 "Sado"
+ PROV_ADJ5050:0 "Sendai"
+ PROV_ADJ5051:0 "Iwate"
  
  #Trade Goods
  rice_good:0 "Rice"

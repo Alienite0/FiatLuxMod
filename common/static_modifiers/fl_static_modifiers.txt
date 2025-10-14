@@ -35,3 +35,20 @@ fl_gelug_school_modifier = {
 	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
 	adm_tech_cost_modifier = -0.05
 }
+
+
+fl_mazu_worship_modifier = {	
+	religion_sub_modifier = yes # Will make icon placed next to religion modifier
+	religion = yes
+	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
+	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
+	global_ship_trade_power = 0.2
+}
+
+fl_maitreya_worship_modifier = {	
+	religion_sub_modifier = yes # Will make icon placed next to religion modifier
+	religion = yes
+	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
+	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
+	global_unrest = -1
+}

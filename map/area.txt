@@ -2604,7 +2604,7 @@ hokkaido_area = { #5
 }
 
 hokuriku_area = { #3
-	1023 1024 1837
+	1023 1024 1837 5049
 }
 
 kanto_area = { #3 #Western Kanto
@@ -2642,7 +2642,7 @@ kinai_area = { #4
 }
 
 thohoku_area = { #4
-	1025 1026 4131 4192
+	1025 1026 4131 4192 5050 5051
 }
 
 sanindo_area = { #4
@@ -2905,7 +2905,7 @@ jiangxi_area = { #4
 }
 
 fujian_area = { #4
-	669 1829 2152 2153
+	669 1829 2152 2153 5046 5047
 }
 
 taiwan_area = { #3

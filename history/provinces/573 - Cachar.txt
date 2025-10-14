@@ -3,7 +3,7 @@
 owner = KAC
 controller = KAC
 culture = chin
-religion = hinduism
+religion = shaktism
 capital = "Maibang"
 trade_goods = rice_good
 hre = no

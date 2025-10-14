@@ -2,6 +2,6 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 2
 primary_culture = bihari
-religion = hinduism
+religion = vaishnavism
 technology_group = indian
 capital = 2095	# Varanasi

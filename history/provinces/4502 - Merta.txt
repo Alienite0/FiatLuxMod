@@ -3,7 +3,7 @@
 owner = NGA
 controller = NGA
 culture = rajput
-religion = hinduism
+religion = vaishnavism
 capital = "Merta"
 trade_goods = livestock
 hre = no

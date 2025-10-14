@@ -6,3 +6,4 @@ religion = mahayana
 #add_harmonized_religion = animism
 primary_culture = sichuanese
 capital = 679	#Chengdu
+religious_school = fl_pure_land_school

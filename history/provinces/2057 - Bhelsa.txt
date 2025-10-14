@@ -3,7 +3,7 @@
 owner = MLW
 controller = MLW
 culture = malvi
-religion = hinduism
+religion = vaishnavism
 capital = "Bhelsa"
 trade_goods = cloth
 hre = no

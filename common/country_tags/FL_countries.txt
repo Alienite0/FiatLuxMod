@@ -152,6 +152,7 @@ VSI = "countries/Varanasi.txt"
 LHO = "countries/Lahore.txt"
 DWA = "countries/Dvarasamudra.txt"
 BKR = "countries/Bikrampur.txt"
+KMR = "countries/Kamarupa.txt"
 
 #Indochina
 MGS = "countries/MuongSing.txt"

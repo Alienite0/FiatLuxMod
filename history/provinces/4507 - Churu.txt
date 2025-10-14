@@ -3,7 +3,7 @@
 owner = JAN
 controller = JAN
 culture = rajput
-religion = hinduism
+religion = vaishnavism
 capital = "Churu"
 trade_goods = livestock
 hre = no

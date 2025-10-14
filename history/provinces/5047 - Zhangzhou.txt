@@ -1,0 +1,17 @@
+# 5047 - Putian
+
+owner = MIN
+controller = MIN
+add_core = MIN
+culture = chimin
+religion = mahayana
+capital = "Zhangzhou"
+trade_goods = tea
+hre = no
+base_tax = 2 
+base_production = 2
+base_manpower = 1
+is_city = yes
+
+discovered_by = chinese
+discovered_by = nomad_group

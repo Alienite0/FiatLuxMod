@@ -2139,7 +2139,36 @@ buddhist = {
 		
 		#Tiantai(Tendai in Japanese)
 		
-		#Pure Land
+		fl_pure_land_school = { #Pure Land School
+			potential_invite_scholar = {
+				knows_of_scholar_country_capital_trigger = yes
+				religion = mahayana
+			}
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+			can_invite_scholar = {
+				adm_power_cost = 50
+				reverse_has_opinion = { who = FROM value = 150 }
+				NOT = { has_country_modifier = fl_maitreya_worship_modifier }
+				OR = {
+					alliance_with = FROM
+					is_subject_of = FROM
+					overlord_of = FROM
+				}
+				hidden_progressive_opinion_for_scholar_trigger = yes
+			}
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				adm_power_cost = 50
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = fl_maitreya_worship_modifier duration = 7300 }
+			}
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = fl_maitreya_worship_modifier
+			picture = "GFX_icon_muslim_school_hanafi"
+			# religion_sub_modifier = no is possible, will hide icon in religious screen
+			advisor_cost = -0.1
+		}
 		
 		#Zen/Chan
 		
@@ -2157,9 +2186,68 @@ buddhist = {
 		##########################
 		#White Lotus Stuff
 		
-		#Maitreya Worship
+		fl_maitreya_worship = { #Maitreya Worship
+			potential_invite_scholar = {
+				knows_of_scholar_country_capital_trigger = yes
+				religion = mahayana
+				religion = white_lotus
+			}
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+			can_invite_scholar = {
+				adm_power_cost = 50
+				reverse_has_opinion = { who = FROM value = 150 }
+				NOT = { has_country_modifier = fl_maitreya_worship_modifier }
+				OR = {
+					alliance_with = FROM
+					is_subject_of = FROM
+					overlord_of = FROM
+				}
+				hidden_progressive_opinion_for_scholar_trigger = yes
+			}
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				adm_power_cost = 50
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = fl_maitreya_worship_modifier duration = 7300 }
+			}
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = fl_maitreya_worship_modifier
+			picture = "GFX_icon_muslim_school_hanafi"
+			# religion_sub_modifier = no is possible, will hide icon in religious screen
+			advisor_cost = -0.1
+		}
 		
-		#Queen Mother (also for mahayana if in south china indochina philippinwes indonesia)
+		fl_mazu_worship = { #Mazu Worship
+			potential_invite_scholar = {
+				knows_of_scholar_country_capital_trigger = yes
+				religion = mahayana
+			}
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+			can_invite_scholar = {
+				adm_power_cost = 50
+				reverse_has_opinion = { who = FROM value = 150 }
+				NOT = { has_country_modifier = fl_mazu_worship_modifier }
+				OR = {
+					alliance_with = FROM
+					is_subject_of = FROM
+					overlord_of = FROM
+				}
+				hidden_progressive_opinion_for_scholar_trigger = yes
+			}
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				adm_power_cost = 50
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = fl_mazu_worship_modifier duration = 7300 }
+			}
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = fl_mazu_worship_modifier
+			picture = "GFX_icon_muslim_school_hanafi"
+			# religion_sub_modifier = no is possible, will hide icon in religious screen
+			advisor_cost = -0.1
+		}
 		
 		
 		###########################
@@ -2195,7 +2283,7 @@ buddhist = {
 		
 		
 		
-		uses_karma = yes
+		
 	}
 	
 	vajrayana = {
@@ -2579,10 +2667,98 @@ dharmic = {
 	flags_with_emblem_percentage = 33
 	flag_emblem_index_range = { 61 82 } #Many shared with Eastern
 
-	hinduism = {
-		color = { 0 204 204 }
+	hinduism = {	# Shaivism
+		#color = { 0 204 204 }
+		color = { 93 93 204 }
 		#color = { 244 196 48 }
-		icon = 8
+		icon = 34
+		#allowed_conversion = {
+		#	sikhism
+		#}
+		country = {
+			tolerance_heathen = 1
+			tolerance_own = 1
+			brahmins_hindu_influence_modifier = 0.2
+		}
+		country_as_secondary = {
+			tolerance_heretic = 1
+			tolerance_heathen = 2
+		}
+		
+		personal_deity = yes
+		
+		on_convert = {
+			change_religion = hinduism
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		heretic = { BHAKTI }
+	}
+	
+	jainism = {
+		#color = { 235 235 235 }
+		color = { 183 223 235 }
+		icon = 37
+		country = {
+			tolerance_heretic = 2
+			tolerance_heathen = 3
+			global_unrest = -1
+		}
+		country_as_secondary = {
+			tolerance_own = 2
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		
+		uses_karma = yes
+		
+		heretic = { OLD_JAIN }
+	}
+	
+	shaktism = {
+		#color = { 204 0 204 }
+		color = { 204 0 0 }
+		#color = { 244 196 48 }
+		icon = 35
+		#allowed_conversion = {
+		#	sikhism
+		#}
+		country = {
+			tolerance_heathen = 1
+			tolerance_own = 1
+			brahmins_hindu_influence_modifier = 0.2
+		}
+		country_as_secondary = {
+			tolerance_heretic = 1
+			tolerance_heathen = 2
+		}
+		
+		personal_deity = yes
+		
+		on_convert = {
+			change_religion = hinduism
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		heretic = { BHAKTI }
+	}
+	
+	vaishnavism = {
+		#color = { 110 110 204 }
+		color = { 23 132 209 }
+		#color = { 244 196 48 }
+		icon = 36
 		#allowed_conversion = {
 		#	sikhism
 		#}
@@ -2924,7 +3100,8 @@ pagan = {
 	}
 	koyapunem = {
 		icon = 11
-		color = { 220 20 60 }
+		#color = { 220 20 60 }
+		color = { 0 100 0 }
 		country = {
 			
 		}

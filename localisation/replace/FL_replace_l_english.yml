@@ -193,6 +193,10 @@
  #SRH_ADJ:0 "Lahore"
  ODH:0 "Lucknow"
  ODH_ADJ:0 "Lucknow"
+ BNG:0 "Gauda"
+ BNG_ADJ:0 "Gauda"
+ SHU:0 "Han"
+ SHU_ADJ:0 "Han"
  
  #Cultures
  #germanic:0 "Frankish"
@@ -350,6 +354,7 @@
  PROV544:0 "Bhingar"
  PROV668:0 "Aomen"
  PROV564:0 "Bikrampur"
+ PROV2054:0 "Ashaval"
  
  #Areas
  lower_andalucia_area:0 "West al-Mawsat"
@@ -385,9 +390,11 @@
     ganga:0 "§TGanga"
     shakti:0 "§TShakti§!"
     vishnu:0 "§TVishnu§!"
+    buddha:0 "§TBuddha§!"
     
  jewish:0 "Judaism"
  confucianism:0 "Neo-Confucianism" (Song-Wu* Lixue)
+ hinduism:0 "Shaivism"
  
  #Privileges
  estate_nobles_french_strong_duchies:0 "Frankish Strong Duchies"

@@ -230,7 +230,12 @@
  LHO_ADJ:0 "Lahore"
  DWA:0 "Dvarasamudra"
  DWA_ADJ:0 "Dvarasamudra"
+ BKR:0 "Bikrampur"
+ BKR_ADJ:0 "Bikrampuri"
+ KMR:0 "Kamarupa"
+ KMR_ADJ:0 "Kamarupan"
  
+ #SEA
  MGS:0 "Muong Sing"
  MGS_ADJ:0 "Muong Sing"
  MNF:0 "Muong Fa"

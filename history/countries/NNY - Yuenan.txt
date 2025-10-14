@@ -1,9 +1,11 @@
 government = monarchy
 add_government_reform = confucian_bureaucracy
 primary_culture = yuenan
+add_primary_culture = cantonese
 religion = mahayana
 technology_group = chinese
-capital = 666	# Hanoi
+capital = Kingchow	# Hanoi
+religious_school = fl_mazu_worship
 
 # Tran Dynasty, Later Le Dynasty, Mac Dynasty and Tay Son Dynasty
 

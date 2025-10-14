@@ -107,12 +107,25 @@
  
  
  #Personal Deities
+ 
+ #Mazdaism#
  ahura_mazda:0 "§OOhrmuzd§!"          #Wanted to do Ahura Mazda, but didn't fit right
  mithra:0 "§OMithra§!"
  anahita:0 "§OAnahita§!"
  rashnu:0 "§ORashnu§!"
  sraosha:0 "§OSraosha§!"
  verethragna:0 "§OVerethragna§!"
+ #Hindu#
+ lakshmi:0 "§TLakshmi§!"
+ rama:0 "§TRama§!"
+ krishna:0 "§TKrishna§!"
+ parashurama:0 "§TParashurama§!"
+ parvati:0 "§TParvati§!"
+ kali:0 "§TKali§!"
+ durga:0 "§TDurga§!"
+ mahadevi:0 "§TMahadevi§!"
+ kartikeya:0 "§TKartikeya§!"
+ 
  
  #Schools
  zahiri_school:0 "Zahiri"

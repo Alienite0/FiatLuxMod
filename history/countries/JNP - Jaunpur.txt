@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
 technology_group = indian
-religion = hinduism
+religion = vaishnavism
 primary_culture = avadhi
 capital = 555	# Jaunpur
 fixed_capital = 555 # Cannot move capital away from this province & no power cost to move to it
@@ -185,7 +185,7 @@ fixed_capital = 555 # Cannot move capital away from this province & no power cos
 		DIP = 3
 		MIL = 3
 	}
-	religion = hinduism
+	religion = vaishnavism
 	primary_culture = bihari
 }
 
