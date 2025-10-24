@@ -7266,23 +7266,6 @@ malay = {
 			Vaite Vaitiare
 		}
 	}
-	filipino = {
-		primary = SUL
-		dynasty_names = {
-			Sulu Maguindanao Tondo Lanao Butuan Palawan Panay
-		}
-		male_names = {
-			"Sharif ul Hashim" "Kamal ud Din" "Sharif Sayyid Ala ud Din" "Amirul Umara" "Muizz ul Mutawadiin" "Batarah Shah Tengah" "Muwallit Wasit" "Muhammad Alimuddin" "Muhammad al Halim" "Muizz ul Din" "Nasir ud Din" 
-			"Azimuddin" "Salah ud Din Bakhtiyar" "Shihab ud Din" "Mustafa Shafi" "Muhammad Badaruddin" "Muizz ud Din Bantilan"
-			"Muhammad Israil" "Muhammad Sharafuddin" "Aliyuddin" "Shakirullah" 
-		}
-		female_names = {
-			"Anela" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu置tea Orama Poe Pear Poehina Poenui Poerava Puaiti 
-			Puatea Puaura Ra段hau Ra段mere Ra段nui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani 
-			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea 
-			Vaite Vaitiare
-		}
-	}
 	bornean = {
 		primary = BEI
 		dynasty_names = {
@@ -7334,36 +7317,6 @@ malay = {
 			Vaimiti Vairea Vaite Vaitiare
 		}
 	}
-	moluccan = {
-		primary = TER
-		male_names = {
-			"Komala Pulu" "Marhum" "Zainal Abidin" "Bayanullah" "Hidayatullah" "Abu Hayat" "Tabariji" "Khairun Jamil" 
-			"Babullah Datu Shah" "Said Barakat Shah" "Muzaffar Shah" "Hamzah" "Manilha" "Mandar Shah" "Sibori" "Said Fathullah"
-			"Amir Iskandar Zulkarnain Saifuddin" "Ayan Shah" "Syah Mardan" "Jalaluddin" "Harun Shah" 
-			"Achral" "Muhammad Yasin" "Muhammad Ali"
-		}
-		female_names = {
-			Cinta Wangi Tani Ema Nanise Rosi Salanieta Tanna
-		}
-	}
-	nusa_tenggara = {
-		primary = BLI
-		dynasty_names = {
-			Banten Demak Surabaya Cirebon Samprangan
-		}
-		male_names = {
-			"Girindrawardhana" "Girishawardhana" "Kertabumi" "Kertawijaya" "Rajasawardhana" "Suraprabhawa" 
-			"Wikramawardhana" "Hayam Wuruk" "Kalagamet" "Raden Wijaya" "Kertawardhana" "Raden Sotor" "Raden Sumirat" 
-			"Singhawardhana"
-		}
-		female_names = {
-			"Suhita" "Sri Gitarja" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu置tea Orama Poe Pear Poehina Poenui 
-			Poerava Puaiti 
-			Puatea Puaura Ra段hau Ra段mere Ra段nui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani 
-			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea 
-			Vaite Vaitiare
-		}
-	}
 	cham = {
 		primary = CHA
 		dynasty_names = { 
@@ -7379,11 +7332,11 @@ malay = {
 			Vaite Vaitiare
 		}
 	}
+	balinese = {		# Bali-Sasak-Sumbawa		https://en.wikipedia.org/wiki/Bali%E2%80%93Sasak%E2%80%93Sumbawa_languages
+		primary = BLI
+	}
 	dynasty_names = {
 		"Rajasanagara" "Saktirai" "P'an-Lo" "Cheng" "Gunungjati"
-	}
-	formosan = {
-		
 	}
 }
 
@@ -11605,4 +11558,85 @@ mon_group = {
 			"Mya" "Shin Sawbu"
 		}	
 	}
+}
+
+bandanesian = {
+	moluccan = {
+		primary = TER
+		male_names = {
+			"Komala Pulu" "Marhum" "Zainal Abidin" "Bayanullah" "Hidayatullah" "Abu Hayat" "Tabariji" "Khairun Jamil" 
+			"Babullah Datu Shah" "Said Barakat Shah" "Muzaffar Shah" "Hamzah" "Manilha" "Mandar Shah" "Sibori" "Said Fathullah"
+			"Amir Iskandar Zulkarnain Saifuddin" "Ayan Shah" "Syah Mardan" "Jalaluddin" "Harun Shah" 
+			"Achral" "Muhammad Yasin" "Muhammad Ali"
+		}
+		female_names = {
+			Cinta Wangi Tani Ema Nanise Rosi Salanieta Tanna
+		}
+	}
+	nusa_tenggara = {
+		primary = BLI
+		dynasty_names = {
+			Banten Demak Surabaya Cirebon Samprangan
+		}
+		male_names = {
+			"Girindrawardhana" "Girishawardhana" "Kertabumi" "Kertawijaya" "Rajasawardhana" "Suraprabhawa" 
+			"Wikramawardhana" "Hayam Wuruk" "Kalagamet" "Raden Wijaya" "Kertawardhana" "Raden Sotor" "Raden Sumirat" 
+			"Singhawardhana"
+		}
+		female_names = {
+			"Suhita" "Sri Gitarja" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu置tea Orama Poe Pear Poehina Poenui 
+			Poerava Puaiti 
+			Puatea Puaura Ra段hau Ra段mere Ra段nui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani 
+			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea 
+			Vaite Vaitiare
+		}
+	}
+}
+
+tawalisi = {
+	filipino = {
+		primary = SUL
+		dynasty_names = {
+			Sulu Maguindanao Tondo Lanao Butuan Palawan Panay
+		}
+		male_names = {
+			"Sharif ul Hashim" "Kamal ud Din" "Sharif Sayyid Ala ud Din" "Amirul Umara" "Muizz ul Mutawadiin" "Batarah Shah Tengah" "Muwallit Wasit" "Muhammad Alimuddin" "Muhammad al Halim" "Muizz ul Din" "Nasir ud Din" 
+			"Azimuddin" "Salah ud Din Bakhtiyar" "Shihab ud Din" "Mustafa Shafi" "Muhammad Badaruddin" "Muizz ud Din Bantilan"
+			"Muhammad Israil" "Muhammad Sharafuddin" "Aliyuddin" "Shakirullah" 
+		}
+		female_names = {
+			"Anela" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu置tea Orama Poe Pear Poehina Poenui Poerava Puaiti 
+			Puatea Puaura Ra段hau Ra段mere Ra段nui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani 
+			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea 
+			Vaite Vaitiare
+		}
+	}
+	formosan = {
+		
+	}
+	samtoy = {	#Iloco
+		primary = PGS
+	}
+	tagalog = {
+		primary = MNA
+	}
+	bikol = {
+	
+	}
+	hiligaynon = {	#Ilonggo 
+		primary = MAS
+	}
+	waray = {
+		
+	}
+	mindanao = {
+		primary = MGD
+	}
+	palawano = {
+		
+	}
+	tausug = {		# Sulu
+		primary = SUL
+	}
+	
 }

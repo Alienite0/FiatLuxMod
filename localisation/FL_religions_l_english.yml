@@ -126,9 +126,9 @@
  mahadevi:0 "§TMahadevi§!"
  kartikeya:0 "§TKartikeya§!"
  #Mahayana#
- buddha_mahayana:0 "§VBuddha§!"
+ buddha_mahayana:0 "§VThe Buddha§!"
  manjushri:0 "§VManjushri§!"
- samantabhadra:0 "§Vsamanthabhadra§!"
+ samantabhadra:0 "§VSamanthabhadra§!"
  avalokitesvara:0 "§VAvalokitesvara§!"
  akasagarbha:0 "§VAkasagarbha§!"
  ksitigarbha:0 "§VKsitigarbha§!"
@@ -169,16 +169,19 @@
  
  #Buddhist Schools
  fl_nyingma_school: "Nyingma"
- fl_nyingma_school_modifier: "Nyingma School"
+ fl_nyingma_school_modifier:0 "Nyingma School"
  fl_kagyu_school: "Kagyu"
- fl_nyingma_school_modifier: "Kagyu School"
+ fl_nyingma_school_modifier:0 "Kagyu School"
  fl_gelug_school: "Gelug"
- fl_nyingma_school_modifier: "Gelug School"
+ fl_nyingma_school_modifier:0 "Gelug School"
  fl_sakya_school: "Sakya"
- fl_nyingma_school_modifier: "Sakya School"
+ fl_nyingma_school_modifier:0 "Sakya School"
  
  fl_mazu_worship: "Mazuism"
- fl_mazu_worship_modifier: "Mazu Worship"
+ fl_mazu_worship_modifier:0 "Mazu Worship"
  
  fl_pure_land_school: "Pure Land"
- fl_pure_land_school_modifier: "Pure Land School"
+ fl_pure_land_school_modifier:0 "Pure Land School"
+ 
+ fl_maitreya_worship: "Maitreyanism"
+ fl_maitreya_worship_modifier:0 "Maitreya Worship"

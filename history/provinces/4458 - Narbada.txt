@@ -2,6 +2,7 @@
 
 owner = GDW
 controller = GDW
+add_core = DVA
 culture = gondi
 religion = koyapunem
 capital = "Chauragar"

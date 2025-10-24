@@ -2,6 +2,7 @@
 
 owner = MLW
 controller = MLW
+add_core = DVA
 culture = malvi
 religion = hinduism
 capital = "Handia"

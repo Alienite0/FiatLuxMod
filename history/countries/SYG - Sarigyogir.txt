@@ -2,7 +2,7 @@ government = tribal
 add_government_reform = steppe_horde
 primary_culture = yugur
 religion = tengri_pagan_reformed
-secondary_religion = vajrayana
+secondary_religion = nangchos
 technology_group = nomad_group
 capital = 706	# Kobdo
 

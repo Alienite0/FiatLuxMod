@@ -536,6 +536,7 @@ chinese_warlord = {
 	icon = "samurai"
 	allow_normal_conversion = no
 	potential = {
+		has_reform = chinese_warlord
 		OR = {
 			primary_culture = bai
 			primary_culture = miao

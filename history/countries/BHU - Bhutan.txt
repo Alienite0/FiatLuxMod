@@ -1,7 +1,7 @@
 government = theocracy
 add_government_reform = leading_clergy_reform
 technology_group = chinese
-religion = vajrayana
+religion = nangchos
 primary_culture = bhutanese
 capital = 565	# Thimphu
 

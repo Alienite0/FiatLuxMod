@@ -8,6 +8,7 @@ on_startup = {
 		flavor_ice.1
 		fl_flavor_byz.1
 		flavor_are.1
+		flavor_min.1
 	}
 }
 

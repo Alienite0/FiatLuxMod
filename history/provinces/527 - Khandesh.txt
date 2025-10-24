@@ -4,6 +4,7 @@ owner = MLW
 controller = MLW
 add_core = MLW
 add_core = KHD
+add_core = DVA
 culture = marathi
 religion = hinduism
 capital = "Burhanpur"

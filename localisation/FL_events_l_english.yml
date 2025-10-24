@@ -141,3 +141,18 @@
  flavor_siq.1.a:0 "We shall seek imperial protection!"
     pap_provinces_join_empire.tt:0 "All of our and our subject's provinces will join the §YHRE§!."
  flavor_siq.1.b:0 "We will not seek imperial protection."
+ 
+ 
+ #Min
+ flavor_min.1.t:0 "Whispers from the Mountains"
+ flavor_min.1.d:0 "Some of our advisors warn us of a growing army in the mountains of Fujian. It is thought to be an army of the White Lotus society. If this proves true the position of the King of Min is at stake."
+ flavor_min.1.a:0 "We must keep a close eye on the situation."
+ 
+ flavor_min.2.t:0 "The White Lotus make their move"
+ flavor_min.2.d:0 "The White Lotus Society has started a full scale revolt against us.
+ flavor_min.2.a:0 "The White Lotus shall reign!"
+ flavor_min.2.b:0 "We must destroy these radicals."
+ 
+ flavor_min.3.t:0 "Flight to Tywan"
+ flavor_min.3.d:0 "Our situation isn't looking good. The royal family and their loyalists shall flee to Tywan!"
+ flavor_min.3.a:0 "Onwards to Tainan"

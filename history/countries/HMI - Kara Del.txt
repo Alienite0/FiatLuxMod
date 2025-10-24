@@ -4,7 +4,7 @@ government_rank = 1
 primary_culture = oirats
 add_accepted_culture = uyghur
 religion = tengri_pagan_reformed
-secondary_religion = vajrayana
+secondary_religion = nangchos
 technology_group = nomad_group
 capital = 2122	# hami
 

@@ -1,6 +1,6 @@
 #655 - Palawan
 
-culture = filipino
+culture = palawano
 religion = shiite
 capital = "Palawan"
 trade_goods = sugar

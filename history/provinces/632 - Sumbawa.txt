@@ -1,6 +1,6 @@
 #632 - Sumbawa
 
-culture = nusa_tenggara
+culture = balinese
 religion = animism
 capital = "Sumbawa"
 trade_goods = unknown

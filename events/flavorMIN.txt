@@ -1,0 +1,316 @@
+######################################## 
+# Flavor events for Min
+# 
+# written by Alienite
+######################################## 
+
+namespace = flavor_min
+normal_or_historical_nations = yes
+
+country_event = {		# Whispers in the Mountains
+	id = flavor_min.1
+	title = flavor_min.1.t
+	desc = flavor_min.1.d
+	picture = east_asian_BATTLE_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = MIN
+	}
+	
+	immediate = {
+		
+	}
+
+    option = {		
+	    name = flavor_min.1.a
+		set_country_flag = start_of_white_lotus_rebellion_flag
+	}
+}
+
+country_event = {		# A Light Descending
+	id = flavor_min.2
+	title = flavor_min.2.t
+	desc = flavor_min.2.d
+	picture = east_asian_BATTLE_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = MIN
+	}
+	
+	immediate = {
+		
+	}
+
+    option = {		# Min Become White Lotus
+	    name = flavor_min.2.a
+		set_country_flag = sided_with_white_lotus_flag
+		trigger = {
+			ai = no
+		}
+		hidden_effect = {
+			MIN = {
+				grant_independence = yes
+			}
+			1833 = {
+				add_core = WLR
+				cede_province = WLR
+			}
+			2153 = {
+				add_core = WLR
+				cede_province = WLR
+			}
+			2152 = {
+				add_core = WLR
+				cede_province = WLR
+			}
+			669 = {
+				add_core = WLR
+				cede_province = WLR
+			}
+			5046 = {
+				add_core = WLR
+				cede_province = WLR
+			}
+			2150 = {
+				add_core = WLR
+				cede_province = WLR
+				remove_core = WUU
+			}
+			WLR = {
+				define_ruler = {
+					name = "White Lotus Council"
+					regency = yes
+				}
+				change_government = monarchy
+				add_government_reform = chinese_warlord
+				capital_scope = {
+					build_to_forcelimit = {
+						infantry = 0.6
+						cavalry = 0.3
+						artillery = 0.1
+					}
+				}
+				capital_scope = {
+					limit = {
+						has_port = yes
+					}
+					build_to_forcelimit = {
+						heavy_ship = 0.3
+						light_ship = 0.3
+						transport = 0.2
+					}
+				}
+				declare_war_with_cb = {
+					who = MIN
+					casus_belli = cb_annex
+				}
+				add_truce = WUU
+			}			
+		}
+		switch_tag = WLR
+	}
+	option = {		#Fight White Lotus
+	    name = flavor_min.2.b
+		set_country_flag = campaign_against_white_lotus_flag
+		hidden_effect = {
+			MIN = {
+				grant_independence = yes
+			}
+			1833 = {
+				add_core = WLR
+				cede_province = WLR
+			}
+			2153 = {
+				add_core = WLR
+				cede_province = WLR
+			}
+			2152 = {
+				add_core = WLR
+				cede_province = WLR
+			}
+			669 = {
+				add_core = WLR
+				cede_province = WLR
+			}
+			5046 = {
+				add_core = WLR
+				cede_province = WLR
+			}
+			2150 = {
+				add_core = WLR
+				cede_province = WLR
+				remove_core = WUU
+			}
+			WLR = {
+				define_ruler = {
+					name = "White Lotus Council"
+					regency = yes
+				}
+				change_government = monarchy
+				add_government_reform = chinese_warlord
+				capital_scope = {
+					build_to_forcelimit = {
+						infantry = 0.6
+						cavalry = 0.3
+						artillery = 0.1
+					}
+				}
+				capital_scope = {
+					limit = {
+						has_port = yes
+					}
+					build_to_forcelimit = {
+						heavy_ship = 0.3
+						light_ship = 0.3
+						transport = 0.2
+					}
+				}
+				declare_war_with_cb = {
+					who = MIN
+					casus_belli = cb_annex
+				}
+				add_truce = WUU
+			}
+		}
+	}
+}
+
+country_event = {		# Flight to Tywan
+	id = flavor_min.3
+	title = flavor_min.3.t
+	desc = flavor_min.3.d
+	picture = east_asian_BATTLE_eventPicture
+	major = yes
+
+	fire_only_once = yes
+	#is_triggered_only = yes
+	trigger = {
+		tag = MIN
+		WLR = {
+			war_score_against = {
+				who = MIN
+				value = 80
+			}
+		}
+	}
+	
+	immediate = {
+		
+	}
+
+    option = {		
+	    name = flavor_min.3.a
+		trigger = { ai = no }
+		set_global_flag = min_flight_to_tywan_flag
+		switch_tag = FRM
+		738 = {
+			add_core = FRM
+			cede_province = FRM
+			change_culture = chimin
+			change_religion = taoism
+		}
+		FRM = {
+			define_ruler = {
+				name = "Chenhao"
+				dynasty = "Gu"
+				adm = 2
+				dip = 2
+				mil = 3
+			}
+			add_accepted_culture = polynesian
+			add_harmonized_religion = animism
+			#change_government = monarchy
+			#add_government_reform = chinese_warlord
+			738 = {
+				build_to_forcelimit = {
+					infantry = 0.6
+					cavalry = 0.3
+					artillery = 0.1
+				}
+			}
+			738 = {
+				build_to_forcelimit = {
+					heavy_ship = 0.3
+					light_ship = 0.3
+					transport = 0.2
+				}
+			}
+		}
+		custom_tooltip = min_flight_to_tywan.tt	#Loyalists follow
+		
+		
+		hidden_effect = {
+			1829 = {	# Quanzhou
+				add_base_tax = -1
+				add_base_production = -1
+			}
+			2156 = {	# Chaochow
+				add_base_tax = -1
+				add_base_production = -1
+				
+			}
+			738 = {		# Tainan
+				add_base_tax = 2
+				add_base_production = 2
+			}
+		}
+	}
+	option = {		
+	    name = flavor_min.3.b
+		trigger = { ai = yes }
+		set_global_flag = min_flight_to_tywan_flag
+		738 = {
+			add_core = FRM
+			cede_province = FRM
+			change_culture = chimin
+			change_religion = taoism
+		}
+		FRM = {
+			define_ruler = {
+				name = "Chenhao"
+				dynasty = "Gu"
+			}
+			add_accepted_culture = polynesian
+			add_harmonized_religion = animism
+			change_government = monarchy
+			add_government_reform = chinese_warlord
+			738 = {
+				build_to_forcelimit = {
+					infantry = 0.6
+					cavalry = 0.3
+					artillery = 0.1
+				}
+			}
+			738 = {
+				build_to_forcelimit = {
+					heavy_ship = 0.3
+					light_ship = 0.3
+					transport = 0.2
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+name = "Devagiri Northern Reconquest"
+war_goal = {
+	type = take_core
+	casus_belli = cb_core
+	province = 527 # Burhanpur
+}
+
+1444.11.10 = {
+	add_attacker = DVA
+	add_defender = MLW
+}

@@ -1,6 +1,6 @@
 #651 - Sulu
 
-culture = filipino
+culture = tausug
 religion = shiite
 capital = "Jolo"
 trade_goods = unknown

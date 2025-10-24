@@ -197,6 +197,8 @@
  BNG_ADJ:0 "Gauda"
  SHU:0 "Han"
  SHU_ADJ:0 "Han"
+ FRM:0 "Tywan"
+ FRM_ADJ:0 "Tywanese"
  
  #Cultures
  #germanic:0 "Frankish"
@@ -266,6 +268,7 @@
  panjabi:0 "Punjabi"
  southeastasian_group:0 "Angkor"
  arakanese:0 "Mugh"
+ malay:0 "Indonesian"
 
  #Parliament
  ENG_parliament_name:0 "Witenagemot"

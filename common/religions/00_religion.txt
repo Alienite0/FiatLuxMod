@@ -2004,13 +2004,13 @@ buddhist = {
 
 	religious_schools = {
 	
-		###########################
-		#    Vajrayana Schools    #
-		###########################
+		##########################
+		#    Nangchos Schools    #
+		##########################
 		fl_nyingma_school = { #Nyingma School
 			potential_invite_scholar = {
 				knows_of_scholar_country_capital_trigger = yes
-				religion = vajrayana
+				religion = nangchos
 			}
 			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
 			can_invite_scholar = {
@@ -2040,7 +2040,7 @@ buddhist = {
 		fl_sakya_school = { #Sakya School
 			potential_invite_scholar = {
 				knows_of_scholar_country_capital_trigger = yes
-				religion = vajrayana
+				religion = nangchos
 			}
 			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
 			can_invite_scholar = {
@@ -2070,7 +2070,7 @@ buddhist = {
 		fl_kagyu_school = { #Kagyu School
 			potential_invite_scholar = {
 				knows_of_scholar_country_capital_trigger = yes
-				religion = vajrayana
+				religion = nangchos
 			}
 			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
 			can_invite_scholar = {
@@ -2100,7 +2100,7 @@ buddhist = {
 		fl_gelug_school = { #Gelug School
 			potential_invite_scholar = {
 				knows_of_scholar_country_capital_trigger = yes
-				religion = vajrayana
+				religion = nangchos
 			}
 			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
 			can_invite_scholar = {
@@ -2253,6 +2253,12 @@ buddhist = {
 		###########################
 		#    Theravada Schools    #
 		###########################
+		
+		###########################
+		#    Vajrayana Schools    #
+		###########################
+		
+		#Newar Buddhism (Kathmandu) probably wont add
 	}
 
 	buddhism = { #Theravada
@@ -2288,6 +2294,148 @@ buddhist = {
 	
 	vajrayana = {
 		color = { 204 76 76 }
+		icon = 25
+		allowed_conversion = {
+			mahayana
+			buddhism #Theravada
+		}
+		country = {
+			tolerance_heretic = 2
+			land_morale = 0.05
+		}
+		country_as_secondary = {
+			horde_unity = 1
+			tolerance_own = 1
+		}
+		on_convert = {
+			add_prestige = -100
+			add_stability = -1
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		heretic = { ZEN }
+		
+		#uses_karma = yes
+	
+	}
+	
+	mahayana = {
+		color = { 204 76 127 }
+		icon = 23
+		allowed_conversion = {
+			vajrayana
+			buddhism #Theravada
+		}
+		country = {
+			tolerance_heretic = 2
+			idea_cost = -0.05
+		}
+		country_as_secondary = {
+			global_tax_modifier = 0.1
+			tolerance_heathen = 2
+		}
+		on_convert = {
+			add_prestige = -100
+			add_stability = -1
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		heretic = { ZEN }
+		
+		#uses_karma = yes
+		personal_deity = yes
+	}
+	
+	white_lotus = {
+		color = { 242 245 238 }
+		icon = 23
+		allowed_conversion = {
+		}
+		country = {
+			tolerance_heretic = 2
+			idea_cost = -0.05
+		}
+		country_as_secondary = {
+			global_tax_modifier = 0.1
+			tolerance_heathen = 2
+		}
+		on_convert = {
+			add_prestige = -100
+			add_stability = -1
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		heretic = { ZEN }
+		
+		#uses_karma = yes
+	}
+	
+	shinbutsu_shugo = {
+		color = { 204 0 0 }
+		icon = 33
+		allowed_conversion = {
+			#shinto
+		}
+		country = {
+			
+		}
+		country_as_secondary = {
+			
+		}
+		on_convert = {
+			add_prestige = -100
+			add_stability = -1
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		heretic = { ZEN }
+		
+		#uses_karma = yes
+	}
+	
+	azhali = { #Bai Buddhism
+		color = { 138 90 14 }
+		icon = 7
+		#allowed_conversion = {
+		#	vajrayana
+		#	mahayana
+		#}
+		country = {
+			
+		}
+		country_as_secondary = {
+			
+		}
+		on_convert = {
+			add_prestige = -100
+			add_stability = -1
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		heretic = { ZEN }
+		
+		
+		
+		uses_karma = yes
+	}
+	
+	nangchos = {
+		color = { 64 224 208 }
 		icon = 25
 		allowed_conversion = {
 			mahayana
@@ -2546,118 +2694,6 @@ buddhist = {
 			}
 		}
 	
-	}
-	
-	mahayana = {
-		color = { 204 76 127 }
-		icon = 23
-		allowed_conversion = {
-			vajrayana
-			buddhism #Theravada
-		}
-		country = {
-			tolerance_heretic = 2
-			idea_cost = -0.05
-		}
-		country_as_secondary = {
-			global_tax_modifier = 0.1
-			tolerance_heathen = 2
-		}
-		on_convert = {
-			add_prestige = -100
-			add_stability = -1
-			add_country_modifier = {
-				name = "conversion_zeal"
-				duration = 3650
-			}
-		}
-		
-		heretic = { ZEN }
-		
-		#uses_karma = yes
-		personal_deity = yes
-	}
-	
-	white_lotus = {
-		color = { 242 245 238 }
-		icon = 23
-		allowed_conversion = {
-		}
-		country = {
-			tolerance_heretic = 2
-			idea_cost = -0.05
-		}
-		country_as_secondary = {
-			global_tax_modifier = 0.1
-			tolerance_heathen = 2
-		}
-		on_convert = {
-			add_prestige = -100
-			add_stability = -1
-			add_country_modifier = {
-				name = "conversion_zeal"
-				duration = 3650
-			}
-		}
-		
-		heretic = { ZEN }
-		
-		#uses_karma = yes
-	}
-	
-	shinbutsu_shugo = {
-		color = { 204 0 0 }
-		icon = 33
-		allowed_conversion = {
-			#shinto
-		}
-		country = {
-			
-		}
-		country_as_secondary = {
-			
-		}
-		on_convert = {
-			add_prestige = -100
-			add_stability = -1
-			add_country_modifier = {
-				name = "conversion_zeal"
-				duration = 3650
-			}
-		}
-		
-		heretic = { ZEN }
-		
-		#uses_karma = yes
-	}
-	
-	azhali = { #Bai Buddhism
-		color = { 138 90 14 }
-		icon = 7
-		#allowed_conversion = {
-		#	vajrayana
-		#	mahayana
-		#}
-		country = {
-			
-		}
-		country_as_secondary = {
-			
-		}
-		on_convert = {
-			add_prestige = -100
-			add_stability = -1
-			add_country_modifier = {
-				name = "conversion_zeal"
-				duration = 3650
-			}
-		}
-		
-		heretic = { ZEN }
-		
-		
-		
-		uses_karma = yes
 	}
 	
 	harmonized_modifier = harmonized_buddhism

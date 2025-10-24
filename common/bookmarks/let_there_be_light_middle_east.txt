@@ -1,0 +1,14 @@
+bookmark =
+{
+	name = "LET_THERE_BE_LIGHT_MIDDLE_EAST"
+	desc = "LET_THERE_BE_LIGHT_MIDDLE_EAST_DESC"
+	date = 1444.11.11
+	
+	center = 2314
+	default = yes
+	
+	country = MIH
+	country = MJR
+	country = ERE
+	
+}

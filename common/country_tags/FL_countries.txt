@@ -140,6 +140,7 @@ CJN = "countries/Jianchang.txt"
 #CSX = "countries/Shuixi.txt"
 CKN = "countries/Kunming.txt"
 CZN = "countries/Nanzhao.txt"
+WLR = "countries/WhiteLotusRebellion.txt"
 
 #Japan
 NTT = "countries/Nitta.txt"
@@ -154,7 +155,7 @@ DWA = "countries/Dvarasamudra.txt"
 BKR = "countries/Bikrampur.txt"
 KMR = "countries/Kamarupa.txt"
 
-#Indochina
+#Indochina/nesia
 MGS = "countries/MuongSing.txt"
 MNF = "countries/MuongFa.txt"
 MNC = "countries/MuongChoi.txt"

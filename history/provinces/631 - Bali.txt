@@ -3,7 +3,7 @@
 owner = BLI
 controller = BLI
 add_core = BLI
-culture = nusa_tenggara
+culture = balinese
 religion = hinduism
 capital = "Gianyar"
 trade_goods = cloth

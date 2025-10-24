@@ -3,7 +3,7 @@
 owner = LDK
 controller = LDK
 culture = tibetan
-religion = vajrayana
+religion = nangchos
 capital = "Leh"
 trade_goods = wool
 hre = no
