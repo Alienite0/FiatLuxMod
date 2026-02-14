@@ -2,7 +2,7 @@
 
 owner = LUW
 controller = LUW
-culture = sulawesi
+culture = south_sulawesi
 religion = animism
 capital = "Palopo"
 trade_goods = iron

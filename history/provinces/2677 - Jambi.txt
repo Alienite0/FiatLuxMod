@@ -2,7 +2,7 @@
 
 owner = SBG
 controller = SBG
-culture = sumatran
+culture = malayan
 religion = shiite
 capital = "Jambi"
 trade_goods = incense

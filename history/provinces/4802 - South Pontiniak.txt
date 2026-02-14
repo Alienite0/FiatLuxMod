@@ -1,5 +1,5 @@
 
-culture = bornean
+culture = malayan
 religion = hinduism
 capital = "Pontiniak"
 trade_goods = gold
@@ -22,5 +22,3 @@ discovered_by = ottoman
 	add_core = SMB
 	is_city = yes
 }
-
-1521.1.1 = { discovered_by = POR }

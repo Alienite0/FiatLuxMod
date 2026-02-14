@@ -1,6 +1,6 @@
 owner = BEI
 controller = BEI
-culture = bornean
+culture = melanau
 religion = shiite
 capital = "Bintulu"
 trade_goods = fish

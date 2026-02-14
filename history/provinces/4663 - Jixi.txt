@@ -4,9 +4,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = WRK
-controller = WRK
-add_core = WRK
+owner = YIL
+controller = YIL
+add_core = YIL
 culture = manchu
 religion = shamanist
 capital = "Jixi"

@@ -1,8 +1,8 @@
 #4214 - Kalar
 
-owner = EJZ
-controller = EJZ
-add_core = EJZ
+owner = ULC
+controller = ULC
+add_core = ULC
 culture = ulch
 religion = shamanist
 capital = "Kalar"

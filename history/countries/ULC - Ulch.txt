@@ -1,0 +1,8 @@
+government = tribal
+add_government_reform = siberian_tribe
+technology_group = nomad_group
+primary_culture = ulch
+religion = shamanist
+secondary_religion = confucianism
+capital = 4214
+

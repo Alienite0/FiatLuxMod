@@ -2,7 +2,7 @@
 
 owner = KUT
 controller = KUT
-culture = bornean
+culture = kutai
 religion = hinduism
 capital = "Kutai"
 trade_goods = fish

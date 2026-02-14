@@ -33,16 +33,80 @@ country_event = {		# A Light Descending
 	id = flavor_min.2
 	title = flavor_min.2.t
 	desc = flavor_min.2.d
-	picture = east_asian_BATTLE_eventPicture
+	picture = BATTLE_eventPicture
 
+	major = yes
 	fire_only_once = yes
-	is_triggered_only = yes
+	#is_triggered_only = yes
 	trigger = {
 		tag = MIN
+		had_country_flag = {
+			flag = start_of_white_lotus_rebellion_flag
+			days = 343
+		}
 	}
 	
 	immediate = {
-		
+		hidden_effect = {
+			MIN = {
+				grant_independence = yes
+			}
+			1833 = {
+				add_core = WLR
+				cede_province = WLR
+			}
+			2153 = {
+				add_core = WLR
+				cede_province = WLR
+			}
+			2152 = {
+				add_core = WLR
+				cede_province = WLR
+			}
+			669 = {
+				add_core = WLR
+				cede_province = WLR
+			}
+			5046 = {
+				add_core = WLR
+				cede_province = WLR
+			}
+			2150 = {
+				add_core = WLR
+				cede_province = WLR
+				remove_core = WUU
+			}
+			WLR = {
+				define_ruler = {
+					name = "White Lotus Council"
+					regency = yes
+				}
+				change_government = monarchy
+				add_government_reform = chinese_warlord
+				capital_scope = {
+					build_to_forcelimit = {
+						infantry = 0.6
+						cavalry = 0.3
+						artillery = 0.1
+					}
+				}
+				capital_scope = {
+					limit = {
+						has_port = yes
+					}
+					build_to_forcelimit = {
+						heavy_ship = 0.3
+						light_ship = 0.3
+						transport = 0.2
+					}
+				}
+				declare_war_with_cb = {
+					who = MIN
+					casus_belli = cb_annex
+				}
+				add_truce = WUU
+			}	
+		}
 	}
 
     option = {		# Min Become White Lotus
@@ -52,64 +116,7 @@ country_event = {		# A Light Descending
 			ai = no
 		}
 		hidden_effect = {
-			MIN = {
-				grant_independence = yes
-			}
-			1833 = {
-				add_core = WLR
-				cede_province = WLR
-			}
-			2153 = {
-				add_core = WLR
-				cede_province = WLR
-			}
-			2152 = {
-				add_core = WLR
-				cede_province = WLR
-			}
-			669 = {
-				add_core = WLR
-				cede_province = WLR
-			}
-			5046 = {
-				add_core = WLR
-				cede_province = WLR
-			}
-			2150 = {
-				add_core = WLR
-				cede_province = WLR
-				remove_core = WUU
-			}
-			WLR = {
-				define_ruler = {
-					name = "White Lotus Council"
-					regency = yes
-				}
-				change_government = monarchy
-				add_government_reform = chinese_warlord
-				capital_scope = {
-					build_to_forcelimit = {
-						infantry = 0.6
-						cavalry = 0.3
-						artillery = 0.1
-					}
-				}
-				capital_scope = {
-					limit = {
-						has_port = yes
-					}
-					build_to_forcelimit = {
-						heavy_ship = 0.3
-						light_ship = 0.3
-						transport = 0.2
-					}
-				}
-				declare_war_with_cb = {
-					who = MIN
-					casus_belli = cb_annex
-				}
-				add_truce = WUU
-			}			
+					
 		}
 		switch_tag = WLR
 	}
@@ -117,65 +124,9 @@ country_event = {		# A Light Descending
 	    name = flavor_min.2.b
 		set_country_flag = campaign_against_white_lotus_flag
 		hidden_effect = {
-			MIN = {
-				grant_independence = yes
-			}
-			1833 = {
-				add_core = WLR
-				cede_province = WLR
-			}
-			2153 = {
-				add_core = WLR
-				cede_province = WLR
-			}
-			2152 = {
-				add_core = WLR
-				cede_province = WLR
-			}
-			669 = {
-				add_core = WLR
-				cede_province = WLR
-			}
-			5046 = {
-				add_core = WLR
-				cede_province = WLR
-			}
-			2150 = {
-				add_core = WLR
-				cede_province = WLR
-				remove_core = WUU
-			}
-			WLR = {
-				define_ruler = {
-					name = "White Lotus Council"
-					regency = yes
-				}
-				change_government = monarchy
-				add_government_reform = chinese_warlord
-				capital_scope = {
-					build_to_forcelimit = {
-						infantry = 0.6
-						cavalry = 0.3
-						artillery = 0.1
-					}
-				}
-				capital_scope = {
-					limit = {
-						has_port = yes
-					}
-					build_to_forcelimit = {
-						heavy_ship = 0.3
-						light_ship = 0.3
-						transport = 0.2
-					}
-				}
-				declare_war_with_cb = {
-					who = MIN
-					casus_belli = cb_annex
-				}
-				add_truce = WUU
-			}
+			
 		}
+		custom_tooltip = white_lotus_appears.tt
 	}
 }
 
@@ -183,7 +134,7 @@ country_event = {		# Flight to Tywan
 	id = flavor_min.3
 	title = flavor_min.3.t
 	desc = flavor_min.3.d
-	picture = east_asian_BATTLE_eventPicture
+	picture = east_asian_COLONIZATION_eventPicture
 	major = yes
 
 	fire_only_once = yes

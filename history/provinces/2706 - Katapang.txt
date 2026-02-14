@@ -1,7 +1,7 @@
 #2706 - Katapang
 
-culture = bornean
-religion = hinduism
+culture = malayan
+religion = animism
 capital = "Katapang"
 trade_goods = unknown
 hre = no

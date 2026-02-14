@@ -2,8 +2,8 @@
 
 owner = BEU
 controller = BEU
-culture = bornean
-religion = hinduism
+culture = dayak
+religion = animism
 capital = "Bulungan"
 trade_goods = tropical_wood
 hre = no

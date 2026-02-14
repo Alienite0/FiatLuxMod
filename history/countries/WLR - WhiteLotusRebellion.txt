@@ -4,5 +4,5 @@ technology_group = chinese
 religion = white_lotus
 #add_harmonized_religion = mahayana
 primary_culture = chimin
-capital = 1829	#Quanzhou
-religious_school = fl_maitreya_worship     remember when white lotus coup add maitreya worship
+capital = 669	# Fuzhou
+#religious_school = fl_maitreya_worship     remember when white lotus coup add maitreya worship

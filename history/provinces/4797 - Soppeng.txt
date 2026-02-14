@@ -1,7 +1,7 @@
 
 owner = MKS
 controller = MKS
-culture = sulawesi
+culture = south_sulawesi
 religion = animism
 capital = "Soppeng"
 trade_goods = spices

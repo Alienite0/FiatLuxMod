@@ -1,6 +1,6 @@
 #2683 - Mentawai
 
-culture = sumatran
+culture = batak
 religion = hinduism
 capital = "Mentawai"
 trade_goods = unknown

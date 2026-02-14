@@ -1,6 +1,6 @@
 owner = BEI
 controller = BEI
-culture = bornean
+culture = dayak
 religion = shiite
 capital = "Kapit"
 trade_goods = tropical_wood

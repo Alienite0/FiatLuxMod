@@ -2,7 +2,7 @@
 
 owner = BEI
 controller = BEI
-culture = bornean
+culture = dusun
 religion = shiite
 capital = "Api-Api"
 trade_goods = spices

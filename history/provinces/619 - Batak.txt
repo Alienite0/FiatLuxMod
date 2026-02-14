@@ -2,7 +2,7 @@
 
 owner = BRS
 controller = BRS
-culture = sumatran
+culture = batak
 religion = hinduism
 capital = "Batak"
 trade_goods = incense

@@ -344,6 +344,22 @@ allianceaction = {
 			NOT = { FROM = { has_government_attribute = cannot_form_alliances } }
 		}
 	}
+	condition = {
+		tooltip = ALLIANCE_CHINA_EMPEROR
+		potential = {
+			OR = {
+				FROM = {
+					is_emperor_of_china = yes
+				}
+				ROOT = {
+					is_emperor_of_china = yes
+				}
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
 	effect = {
 		change_asha_vahishta = { value = 2 }
 	}

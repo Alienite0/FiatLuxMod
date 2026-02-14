@@ -98,8 +98,10 @@
  JET_ADJ:0 "Zhetysu"
  SLY:0 "Salyr"
  SLY_ADJ:0 "Salyrid"
- KRT:0 "Kartids"
- KRT_ADJ:0 "Kartid"
+ #KRT:0 "Kartids"
+ #KRT_ADJ:0 "Kartid"
+ KRT:0 "Herat"
+ KRT_ADJ:0 "Herati"
  LWL:0 "Kirmanids"
  LWL_ADJ:0 "Kirmanid"
  MIH:0 "Mihranids"
@@ -236,6 +238,10 @@
  KMR_ADJ:0 "Kamarupan"
  WLR:0 "White Lotus Rebellion"
  WLR_ADJ:0 "White Lotus"
+ ULC:0 "Ulch"
+ ULC_ADJ:0 "Ulchi"
+ YIL:0 "Yilan"
+ YIL_ADJ:0 "Yilan"
  
  #SEA
  MGS:0 "Muong Sing"

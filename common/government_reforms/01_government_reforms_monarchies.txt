@@ -565,10 +565,10 @@ chinese_warlord = {
 				region = south_china_region
 			}
 		}
-		if = {
-			limit = { is_subject = yes }
-			overlord = { has_reform = celestial_empire }
-		}
+		#if = {
+		#	limit = { is_subject = yes }
+		#	overlord = { has_reform = celestial_empire }
+		#}
 	}
 	trigger = {
 		OR = {

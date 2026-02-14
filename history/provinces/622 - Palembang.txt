@@ -1,6 +1,6 @@
 #622 - Palembang
 
-culture = sumatran
+culture = malayan
 religion = hinduism
 capital = "Palembang"
 trade_goods = unknown

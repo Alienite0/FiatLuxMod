@@ -2,7 +2,7 @@
 
 owner = BEI
 controller = BEI
-culture = bornean
+culture = paitan
 religion = shiite
 capital = "Lehad Datu"
 trade_goods = spices

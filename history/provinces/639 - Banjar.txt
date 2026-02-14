@@ -1,6 +1,6 @@
 #639 - Banjar
 
-culture = bornean
+culture = banjar
 religion = hinduism
 capital = "Banjar"
 trade_goods = unknown
@@ -24,5 +24,3 @@ discovered_by = ottoman
 	is_city = yes
 	trade_goods = cloth
 } # Banjar Sultanate was founded
-
-1521.1.1 = { discovered_by = POR }

@@ -1,5 +1,5 @@
 
-culture = bornean
+culture = kutai		# Pasir
 religion = hinduism
 capital = "Paser"
 trade_goods = unknown

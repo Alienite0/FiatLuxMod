@@ -199,6 +199,8 @@
  SHU_ADJ:0 "Han"
  FRM:0 "Tywan"
  FRM_ADJ:0 "Tywanese"
+ IND:0 "Inderapura"
+ IND_ADJ:0 "Inderapuran"
  
  #Cultures
  #germanic:0 "Frankish"
@@ -269,6 +271,9 @@
  southeastasian_group:0 "Angkor"
  arakanese:0 "Mugh"
  malay:0 "Indonesian"
+ malayan:0 "Melayu"
+ #sulawesi:0 "Celebic"
+ sumatran:0 "Minang"
 
  #Parliament
  ENG_parliament_name:0 "Witenagemot"
@@ -358,6 +363,8 @@
  PROV668:0 "Aomen"
  PROV564:0 "Bikrampur"
  PROV2054:0 "Ashaval"
+ PROV731:0 "Ilantumen"
+ PROV1399:0 "Sea of Sulawesi"
  
  #Areas
  lower_andalucia_area:0 "West al-Mawsat"
@@ -458,6 +465,7 @@
  lhasa:0 "Tibet"
  #korea_node:0 "Korea"
  philippines:0 "Tawalisi"
+ gulf_of_siam:0 "Indochina"
  
  #Guru Local
  CURRENT_GURU:0 "Current Dalai Lama"

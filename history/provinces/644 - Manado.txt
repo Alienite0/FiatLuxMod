@@ -1,6 +1,6 @@
 #644 - Manado
 
-culture = sulawesi
+culture = gorontalo		# Minahasan
 religion = animism
 capital = "Manado"
 trade_goods = unknown

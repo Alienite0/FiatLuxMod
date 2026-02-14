@@ -115,6 +115,8 @@ ORO = "countries/Ordos.txt"
 #Manchuria(will rename i think)
 WRK = "countries/Warka.txt"
 KLI = "countries/Kili.txt"
+ULC = "countries/Ulch.txt"
+YIL = "countries/Yilan.txt"
 
 #Scythia
 ALN = "countries/Alania.txt"

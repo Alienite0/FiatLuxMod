@@ -1,7 +1,7 @@
 #2708 - Sampit
 
-culture = bornean
-religion = hinduism
+culture = banjar
+religion = animism
 capital = "Sampit"
 trade_goods = unknown
 hre = no

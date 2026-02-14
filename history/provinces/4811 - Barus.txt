@@ -1,7 +1,7 @@
 
 owner = BRS
 controller = BRS
-culture = sumatran
+culture = batak		# Northwest Sumatra - Barrier Islands
 religion = hinduism
 capital = "Barus"
 trade_goods = spices

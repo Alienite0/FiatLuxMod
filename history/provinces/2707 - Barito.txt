@@ -1,7 +1,7 @@
 #2707 - Barito
 
-culture = bornean
-religion = hinduism
+culture = dayak
+religion = animism
 capital = "Barito"
 trade_goods = unknown
 hre = no

@@ -1,6 +1,6 @@
 #644 - Manado
 
-culture = sulawesi
+culture = south_sulawesi
 religion = animism
 capital = "Mamuju"
 trade_goods = unknown

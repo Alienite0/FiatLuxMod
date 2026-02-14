@@ -2371,7 +2371,7 @@ malaya_area = { #4
 }
 
 johor_area = { # 3
-	597 2686 4815
+	597 2686 4815 5057
 }
 
 malacca_area = { #3
