@@ -1,0 +1,44 @@
+vassal = {
+	first = CHA
+	second = FUN
+	start_date = 1444.1.1
+	end_date = 1600.1.1
+}
+
+alliance = {
+	first = MNK
+	second = MNC
+	start_date = 1444.1.1
+	end_date = 1627.1.1
+}
+alliance = {
+	first = MNK
+	second = MNF
+	start_date = 1444.1.1
+	end_date = 1627.1.1
+}
+alliance = {
+	first = MNK
+	second = MGS
+	start_date = 1444.1.1
+	end_date = 1627.1.1
+}
+alliance = {
+	first = MNK
+	second = MSU
+	start_date = 1444.1.1
+	end_date = 1627.1.1
+}
+alliance = {
+	first = MNK
+	second = MNH
+	start_date = 1444.1.1
+	end_date = 1627.1.1
+}
+
+alliance = {
+	first = SAD
+	second = PRP
+	start_date = 1444.1.1
+	end_date = 1627.1.1
+}

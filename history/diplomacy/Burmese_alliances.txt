@@ -1,0 +1,28 @@
+dependency = {
+	subject_type = "tributary_state"
+	first = NIT
+	second = KAL
+	start_date = 1444.1.1
+	end_date = 1502.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = NIT
+	second = TPR
+	start_date = 1444.1.1
+	end_date = 1502.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = MNV
+	second = MMA
+	start_date = 1444.1.1
+	end_date = 1502.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = MNV
+	second = CHN
+	start_date = 1444.1.1
+	end_date = 1502.1.1
+}
