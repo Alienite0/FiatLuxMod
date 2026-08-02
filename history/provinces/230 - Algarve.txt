@@ -1,9 +1,9 @@
 #230 - Algarve
 
-owner = SEV
-controller = SEV
-add_core = SEV
-add_core = AGH
+owner = CRD
+controller = CRD
+add_core = CRD
+add_core = CRD
 culture = mozarabic
 religion = sunni
 capital = "Faro"

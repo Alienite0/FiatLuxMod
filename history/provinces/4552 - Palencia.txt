@@ -1,7 +1,8 @@
 #4552 - Palencia
 
-owner = LON		#Juan II of Castille
-controller = LON
+owner = CRD		#Juan II of Castille
+controller = CRD
+add_core = CRD
 add_core = LON
 culture = leonese
 religion = catholic

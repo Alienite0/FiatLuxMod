@@ -32,10 +32,10 @@ country_decisions = {
 					province_id = 175
 					province_id = 4694
 				}
-			}
 			OR = {
 				NOT = { owned_by = ROOT }
 				NOT = { is_core = ROOT }
+			}
 		}
 		allow = {
 			#adm_tech = 7
@@ -65,5 +65,4 @@ country_decisions = {
 		}
 		ai_importance = 1000
 	}
-	
 }

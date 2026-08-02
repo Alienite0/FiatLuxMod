@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = aragonese
+#add_accepted_culture = aragonese
+#add_accepted_culture = sicilian
+religion = cathar
+technology_group = western
+#capital = 213 # Tinto HQ
+capital = 211
+add_army_professionalism = 0.05
+
+1414.5.19 = {
+	monarch = {
+		name = "Martí I"
+		dynasty = "d'Aragó"
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}

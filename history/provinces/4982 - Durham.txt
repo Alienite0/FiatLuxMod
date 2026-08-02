@@ -1,7 +1,8 @@
 #244 - Lancashire
 
-owner = ENG
-controller = ENG
+owner = NOL
+controller = NOL
+add_core = NOL
 culture = northumbrian
 religion = catholic
 hre = no
@@ -11,7 +12,7 @@ trade_goods = wool
 base_manpower = 2
 capital = "Durham"
 is_city = yes
-add_core = ENG
+
 #seat_in_parliament = yes
 
 discovered_by = western

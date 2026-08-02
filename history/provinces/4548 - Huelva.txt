@@ -1,8 +1,8 @@
 #218 - Badajoz
 
-owner = SEV
-controller = SEV
-add_core = SEV
+owner = CRD
+controller = CRD
+add_core = CRD
 culture = mozarabic
 religion = sunni
 hre = no

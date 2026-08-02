@@ -1,8 +1,8 @@
 #4150 - Alto Alentejo
 
-owner = AGH
-controller = AGH
-add_core = AGH
+owner = CRD
+controller = CRD
+add_core = CRD
 culture = gharbi
 religion = sunni
 capital = "Évora"

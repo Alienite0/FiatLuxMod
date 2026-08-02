@@ -201,6 +201,12 @@
  FRM_ADJ:0 "Tywanese"
  IND:0 "Inderapura"
  IND_ADJ:0 "Inderapuran"
+ BUR:0 "Duchy Burgundy"
+ BUR_ADJ:0 "Duchy Burgundian"
+ FRS:0 "Pars"
+ FRS_ADJ:0 "Parsi"
+ NOL:0 "Northumbria"
+ NOL_ADJ:0 "Northumbrian"
  
  #Cultures
  #germanic:0 "Frankish"
@@ -266,7 +272,7 @@
  lombard:0 "Transpadane"
  togoku:0 "Tohoku"
  filipino:0 "Tawalisi"
- persian:0 "Farsi"
+ persian:0 "Parsi"
  panjabi:0 "Punjabi"
  southeastasian_group:0 "Angkor"
  arakanese:0 "Mugh"

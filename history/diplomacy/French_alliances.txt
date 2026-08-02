@@ -1,0 +1,26 @@
+# Burgundy-Burgundy
+dependency = {
+	subject_type = appanage
+	first = ARE
+	second = BUR
+	start_date = 1444.1.1
+	end_date = 1532.8.3
+}
+
+# Burgundy-Franche_Comte
+dependency = {
+	subject_type = appanage
+	first = ARE
+	second = FNC
+	start_date = 1444.1.1
+	end_date = 1532.8.3
+}
+
+# Orleans-Berry
+dependency = {
+	subject_type = appanage
+	first = ORL
+	second = BER
+	start_date = 1444.1.1
+	end_date = 1532.8.3
+}

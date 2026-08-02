@@ -1,7 +1,8 @@
 #Orense
 
-owner = GAL	
-controller = GAL
+owner = CRD
+controller = CRD
+add_core = LON
 add_core = GAL
 culture = galician
 religion = catholic

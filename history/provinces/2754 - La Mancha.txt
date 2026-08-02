@@ -1,9 +1,9 @@
 #2754 - La Mancha
 
-owner = GRA
-controller = GRA
-add_core = GRA
-add_core = TOL
+owner = CRD
+controller = CRD
+add_core = CRD
+add_core = CRD
 culture = awsati
 religion = sunni
 hre = no

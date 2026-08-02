@@ -1,8 +1,9 @@
 #209 - Vizcaya
 
-owner = LON
-controller = LON
-add_core = LON
+owner = NAV
+controller = NAV
+add_core = CAS
+add_core = NAV
 culture = basque
 religion = catholic
 hre = no

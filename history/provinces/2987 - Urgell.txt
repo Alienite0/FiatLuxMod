@@ -1,7 +1,8 @@
 # - Urgell
 
-owner = CAT
-controller = CAT
+owner = ARA
+controller = ARA
+add_core = ARA
 add_core = CAT
 culture = catalan
 religion = cathar

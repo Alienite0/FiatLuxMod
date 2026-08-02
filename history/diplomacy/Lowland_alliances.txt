@@ -23,3 +23,11 @@ union = {
 	start_date = 1444.1.1
 	end_date = 1477.1.5
 }
+
+
+union = {
+	first = LOR
+	second = NEV
+	start_date = 1444.1.1
+	end_date = 1477.1.5
+}

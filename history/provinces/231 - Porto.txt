@@ -1,9 +1,10 @@
 #231 - Porto
 
-owner = LIS
-controller = LIS
-add_core = LIS
+owner = CRD
+controller = CRD
+add_core = CRD
 add_core = GAL
+add_core = LON
 culture = galician
 religion = catholic
 capital = "Porto"
@@ -12,7 +13,7 @@ hre = no
 base_tax = 7 
 base_production = 7
 base_manpower = 5
-is_city = LIS
+is_city = yes
 add_core = LON
 
 discovered_by = western

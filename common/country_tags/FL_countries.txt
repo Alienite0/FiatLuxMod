@@ -55,6 +55,7 @@ ADR = "countries/Andorra.txt"
 AGH = "countries/AlGharb.txt"
 DEN = "countries/Denia.txt"
 CNR = "countries/Canaria.txt"
+CRD = "countries/Cordoba.txt"
 
 #Germanie
 AGR = "countries/Angria.txt"
@@ -186,3 +187,6 @@ KTH = "countries/Kataha.txt"
 LGK = "countries/Langasuka.txt"
 GNE = "countries/GanggaNegara.txt"
 SBG = "countries/SriBogha.txt"
+
+#Brittania
+KNT = "countries/Kent.txt"

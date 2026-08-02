@@ -1,8 +1,8 @@
 #218 - Badajoz
 
-owner = AGH
-controller = AGH
-add_core = AGH
+owner = CRD
+controller = CRD
+add_core = CRD
 culture = mawsati
 religion = sunni
 hre = no

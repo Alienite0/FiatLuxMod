@@ -1,8 +1,8 @@
 #1750 - Xativa
 
-owner = VAL
-controller = VAL
-add_core = VAL
+owner = CRD
+controller = CRD
+add_core = CRD
 culture = sharqi
 religion = sunni
 hre = no

@@ -1,8 +1,8 @@
 #219 - Toledo
 
-owner = TOL
-controller = TOL
-add_core = TOL
+owner = CRD
+controller = CRD
+add_core = CRD
 culture = awsati
 religion = sunni
 hre = no

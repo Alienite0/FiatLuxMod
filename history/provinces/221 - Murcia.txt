@@ -1,8 +1,8 @@
 #221 - Murcia
 
-owner = DEN
-controller = DEN
-add_core = DEN
+owner = CRD
+controller = CRD
+add_core = CRD
 culture = mawsati
 religion = sunni
 hre = no

@@ -1,9 +1,9 @@
 #1750 - Castellon
 
-owner = VAL
-controller = VAL
-add_core = VAL
-add_core = ZAR
+owner = CRD
+controller = CRD
+add_core = CRD
+add_core = CRD
 culture = sharqi
 religion = sunni
 hre = no

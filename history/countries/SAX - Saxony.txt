@@ -3,7 +3,6 @@ add_government_reform = margraviate_reform
 government_rank = 1
 primary_culture = lower_saxon
 religion = catholic
-elector = yes
 technology_group = western
 capital = 1758 # Hannover
 

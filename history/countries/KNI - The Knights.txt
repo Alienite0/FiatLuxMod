@@ -41,7 +41,9 @@ add_truce_with = MJR
 		dip = 1
 		mil = 3
 	}
-	add_cash = 500
+	KNI = {
+		add_cash = 500
+	}
 }
 
 1444.10.1 = {

@@ -5,7 +5,7 @@ primary_culture = breton
 religion = catholic
 technology_group = western
 capital = 172
-elector = yes
+
 
 
 1345.9.16 = {

@@ -1,8 +1,8 @@
 #Minorca
 
-owner = VAL
-controller = VAL
-add_core = VAL
+owner = CRD
+controller = CRD
+add_core = CRD
 add_core = MJO
 culture = sharqi
 religion = sunni

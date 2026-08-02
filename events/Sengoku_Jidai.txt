@@ -1,10 +1,10 @@
 #####################################
-# Events for Andalusia and Taifas	#
+# Events for 						#
 #									#
-# written by Alienite				#
+# written by 						#
 #####################################
 
-namespace = sengoku.jidai
+namespace = sengoku.jidai.edit
 normal_or_historical_nations = yes
 
 

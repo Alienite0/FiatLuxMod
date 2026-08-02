@@ -104,7 +104,7 @@ country_event = {		# A Light Descending
 					who = MIN
 					casus_belli = cb_annex
 				}
-				add_truce = WUU
+				add_truce_with = WUU
 			}	
 		}
 	}

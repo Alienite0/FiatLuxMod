@@ -1,8 +1,9 @@
 #1746 - Burgos
 
-owner = LON
-controller = LON
-add_core = LON
+owner = CRD
+controller = CRD
+add_core = CRD
+add_core = CAS
 add_core = NAV
 culture = castillian
 religion = catholic

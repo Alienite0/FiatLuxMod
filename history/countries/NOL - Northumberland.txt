@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = western
+primary_culture = northumbrian
+religion = catholic
+capital = 246	# Newcastle
+
+
+1429.11.6 = { #Coronation
+	monarch = {
+		name = "Coenwulf"
+		dynasty = "Morcaring"
+		birth_date = 1421.12.6
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	#clear_scripted_personalities = yes
+	#add_ruler_personality = infertile_personality
+	#set_ruler_flag = henry_vi_lancaster
+}

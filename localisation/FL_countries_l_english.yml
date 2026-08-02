@@ -8,8 +8,10 @@
  ENG_ADJ:0 "Anglander"
  BRG:0 "Jülich"
  BRG_ADJ:0 "Jülicher"
- ARE:0 "Arles"
- ARE_ADJ:0 "Arleat"
+ #ARE:0 "Arles"
+ #ARE_ADJ:0 "Arleat"
+ ARE:0 "Burgundy"
+ ARE_ADJ:0 "Burgundian"
  REI:0 "Reims"
  REI_ADJ:0 "Reimois"
  PRI:0 "Paris"
@@ -242,6 +244,10 @@
  ULC_ADJ:0 "Ulchi"
  YIL:0 "Yilan"
  YIL_ADJ:0 "Yilan"
+ KNT:0 "Kent"
+ KNT_ADJ:0 "Kentish"
+ CRD:0 "Cordoba"
+ CRD_ADJ:0 "Cordoba"
  
  #SEA
  MGS:0 "Muong Sing"

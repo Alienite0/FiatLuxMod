@@ -1,8 +1,8 @@
 #226 - Gibraltar
 
-owner = SEV
-controller = SEV
-add_core = SEV
+owner = CRD
+controller = CRD
+add_core = CRD
 culture = mawsati
 religion = sunni
 hre = no

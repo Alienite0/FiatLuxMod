@@ -1,7 +1,8 @@
 #212 - Girona
 
-owner = CAT
-controller = CAT
+owner = TOU
+controller = TOU
+add_core = TOU
 add_core = CAT
 culture = catalan
 religion = cathar

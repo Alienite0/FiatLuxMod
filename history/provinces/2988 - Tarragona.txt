@@ -1,8 +1,8 @@
 # - Tarragona
 
-owner = ZAR
-controller = ZAR
-add_core = ZAR
+owner = CRD
+controller = CRD
+add_core = CRD
 culture = sharqi
 religion = sunni
 hre = no

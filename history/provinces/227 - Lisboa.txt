@@ -1,8 +1,8 @@
 #227 - Estremadura
 
-owner = LIS
-controller = LIS
-add_core = LIS
+owner = CRD
+controller = CRD
+add_core = CRD
 culture = gharbi
 religion = sunni
 capital = "Lisboa"

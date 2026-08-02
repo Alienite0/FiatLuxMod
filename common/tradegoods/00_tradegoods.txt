@@ -2305,7 +2305,7 @@ unknown = {
 
 #Rice
 rice_good = {
-	color = { .95 .95 .95 }
+	color = { .96 .97 .92 }
 	modifier = {
 		global_manpower_modifier = 0.10
 	}
@@ -2318,7 +2318,7 @@ rice_good = {
 			factor = 0
 			NOT = {
 				OR = {
-					region = southern_china_region
+					region = south_china_region
 					region = xinan_region
 					region = bengal_region
 					region = indo_china_region

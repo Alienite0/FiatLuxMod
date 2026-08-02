@@ -1,8 +1,8 @@
 #1750 - Alàcant
 
-owner = DEN
-controller = DEN
-add_core = DEN
+owner = CRD
+controller = CRD
+add_core = CRD
 culture = sharqi
 religion = sunni
 hre = no

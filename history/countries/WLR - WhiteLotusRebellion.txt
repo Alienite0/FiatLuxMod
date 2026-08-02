@@ -5,4 +5,4 @@ religion = white_lotus
 #add_harmonized_religion = mahayana
 primary_culture = chimin
 capital = 669	# Fuzhou
-#religious_school = fl_maitreya_worship     remember when white lotus coup add maitreya worship
+religious_school = fl_maitreya_worship     remember when white lotus coup add maitreya worship

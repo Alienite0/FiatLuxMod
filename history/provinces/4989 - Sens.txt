@@ -1,7 +1,8 @@
 # 4989 - Sens
 
-owner = CHP
-controller = CHP
+owner = ORL
+controller = ORL
+add_core = ORL
 capital = "Sens"
 is_city = yes
 culture = parisian

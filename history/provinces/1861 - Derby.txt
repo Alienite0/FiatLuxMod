@@ -5,9 +5,10 @@ latent_trade_goods = {
 	coal
 }
 
-owner = ENG
-controller = ENG
-culture = mercian
+owner = NOL
+controller = NOL
+add_core = NOL
+culture = northumbrian
 religion = catholic
 hre = no
 base_tax = 2
@@ -16,7 +17,7 @@ trade_goods = iron
 base_manpower = 2
 capital = "Derby"
 is_city = yes
-add_core = ENG
+
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman

@@ -49,53 +49,53 @@ ganesha = {
 	}	
 }
 
-#surya = {
-#	#(Economic - Income)
-#	global_tax_modifier = 0.10
-#	trade_efficiency = 0.10
-#	
-#	potential = { religion = hinduism }
-#	trigger = {}
-#	sprite = 3
-#	
-#	effect = {}
-#	removed_effect = {}
-#	ai_will_do = {
-#		factor = 1
-#		modifier = {
-#			factor = 3
+surya = {
+	#(Economic - Income)
+	global_tax_modifier = 0.10
+	trade_efficiency = 0.10
+	
+	potential = { religion = hinduism }
+	trigger = {	year_is = 1900 }
+	sprite = 3
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 3
 #			personality = ai_capitalist
-#		}		
-#		modifier = {
-#			factor = 2
-#			personality = ai_colonialist
-#		}			
-#	}	
-#}
+		}		
+		modifier = {
+			factor = 2
+			personality = ai_colonialist
+		}			
+	}	
+}
 
-#ganga = {
-#	#(Economic - Savings)
-#	interest = -0.25
-#	build_cost = -0.10
-#	
-#	potential = { religion = hinduism }
-#	trigger = {}
-#	sprite = 4
-#	
-#	effect = {}
-#	removed_effect = {}
-#	ai_will_do = {
-#		factor = 1
-#		modifier = {
-#			factor = 3
-#			personality = ai_capitalist
-#		}	
-#		modifier = {
-#			factor = 2
-#			personality = ai_colonialist
-#		}		
-#	}	
-#}
+ganga = {
+	#(Economic - Savings)
+	interest = -0.25
+	build_cost = -0.10
+	
+	potential = { religion = hinduism }
+	trigger = {	year_is = 1900 }
+	sprite = 4
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 3
+			personality = ai_capitalist
+		}	
+		modifier = {
+			factor = 2
+			personality = ai_colonialist
+		}		
+	}	
+}
 
 shakti = { 
 	#(Military - Offensive) 

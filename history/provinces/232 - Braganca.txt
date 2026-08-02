@@ -1,8 +1,9 @@
 #232 - Bragança
 
-owner = LIS
-controller = LIS
+owner = CRD
+controller = CRD
 add_core = GAL
+add_core = LON
 culture = galician
 religion = catholic
 capital = "Bragança"
@@ -12,7 +13,7 @@ base_tax = 5
 base_production = 5
 base_manpower = 2
 is_city = yes
-add_core = LIS
+add_core = CRD
 add_core = LON
 
 discovered_by = western

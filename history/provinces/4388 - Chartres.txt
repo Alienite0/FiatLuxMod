@@ -1,7 +1,8 @@
 # 4388 Chartres
 
-owner = BOI
-controller = BOI
+owner = ORL
+controller = ORL
+add_core = ORL
 capital = "Chartres"
 is_city = yes
 culture = orleanais

@@ -3,6 +3,7 @@ country_decisions = {
 	french_nation = {
 		major = yes
 		potential = {
+			is_year = 9999
 			normal_or_historical_nations = yes
 			was_never_end_game_tag_trigger = yes
 			NOT = { has_country_flag = formed_france_flag }

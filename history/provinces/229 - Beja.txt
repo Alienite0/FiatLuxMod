@@ -1,8 +1,8 @@
 #229 - Baixo Alentejo
 
-owner = AGH
-controller = AGH
-add_core = AGH
+owner = CRD
+controller = CRD
+add_core = CRD
 culture = mozarabic
 religion = sunni
 capital = "Beja"
