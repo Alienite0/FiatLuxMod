@@ -4,8 +4,8 @@
 # controller = OSA
 # add_core = OSA
 # is_city = yes
-culture = miami
-religion = manitou
+culture = shawnee
+religion = kokumthenan
 capital = "Wabash"
 trade_goods = grain
 hre = no

@@ -1,7 +1,7 @@
 #939 - Pennyrile
 
-culture = shawnee
-religion = kokumthenan
+culture = chickasaw
+religion = mississippian
 capital = "Pennyrile"
 trade_goods = unknown
 hre = no

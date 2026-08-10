@@ -337,3 +337,18 @@
  
  are_indian_riches_title:0 "Riches of India"
  are_indian_riches_desc:0 "REPLACE_ME"
+ 
+ 
+ 
+ #######################
+ #Sqiliya(SIQ) Missions#
+ #######################
+ 
+ 
+ #Row One
+ siq_army_of_the_faithful_title:0 "Army of the Faithful"
+ siq_army_of_the_faithful_desc:0 "REPLACE_ME"
+    benevento_claims.tt:0 "We will gain claims on all lands owned by §YBenevento§!"
+    
+ siq_overthrow_the_prince_of_benevento_title:0 "Destroy Benevento"
+ siq_overthrow_the_prince_of_benevento_desc:0 "REPLACE_ME"

@@ -2,8 +2,8 @@
 
 # owner = JOA
 # controller = JOA
-culture = catawba
-religion = totemism
+culture = cherokee
+religion = mississippian
 capital = "Cheraw"
 trade_goods = tobacco
 hre = no

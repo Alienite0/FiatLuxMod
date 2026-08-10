@@ -4,7 +4,7 @@
 # controller = SAT
 # add_core = SAT
 culture = yuchi
-religion = totemism
+religion = tsohaya
 capital = "Atali"
 trade_goods = fur
 hre = no

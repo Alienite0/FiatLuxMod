@@ -1,7 +1,7 @@
 # No previous file for Tutelo
 
-culture = yuchi
-religion = totemism
+culture = cherokee
+religion = mississippian
 capital = "Tutelo"
 trade_goods = unknown
 hre = no

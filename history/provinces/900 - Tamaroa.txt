@@ -15,9 +15,9 @@ discovered_by = north_american
 extra_cost = 8
 center_of_trade = 1
 # tribal_owner = CAO
-owner = KSK
-controller = KSK
-add_core = KSK
+owner = ILL
+controller = ILL
+add_core = ILL
 is_city = yes
 
 1444.11.12 = { trade_goods = unknown }

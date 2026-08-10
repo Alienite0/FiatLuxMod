@@ -1,8 +1,8 @@
 #915 - Illinois
 
-owner = KSK
-controller = KSK
-add_core = KSK
+owner = ILL
+controller = ILL
+add_core = ILL
 is_city = yes
 culture = illini
 religion = manitou

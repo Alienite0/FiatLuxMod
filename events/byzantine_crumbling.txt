@@ -413,6 +413,15 @@ country_event = {		#Tirnovo Revolt
 		}		
 	}
 	
+	option = {				# Down with Rome up with the next Bulgarian Empire!
+		highlight = yes
+		name = fl_byz_crumbling.5.c
+		trigger = { ai = no }
+		ai_chance = { factor = 0 }
+		
+		switch_tag = SII
+	}
+	
 	option = {				# Bulgaria belongs to Rome
 		name = fl_byz_crumbling.5.a
 		ai_chance = { factor = 20 }
@@ -430,14 +439,6 @@ country_event = {		#Tirnovo Revolt
 		add_prestige = -25
 		
 	}
-	
-	#option = {				# Down with Rome up with the next Bulgarian Empire!
-	#	name = fl_byz_crumbling.5.c
-	#	trigger = { ai = no }
-	#	ai_chance = { factor = 0 }
-	#	
-	#	switch_tag = SII
-	#}
 }
 
 country_event = {			# Stick with Komnenos or they flee to Pontus
@@ -512,12 +513,54 @@ country_event = {			# Stick with Komnenos or they flee to Pontus
 			change_country_color = { color = { 40  164  157 } }
 			set_ruler = komnenos_exiled_to_pontus
 		}
-		switch_tag = TRE
+		#switch_tag = TRE
 		add_casus_belli = {
 			target = TRE
 			type = cb_annex
 			months = 120
 		}
+		}
+	}
+	
+	option = {				#Flee to Pontus
+		highlight = yes
+		name = fl_byz_crumbling.6.c
+		ai_chance = { factor = 100 }
+		custom_tooltip = komnenos_exiled_to_pontus_self.tt
+		hidden_effect = {
+			hidden_effect = {
+				TRE = {
+					add_core = 328
+					add_core = 2304
+					add_core = 330
+				}
+				release = TRE
+				build_to_forcelimit = {
+					infantry = .8
+					cavalry = .2
+				}
+			}
+			BYZ = {
+				exile_ruler_as = { name = komnenos_exiled_to_pontus }
+				define_ruler = {
+					name = "Konstantinos"
+					dynasty = "Palaiologos"
+					adm = 3
+					dip = 3
+					mil = 5
+				}
+			}
+			TRE = {
+				#BYZ = { break_union = PREV }
+				change_country_color = { color = { 40  164  157 } }
+				set_ruler = komnenos_exiled_to_pontus
+			}
+			switch_tag = TRE
+			add_casus_belli = {
+				target = TRE
+				type = cb_annex
+				months = 120
+			}
 		}
 	}
 }

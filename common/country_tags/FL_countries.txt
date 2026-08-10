@@ -56,6 +56,7 @@ AGH = "countries/AlGharb.txt"
 DEN = "countries/Denia.txt"
 CNR = "countries/Canaria.txt"
 CRD = "countries/Cordoba.txt"
+BCE = "countries/Barcelona.txt"
 
 #Germanie
 AGR = "countries/Angria.txt"
@@ -128,6 +129,7 @@ KTL = "countries/Kartli.txt"
 CLL = "countries/Cahuilla.txt"
 TAQ = "countries/Taaqtam.txt"
 TGV = "countries/Tongva.txt"
+MNN = "countries/Monongahela.txt"
 
 #Maghreb
 AFR = "countries/Africa.txt"

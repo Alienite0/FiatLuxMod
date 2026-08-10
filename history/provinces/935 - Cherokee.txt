@@ -3,7 +3,7 @@
 # owner = CIA
 # controller = CIA
 culture = yuchi
-religion = totemism
+religion = tsohaya
 capital = "Cherokee"
 trade_goods = lumber
 hre = no

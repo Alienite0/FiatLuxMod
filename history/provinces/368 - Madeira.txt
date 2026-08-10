@@ -10,3 +10,13 @@ base_manpower = 1
 native_size = 0
 native_ferocity = 0
 native_hostileness = 0
+
+1420.1.1 = {
+	owner = CRD
+	controller = CRD
+	add_core = CRD
+	is_city = yes
+	culture = mawsati
+	religion = sunni
+	discovered_by = CRD
+}

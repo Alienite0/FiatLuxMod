@@ -16,48 +16,28 @@ siq_column_1 = {
 		NOT = { map_setup = map_setup_random }
 	}
 		
-}
-siq_column_2 = {
-	slot = 2
-	generic = no
-	ai = yes
-	has_country_shield = yes
-	
-	potential = {
-		OR = {
-			tag = SIQ
-			was_tag = SIQ
-		}
-		NOT = { map_setup = map_setup_random }
-	}
-	
-}
-siq_column_3 = {
-	slot = 3
-	generic = no
-	ai = yes
-	has_country_shield = yes
-	
-	potential = {
-		OR = {
-			tag = SIQ
-			was_tag = SIQ
-		}
-		NOT = { map_setup = map_setup_random }
-	}
+	#siq_build_a_grand_navy = {
+	#	icon = mission_build_up_to_force_limit
+	#	position = 2
+	#}
 	
 	siq_army_of_the_faithful = {
 		icon = mission_build_up_to_force_limit
 		position = 1
 		trigger = {
 			army_size_percentage = 1
+			num_of_generals = 1
 		}
 		effect = {
+			custom_tooltip = benevento_claims.tt
 			add_country_modifier = {
 				name = "thriving_arms_industry"
 				duration = 9125 #25 years
 			}
-			#custom_tooltip = claim_neighbor_province
+			#custom_tooltip = claim_neighbor_province	
+		}
+		
+		hidden_effect = {
 			every_province = {
 				limit = {
 					owned_by = BVT
@@ -81,7 +61,7 @@ siq_column_3 = {
 		trigger = {
 			AND = {
 				NOT = { exists = BVT }
-				NOT = { exists = TTS }
+				#NOT = { exists = TTS }
 				#NOT = { exists = SIC }
 			}
 		}
@@ -89,11 +69,238 @@ siq_column_3 = {
 			PAP = { 
 				country_event = { id = flavor_siq.1 days = 0 }
 			}
+			give_claims = { area = lazio_area }
 		}
 		ai_weight = {
 			factor = 25 # AI will go (up to) this many percent above army budget in order to reach the army size needed
 		}
 	}
+	
+	siq_conquer_roma = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		
+		required_missions = { siq_overthrow_the_prince_of_benevento }
+		trigger = {
+			
+		}
+		effect = {
+			#event papacy in avignon
+		}
+		ai_weight = {
+			factor = 25 # AI will go (up to) this many percent above army budget in order to reach the army size needed
+		}
+	}
+	siq_florentine_expansion = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		
+		required_missions = { siq_conquer_roma }
+		trigger = {
+			
+		}
+		effect = {
+			#claims on genoa and emilia
+		}
+		ai_weight = {
+			factor = 25 # AI will go (up to) this many percent above army budget in order to reach the army size needed
+		}
+	}
+	
+	siq_northwest_campaign = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		
+		required_missions = { siq_florentine_expansion }
+		trigger = {
+			#owns genoa and emilia
+		}
+		effect = {
+		
+		}
+		ai_weight = {
+			factor = 25 # AI will go (up to) this many percent above army budget in order to reach the army size needed
+		}
+	}
+	
+		
+}
+siq_column_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	
+	potential = {
+		OR = {
+			tag = SIQ
+			was_tag = SIQ
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	
+	siq_infiltrate_tunis = {
+		required_missions = {  }
+		icon = mission_build_up_to_force_limit
+		position = 1
+		trigger = {
+			#navy_size_percentage = 1.00
+			#num_of_admirals = 1
+		}
+		effect = {
+			
+		}
+		
+		#hidden_effect = {
+		#	
+		#}
+		ai_weight = {
+			factor = 25 # AI will go (up to) this many percent above army budget in order to reach the army size needed
+		}
+	}
+	
+	siq_dominate_tunis = {
+		required_missions = { siq_infiltrate_tunis siq_army_of_the_faithful siq_med_naval_dom }
+		icon = mission_build_up_to_force_limit
+		position = 2
+		trigger = {
+		
+		}
+		effect = {
+			
+		}
+		
+		#hidden_effect = {
+		#	
+		#}
+		ai_weight = {
+			factor = 25 # AI will go (up to) this many percent above army budget in order to reach the army size needed
+		}
+	}
+	
+	siq_northeast_campaign = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		
+		required_missions = { siq_florentine_expansion }
+		trigger = {
+			#owns genoa and emilia
+		}
+		effect = {
+		
+		}
+		ai_weight = {
+			factor = 25 # AI will go (up to) this many percent above army budget in order to reach the army size needed
+		}
+	}
+	
+	siq_italian_sultanate = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		
+		required_missions = { siq_northeast_campaign siq_northwest_campaign }
+		trigger = {
+			#owns genoa and emilia
+		}
+		effect = {
+		
+		}
+		ai_weight = {
+			factor = 25 # AI will go (up to) this many percent above army budget in order to reach the army size needed
+		}
+	}
+}
+siq_column_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	
+	potential = {
+		OR = {
+			tag = SIQ
+			was_tag = SIQ
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	
+	siq_med_naval_dom = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		trigger = {
+			navy_size_percentage = 1.00
+			num_of_admirals = 1
+		}
+		effect = {
+			
+		}
+		
+		#hidden_effect = {
+		#	
+		#}
+		ai_weight = {
+			factor = 25 # AI will go (up to) this many percent above army budget in order to reach the army size needed
+		}
+	}
+	
+	siq_control_med_islands = {
+		required_missions = { siq_med_naval_dom }
+		icon = mission_build_up_to_force_limit
+		position = 2
+		trigger = {
+			#navy_size_percentage = 1.00
+			#num_of_admirals = 1
+		}
+		effect = {
+			
+		}
+		
+		#hidden_effect = {
+		#	
+		#}
+		ai_weight = {
+			factor = 25 # AI will go (up to) this many percent above army budget in order to reach the army size needed
+		}
+	}
+	
+	siq_conquer_granada = {
+		required_missions = { siq_control_med_islands }
+		icon = mission_build_up_to_force_limit
+		position = 3
+		trigger = {
+			#Own Tyherrian and Beleares
+		}
+		effect = {
+			#Granada claims
+		}
+		
+		#hidden_effect = {
+		#	
+		#}
+		ai_weight = {
+			factor = 25 # AI will go (up to) this many percent above army budget in order to reach the army size needed
+		}
+	}
+		
+	siq_dominate_andalus = {
+		required_missions = { siq_conquer_granada }
+		icon = mission_build_up_to_force_limit
+		position = 4
+		trigger = {
+		
+		}
+		effect = {
+			
+		}
+		
+		#hidden_effect = {
+		#	
+		#}
+		ai_weight = {
+			factor = 25 # AI will go (up to) this many percent above army budget in order to reach the army size needed
+		}
+	}
+	
 }
 
 siq_column_4 = {
@@ -110,10 +317,25 @@ siq_column_4 = {
 		NOT = { map_setup = map_setup_random }
 	}
 	
-	#siq_build_a_grand_navy = {
-	#	icon = mission_build_up_to_force_limit
-	#	position = 2
-	#}
+	siq_despotate_epirus = {
+		required_missions = { siq_med_naval_dom }
+		icon = mission_build_up_to_force_limit
+		position = 2
+		trigger = {
+		
+		}
+		effect = {
+			
+		}
+		
+		#hidden_effect = {
+		#	
+		#}
+		ai_weight = {
+			factor = 25 # AI will go (up to) this many percent above army budget in order to reach the army size needed
+		}
+	}
+	
 }
 
 siq_column_5 = {
@@ -129,5 +351,9 @@ siq_column_5 = {
 		}
 		NOT = { map_setup = map_setup_random }
 	}
+	
+	
+	
+	
 	
 }

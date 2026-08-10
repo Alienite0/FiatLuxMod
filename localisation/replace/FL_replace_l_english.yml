@@ -104,8 +104,8 @@
  WCR_ADJ:0 "Eastern Cree"
  OEO:0 "Jiwere"
  OEO_ADJ:0 "Jiwerean"
- KSK:0 "Illiniwek"
- KSK_ADJ:0 "Illiniweki"
+ #KSK:0 "Illiniwek"
+ #KSK_ADJ:0 "Illiniweki"
  ALB:0 "Arbanon"
  ALB_ADJ:0 "Arbanon"
  TTL:0 "Raetia"
@@ -205,8 +205,8 @@
  BUR_ADJ:0 "Duchy Burgundian"
  FRS:0 "Pars"
  FRS_ADJ:0 "Parsi"
- NOL:0 "Northumbria"
- NOL_ADJ:0 "Northumbrian"
+ NOL:0 "Northumberland"
+ NOL_ADJ:0 "Northumberlander"
  
  #Cultures
  #germanic:0 "Frankish"

@@ -11,6 +11,10 @@ base_manpower = 1
 native_size = 5
 native_ferocity = 1
 native_hostileness = 2
+owner = MNN
+controller = MNN
+add_core = MNN
+is_city = yes
 
 
 discovered_by = north_american

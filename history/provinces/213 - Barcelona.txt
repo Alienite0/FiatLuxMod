@@ -1,8 +1,8 @@
 #213 - Barcelona
 
-owner = CAT
-controller = CAT
-add_core = CAT
+owner = BCE
+controller = BCE
+add_core = BCE
 culture = catalan
 religion = cathar
 hre = yes

@@ -1226,6 +1226,7 @@ southeast_america_region =  {
 		upper_american_georgia_area
 		north_florida_area
 		south_carolina_piedmont_area
+		appalachia_area
 	}
 	monsoon = {
 		00.06.01
@@ -1241,7 +1242,6 @@ mississippi_region = {
 		alabama_area
 		kentucky_area
 		mississippi_area
-		appalachia_area
 		choctaw_area
 		mississippi_plain_area
 		western_kentucky_area

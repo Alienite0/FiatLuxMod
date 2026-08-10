@@ -248,6 +248,10 @@
  KNT_ADJ:0 "Kentish"
  CRD:0 "Cordoba"
  CRD_ADJ:0 "Cordoba"
+ BCE:0 "Barcelona"
+ BCE_ADJ:0 "Barcelonian"
+ MNN:0 "Monongahela"
+ MNN_ADJ:0 "Monongahelan"
  
  #SEA
  MGS:0 "Muong Sing"

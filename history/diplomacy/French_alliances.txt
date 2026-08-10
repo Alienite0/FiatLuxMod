@@ -24,3 +24,11 @@ dependency = {
 	start_date = 1444.1.1
 	end_date = 1532.8.3
 }
+
+# Toulouse-Foix
+vassal = {
+	first = TOU
+	second = FOI
+	start_date = 1444.1.1
+	end_date = 1532.8.3
+}
